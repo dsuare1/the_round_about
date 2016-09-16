@@ -5,7 +5,15 @@ const router = express.Router();
 // loginController(router, models);
 
 router.get('/', function(req, res) {
-	res.sendFile('index.html');
+	res.render('index');
+});
+
+router.get('/browse', function(req, res) {
+	res.render('browse');
+});
+
+router.get('/events', function(req, res) {
+	res.render('events');
 })
 
 console.log('Controller loaded --> Centralized controller (tra-central-controller.js)');
