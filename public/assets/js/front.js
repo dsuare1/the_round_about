@@ -1,3 +1,7 @@
+// /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+// animated scroll on click of chevron-down on landing page
+// /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+
 var scrollY = 0;
 var distance = 5;
 var speed = 2;
@@ -21,3 +25,4 @@ function autoScrollTo(el) {
         }
     }
 }
+// /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-

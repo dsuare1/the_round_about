@@ -19,30 +19,37 @@
 {{!-- begin search sidebar section --}}
 <aside id="search-sidebar">
 	<h3>Browse by:</h3>
+	<div class="search-form-control">
+		<form action="/browse/search/all" method="GET">
+			<button type="submit" id="search-all-submit" class="search-form-button">Browse All Items</button>
+		</form>
+	</div>
+	
 	<form action="/browse/search" method="GET" id="browse-options">
 		
 		<div class="search-form-control">
 			<p>Condition:</p>
-			<input type="checkbox" name="condition-new">&nbsp;&nbsp;New</input><br><br>
-			<input type="checkbox" name="condition-used">&nbsp;&nbsp;Used</input>
+			<input type="radio" name="condition" value="new" class="filter">&nbsp;&nbsp;New</input><br><br>
+			<input type="radio" name="condition" value="used" class="filter">&nbsp;&nbsp;Used</input>
 		</div>
 
 		<div class="search-form-control">
 			<p>Format:</p>
-			<input type="checkbox" name="33-inch">&nbsp;&nbsp;33"</input><br><br>
-			<input type="checkbox" name="45-inch">&nbsp;&nbsp;45"</input>
+			<input type="radio" name="format" value="33" class="filter">&nbsp;&nbsp;33"</input><br><br>
+			<input type="radio" name="format" value="45" class="filter">&nbsp;&nbsp;45"</input>
 		</div>
 
 		<div class="search-form-control">
 			<p>Genre:</p>
-			<input type="checkbox" name="genre-rock">&nbsp;&nbsp;Rock</input><br><br>
-			<input type="checkbox" name="genre-pop">&nbsp;&nbsp;Pop</input><br><br>
-			<input type="checkbox" name="genre-indie">&nbsp;&nbsp;Indie</input><br><br>
-			<input type="checkbox" name="genre-punk">&nbsp;&nbsp;Punk</input>
+			<input type="radio" name="genre" value="rock" class="filter">&nbsp;&nbsp;Rock</input><br><br>
+			<input type="radio" name="genre" value="pop" class="filter">&nbsp;&nbsp;Pop</input><br><br>
+			<input type="radio" name="genre" value="indie" class="filter">&nbsp;&nbsp;Indie</input><br><br>
+			<input type="radio" name="genre" value="punk" class="filter">&nbsp;&nbsp;Punk</input>
 		</div>
 
 		<div class="search-form-control">
-			<button type="submit" id="search-submit">Search</button>
+			<button type="submit" id="search-submit" class="search-form-button">Search</button>
+			<button type="reset" id="clear-filters" class="search-form-button">Clear Filters</button>
 		</div>
 
 	</form>

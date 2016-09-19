@@ -407,7 +407,9 @@ textarea:focus {
 	max-width: 20%;
 	min-width: 20%;
 	display: inline-block;
-	min-height: 700px;
+	height: 850px;
+	max-height: 850px;
+	min-height: 850px;
 	border-bottom: 1px solid #fff;
 }
 
@@ -439,7 +441,12 @@ textarea:focus {
 	border-bottom: 1px solid #fff;
 }
 
-#search-submit {
+#search-all-submit {
+	width: 150px;
+	white-space: nowrap;
+}
+
+.search-form-button {
 	width: 125px;
     height: 40px;
     background: #0e2338;
@@ -447,9 +454,10 @@ textarea:focus {
     font-size: 1em;
     font-weight: 100;
     color: #f1c40f;
+    margin: 5% 0 3% 0;
 }
 
-#search-submit:hover {
+.search-form-button:hover {
 	background-color: #fff;
     color: #0e2338;
     border: 2px solid #fff;
@@ -463,8 +471,9 @@ textarea:focus {
 	flex-direction: column;
 	flex-wrap: wrap;*/
 	background-color: #0e2338;
-	min-height: 700px;
-	max-height: 700px;
+	height: 850px;
+	min-height: 850px;
+	max-height: 850px;
 	width: 80%;
 	float: right;
 	border-left: 1px solid #fff;
