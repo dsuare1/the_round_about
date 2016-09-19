@@ -6,10 +6,6 @@ const exphbs = require('express-handlebars');
 
 const app = express();
 
-// middleware for serving static files
-app.use(express.static(process.cwd() + '/public'));
-app.use('/public', express.static('public'));
-
 // middleware for parsing incoming body requests
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -26,6 +22,10 @@ const htmlRoutes = require('./controllers/tra-central-controller.js');
 // const apiRoutes = require('./controllers/tra-api-controller.js');
 app.use('/', htmlRoutes);
 // app.use('/api', apiRoutes);
+
+// middleware for serving static files
+app.use(express.static(process.cwd() + '/public'));
+app.use('/public', express.static('public'));
 
 app.listen(process.env.PORT || 3000, function() {
 	if (process.env.PORT == undefined) {

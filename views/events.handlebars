@@ -1,2 +1,53 @@
-<h1>Hello React events app!</h1>
-<div id="app"></div>
+{{!-- begin navbar section --}}
+<nav id="navbar">
+	<h1>The Round About</h1>
+	<div id="nav-links">
+		<a href="/"><p class="home-link nav-link">Home</p></a>
+		<a href="/browse"><p class="browse-link nav-link">Browse Inventory</p></a>
+		<a href="#"><p class="events-link nav-link">Events</p></a>
+	</div>
+</nav>
+{{!-- end navbar section --}}
+
+{{!-- begin events section --}}
+<section id="events-section">
+	<div id="events-container">
+		
+		<h1 class="month">October</h1>
+		<ul class="events-list">
+			<li class="event">Saturday 10/15 - Live Music @ 7:00pm</li>
+			<li class="event">Tuesday 10/18 - In-house Art Session @ 2:30pm</li>
+			<li class="event">Friday 10/28 - Michael Jackson's Thriller @ 8:00pm</li>
+		</ul>
+		
+		<h1 class="month">November</h1>
+		<ul class="events-list">
+			<li class="event">Saturday 11/5 - Live Music @ 7:00pm</li>
+			<li class="event">Tuesday 11/15 - In-house Art Session @ 2:30pm</li>
+			<li class="event">Friday 11/18 - Live Music @ 7:00pm</li>
+			<li class="event">Wednesday 11/30 - BYOV Night @ 6:00pm</li>
+		</ul>
+
+		<h1 class="month">December</h1>
+		<ul class="events-list">
+			<li class="event">Sunday 12/11 - Live Music @ 2:00pm</li>
+			<li class="event">Wednesday 12/21 - BYOV Christmas Edition</li>
+			<li class="event">Friday 12/30 - TRA's New Year's Eve Eve Party</li>
+		</ul>
+
+	</div>
+</section>
+{{!-- end events section --}}
+
+{{!-- begin footer section --}}
+<footer id="footer-section">
+	<div id="social-links-container">
+		<div class="social-link"><a href="https://www.facebook.com/theroundaboutstore/?hc_ref=SEARCH&amp;fref=nf" target="_blank" rel="noopener noreferrer"><img src="./assets/img/social-link-fb.png"></a></div>
+		<div class="social-link"><a href="https://www.instagram.com/roundaboutstore/?hl=en" target="_blank" rel="noopener noreferrer"><img src="./assets/img/social-link-instagram.png"></a></div>
+		<div class="social-link"><a href="https://twitter.com/rickrez22" target="_blank" rel="noopener noreferrer"><img src="./assets/img/social-link-twitter.png"></a></div>
+	</div>
+	<div id="copyright-container">
+		<h6>&copy; <a href="http://www.derricksuarez.com/" target="_blank" rel="noopener noreferrer">Derrick Suarez 2016</a></h6>
+	</div>
+</footer>
+{{!-- end footer section --}}

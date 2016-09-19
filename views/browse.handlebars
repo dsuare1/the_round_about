@@ -1,2 +1,248 @@
-<h1>Hello React search app!</h1>
-<div id="app"></div>
+{{!-- begin navbar section --}}
+<nav id="navbar">
+	<h1>The Round About</h1>
+	<div id="nav-links">
+		<a href="/"><p class="home-link nav-link">Home</p></a>
+		<a href="#"><p class="browse-link nav-link">Browse Inventory</p></a>
+		<a href="/events"><p class="events-link nav-link">Events</p></a>
+	</div>
+</nav>
+{{!-- end navbar section --}}
+
+{{!-- begin header section --}}
+<section id="header">
+	<h3>Browse Inventory at The Round About</h3>
+	<p>Vinly sounds better.  Period.  It’s warmer, more nostalgic, and you can hold it in your hands.  At The Round About, we want you to experience your music.</p>
+</section>
+{{!-- end header section --}}
+
+{{!-- begin search sidebar section --}}
+<aside id="search-sidebar">
+	<h3>Browse by:</h3>
+	<form id="browse-options">
+		
+		<div class="search-form-control">
+			<p>Condition:</p>
+			<input type="checkbox" name="condition-new">&nbsp;&nbsp;New</input><br><br>
+			<input type="checkbox" name="condition-used">&nbsp;&nbsp;Used</input>
+		</div>
+
+		<div class="search-form-control">
+			<p>Format:</p>
+			<input type="checkbox" name="33-inch">&nbsp;&nbsp;33"</input><br><br>
+			<input type="checkbox" name="45-inch">&nbsp;&nbsp;45"</input>
+		</div>
+
+		<div class="search-form-control">
+			<p>Genre:</p>
+			<input type="checkbox" name="genre-rock">&nbsp;&nbsp;Rock</input><br><br>
+			<input type="checkbox" name="genre-pop">&nbsp;&nbsp;Pop</input><br><br>
+			<input type="checkbox" name="genre-indie">&nbsp;&nbsp;Indie</input><br><br>
+			<input type="checkbox" name="genre-punk">&nbsp;&nbsp;Punk</input>
+		</div>
+
+		<div class="search-form-control">
+			<button type="submit" id="search-submit">Search</button>
+		</div>
+
+	</form>
+</aside>
+{{!-- end search sidebar section --}}
+
+{{!-- begin search results section --}}
+<section id="search-results">
+	<div class="search-result-item">
+		<img src="./assets/img/temp-record.png">
+		<p class="search-results-album">Album Title</p>
+		<p class="search-results-artist">Artist Name</p>
+		<p class="search-results-year">Year</p>
+	</div>
+	<div class="search-result-item">
+		<img src="./assets/img/temp-record.png">
+		<p class="search-results-album">Album Title</p>
+		<p class="search-results-artist">Artist Name</p>
+		<p class="search-results-year">Year</p>
+	</div>
+	<div class="search-result-item">
+		<img src="./assets/img/temp-record.png">
+		<p class="search-results-album">Album Title</p>
+		<p class="search-results-artist">Artist Name</p>
+		<p class="search-results-year">Year</p>
+	</div>
+	<div class="search-result-item">
+		<img src="./assets/img/temp-record.png">
+		<p class="search-results-album">Album Title</p>
+		<p class="search-results-artist">Artist Name</p>
+		<p class="search-results-year">Year</p>
+	</div>
+	<div class="search-result-item">
+		<img src="./assets/img/temp-record.png">
+		<p class="search-results-album">Album Title</p>
+		<p class="search-results-artist">Artist Name</p>
+		<p class="search-results-year">Year</p>
+	</div>
+	<div class="search-result-item">
+		<img src="./assets/img/temp-record.png">
+		<p class="search-results-album">Album Title</p>
+		<p class="search-results-artist">Artist Name</p>
+		<p class="search-results-year">Year</p>
+	</div>
+	<div class="search-result-item">
+		<img src="./assets/img/temp-record.png">
+		<p class="search-results-album">Album Title</p>
+		<p class="search-results-artist">Artist Name</p>
+		<p class="search-results-year">Year</p>
+	</div>
+	<div class="search-result-item">
+		<img src="./assets/img/temp-record.png">
+		<p class="search-results-album">Album Title</p>
+		<p class="search-results-artist">Artist Name</p>
+		<p class="search-results-year">Year</p>
+	</div>
+	<div class="search-result-item">
+		<img src="./assets/img/temp-record.png">
+		<p class="search-results-album">Album Title</p>
+		<p class="search-results-artist">Artist Name</p>
+		<p class="search-results-year">Year</p>
+	</div>
+	<div class="search-result-item">
+		<img src="./assets/img/temp-record.png">
+		<p class="search-results-album">Album Title</p>
+		<p class="search-results-artist">Artist Name</p>
+		<p class="search-results-year">Year</p>
+	</div>
+	<div class="search-result-item">
+		<img src="./assets/img/temp-record.png">
+		<p class="search-results-album">Album Title</p>
+		<p class="search-results-artist">Artist Name</p>
+		<p class="search-results-year">Year</p>
+	</div>
+	<div class="search-result-item">
+		<img src="./assets/img/temp-record.png">
+		<p class="search-results-album">Album Title</p>
+		<p class="search-results-artist">Artist Name</p>
+		<p class="search-results-year">Year</p>
+	</div>
+	<div class="search-result-item">
+		<img src="./assets/img/temp-record.png">
+		<p class="search-results-album">Album Title</p>
+		<p class="search-results-artist">Artist Name</p>
+		<p class="search-results-year">Year</p>
+	</div>
+	<div class="search-result-item">
+		<img src="./assets/img/temp-record.png">
+		<p class="search-results-album">Album Title</p>
+		<p class="search-results-artist">Artist Name</p>
+		<p class="search-results-year">Year</p>
+	</div>
+	<div class="search-result-item">
+		<img src="./assets/img/temp-record.png">
+		<p class="search-results-album">Album Title</p>
+		<p class="search-results-artist">Artist Name</p>
+		<p class="search-results-year">Year</p>
+	</div>
+	<div class="search-result-item">
+		<img src="./assets/img/temp-record.png">
+		<p class="search-results-album">Album Title</p>
+		<p class="search-results-artist">Artist Name</p>
+		<p class="search-results-year">Year</p>
+	</div>
+	<div class="search-result-item">
+		<img src="./assets/img/temp-record.png">
+		<p class="search-results-album">Album Title</p>
+		<p class="search-results-artist">Artist Name</p>
+		<p class="search-results-year">Year</p>
+	</div>
+	<div class="search-result-item">
+		<img src="./assets/img/temp-record.png">
+		<p class="search-results-album">Album Title</p>
+		<p class="search-results-artist">Artist Name</p>
+		<p class="search-results-year">Year</p>
+	</div>
+	<div class="search-result-item">
+		<img src="./assets/img/temp-record.png">
+		<p class="search-results-album">Album Title</p>
+		<p class="search-results-artist">Artist Name</p>
+		<p class="search-results-year">Year</p>
+	</div>
+	<div class="search-result-item">
+		<img src="./assets/img/temp-record.png">
+		<p class="search-results-album">Album Title</p>
+		<p class="search-results-artist">Artist Name</p>
+		<p class="search-results-year">Year</p>
+	</div>
+	<div class="search-result-item">
+		<img src="./assets/img/temp-record.png">
+		<p class="search-results-album">Album Title</p>
+		<p class="search-results-artist">Artist Name</p>
+		<p class="search-results-year">Year</p>
+	</div>
+	<div class="search-result-item">
+		<img src="./assets/img/temp-record.png">
+		<p class="search-results-album">Album Title</p>
+		<p class="search-results-artist">Artist Name</p>
+		<p class="search-results-year">Year</p>
+	</div>
+	<div class="search-result-item">
+		<img src="./assets/img/temp-record.png">
+		<p class="search-results-album">Album Title</p>
+		<p class="search-results-artist">Artist Name</p>
+		<p class="search-results-year">Year</p>
+	</div>
+	<div class="search-result-item">
+		<img src="./assets/img/temp-record.png">
+		<p class="search-results-album">Album Title</p>
+		<p class="search-results-artist">Artist Name</p>
+		<p class="search-results-year">Year</p>
+	</div>
+	<div class="search-result-item">
+		<img src="./assets/img/temp-record.png">
+		<p class="search-results-album">Album Title</p>
+		<p class="search-results-artist">Artist Name</p>
+		<p class="search-results-year">Year</p>
+	</div>
+	<div class="search-result-item">
+		<img src="./assets/img/temp-record.png">
+		<p class="search-results-album">Album Title</p>
+		<p class="search-results-artist">Artist Name</p>
+		<p class="search-results-year">Year</p>
+	</div>
+	<div class="search-result-item">
+		<img src="./assets/img/temp-record.png">
+		<p class="search-results-album">Album Title</p>
+		<p class="search-results-artist">Artist Name</p>
+		<p class="search-results-year">Year</p>
+	</div>
+	<div class="search-result-item">
+		<img src="./assets/img/temp-record.png">
+		<p class="search-results-album">Album Title</p>
+		<p class="search-results-artist">Artist Name</p>
+		<p class="search-results-year">Year</p>
+	</div>
+	<div class="search-result-item">
+		<img src="./assets/img/temp-record.png">
+		<p class="search-results-album">Album Title</p>
+		<p class="search-results-artist">Artist Name</p>
+		<p class="search-results-year">Year</p>
+	</div>
+	<div class="search-result-item">
+		<img src="./assets/img/temp-record.png">
+		<p class="search-results-album">Album Title</p>
+		<p class="search-results-artist">Artist Name</p>
+		<p class="search-results-year">Year</p>
+	</div>
+</section>
+{{!-- end search results section --}}
+
+{{!-- begin footer section --}}
+<footer id="footer-section">
+	<div id="social-links-container">
+		<div class="social-link"><a href="https://www.facebook.com/theroundaboutstore/?hc_ref=SEARCH&amp;fref=nf" target="_blank" rel="noopener noreferrer"><img src="./assets/img/social-link-fb.png"></a></div>
+		<div class="social-link"><a href="https://www.instagram.com/roundaboutstore/?hl=en" target="_blank" rel="noopener noreferrer"><img src="./assets/img/social-link-instagram.png"></a></div>
+		<div class="social-link"><a href="https://twitter.com/rickrez22" target="_blank" rel="noopener noreferrer"><img src="./assets/img/social-link-twitter.png"></a></div>
+	</div>
+	<div id="copyright-container">
+		<h6>&copy; <a href="http://www.derricksuarez.com/" target="_blank" rel="noopener noreferrer">Derrick Suarez 2016</a></h6>
+	</div>
+</footer>
+{{!-- end footer section --}}

@@ -14,7 +14,7 @@ router.get('/browse', function(req, res) {
 
 router.get('/events', function(req, res) {
 	res.render('events');
-})
+});
 
 console.log('Controller loaded --> Centralized controller (tra-central-controller.js)');
 

@@ -1,4 +1,4 @@
-<!-- begin full-page header -->
+{{!-- begin full-page header --}}
 <header id="hero-header" class="full-page">
 	<div id="header-title">
 		<h1>The Round About</h1>
@@ -13,9 +13,9 @@
 		<div id="chevron-down"></div>
 	</div>
 </header>
-<!-- end full-page header -->
+{{!-- end full-page header --}}
 
-<!-- begin staff picks section -->
+{{!-- begin staff picks section --}}
 <section id="staff-picks">
 	<div id="staff-picks-title">
 		<h3>Staff Picks</h3>
@@ -25,37 +25,43 @@
 			<img src="./assets/img/temp-record.png"><br>
 			<p class="staff-pick-album">Album Title</p>
 			<p class="staff-pick-artist">Artist Name</p>
+			<p class="staff-pick-year">Year</p>
 		</div>
 		<div class="staff-picks-item">
 			<img src="./assets/img/temp-record.png"><br>
 			<p class="staff-pick-album">Album Title</p>
 			<p class="staff-pick-artist">Artist Name</p>
+			<p class="staff-pick-year">Year</p>
 		</div>
 		<div class="staff-picks-item">
 			<img src="./assets/img/temp-record.png"><br>
 			<p class="staff-pick-album">Album Title</p>
 			<p class="staff-pick-artist">Artist Name</p>
+			<p class="staff-pick-year">Year</p>
 		</div>
 		<div class="staff-picks-item">
 			<img src="./assets/img/temp-record.png"><br>
 			<p class="staff-pick-album">Album Title</p>
 			<p class="staff-pick-artist">Artist Name</p>
+			<p class="staff-pick-year">Year</p>
 		</div>
 		<div class="staff-picks-item">
 			<img src="./assets/img/temp-record.png"><br>
 			<p class="staff-pick-album">Album Title</p>
 			<p class="staff-pick-artist">Artist Name</p>
+			<p class="staff-pick-year">Year</p>
 		</div>
 		<div class="staff-picks-item">
 			<img src="./assets/img/temp-record.png"><br>
 			<p class="staff-pick-album">Album Title</p>
 			<p class="staff-pick-artist">Artist Name</p>
+			<p class="staff-pick-year">Year</p>
 		</div>
 	</div>
 </section>
-<!-- end staff picks section -->
+{{!-- end staff picks section --}}
 
-<!-- begin navigation section -->
+{{!-- begin navigation section --}}
 <section id="nav-section">
 	<form action="/browse" method="GET">
 		<button type="submit" id="browse-inventory">Browse Inventory</button>
@@ -64,18 +70,20 @@
 		<button type="submit" id="upcoming-events">Upcoming Events</button>
 	</form>
 </section>
-<!-- end navigation section -->
+{{!-- end navigation section --}}
 
-<!-- begin map section -->
+{{!-- begin map section --}}
 <section id="map-section">
-	<h2>Where are we located?</h2>
+	<div id="map-header-container">
+		<h2>Where are we located?</h2>
+	</div>
 	<div id="map-container">
 		<iframe width="100%" height="455" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?key=AIzaSyDchdsjpvalXui_QTAFtm9Hb1Ka67X5s1k&amp;q=311+Broad+Street+Lake+Charles+LA" allowfullscreen></iframe>
 	</div>
 </section>
-<!-- end map section -->
+{{!-- end map section --}}
 
-<!-- begin footer -->
+{{!-- begin footer section --}}
 <footer id="footer-section">
 	<h2>Get in touch with us</h2>
 	<form action="" method="POST" id="contact-us">
@@ -98,3 +106,4 @@
 		<h6>&copy; <a href="http://www.derricksuarez.com/" target="_blank" rel="noopener noreferrer">Derrick Suarez 2016</a></h6>
 	</div>
 </footer>
+{{!-- end footer section --}}
