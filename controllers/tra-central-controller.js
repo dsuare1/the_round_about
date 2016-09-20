@@ -1,3 +1,5 @@
+'use strict';
+
 const express = require('express');
 const router = express.Router();
 
@@ -5,20 +7,20 @@ console.log('Controller loaded --> Centralized controller (tra-central-controlle
 
 // load instances of each controller object constructor 
 // loginController(router, models);
-var searchController = require('./tra-search-controller.js');
+const searchController = require('./tra-search-controller.js');
 
 searchController(router);
 
-router.get('/', function(req, res) {
-	res.render('index');
+router.get('/', (req, res) => {
+	res.status(200).render('index');
 });
 
-router.get('/browse', function(req, res) {
-	res.render('browse');
+router.get('/browse', (req, res) => {
+	res.status(200).render('browse');
 });
 
-router.get('/events', function(req, res) {
-	res.render('events');
+router.get('/events', (req, res) => {
+	res.status(200).render('events');
 });
 
 module.exports = router;
