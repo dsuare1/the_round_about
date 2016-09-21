@@ -124,8 +124,9 @@ header {
 	min-height: 275px;
 }
 
-#album-cover {
+.staff-pick-album-cover {
 	margin-bottom: 10px;
+	box-shadow: 0 0 15px #000;
 }
 
 .staff-pick-album-title, .staff-pick-artist, .staff-pick-year {
@@ -485,9 +486,9 @@ textarea:focus {
 /* search results section */
 
 #search-results {
-	/*display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;*/
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 	background-color: #0e2338;
 	height: 850px;
 	min-height: 850px;
@@ -503,6 +504,30 @@ textarea:focus {
 .search-result-item {
 	display: inline-block;
 	margin: 3%;
+	height: 250px;
+	min-height: 250px;
+	width: 175px;
+	max-width: 175px;
+}
+
+.search-results-album-cover {
+	box-shadow: 0 0 15px #000;
+}
+
+.search-results-album-title {
+	font-size: .95em;
+    margin-bottom: 5%;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.search-results-artist {
+	font-size: .85em;
+    margin-bottom: 5%;
+}
+
+.search-results-year {
+	font-size: .65em;
 }
 
 .search-result-item > p {
@@ -524,16 +549,16 @@ textarea:focus {
 }
 
 #events-container {
-	width: 80%;
-	max-width: 80%;
-	min-width: 80%;
+	width: 66%;
+	max-width: 66%;
+	min-width: 66%;
 	background-color: #0e2338;
 	/*height: 87vh;*/
 	opacity: 0.65;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 5%;
+	padding: 5% 10%;
 	overflow: scroll;
 }
 
@@ -553,6 +578,8 @@ textarea:focus {
 	font-size: 1.5em;
 	color: white;
 	padding: 2%;
+	margin: 5% 0;
+	line-height: 2em;
 }
 
 /********************************************************/

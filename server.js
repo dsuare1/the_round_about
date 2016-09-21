@@ -29,8 +29,8 @@ app.use('/', htmlRoutes);
 // app.use('/api', apiRoutes);
 
 // middleware for serving static files
-app.use(express.static(process.cwd() + '/public'));
-app.use('/public', express.static('public'));
+app.use('/', express.static('public'));
+app.use('/browse', express.static('public'));
 
 // connect to localhost MongoDB
 mongoose.connect('mongodb://localhost/the_round_about');

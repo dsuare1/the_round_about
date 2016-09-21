@@ -3,87 +3,24 @@
 	"month": "October",
 	"day": "Saturday",
 	"date": "10/15",
-	"time": "7:00pm",
-	"description": "Live Music w/ John Guidroz"
+	"time": "12:00pm - 9:00pm",
+	"description": "Live DJ in The Round About @ Chuck Fest"
 }
 
 {
 	"year": "2016",
 	"month": "October",
-	"day": "Tuesday",
-	"date": "10/18",
-	"time": "2:30pm",
-	"description": "In-house Art Session"
+	"day": "Thursday",
+	"date": "10/20",
+	"time": "TBD",
+	"description": "Live Music w/ Wolfman Wonders @ The Round About"
 }
 
 {
 	"year": "2016",
 	"month": "October",
-	"day": "Friday",
-	"date": "10/28",
-	"time": "8:00pm",
-	"description": "Michael Jackson's Thriller"
-}
-
-{
-	"year": "2016",
-	"month": "November",
 	"day": "Saturday",
-	"date": "11/5",
-	"time": "7:00pm",
-	"description": "Live Music w/ Billy Ferguson"
-}
-
-{
-	"year": "2016",
-	"month": "November",
-	"day": "Tuesday",
-	"date": "11/15",
-	"time": "2:30pm",
-	"description": "In-house Art Session"
-}
-
-{
-	"year": "2016",
-	"month": "November",
-	"day": "Friday",
-	"date": "11/18",
-	"time": "7:00pm",
-	"description": "Live Music w/ Doug Dousay"
-}
-
-{
-	"year": "2016",
-	"month": "November",
-	"day": "Wednesday",
-	"date": "11/30",
-	"time": "6:00pm",
-	"description": "BYOV Night"
-}
-
-{
-	"year": "2016",
-	"month": "December",
-	"day": "Sunday",
-	"date": "12/11",
-	"time": "2:00pm",
-	"description": "Live Music w/ John Guidroz"
-}
-
-{
-	"year": "2016",
-	"month": "December",
-	"day": "Wednesday",
-	"date": "12/21",
+	"date": "10/29",
 	"time": "8:00pm",
-	"description": "BYOV Christmas Edition"
-}
-
-{
-	"year": "2016",
-	"month": "December",
-	"day": "Friday",
-	"date": "12/30",
-	"time": "8:00pm",
-	"description": "TRA's New Year's Eve Eve Party"
+	"description": "Halloween @ The Round About w/ Michael Jackson's Thriller"
 }

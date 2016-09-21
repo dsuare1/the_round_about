@@ -24,18 +24,18 @@ module.exports = (router) => {
 			if (err) {
 				console.log(err);
 			} else {
-				console.log(events);
 				var events = { events: events };
-				res.status(200).render('events', { events, helpers: {
-				        if_eq: (a, b, opts) => { 
-				        	if (a == b) {
-						        return opts.fn(this);
-						    } else {
-						        return opts.inverse(this);
-						    }
-				        }
-					} 
-				});
+				// res.status(200).render('events', { events, helpers: {
+				//         if_eq: (a, b, opts) => { 
+				//         	if (a == b) {
+				// 		        return opts.fn(this);
+				// 		    } else {
+				// 		        return opts.inverse(this);
+				// 		    }
+				//         }
+				// 	} 
+				// });
+				res.status(200).render('events', events);
 			}
 		});
 	});

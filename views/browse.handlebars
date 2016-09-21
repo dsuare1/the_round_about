@@ -20,7 +20,7 @@
 <aside id="search-sidebar">
 	<h3>Browse by:</h3>
 	<div class="search-form-control">
-		<form action="/browse/search/all" method="GET">
+		<form action="/browse/all" method="GET">
 			<button type="submit" id="search-all-submit" class="search-form-button">Browse All Items</button>
 		</form>
 	</div>
@@ -60,8 +60,8 @@
 <section id="search-results">
 	{{#each albums}}
 	<div class="search-result-item">
-		<img src="{{this.imgURL}}" width="125px" height="125px" id="album-cover">
-		<p class="search-results-album">{{this.title}}</p>
+		<img src="{{this.imgURL}}" width="125px" height="125px" class="search-results-album-cover">
+		<p class="search-results-album-title">{{this.title}}</p>
 		<p class="search-results-artist">{{this.artist}}</p>
 		<p class="search-results-year">{{this.year}}</p>
 	</div>

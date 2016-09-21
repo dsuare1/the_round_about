@@ -9,7 +9,7 @@ module.exports = (router) => {
 		res.status(200).render('browse');
 	});
 
-	router.get('/browse/search/all', (req, res) => {
+	router.get('/browse/all', (req, res) => {
 		Albums.find({}, (err, albums) => {
 			if (err) {
 				console.log(err);

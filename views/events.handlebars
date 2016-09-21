@@ -14,7 +14,7 @@
 	<div id="events-container">
 		
 		<h1 class="month">October</h1>
-		<ul class="events-list">
+		{{!-- <ul class="events-list">
 		{{#each events}}
 			{{#if_eq this.month October}}
 			<li class="event">{{this.day}} {{this.date}} - {{this.description}} @ {{this.time}}</li>
@@ -37,6 +37,11 @@
 			{{#if_eq this.month December}}
 			<li class="event">{{this.day}} {{this.date}} - {{this.description}} @ {{this.time}}</li>
 			{{/if_eq}}
+		{{/each}}
+		</ul> --}}
+		<ul class="events-list">
+		{{#each events}}
+			<li class="event">{{this.day}} {{this.date}} - {{this.description}} @ {{this.time}}</li>
 		{{/each}}
 		</ul>
 
