@@ -21,42 +21,14 @@
 		<h3>Staff Picks</h3>
 	</div>
 	<div id="staff-picks-container">
+		{{#each staffPicks}}
 		<div class="staff-picks-item">
-			<img src="./assets/img/temp-record.png"><br>
-			<p class="staff-pick-album">Album Title</p>
-			<p class="staff-pick-artist">Artist Name</p>
-			<p class="staff-pick-year">Year</p>
+			<img src="{{this.imgURL}}" height="125px" width="125px" id="album-cover">
+			<p class="staff-pick-album-title">{{this.title}}</p>
+			<p class="staff-pick-artist">{{this.artist}}</p>
+			<p class="staff-pick-year">{{this.year}}</p>
 		</div>
-		<div class="staff-picks-item">
-			<img src="./assets/img/temp-record.png"><br>
-			<p class="staff-pick-album">Album Title</p>
-			<p class="staff-pick-artist">Artist Name</p>
-			<p class="staff-pick-year">Year</p>
-		</div>
-		<div class="staff-picks-item">
-			<img src="./assets/img/temp-record.png"><br>
-			<p class="staff-pick-album">Album Title</p>
-			<p class="staff-pick-artist">Artist Name</p>
-			<p class="staff-pick-year">Year</p>
-		</div>
-		<div class="staff-picks-item">
-			<img src="./assets/img/temp-record.png"><br>
-			<p class="staff-pick-album">Album Title</p>
-			<p class="staff-pick-artist">Artist Name</p>
-			<p class="staff-pick-year">Year</p>
-		</div>
-		<div class="staff-picks-item">
-			<img src="./assets/img/temp-record.png"><br>
-			<p class="staff-pick-album">Album Title</p>
-			<p class="staff-pick-artist">Artist Name</p>
-			<p class="staff-pick-year">Year</p>
-		</div>
-		<div class="staff-picks-item">
-			<img src="./assets/img/temp-record.png"><br>
-			<p class="staff-pick-album">Album Title</p>
-			<p class="staff-pick-artist">Artist Name</p>
-			<p class="staff-pick-year">Year</p>
-		</div>
+		{{/each}}
 	</div>
 </section>
 {{!-- end staff picks section --}}

@@ -1,0 +1,239 @@
+{
+	"artist": "Beach House",
+	"title": "Depression Cherry",
+	"year": "2015",
+	"genre": "Indie",
+	"condition": "New",
+	"format": "33",
+	"imgURL": "http://www.radioinfo.com/wp-content/uploads/2015/07/%E2%80%9CSparks%E2%80%9D-by-Beach-House-Depression-Cherry.jpg",
+	"inStock": true,
+	"isStaffPick": true
+}
+
+{
+	"artist": "Ben Folds Five",
+	"title": "Whatever and Ever Amen",
+	"year": "1997",
+	"genre": "Rock",
+	"condition": "New",
+	"format": "33",
+	"imgURL": "http://www.sputnikmusic.com/images/albums/4110.jpg",
+	"inStock": true,
+	"isStaffPick": true
+}
+
+{
+	"artist": "Dan Fogelberg",
+	"title": "Greatest Hits",
+	"year": "1982",
+	"genre": "Rock",
+	"condition": "Used",
+	"format": "33",
+	"imgURL": "https://i5.walmartimages.com/asr/3666e1bc-ce67-49ac-9415-854d1e5a50ff_1.919e91fb359754aa80476de0162f4827.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+	"inStock": true,
+	"isStaffPick": true
+}
+
+{
+	"artist": "Explosions in the Sky",
+	"title": "Those Who Tell the Truth Shall Die, Those Who Tell the Truth Shall Live Forever",
+	"year": "2001",
+	"genre": "Indie",
+	"condition": "New",
+	"format": "33",
+	"imgURL": "http://audio-club.ru/data/small/0656605303420.jpg",
+	"inStock": true,
+	"isStaffPick": true
+}
+
+{
+	"artist": "Explosions in the Sky",
+	"title": "The Wilderness",
+	"year": "2016",
+	"genre": "Indie",
+	"condition": "New",
+	"format": "33",
+	"imgURL": "http://www.stereoboard.com/images/stories/2013/images/A-Z%20Main%20Artist%20Images/E/125xNxexplosions_in_the_sky_lj_110116.jpg.pagespeed.ic.vNtBMNpc-W.jpg",
+	"inStock": true,
+	"isStaffPick": true
+}
+
+{
+	"artist": "Into It. Over It.",
+	"title": "Standards",
+	"year": "2016",
+	"genre": "Indie",
+	"condition": "New",
+	"format": "33",
+	"imgURL": "http://www.indigo.de/img/cover/middle/12676.jpg",
+	"inStock": true,
+	"isStaffPick": true
+}
+
+{
+	"artist": "James Taylor",
+	"title": "James Taylor",
+	"year": "1976",
+	"genre": "Rock",
+	"condition": "Used",
+	"format": "33",
+	"imgURL": "http://thumbs4.picclick.com/d/l400/pict/162104576939_/James-Taylor-Greatest-Hits-by-James-Taylor.jpg",
+	"inStock": true,
+	"isStaffPick": false
+}
+
+{
+	"artist": "John Fogerty",
+	"title": "Centerfield",
+	"year": "1985",
+	"genre": "Rock",
+	"condition": "Used",
+	"format": "33",
+	"imgURL": "http://fanmusicfest.com/sites/default/files/styles/red_125x125/public/pictures/lastfm//26943539.jpg?itok=lGPIPK_7",
+	"inStock": true,
+	"isStaffPick": false
+}
+
+{
+	"artist": "Junip",
+	"title": "Junip",
+	"year": "2013",
+	"genre": "Indie",
+	"condition": "New",
+	"format": "33",
+	"imgURL": "https://www.platekompaniet.no/globalassets/imported-images/cd/1518541194.jpg?preset=ProductList",
+	"inStock": true,
+	"isStaffPick": false
+}
+
+{
+	"artist": "Led Zeppelin",
+	"title": "IV",
+	"year": "1971",
+	"genre": "Rock",
+	"condition": "Used",
+	"format": "33",
+	"imgURL": "http://appve.net/wp-content/uploads/2016/06/thmvwff3st24pcg8czjs0y06e2k8pj8ofqizy4xk-125x125.jpeg",
+	"inStock": true,
+	"isStaffPick": false
+}
+
+{
+	"artist": "The Milk Carton Kids",
+	"title": "Monterey",
+	"year": "2015",
+	"genre": "Pop",
+	"condition": "New",
+	"format": "33",
+	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drx200/x219/x21986im8n1.jpg",
+	"inStock": true,
+	"isStaffPick": false
+}
+
+{
+	"artist": "Nick Drake",
+	"title": "Pink Moon",
+	"year": "1972",
+	"genre": "Indie",
+	"condition": "New",
+	"format": "33",
+	"imgURL": "http://www.toppermost.co.uk/wp-content/uploads/2013/10/nick-drake-pink-moon-125x125.jpg",
+	"inStock": true,
+	"isStaffPick": false
+}
+
+{
+	"artist": "Owen / The Rutabega",
+	"title": "Split EP",
+	"year": "2004",
+	"genre": "Pop",
+	"condition": "Used",
+	"format": "33",
+	"imgURL": "https://upload.wikimedia.org/wikipedia/en/8/80/TheRutabega-OwenSplitEP.jpg",
+	"inStock": true,
+	"isStaffPick": false
+}
+
+{
+	"artist": "Owen",
+	"title": "(the ep)",
+	"year": "2004",
+	"genre": "Indie",
+	"condition": "New",
+	"format": "33",
+	"imgURL": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Theepfro.jpg/164px-Theepfro.jpg",
+	"inStock": true,
+	"isStaffPick": false
+}
+
+{
+	"artist": "Procul Harum",
+	"title": "The Best of Procul Harum",
+	"year": "1987",
+	"genre": "Pop",
+	"condition": "Used",
+	"format": "33",
+	"imgURL": "https://images-na.ssl-images-amazon.com/images/I/41CT0Z21EAL.jpg",
+	"inStock": true,
+	"isStaffPick": false
+}
+
+{
+	"artist": "The Rocketboys",
+	"title": "20,000 Ghosts",
+	"year": "2009",
+	"genre": "Indie",
+	"condition": "Used",
+	"format": "33",
+	"imgURL": "http://www.therocketboys.com/wp-content/uploads/2014/11/Rocketboys_TuneCore-20000-ghosts-cover-400x400.jpg",
+	"inStock": true,
+	"isStaffPick": false
+}
+
+{
+	"artist": "Sylvan Esso",
+	"title": "Sylvan Esso",
+	"year": "2014",
+	"genre": "Pop",
+	"condition": "New",
+	"format": "33",
+	"imgURL": "http://media-cdn.list.ly/production/123742/951417/item951417_185px.jpeg?ver=9596010248",
+	"inStock": true,
+	"isStaffPick": false
+}
+
+{
+	"artist": "Simon and Garfunkel",
+	"title": "Simon and Garfunkel\"s Greatest Hits",
+	"year": "1972",
+	"genre": "Pop",
+	"condition": "Used",
+	"format": "33",
+	"imgURL": "http://deepervinyleshop.fr/2815-medium_default/simon-garfunkel-simon-and-garfunkel-s-greatest-hits-lp-comp.jpg",
+	"inStock": true,
+	"isStaffPick": false
+}
+
+{
+	"artist": "Still Corners",
+	"title": "Strange Pleasures",
+	"year": "2013",
+	"genre": "Indie",
+	"condition": "New",
+	"format": "33",
+	"imgURL": "http://musictown.cz/2117-medium_default/still-corners-strange-pleasures-cd.jpg",
+	"inStock": true,
+	"isStaffPick": false
+}
+
+{
+	"artist": "Sigur Ros",
+	"title": "( )",
+	"year": "2002",
+	"genre": "Indie",
+	"condition": "New",
+	"format": "45",
+	"imgURL": "http://www.gutsofdarkness.com/images/pochettes_125/1362_3318.jpg",
+	"inStock": true,
+	"isStaffPick": false
+}

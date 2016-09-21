@@ -36,10 +36,6 @@ const EventSchema = new Schema({
 		required: [true, 'A description for the event must be included.'],
 		maxlength: 200
 	}
-	timestamps: {
-		createdAt: 'create_at',
-		updatedAt: 'update_at'
-	}
 });
 
 const Event = mongoose.model('Event', EventSchema);

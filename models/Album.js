@@ -47,10 +47,6 @@ const AlbumSchema = new Schema({
 	isStaffPick: {
 		type: Boolean,
 		required: [true, 'A true or false value must be included for the \'isStaffPick\' property.']
-	},
-	timestamps: {
-		createdAt: 'create_at',
-		updatedAt: 'update_at'
 	}
 });
 

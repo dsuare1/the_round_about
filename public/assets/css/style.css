@@ -118,14 +118,32 @@ header {
 	padding-bottom: 1%;
 }
 
-.staff-picks-item p {
-	margin-top: 10%;
-	margin-left: 20%;
+.staff-picks-item {
+	width: 16%;
+	height: 275px;
+	min-height: 275px;
 }
 
-.staff-pick-album, .staff-pick-artist, .staff-pick-year {
+#album-cover {
+	margin-bottom: 10px;
+}
+
+.staff-pick-album-title, .staff-pick-artist, .staff-pick-year {
 	color: #0e2338;
 	font-weight: 300;
+}
+
+.staff-pick-album-title {
+	font-size: 1.25em;
+	margin-bottom: 10px;
+}
+
+.staff-pick-artist {
+	margin-bottom: 10px;
+}
+
+.staff-pick-year {
+	font-size: .75em;
 }
 
 #staff-picks-container {
