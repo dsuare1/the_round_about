@@ -31,7 +31,7 @@
 	"format": "33",
 	"imgURL": "https://i5.walmartimages.com/asr/3666e1bc-ce67-49ac-9415-854d1e5a50ff_1.919e91fb359754aa80476de0162f4827.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
 	"inStock": true,
-	"isStaffPick": true
+	"isStaffPick": false
 }
 
 {
@@ -43,7 +43,7 @@
 	"format": "33",
 	"imgURL": "http://audio-club.ru/data/small/0656605303420.jpg",
 	"inStock": true,
-	"isStaffPick": true
+	"isStaffPick": false
 }
 
 {
@@ -115,7 +115,7 @@
 	"format": "33",
 	"imgURL": "http://appve.net/wp-content/uploads/2016/06/thmvwff3st24pcg8czjs0y06e2k8pj8ofqizy4xk-125x125.jpeg",
 	"inStock": true,
-	"isStaffPick": false
+	"isStaffPick": true
 }
 
 {
@@ -163,7 +163,7 @@
 	"format": "33",
 	"imgURL": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Theepfro.jpg/164px-Theepfro.jpg",
 	"inStock": true,
-	"isStaffPick": false
+	"isStaffPick": true
 }
 
 {

@@ -350,6 +350,7 @@ textarea:focus {
 #navbar h1 {
 	margin-left: 5%;
 	font-size: 3em;
+	white-space: nowrap;
 }
 
 #navbar p {
@@ -359,9 +360,8 @@ textarea:focus {
 #nav-links {
 	display: flex;
     flex-direction: row;
-    justify-content: flex-end;
     position: absolute;
-    right: 10%;
+    right: 5%;
 }
 
 .nav-link {

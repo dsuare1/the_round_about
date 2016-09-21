@@ -28,6 +28,10 @@ const htmlRoutes = require('./controllers/tra-central-controller.js');
 app.use('/', htmlRoutes);
 // app.use('/api', apiRoutes);
 
+// middleware for serving static files
+app.use(express.static(process.cwd() + '/public'));
+app.use('/public', express.static('public'));
+
 // connect to localhost MongoDB
 mongoose.connect('mongodb://localhost/the_round_about');
 // connect to livehost MongoDB
@@ -43,11 +47,6 @@ db.on('error', (err) => {
 db.once('open', () => {
   console.log('Successfully connected to Mongoose!');
 });
-
-
-// middleware for serving static files
-app.use(express.static(process.cwd() + '/public'));
-app.use('/public', express.static('public'));
 
 app.listen(process.env.PORT || 3000, () => {
 	if (process.env.PORT == undefined) {
