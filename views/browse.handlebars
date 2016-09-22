@@ -59,12 +59,15 @@
 {{!-- begin search results section --}}
 <section id="search-results">
 	{{#each albums}}
-	<div class="search-result-item">
-		<img src="{{this.imgURL}}" width="125px" height="125px" class="search-results-album-cover">
-		<p class="search-results-album-title">{{this.title}}</p>
-		<p class="search-results-artist">{{this.artist}}</p>
-		<p class="search-results-year">{{this.year}}</p>
-	</div>
+		<div class="search-result-item">
+			<img src="{{this.imgURL}}" width="125px" height="125px" class="search-results-album-cover">
+			<p class="search-results-album-title">{{this.title}}</p>
+			<p class="search-results-artist">{{this.artist}}</p>
+			<p class="search-results-year">{{this.year}}</p>
+		</div>
+		<div class="no-results-message-container">
+			<p class="no-results-message">{{this.message}}</p>
+		</div>
 	{{/each}}
 </section>
 {{!-- end search results section --}}

@@ -3,12 +3,16 @@
 const bodyParser = require('body-parser');
 const express = require('express');
 const exphbs = require('express-handlebars');
+const favicon = require('serve-favicon');
 const logger = require('morgan');
 const mongoose = require('mongoose');
+const path = require('path');
 
 const app = express();
 
 // middleware for parsing incoming body requests
+// app.use(favicon(__dirname + '/public/tra-logo.ico'));
+app.use(favicon(path.join(__dirname, 'public', 'tra-logo.ico')));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
