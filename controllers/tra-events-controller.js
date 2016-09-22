@@ -2,18 +2,6 @@
 
 const exphbs = require('express-handlebars');
 
-// const hbs = exphbs.create({
-//     helpers: {
-//         if_eq: (a, b, opts) => { 
-//         	if (a == b) {
-// 		        return opts.fn(this);
-// 		    } else {
-// 		        return opts.inverse(this);
-// 		    }
-//         }
-//     }
-// });
-
 const Events = require('../models/Event.js');
 
 module.exports = (router) => {
