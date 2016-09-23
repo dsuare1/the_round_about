@@ -15,22 +15,24 @@ const User = require('../models/User.js');
 // const hash = bcrypt.hashSync('B4c0/\/', salt);
 
 module.exports = (router) => {
-	console.log('Controller loaded --> API controller (tra-api-controller.js');
+    console.log('Controller loaded --> API controller (tra-api-controller.js');
 
-	router.get('/api', (req, res) => {
-		res.render('api-login');
-	});
+    var loggedIn = false;
 
-	router.post('/api/register', (req, res) => {
-		console.log(req.body);
-		var username = req.body.username;
-		var password = req.body.password;
-		User.findOne({ where: { username: username } }).then(function(duplicateUser) {
+    router.get('/api', (req, res) => {
+        res.render('api-login');
+    });
+
+    router.post('/api/register', (req, res) => {
+        console.log(req.body);
+        var username = req.body.username;
+        var password = req.body.password;
+        User.findOne({ username: username }).then((duplicateUser) => {
             if (duplicateUser) {
-                console.log('email already taken');
+                console.log('username already taken');
                 res.redirect('/api');
             } else {
-                var hashedPassword = bcrypt.hash(req.body.password, saltRounds, function(err, hash) {
+                var hashedPassword = bcrypt.hash(req.body.password, saltRounds, (err, hash) => {
                     if (err) {
                         throw err;
                     } else {
@@ -39,15 +41,52 @@ module.exports = (router) => {
                     User.create({
                         username: username,
                         password: hashedPassword
-                    }).then(function(result) {
+                    }).then((result) => {
                         res.redirect('/api-admin');
                     });
                 })
             }
         })
-	});
+    });
 
-	router.get('/api-admin', (req, res) => {
-		res.render('api-admin');
-	})
+    router.post('/api/login', (req, res) => {
+        console.log('login button hit');
+        console.log(req.body);
+        var username = req.body.username;
+        User.find({ username: username }).then((loginUser) => {
+            console.log(loginUser[0]);
+            // console.log(loginUser[0].username);
+            if (loginUser[0] === undefined) {
+                console.log('no such user');
+                res.redirect('/api');
+            } else {
+                console.log('user in database');
+                bcrypt.compare(req.body.password, loginUser[0].password, (err, result) => {
+                    if (result === true) {
+                        loggedIn = true;
+                        console.log('login successful');
+                        console.log('loggedIn variable is: ' + loggedIn);
+                        res.redirect('/api-admin');
+                    } else {
+                        res.render('api-login', { invalidLogin: 'Username or Password was incorrect; try again' });
+                    }
+                });
+            }
+        });
+    });
+
+    router.get('/api-admin', (req, res) => {
+        console.log('loggedIn variable is: ' + loggedIn);
+        if (loggedIn === false) {
+            res.render('api-login', { errorMsg: 'You must be logged in to access that page' });
+        } else {
+            res.render('api-admin');
+        }
+    });
+
+    router.post('/api-admin/logout', (req, res) => {
+        loggedIn = false;
+        res.redirect('/api');
+        console.log('loggedIn variable is: ' + loggedIn);
+    })
 };
