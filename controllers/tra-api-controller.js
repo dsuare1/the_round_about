@@ -2,12 +2,10 @@
 
 // const bcrypt = require('bcryptjs');
 // const passport = require('passport');
-var bcrypt = require('bcrypt');
-var saltRounds = 10;
+const bcrypt = require('bcrypt');
+const saltRounds = 10;
 const Promise = require('bluebird');
 
-const Album = require('../models/Album.js');
-const Event = require('../models/Event.js');
 const User = require('../models/User.js');
 
 // config for bcrypt
@@ -17,7 +15,7 @@ const User = require('../models/User.js');
 module.exports = (router) => {
     console.log('Controller loaded --> API controller (tra-api-controller.js');
 
-    var loggedIn = false;
+    let loggedIn = false;
 
     router.get('/api', (req, res) => {
         res.render('api-login');
@@ -25,18 +23,18 @@ module.exports = (router) => {
 
     router.post('/api/register', (req, res) => {
         console.log(req.body);
-        var username = req.body.username;
-        var password = req.body.password;
+        let username = req.body.username;
+        let password = req.body.password;
         User.findOne({ username: username }).then((duplicateUser) => {
             if (duplicateUser) {
                 console.log('username already taken');
                 res.redirect('/api');
             } else {
-                var hashedPassword = bcrypt.hash(req.body.password, saltRounds, (err, hash) => {
+                let hashedPassword = bcrypt.hash(req.body.password, saltRounds, (err, hash) => {
                     if (err) {
                         throw err;
                     } else {
-                        var hashedPassword = hash;
+                        let hashedPassword = hash;
                     };
                     User.create({
                         username: username,
@@ -52,7 +50,7 @@ module.exports = (router) => {
     router.post('/api/login', (req, res) => {
         console.log('login button hit');
         console.log(req.body);
-        var username = req.body.username;
+        let username = req.body.username;
         User.find({ username: username }).then((loginUser) => {
             console.log(loginUser[0]);
             // console.log(loginUser[0].username);
@@ -88,5 +86,29 @@ module.exports = (router) => {
         loggedIn = false;
         res.redirect('/api');
         console.log('loggedIn variable is: ' + loggedIn);
-    })
+    });
+
+    // /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+    // Database CRUD for owners and webmaster
+    // /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+
+    router.get('/api-admin/search/all', (req, res) => {
+        console.log('search entire database');
+    });
+
+    router.get('/api-admin/search/:id', (req, res) => {
+        console.log('search for specific item');
+    });
+
+    router.post('/api-admin/create', (req, res) => {
+        console.log('create new entry');
+    });
+
+    router.put('/api-admin/update/:id', (req, res) => {
+        console.log('update a specific item');
+    });
+
+    router.delete('/api-admin/delete/:id', (req, res) => {
+        console.log('delete a specific item');
+    });
 };
