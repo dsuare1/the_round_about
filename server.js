@@ -1,25 +1,23 @@
 'use strict';
 
 const bodyParser = require('body-parser');
+// const flash = require('connect-flash');
 const express = require('express');
+// const expressValidator = require('express-validator');
 const exphbs = require('express-handlebars');
 const favicon = require('serve-favicon');
+// const flash = require('connect-flash');
 const logger = require('morgan');
+// const passport = require('passport');
+const LocalStrategy = require('passport-local');
 const mongoose = require('mongoose');
 const path = require('path');
+// const session = require('express-session'); 
+
+// adding promises to Mongoose with Bluebird
+mongoose.Promise = require('bluebird');
 
 const app = express();
-
-// middleware for parsing incoming body requests
-// app.use(favicon(__dirname + '/public/tra-logo.ico'));
-app.use(favicon(path.join(__dirname, 'public', 'tra-logo.ico')));
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.text());
-app.use(bodyParser.json({ type: 'application/vnd.api+json' }));
-
-// log requests to the command-line terminal
-app.use(logger('dev'));
 
 // set up the views engine to be express-andlebars
 app.engine('handlebars', exphbs({
@@ -27,19 +25,66 @@ app.engine('handlebars', exphbs({
 }));
 app.set('view engine', 'handlebars');
 
-const htmlRoutes = require('./controllers/tra-central-controller.js');
-// const apiRoutes = require('./controllers/tra-api-controller.js');
-app.use('/', htmlRoutes);
-// app.use('/api', apiRoutes);
+// middleware for serving favicon
+app.use(favicon(path.join(__dirname, 'public', 'tra-logo.ico')));
+// middleware for parsing incoming body requests
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.text());
+app.use(bodyParser.json({ type: 'application/vnd.api+json' }));
 
 // middleware for serving static files
 app.use('/', express.static('public'));
 app.use('/browse', express.static('public'));
 
+// log requests to the command-line terminal
+app.use(logger('dev'));
+
+// middleware for express stssion
+// const secret = require('./expSessionSecret.js');
+// app.use(session({
+// 	secret: secret.expSessionSecret.secret,
+// 	saveUninitialized: true,
+// 	resave: true
+// }));
+
+// app.use(expressValidator({
+// 	errorFormatter: (param, msg, value) => {
+// 		var namespace = param.split('.')
+// 		, root = namespace.shift()
+// 		, formParam = root;
+
+// 		while(namespace.length) {
+// 			formParam += '[' + namespace.shift + ']';
+// 		}
+// 		return {
+// 			param: formParam,
+// 			msg: msg,
+// 			value: value
+// 		};
+// 	}
+// }));
+
+// app.use(passport.initialize());
+// app.use(passport.session());
+
+// middleware for flash messages
+// app.use(flash());
+// app.use((req, res, next) => {
+// 	res.locals.success_msg = req.flash('success_msg');
+// 	res.locals.error_msg = req.flash('error_msg');
+// 	res.locals.error = req.flash('error');
+// });
+
+const htmlRoutes = require('./controllers/tra-central-controller.js');
+const apiRoutes = require('./controllers/tra-api-controller.js');
+app.use('/', htmlRoutes);
+app.use('/api', apiRoutes);
+
 // connect to localhost MongoDB
 mongoose.connect('mongodb://localhost/the_round_about');
 // connect to livehost MongoDB
-// mongoose.connect('mongodb://heroku_srjs9x0w:p8ll25jpbsgqbu85vh0rsn74bm@ds017256.mlab.com:17256/heroku_srjs9x0w');
+// mongoose.connect('mongodb://');
 const db = mongoose.connection;
 
 // show any mongoose errors

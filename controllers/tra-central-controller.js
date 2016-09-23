@@ -9,12 +9,12 @@ const Albums = require('../models/Album.js');
 console.log('Controller loaded --> Centralized controller (tra-central-controller.js)');
 
 // load instances of each controller object constructor 
-// loginController(router, models);
 const searchController = require('./tra-search-controller.js');
 const eventsController = require('./tra-events-controller.js');
-
+const apiController = require('./tra-api-controller.js');
 searchController(router);
 eventsController(router);
+apiController(router);
 
 router.get('/', (req, res) => {
 	Albums.find({ isStaffPick: true }, (err, staffPicks) => {

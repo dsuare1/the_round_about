@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/dsuare1/the_round_about#readme",
   "dependencies": {
+    "bcrypt": "^0.8.7",
+    "bluebird": "^3.4.6",
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "express-handlebars": "^3.0.0",
