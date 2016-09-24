@@ -81,6 +81,18 @@ const apiRoutes = require('./controllers/tra-api-controller.js');
 app.use('/', htmlRoutes);
 app.use('/api', apiRoutes);
 
+// development error handler
+// will print stacktrace
+if (app.get('env') === 'development') {
+  app.use(function(err, req, res, next) {
+    res.status(err.status || 500);
+    res.render('error', {
+      message: err.message,
+      error: err
+    });
+  });
+}
+
 // connect to localhost MongoDB
 mongoose.connect('mongodb://localhost/the_round_about');
 // connect to livehost MongoDB
@@ -104,3 +116,6 @@ app.listen(process.env.PORT || 3000, () => {
     	console.log('server listening on port: ' + process.env.PORT);
     }
 });
+
+// export the database for use in 'database.js' helpers file
+module.exports = db;

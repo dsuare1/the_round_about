@@ -264,7 +264,7 @@ body {
 	color: #fff;
 }
 
-.form-control {
+.personal-form-control {
 	width: 250px;
     height: 30px;
     border-style: solid;
@@ -280,7 +280,7 @@ textarea {
     border-width: 1px;	
 }
 
-.form-control:focus {
+.personal-form-control:focus {
 	outline: none;
 }
 
