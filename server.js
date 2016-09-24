@@ -1,18 +1,12 @@
 'use strict';
 
 const bodyParser = require('body-parser');
-// const flash = require('connect-flash');
 const express = require('express');
-// const expressValidator = require('express-validator');
 const exphbs = require('express-handlebars');
 const favicon = require('serve-favicon');
-// const flash = require('connect-flash');
 const logger = require('morgan');
-// const passport = require('passport');
-const LocalStrategy = require('passport-local');
 const mongoose = require('mongoose');
 const path = require('path');
-// const session = require('express-session'); 
 
 // adding promises to Mongoose with Bluebird
 mongoose.Promise = require('bluebird');
@@ -39,42 +33,6 @@ app.use('/browse', express.static('public'));
 
 // log requests to the command-line terminal
 app.use(logger('dev'));
-
-// middleware for express stssion
-// const secret = require('./expSessionSecret.js');
-// app.use(session({
-// 	secret: secret.expSessionSecret.secret,
-// 	saveUninitialized: true,
-// 	resave: true
-// }));
-
-// app.use(expressValidator({
-// 	errorFormatter: (param, msg, value) => {
-// 		var namespace = param.split('.')
-// 		, root = namespace.shift()
-// 		, formParam = root;
-
-// 		while(namespace.length) {
-// 			formParam += '[' + namespace.shift + ']';
-// 		}
-// 		return {
-// 			param: formParam,
-// 			msg: msg,
-// 			value: value
-// 		};
-// 	}
-// }));
-
-// app.use(passport.initialize());
-// app.use(passport.session());
-
-// middleware for flash messages
-// app.use(flash());
-// app.use((req, res, next) => {
-// 	res.locals.success_msg = req.flash('success_msg');
-// 	res.locals.error_msg = req.flash('error_msg');
-// 	res.locals.error = req.flash('error');
-// });
 
 const htmlRoutes = require('./controllers/tra-central-controller.js');
 const apiRoutes = require('./controllers/tra-api-controller.js');
