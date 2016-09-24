@@ -1,6 +1,6 @@
 {
   "name": "the_round_about",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Lake Charles, Louisiana's best Record Store.",
   "main": "server.js",
   "scripts": {
@@ -29,6 +29,7 @@
     "serve-favicon": "^2.3.0"
   },
   "engines": {
-    "node": "6.2.2"
+    "node": "6.2.2",
+    "npm": "3.9.5"
   }
 }
