@@ -51,6 +51,7 @@ module.exports = (router) => {
         console.log(req.body);
         let username = req.body.username;
         User.find({ username: username }).then((loginUser) => {
+            console.log(loginUser);
             console.log(loginUser[0]);
             // console.log(loginUser[0].username);
             if (loginUser[0] === undefined) {
