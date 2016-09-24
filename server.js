@@ -93,15 +93,11 @@ if (app.get('env') === 'development') {
   });
 }
 
-// if (process.env.NODE_ENV === 'development') {
-	// console.log('Node environment is development');
-	// connect to localhost MongoDB
-	// mongoose.connect('mongodb://localhost/the_round_about');
-// } else if (process.env.NODE_ENV === 'production') {
-	// console.log('Node environment is production');
-	// connect to livehost MongoDB
-	mongoose.connect('mongodb://heroku_7jnkclkj:bh42qjgiavnprbks5r97eujt6b@ds043714.mlab.com:43714/heroku_7jnkclkj');
-// };
+// connect to localhost MongoDB
+// mongoose.connect('mongodb://localhost/the_round_about');
+
+// connect to livehost MongoDB
+mongoose.connect('mongodb://heroku_7jnkclkj:bh42qjgiavnprbks5r97eujt6b@ds043714.mlab.com:43714/heroku_7jnkclkj');
 
 const db = mongoose.connection;
 
