@@ -158,5 +158,19 @@ module.exports = (router) => {
 				}
 			});
 		}
-	});	
+	});
+
+	router.get('/browse/:id', (req, res) => {
+		console.log(req);
+		console.log(req.params.id);
+		Albums.find({ _id: req.params.id }, (err, album) => {
+			if (err) {
+				console.log(err);
+			} else {
+				var album = { album: album[0] };
+				console.log(album);
+				res.render('single-album', album);
+			}
+		})
+	})	
 }

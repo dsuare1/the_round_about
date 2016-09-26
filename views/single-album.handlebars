@@ -1,0 +1,16 @@
+<img src="{{this.album.imgURL}}" width="125px" height="125px" alt="Album Cover">
+<p>{{this.album.title}}</p>
+<p>{{this.album.artist}}</p>
+<p>{{this.album.year}}</p>
+<p>{{this.album.genre}}</p>
+<p>${{this.album.price}}</p>
+<p>{{this.album.format}}"</p>
+<p>Quantity: {{this.album.quantity}}</p>
+
+<button onclick="goBack()">Back</button>
+
+<script>
+function goBack() {
+	window.history.back();
+};
+</script>

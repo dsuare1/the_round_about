@@ -29,8 +29,8 @@
 
 		<div class="search-form-control">
 			<p>Format:</p>
-			<input type="radio" name="format" value="33" class="filter">&nbsp;&nbsp;33"</input><br><br>
-			<input type="radio" name="format" value="45" class="filter">&nbsp;&nbsp;45"</input>
+			<input type="radio" name="format" value="33" class="filter">&nbsp;&nbsp;7"</input><br><br>
+			<input type="radio" name="format" value="45" class="filter">&nbsp;&nbsp;12"</input>
 		</div>
 
 		<div class="search-form-control">
@@ -59,15 +59,20 @@
 <section id="search-results">
 	{{#each albums}}
 		<div class="search-result-item">
-			<img src="{{this.imgURL}}" width="125px" height="125px" class="search-results-album-cover">
-			<p class="search-results-album-title">{{this.title}}</p>
-			<p class="search-results-artist">{{this.artist}}</p>
-			<p class="search-results-year">{{this.year}}</p>
-		</div>
-		<div class="no-results-message-container">
-			<p class="no-results-message">{{this.message}}</p>
+			<img src="{{this.imgURL}}" width="125px" height="125px" class="search-results-album-cover" alt="Album Cover">
+			<form action="/browse/{{this.id}}" method="GET" id="specific-album-form">
+				<input type="submit" class="search-results-album-title single-album-input" value="{{this.title}}"/><br>
+				<input type="submit" class="search-results-artist single-album-input" value="{{this.artist}}"/><br>
+				<input type="submit" class="search-results-year single-album-input" value="{{this.year}}"/>
+			</form>
 		</div>
 	{{/each}}
+
+	{{#unless albums}}
+	<div class="no-results-message-container">
+		<p class="no-results-message">{{this.message}}</p>
+	</div>
+	{{/unless}}
 </section>
 {{!-- end search results section --}}
 

@@ -537,9 +537,18 @@ textarea:focus {
 	font-size: .65em;
 }
 
-.search-result-item > p {
+.single-album-input {
+	border: none;
+	background: none;
 	color: #fff;
 }
+
+#specific-album-form:hover,
+.single-album-input:hover {
+	cursor: pointer;
+}
+
+
 
 /********************************************************/
 /***** Events Page  *****/
