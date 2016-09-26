@@ -1,6 +1,7 @@
 'use strict';
 
 const bodyParser = require('body-parser');
+const cookieParser = require('cookie-parser');
 const express = require('express');
 const exphbs = require('express-handlebars');
 const favicon = require('serve-favicon');
@@ -26,10 +27,13 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: 'application/vnd.api+json' }));
+// cookie parser
+app.use(cookieParser());
 
 // middleware for serving static files
 app.use('/', express.static('public'));
 app.use('/browse', express.static('public'));
+app.use('/api', express.static('public'));
 
 // log requests to the command-line terminal
 app.use(logger('dev'));
@@ -52,10 +56,10 @@ if (app.get('env') === 'development') {
 }
 
 // connect to localhost MongoDB
-// mongoose.connect('mongodb://localhost/the_round_about');
+mongoose.connect('mongodb://localhost/the_round_about');
 
 // connect to livehost MongoDB
-mongoose.connect('mongodb://heroku_7jnkclkj:bh42qjgiavnprbks5r97eujt6b@ds043714.mlab.com:43714/heroku_7jnkclkj');
+// mongoose.connect('mongodb://heroku_7jnkclkj:bh42qjgiavnprbks5r97eujt6b@ds043714.mlab.com:43714/heroku_7jnkclkj');
 
 const db = mongoose.connection;
 

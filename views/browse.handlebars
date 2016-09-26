@@ -26,12 +26,6 @@
 	</div>
 	
 	<form action="/browse/search" method="GET" id="browse-options">
-		
-		<div class="search-form-control">
-			<p>Condition:</p>
-			<input type="radio" name="condition" value="New" class="filter">&nbsp;&nbsp;New</input><br><br>
-			<input type="radio" name="condition" value="Used" class="filter">&nbsp;&nbsp;Used</input>
-		</div>
 
 		<div class="search-form-control">
 			<p>Format:</p>
@@ -46,6 +40,11 @@
 			<input type="radio" name="genre" value="Indie" class="filter">&nbsp;&nbsp;Indie</input><br><br>
 			<input type="radio" name="genre" value="Punk" class="filter">&nbsp;&nbsp;Punk</input>
 		</div>
+
+		{{!-- <div class="search-form-control">
+			<p>Price:</p>
+			<input type="radio" name="price" value=""
+		</div> --}}
 
 		<div class="search-form-control">
 			<button type="submit" id="search-submit" class="search-form-button">Search</button>

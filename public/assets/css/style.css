@@ -379,17 +379,17 @@ textarea:focus {
 
 .home-link {
 	border-right: 1px solid #fff;
-    padding-right: 25%;
+    padding-right: 10px;
 }
 
 .browse-link {
-	padding-left: 10%;
-    padding-right: 10%;
+	padding-left: 10px;
+    padding-right: 10px;
     white-space: nowrap;
 }
 
 .events-link {
-	padding-left: 25%;
+	padding-left: 10px;
     border-left: 1px solid white;
 }
 

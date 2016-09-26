@@ -1,7 +1,7 @@
 'use strict';
 
-// const bcrypt = require('bcryptjs');
-// const passport = require('passport');
+const cookieParser = require('cookie-parser');
+
 const bcrypt = require('bcrypt');
 const saltRounds = 10;
 const Promise = require('bluebird');
@@ -13,9 +13,10 @@ const User = require('../models/User.js');
 module.exports = (router) => {
     console.log('Controller loaded --> API controller (tra-api-controller.js');
 
-    let loggedIn = false;
-
     router.get('/api', (req, res) => {
+        if (req.cookies.loggedIn) {
+            res.clearCookie('loggedIn');
+        };
         res.render('api-login');
     });
 
@@ -56,16 +57,14 @@ module.exports = (router) => {
             // console.log(loginUser[0].username);
             if (loginUser[0] === undefined) {
                 console.log('no such user');
-                res.redirect('/api');
+                // res.redirect('/api');
                 // I want the below to happen; but it's giving me a starnge 'router.post (line 24) is not a function' error; ??
-                // res.render('api-login', { errorMsg: 'No such user found in the database' });
+                res.render('api-login', { errorMsg: 'No such user found in the database' });
             } else {
                 console.log('user in database');
                 bcrypt.compare(req.body.password, loginUser[0].password, (err, result) => {
                     if (result === true) {
-                        loggedIn = true;
-                        console.log('login successful');
-                        console.log('loggedIn variable is: ' + loggedIn);
+                        res.cookie('loggedIn', 'true', { maxAge: 900000, httpOnly: true });
                         res.redirect('/api-admin');
                     } else {
                         res.render('api-login', { invalidLogin: 'Username or Password was incorrect; try again' });
@@ -76,8 +75,9 @@ module.exports = (router) => {
     });
 
     router.get('/api-admin', (req, res) => {
-        console.log('loggedIn variable is: ' + loggedIn);
-        if (loggedIn === false) {
+        console.log(req.headers);
+        console.log(req.cookies);
+        if (!req.cookies.loggedIn) {
             res.render('api-login', { errorMsg: 'You must be logged in to access that page' });
         } else {
             res.render('api-admin');
@@ -85,9 +85,7 @@ module.exports = (router) => {
     });
 
     router.post('/api-admin/logout', (req, res) => {
-        loggedIn = false;
         res.redirect('/api');
-        console.log('loggedIn variable is: ' + loggedIn);
     });
 
     // /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-

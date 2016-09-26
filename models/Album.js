@@ -25,10 +25,9 @@ const AlbumSchema = new Schema({
 		trim: true,
 		required: [true, 'Album genre must be included.']
 	},
-	condition: {
-		type: String,
-		trim: true,
-		required: [true, 'Album condition must be included.']
+	price: {
+		type: Number,
+		required: [true, 'Album price must be included.']
 	},
 	format: {
 		type: String,
@@ -40,8 +39,8 @@ const AlbumSchema = new Schema({
 		trim: true,
 		required: [true, 'An imgURL for the album must be included.']
 	},
-	inStock: {
-		type: Boolean,
+	quantity: {
+		type: Number,
 		required: [true, 'A true or false value must be included for the \'inStock\' property.']
 	},
 	isStaffPick: {
@@ -51,5 +50,13 @@ const AlbumSchema = new Schema({
 });
 
 const Album = mongoose.model('Album', AlbumSchema);
+
+// function getPrice(num){
+//     return (num / 100).toFixed(2);
+// }
+
+// function setPrice(num){
+//     return num * 100;
+// }
 
 module.exports = Album;
