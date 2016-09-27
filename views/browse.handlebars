@@ -57,7 +57,7 @@
 		</div>
 
 		{{!-- <div class="search-form-control">
-			<p>Price:</p>
+			<p id="price-label">Price:</p>
 			<input type="radio" name="price" value=""
 		</div> --}}
 
@@ -78,7 +78,8 @@
 			<form action="/browse/{{this.id}}" method="GET" id="specific-album-form">
 				<input type="submit" class="search-results-album-title single-album-input" value="{{this.title}}"/><br>
 				<input type="submit" class="search-results-artist single-album-input" value="{{this.artist}}"/><br>
-				<input type="submit" class="search-results-year single-album-input" value="{{this.year}}"/>
+				<input type="submit" class="search-results-year single-album-input" value="{{this.year}}"/><br>
+				<input type="submit" class="search-results-price single-album-input" value="${{this.price}}" style="color: #f1c40f;"/>
 			</form>
 		</div>
 	{{/each}}

@@ -476,30 +476,30 @@ textarea:focus {
 	color: #fff;
 }
 
+#price-label {
+	font-size: 1.5em;
+	padding: 5% 0;
+	margin-bottom: 10%;
+	border-bottom: 2px solid #fff;
+	color: #fff;
+}
+
 #radio-left {
 	width: 50%;
     display: inline-block;
     padding-left: 8%;
+    padding-bottom: 15%;
 }
 
 #radio-right {
 	width: 50%;
     display: inline-block;
     float: right;
+    padding-bottom: 15%;
 }
 
 .filter {
 	display: inline-block;
-	color: #fff;
-}
-
-#search-all-submit {
-	width: 85%;
-	/*white-space: nowrap;*/
-}
-
-#search-submit, #clear-filters {
-	width: 65%;
 }
 
 #filter-submit-button-container {
@@ -515,6 +515,7 @@ textarea:focus {
     font-weight: 100;
     color: #f1c40f;
     margin: 5% 0 3% 0;
+    width: 85%;
 }
 
 .search-form-button:hover {
@@ -522,6 +523,11 @@ textarea:focus {
     color: #0e2338;
     border: 2px solid #fff;
     cursor: pointer;
+    border: 1px solid #0e2338;
+}
+
+#search-all-submit {
+	margin-left: 8%;
 }
 
 /* search results section */
@@ -545,10 +551,11 @@ textarea:focus {
 .search-result-item {
 	display: inline-block;
 	margin: 3%;
-	height: 250px;
-	min-height: 250px;
+	height: 265px;
+	min-height: 265px;
 	width: 175px;
 	max-width: 175px;
+	overflow: scroll;
 }
 
 .search-results-album-cover {
@@ -569,6 +576,12 @@ textarea:focus {
 
 .search-results-year {
 	font-size: .65em;
+}
+
+.search-results-price {
+	font-size: 1em;
+    margin-bottom: 5%;
+    margin-top: 2%;
 }
 
 .single-album-input {

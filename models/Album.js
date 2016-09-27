@@ -32,7 +32,7 @@ const AlbumSchema = new Schema({
 	format: {
 		type: String,
 		trim: true,
-		required: [true, 'Album format (33 or 45) must be included.']
+		required: [true, 'Album format (7 or 12) must be included.']
 	},
 	imgURL: {
 		type: String,

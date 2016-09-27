@@ -6,6 +6,8 @@ const bcrypt = require('bcrypt');
 const saltRounds = 10;
 const Promise = require('bluebird');
 
+// const database = require('./database.js');
+
 const Album = require('../models/Album.js');
 const Event = require('../models/Event.js');
 const User = require('../models/User.js');
@@ -94,10 +96,44 @@ module.exports = (router) => {
 
     router.get('/api-admin/albums/search/all', (req, res) => {
         console.log('search entire database');
+        Album.find({})
+            .sort({ artist: 1 })
+            .exec((err, albums) => {
+                if (err) {
+                    console.log(err);
+                } else {
+                    var albums = { albums: albums };
+                    res.render('api-admin', albums);
+                }
+            })
     });
 
-    router.get('/api-admin/albums/search/:id', (req, res) => {
+    router.get('/api-admin/albums/search/', (req, res) => {
         console.log('search for specific item');
+        console.log(req.query);
+        var query = {};
+        if (req.query.artist !== '') {
+            query['artist'] = req.query.artist;
+        };
+        if (req.query.title !== '') {
+            query['title'] = req.query.title;
+        };
+        if (req.query.year !== '') {
+            query['year'] = req.query.year;
+        };
+        if (req.query.genre !== '') {
+            query['genre'] = req.query.genre;
+        };
+        if (req.query.format !== '') {
+            query['format'] = req.query.format;
+        };
+        if (req.query.quantity !== '') {
+            query['quantity'] = req.query.quantity;
+        };
+        if (req.query.isStaffPick !== '') {
+            query['isStaffPick'] = req.query.isStaffPick;
+        };
+        console.log(query);
     });
 
     router.post('/api-admin/albums/create', (req, res) => {
@@ -106,33 +142,35 @@ module.exports = (router) => {
 
     router.put('/api-admin/albums/update/:id', (req, res) => {
         console.log('update a specific item');
+        console.log('updating item: ' + req.params.id);
     });
 
     router.delete('/api-admin/albums/delete/:id', (req, res) => {
         console.log('delete a specific item');
+        console.log('deleting item: ' + req.params.id);
     });
 
     // /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
     // Database CRUD for owners and webmaster (Events)
     // /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
 
-    router.get('/api-admin/albums/search/all', (req, res) => {
+    router.get('/api-admin/events/search/all', (req, res) => {
         console.log('search entire database');
     });
 
-    router.get('/api-admin/albums/search/:id', (req, res) => {
+    router.get('/api-admin/events/search/:id', (req, res) => {
         console.log('search for specific item');
     });
 
-    router.post('/api-admin/albums/create', (req, res) => {
+    router.post('/api-admin/events/create', (req, res) => {
         console.log('create new entry');
     });
 
-    router.put('/api-admin/albums/update/:id', (req, res) => {
+    router.put('/api-admin/events/update/:id', (req, res) => {
         console.log('update a specific item');
     });
 
-    router.delete('/api-admin/albums/delete/:id', (req, res) => {
+    router.delete('/api-admin/events/delete/:id', (req, res) => {
         console.log('delete a specific item');
     });
 };

@@ -6,6 +6,7 @@ const express = require('express');
 const exphbs = require('express-handlebars');
 const favicon = require('serve-favicon');
 const logger = require('morgan');
+const methodOverride = require('method-override');
 const mongoose = require('mongoose');
 const path = require('path');
 
@@ -30,10 +31,21 @@ app.use(bodyParser.json({ type: 'application/vnd.api+json' }));
 // cookie parser
 app.use(cookieParser());
 
+// hack the form methods to be more than GET and POST
+app.use(methodOverride('_method'));
+
 // middleware for serving static files
 app.use('/', express.static('public'));
 app.use('/browse', express.static('public'));
 app.use('/api', express.static('public'));
+app.use('/api-admin/albums/search', express.static('public'));
+app.use('/api-admin/albums/create', express.static('public'));
+app.use('/api-admin/albums/update', express.static('public'));
+app.use('/api-admin/albums/delete', express.static('public'));
+app.use('/api-admin/events/search', express.static('public'));
+app.use('/api-admin/events/create', express.static('public'));
+app.use('/api-admin/events/update', express.static('public'));
+app.use('/api-admin/events/delete', express.static('public'));
 
 // log requests to the command-line terminal
 app.use(logger('dev'));

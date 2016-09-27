@@ -1,5 +1,86 @@
-<h1>API Admin Page</h1>
+{{!-- begin navbar section --}}
+<nav id="api-navbar">
+	<h1>The Round About</h1>
+	<form action="/api-admin/logout" method="POST" id="logout-form">
+		<button type="submit" id="api-logout-button">Log out</button>
+	</form>
+</nav>
+{{!-- end navbar section --}}
 
-<form action="/api-admin/logout" method="POST">
-	<button type="submit" id="api-logout">Log out</button>
-</form>
+{{!-- begin search sidebar section --}}
+<aside id="api-sidebar">
+	<h3 class="api-form-section-label">Browse by:</h3>
+	<div class="search-form-control">
+		<form action="/api-admin/albums/search/all" method="GET">
+			<button type="submit" id="api-search-all-submit" class="api-search-form-button">Browse All Items</button>
+		</form>
+	</div>
+	<h3 class="api-form-section-label">Filter:</h3>
+	<form action="api-admin/albums/search" method="GET" id="browse-options">
+		<div class="api-search-form-control">
+			<label for="artist" class="api-filter-label">Artist</label><br>
+			<input type="text" name="artist" class="api-filter" /><br>
+			<label for="title" class="api-filter-label">Title</label><br>		
+			<input type="text" name="title" class="api-filter" /><br>
+			<label for="year" class="api-filter-label">Year</label><br>
+			<input type="text" name="year" class="api-filter" /><br>
+			<label for="genre" class="api-filter-label">Genre</label><br>		
+			<input type="text" name="genre" class="api-filter" /><br>
+			<label for="format" class="api-filter-label">Format (7 or 12)<br></label>
+			<input type="text" name="format" class="api-filter" /><br>
+			<label for="quantity" class="api-filter-label">Quantity (number)</label><br>
+			<input type="number" name="quantity" class="api-filter" /><br>
+			<label for="isStaffPick" class="api-filter-label">isStaffPick (true or false, lowercase)</label><br>
+			<input type="text" name="isStaffPick" class="api-filter" /><br>
+		</div>
+
+		<div class="api-search-form-control" id="api-filter-submit-button-container">
+			<button type="submit" id="api-search-submit" class="api-search-form-button">Search</button>
+			<button type="reset" id="api-clear-filters" class="api-search-form-button">Clear Filters</button>
+		</div>
+
+	</form>
+</aside>
+{{!-- end search sidebar section --}}
+
+{{!-- begin search results section --}}
+<section id="api-search-results">
+	{{#each albums}}
+		<div class="api-search-result-item">
+			<img src="{{this.imgURL}}" width="125px" height="125px" class="api-search-results-album-cover" alt="Album Cover">
+			{{!-- <form action="/browse/{{this.id}}" method="GET" id="specific-album-form"> --}}
+				{{!-- <input type="submit" class="search-results-album-title single-album-input" value="{{this.title}}"/><br>
+				<input type="submit" class="search-results-artist single-album-input" value="{{this.artist}}"/><br>
+				<input type="submit" class="search-results-year single-album-input" value="{{this.year}}"/><br>
+				<input type="submit" class="search-results-price single-album-input" value="${{this.price}}" style="color: #f1c40f;"/> --}}
+			{{!-- </form> --}}
+			<div class="api-search-results-details">
+				<p class="api-search-results-album-artist api-search-results-label">{{this.artist}}</p><br>
+				<p class="api-search-results-album-title api-search-results-label">{{this.title}}</p><br>
+				<p class="api-search-results-album-year api-search-results-label">{{this.year}}</p><br>
+				<p class="api-search-results-album-genre api-search-results-label">{{this.genre}}</p><br>
+				<p class="api-search-results-album-price api-search-results-label">{{this.price}}</p><br>
+				<p class="api-search-results-album-format api-search-results-label">{{this.format}}</p><br>
+				<p class="api-search-results-album-quantity api-search-results-label">{{this.quantity}}</p><br>
+				<p class="api-search-results-album-isStaffPick api-search-results-label">Staff Pick?  {{this.isStaffPick}}</p>
+			</div>
+			<div class="api-search-results-buttons-container">
+				<form action="/api-admin/albums/delete/{{this.id}}?_method=DELETE" method="POST">
+					<button type="submit" class="delete-button">Delete</button>
+				</form>
+			</div>
+			<div class="api-search-results-buttons-container">
+				<form action="/api-admin/albums/update/{{this.id}}?_method=PUT" method="POST">
+					<button type="submit" class="update-button">Submit Update</button>
+				</form>
+			</div>
+		</div>
+	{{/each}}
+
+	{{#unless albums}}
+	<div class="no-results-message-container">
+		<p class="no-results-message">{{this.message}}</p>
+	</div>
+	{{/unless}}
+</section>
+{{!-- end search results section --}}

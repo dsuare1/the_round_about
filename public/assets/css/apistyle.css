@@ -1,3 +1,7 @@
+/********************************************************/
+/***** Login Page  *****/
+/********************************************************/
+
 /* header */
 
 h1, h2, label, input {
@@ -78,4 +82,176 @@ label {
 	font-size: 1.25em;
     color: red;
     font-weight: 300;
+}
+
+/********************************************************/
+/***** Admin Page  *****/
+/********************************************************/
+
+/* api-admin-wrapper */
+
+/* api-navbar */
+
+#api-navbar {
+	background-color: #0e2338;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 2%;
+}
+
+#api-navbar > h1 {
+	color: #fff;
+	font-size: 1.75em;
+}
+
+#logout-form {
+	position: absolute;
+    right: 75px;
+    width: 150px;
+}
+
+#api-logout-button {
+    height: 50px;
+    background: #0e2338;
+    border: 2px solid #f1c40f;
+    font-size: 1em;
+    font-weight: 100;
+    color: #f1c40f;
+    width: 100%;
+}
+
+#api-logout-button:hover {
+	background-color: #fff;
+    color: #0e2338;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+/* api-sidebar */
+
+#api-sidebar {
+	background-color: #fff;
+    padding: 2% 1% 2% 3%;
+    width: 25%;
+    max-width: 25%;
+    min-width: 25%;
+    display: inline-block;
+    height: 1500px;
+    max-height: 1500px;
+    min-height: 1500px;
+    border-bottom: 1px solid #0e2338;
+    border-right: 1px solid #0e2338;
+}
+
+.api-form-section-label {
+	font-size: 1.5em;
+	margin-top: 15%
+}
+
+.api-search-form-button {
+	height: 50px;
+    background: #fff;
+    border: 2px solid #0e2338;
+    font-size: 1em;
+    font-weight: 100;
+    color: #0e2338;
+    margin: 5% 0 3% 5%;
+    width: 85%;
+}
+
+.api-search-form-button:hover {
+	background-color: #0e2338;
+	color: #fff;
+	cursor: pointer;
+}
+
+#api-genre-label,
+#api-format-label {
+	font-size: 1.5em;
+	padding: 5% 0;
+	margin-bottom: 10%;
+	border-bottom: 2px solid #fff;
+	color: #0e2338;
+}
+
+.api-filter {
+	display: inline-block;
+	color: #0e2338;
+	margin-bottom: 20px;
+}
+
+.api-filter-label {
+	font-size: 1em;
+	font-weight: 100;
+	margin-top: 15px;
+}
+
+.api-search-form-control {
+	color: #0e2338;
+	font-weight: 300;
+}
+
+/* api search results section */
+
+#api-search-results {
+	background-color: #fff;
+    width: 75%;
+    max-width: 75%;
+    min-width: 75%;
+    height: 1500px;
+    max-height: 1500px;
+    min-height: 1500px;
+    border-bottom: 1px solid #0e2338;
+    float: right;
+    overflow: scroll;
+    padding: 1%;
+}
+
+.api-search-result-item {
+	margin: 2% 0 2% 0;
+	border-bottom: 1px solid #0e2338;
+    padding-bottom: 15px;
+}
+
+.api-search-results-label {
+	display: inline-block;
+}
+
+.api-search-results-details {
+	display: inline-block;
+	margin-left: 25px;
+	margin-right: 75px;
+	width: 250px;
+}
+
+.api-search-results-buttons-container {
+	display: inline-block;
+}
+
+.delete-button {
+	border: none;
+    background-color: red;
+    width: 100px;
+    height: 30px;
+    font-size: 1em;
+    color: white;
+}
+
+.delete-button:hover {
+	cursor: pointer;
+}
+
+.update-button {
+	border: none;
+    background-color: green;
+    width: 200px;
+    height: 30px;
+    font-size: 1em;
+    color: white;
+    margin-left: 15px;
+}
+
+.update-button:hover {
+	cursor: pointer;
 }
