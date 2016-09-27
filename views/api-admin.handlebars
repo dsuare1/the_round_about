@@ -9,7 +9,7 @@
 
 {{!-- begin search sidebar section --}}
 <aside id="api-sidebar">
-	<h3 class="api-form-section-label">Browse by:</h3>
+	{{!-- <h3 class="api-form-section-label">Browse by:</h3> --}}
 	<div class="search-form-control">
 		<form action="/api-admin/albums/search/all" method="GET">
 			<button type="submit" id="api-search-all-submit" class="api-search-form-button">Browse All Items</button>
@@ -94,14 +94,14 @@
 			</div>
 			<div class="api-search-results-details">
 				<form action="/api-admin/albums/update/{{this.id}}?_method=PUT" method="POST">
-					<input class="api-search-results-album-artist api-search-results-label" value="{{this.artist}}"/><br>
-					<input class="api-search-results-album-title api-search-results-label" value="{{this.title}}"/><br>
-					<input class="api-search-results-album-year api-search-results-label" value="{{this.year}}"/><br>
-					<input class="api-search-results-album-genre api-search-results-label" value="{{this.genre}}"/><br>
-					<input class="api-search-results-album-price api-search-results-label" value="{{this.price}}"/><br>
-					<input class="api-search-results-album-format api-search-results-label" value="{{this.format}}"/><br>
-					<input class="api-search-results-album-quantity api-search-results-label" value="{{this.quantity}}"/><br>
-					<input class="api-search-results-album-isStaffPick api-search-results-label" value="{{this.isStaffPick}}"/>
+					<input class="api-search-results-album-artist api-search-results-label" value="{{this.artist}}" name="artist"/><br>
+					<input class="api-search-results-album-title api-search-results-label" value="{{this.title}}" name="title"/><br>
+					<input class="api-search-results-album-year api-search-results-label" value="{{this.year}}" name="year"/><br>
+					<input class="api-search-results-album-genre api-search-results-label" value="{{this.genre}}" name="genre"/><br>
+					<input class="api-search-results-album-price api-search-results-label" value="{{this.price}}" name="price"/><br>
+					<input class="api-search-results-album-format api-search-results-label" value="{{this.format}}" name="format"/><br>
+					<input class="api-search-results-album-quantity api-search-results-label" value="{{this.quantity}}" name="quantity"/><br>
+					<input class="api-search-results-album-isStaffPick api-search-results-label" value="{{this.isStaffPick}}" name="isStaffPick"/>
 				{{!-- </form> --}}
 			{{!-- </div> --}}
 			{{!-- <div class="api-search-results-buttons-container"> --}}

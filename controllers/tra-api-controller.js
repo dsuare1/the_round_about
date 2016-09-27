@@ -177,31 +177,39 @@ module.exports = (router) => {
     router.put('/api-admin/albums/update/:id', (req, res) => {
         console.log('update a specific item');
         console.log('updating item: ' + req.params.id);
-        console.log(req.body);
+        // console.log(req.body);
         let query = {};
-        if (req.params.artist !== '') {
-            query['artist'] = req.query.artist;
+        if (req.body.artist !== undefined) {
+            query['artist'] = req.body.artist;
         };
-        if (req.params.title !== '') {
-            query['title'] = req.query.title;
+        if (req.body.title !== undefined) {
+            query['title'] = req.body.title;
         };
-        if (req.params.year !== '') {
-            query['year'] = req.query.year;
+        if (req.body.year !== undefined) {
+            query['year'] = req.body.year;
         };
-        if (req.params.genre !== '') {
-            query['genre'] = req.query.genre;
+        if (req.body.genre !== undefined) {
+            query['genre'] = req.body.genre;
         };
-        if (req.params.format !== '') {
-            query['format'] = req.query.format;
+        if (req.body.format !== undefined) {
+            query['format'] = req.body.format;
         };
-        if (req.params.quantity !== '') {
-            query['quantity'] = req.query.quantity;
+        if (req.body.quantity !== undefined) {
+            query['quantity'] = req.body.quantity;
         };
-        if (req.params.isStaffPick !== '') {
-            query['isStaffPick'] = req.query.isStaffPick;
+        if (req.body.isStaffPick !== undefined) {
+            query['isStaffPick'] = req.body.isStaffPick;
         };
-        console.log(query);
+        console.log('query: ' + JSON.stringify(query, null, 2));
 
+        Album.findOneAndUpdate({ _id: req.params.id }, query, { upsert: true }, (err, doc) => {
+            if (err) {
+                console.log(err);
+            } else {
+                console.log(doc);
+                res.redirect('/api-admin/albums/search/all');
+            }
+        })
     });
 
     router.delete('/api-admin/albums/delete/:id', (req, res) => {
