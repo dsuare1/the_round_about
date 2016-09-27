@@ -16,7 +16,7 @@
 		</form>
 	</div>
 	<h3 class="api-form-section-label">Filter:</h3>
-	<form action="/api-admin/albums/search" method="GET" id="browse-options">
+	<form action="/api-admin/albums/search" method="GET">
 		<div class="api-search-form-control">
 			<label for="artist" class="api-filter-label">Artist</label><br>
 			<input type="text" name="artist" class="api-filter" /><br>
@@ -36,6 +36,30 @@
 
 		<div class="api-search-form-control" id="api-filter-submit-button-container">
 			<button type="submit" id="api-search-submit" class="api-search-form-button">Search</button>
+		</div>
+	</form>
+
+	<h3 class="api-form-section-label">Add New Item:</h3>
+	<form action="/api-admin/albums/create" method="POST" id="add-new-album">
+		<div class="api-search-form-control">
+			<label for="artist" class="api-filter-label">Artist</label><br>
+			<input type="text" name="artist" class="api-filter" /><br>
+			<label for="title" class="api-filter-label">Title</label><br>		
+			<input type="text" name="title" class="api-filter" /><br>
+			<label for="year" class="api-filter-label">Year</label><br>
+			<input type="text" name="year" class="api-filter" /><br>
+			<label for="genre" class="api-filter-label">Genre</label><br>		
+			<input type="text" name="genre" class="api-filter" /><br>
+			<label for="format" class="api-filter-label">Format (7 or 12)<br></label>
+			<input type="text" name="format" class="api-filter" /><br>
+			<label for="quantity" class="api-filter-label">Quantity (number)</label><br>
+			<input type="number" name="quantity" class="api-filter" /><br>
+			<label for="isStaffPick" class="api-filter-label">isStaffPick (true or false, lowercase)</label><br>
+			<input type="text" name="isStaffPick" class="api-filter" /><br>
+		</div>
+
+		<div class="api-search-form-control" id="api-create-submit-button-container">
+			<button type="submit" id="api-add-new-album-submit" class="api-search-form-button">Add New Item</button>
 		</div>
 	</form>
 </aside>
@@ -63,8 +87,8 @@
 				<p class="api-search-results-album-title api-search-results-label">{{this.title}}</p><br>
 				<p class="api-search-results-album-year api-search-results-label">{{this.year}}</p><br>
 				<p class="api-search-results-album-genre api-search-results-label">{{this.genre}}</p><br>
-				<p class="api-search-results-album-price api-search-results-label">{{this.price}}</p><br>
-				<p class="api-search-results-album-format api-search-results-label">{{this.format}}</p><br>
+				<p class="api-search-results-album-price api-search-results-label">${{this.price}}</p><br>
+				<p class="api-search-results-album-format api-search-results-label">{{this.format}}''</p><br>
 				<p class="api-search-results-album-quantity api-search-results-label">Quantity: {{this.quantity}}</p><br>
 				<p class="api-search-results-album-isStaffPick api-search-results-label">Staff Pick?  {{this.isStaffPick}}</p>
 			</div>

@@ -152,6 +152,18 @@ module.exports = (router) => {
 
     router.post('/api-admin/albums/create', (req, res) => {
         console.log('create new entry');
+        console.log(req.body);
+        // var newAlbum = Album({
+        //     artist: req.body.artist,
+        //     title: req.body.title,
+        //     year: req.body.year,
+        //     genre: req.body.genre,
+        //     price: req.body.price,
+        //     format: req.body.format,
+        //     imgURL: req.body.imgURL,
+        //     quantity: req.body.quantity,
+        //     isStaffPick: req.body.isStaffPick
+        // })
     });
 
     router.put('/api-admin/albums/update/:id', (req, res) => {

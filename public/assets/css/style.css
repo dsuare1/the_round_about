@@ -553,7 +553,7 @@ textarea:focus {
 	margin: 3%;
 	height: 265px;
 	min-height: 265px;
-	width: 175px;
+	width: 165px;
 	max-width: 175px;
 	overflow: scroll;
 }

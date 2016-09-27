@@ -57,7 +57,7 @@ label {
 
 #login-submit {
 	width: 25%;
-    margin-left: 9%;
+    margin-left: 10%;
     border-style: none;
     height: 30px;
     font-size: 1.05em;
@@ -69,6 +69,23 @@ label {
 #login-submit:hover {
 	background-color: #0e2338;
     color: #fff;
+    cursor: pointer;
+}
+
+#home {
+	width: 25%;
+    margin-left: 10%;
+    border-style: none;
+    height: 30px;
+    font-size: .85em;
+    background-color: #0e2338;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+#home:hover {
+	background-color: #0e2338;
+    color: #f1c40f;
     cursor: pointer;
 }
 
@@ -146,23 +163,27 @@ label {
 
 .api-form-section-label {
 	font-size: 1.5em;
-	margin-top: 15%
+	margin-top: 15%;
+	margin-bottom: 10%;
+	border-top: 2px solid #0e2338;
+	border-left: 2px solid #0e2338;
+	padding: 5%;
 }
 
 .api-search-form-button {
 	height: 50px;
-    background: #fff;
+    background: #0e2338;
     border: 2px solid #0e2338;
     font-size: 1em;
     font-weight: 100;
-    color: #0e2338;
+    color: #fff;
     margin: 5% 0 3% 5%;
     width: 85%;
 }
 
 .api-search-form-button:hover {
 	background-color: #0e2338;
-	color: #fff;
+	color: #f1c40f;
 	cursor: pointer;
 }
 
@@ -261,8 +282,11 @@ label {
 
 .api-no-results-message-container {
 	padding: 5%;
+	width: 85%;
 }
 
 .api-no-results-message {
 	font-size: 2em;
+	line-height: 1.5em;
+	color: red;
 }
