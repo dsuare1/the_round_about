@@ -38,6 +38,7 @@ app.use(methodOverride('_method'));
 app.use('/', express.static('public'));
 app.use('/browse', express.static('public'));
 app.use('/api', express.static('public'));
+app.use('/api-admin/albums', express.static('public'));
 app.use('/api-admin/albums/search', express.static('public'));
 app.use('/api-admin/albums/create', express.static('public'));
 app.use('/api-admin/albums/update', express.static('public'));

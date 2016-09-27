@@ -139,7 +139,7 @@
 	"format": "12",
 	"imgURL": "http://www.music-for-you.ru/data/small/0767981113715.jpg",
 	"quantity": 0,
-	"isStaffPick": true
+	"isStaffPick": false
 }
 
 {
@@ -463,7 +463,7 @@
 	"format": "12",
 	"imgURL": "http://www.radioinfo.com/wp-content/uploads/2015/07/%E2%80%9CSparks%E2%80%9D-by-Beach-House-Depression-Cherry.jpg",
 	"quantity": 1,
-	"isStaffPick": false
+	"isStaffPick": true
 }
 
 {
@@ -583,7 +583,7 @@
 	"format": "12",
 	"imgURL": "https://s-media-cache-ak0.pinimg.com/736x/9e/32/cb/9e32cb2a572c1990fe8f5d51cfdc0db1.jpg",
 	"quantity": 1,
-	"isStaffPick": false
+	"isStaffPick": true
 }
 
 {
@@ -739,7 +739,7 @@
 	"format": "12",
 	"imgURL": "http://images.popmatters.com/music_cover_art/b/bowiedavid-aladdinsane.jpg",
 	"quantity": 1,
-	"isStaffPick": false
+	"isStaffPick": true
 }
 
 {
@@ -2047,7 +2047,7 @@
 	"format": "12",
 	"imgURL": "https://consequenceofsound.files.wordpress.com/2016/07/owen-the-king-of-whys.jpg?w=380&h=380&crop=1",
 	"quantity": 2,
-	"isStaffPick": false
+	"isStaffPick": true
 }
 
 {
@@ -3043,7 +3043,7 @@
 	"format": "12",
 	"imgURL": "http://images.popmatters.com/music_cover_art/a/air-talkie.jpg",
 	"quantity": 1,
-	"isStaffPick": false
+	"isStaffPick": true
 }
 
 {
@@ -3463,7 +3463,7 @@
 	"format": "12",
 	"imgURL": "http://www.radioinfo.com/wp-content/uploads/2015/05/%E2%80%9CTraveller%E2%80%9D-by-Chris-Stapleton-Traveller-2.jpg",
 	"quantity": 2,
-	"isStaffPick": false	
+	"isStaffPick": true	
 }
 
 {

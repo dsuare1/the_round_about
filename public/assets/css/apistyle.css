@@ -57,7 +57,7 @@ label {
 
 #login-submit {
 	width: 25%;
-    margin-left: 10%;
+    margin-left: 120px;
     border-style: none;
     height: 30px;
     font-size: 1.05em;
@@ -74,7 +74,7 @@ label {
 
 #home {
 	width: 25%;
-    margin-left: 10%;
+    margin-left: 120px;
     border-style: none;
     height: 30px;
     font-size: .85em;
@@ -235,6 +235,16 @@ label {
     padding-bottom: 15px;
 }
 
+.api-search-results-input-label {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.api-search-results-details-labels {
+	display: inline-block;
+	line-height: 1.15em;
+}
+
 .api-search-results-label {
 	display: inline-block;
 }
@@ -242,18 +252,33 @@ label {
 .api-search-results-details {
 	display: inline-block;
 	margin-left: 25px;
-	margin-right: 75px;
-	width: 250px;
+	width: 300px;
 	font-weight: 300;
 }
 
 .api-search-results-buttons-container {
 	display: inline-block;
+	margin-left: 35px;
+}
+
+.update-button {
+	border: none;
+    background-color: #2ecc71;
+    width: 100px;
+    height: 30px;
+    font-size: 1em;
+    color: white;
+    margin-left: 50px;
+    margin-top: -5px;
+}
+
+.update-button:hover {
+	cursor: pointer;
 }
 
 .delete-button {
 	border: none;
-    background-color: red;
+    background-color: #c0392b;
     width: 100px;
     height: 30px;
     font-size: 1em;
@@ -261,20 +286,6 @@ label {
 }
 
 .delete-button:hover {
-	cursor: pointer;
-}
-
-.update-button {
-	border: none;
-    background-color: green;
-    width: 200px;
-    height: 30px;
-    font-size: 1em;
-    color: white;
-    margin-left: 15px;
-}
-
-.update-button:hover {
 	cursor: pointer;
 }
 

@@ -164,11 +164,44 @@ module.exports = (router) => {
         //     quantity: req.body.quantity,
         //     isStaffPick: req.body.isStaffPick
         // })
+
+        // newAlbum.save((err) => {
+        //     if (err) {
+        //         console.log(err);
+        //     } else {
+        //         console.log('User created!');
+        //     }
+        // });
     });
 
     router.put('/api-admin/albums/update/:id', (req, res) => {
         console.log('update a specific item');
         console.log('updating item: ' + req.params.id);
+        console.log(req.body);
+        let query = {};
+        if (req.params.artist !== '') {
+            query['artist'] = req.query.artist;
+        };
+        if (req.params.title !== '') {
+            query['title'] = req.query.title;
+        };
+        if (req.params.year !== '') {
+            query['year'] = req.query.year;
+        };
+        if (req.params.genre !== '') {
+            query['genre'] = req.query.genre;
+        };
+        if (req.params.format !== '') {
+            query['format'] = req.query.format;
+        };
+        if (req.params.quantity !== '') {
+            query['quantity'] = req.query.quantity;
+        };
+        if (req.params.isStaffPick !== '') {
+            query['isStaffPick'] = req.query.isStaffPick;
+        };
+        console.log(query);
+
     });
 
     router.delete('/api-admin/albums/delete/:id', (req, res) => {

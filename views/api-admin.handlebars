@@ -82,24 +82,35 @@
 				<input type="submit" class="search-results-year single-album-input" value="{{this.year}}"/><br>
 				<input type="submit" class="search-results-price single-album-input" value="${{this.price}}" style="color: #f1c40f;"/> --}}
 			{{!-- </form> --}}
+			<div class="api-search-results-details-labels">
+				<p class="api-search-results-input-label">Artist:</p><br/>
+				<p class="api-search-results-input-label">Album Title</p><br/>
+				<p class="api-search-results-input-label">Year:</p><br/>
+				<p class="api-search-results-input-label">Genre:</p><br/>
+				<p class="api-search-results-input-label">Price: $</p><br/>
+				<p class="api-search-results-input-label">Format:</p><br/>
+				<p class="api-search-results-input-label">Quantity:</p><br/>
+				<p class="api-search-results-input-label">Staff Pick</p>
+			</div>
 			<div class="api-search-results-details">
-				<p class="api-search-results-album-artist api-search-results-label">{{this.artist}}</p><br>
-				<p class="api-search-results-album-title api-search-results-label">{{this.title}}</p><br>
-				<p class="api-search-results-album-year api-search-results-label">{{this.year}}</p><br>
-				<p class="api-search-results-album-genre api-search-results-label">{{this.genre}}</p><br>
-				<p class="api-search-results-album-price api-search-results-label">${{this.price}}</p><br>
-				<p class="api-search-results-album-format api-search-results-label">{{this.format}}''</p><br>
-				<p class="api-search-results-album-quantity api-search-results-label">Quantity: {{this.quantity}}</p><br>
-				<p class="api-search-results-album-isStaffPick api-search-results-label">Staff Pick?  {{this.isStaffPick}}</p>
+				<form action="/api-admin/albums/update/{{this.id}}?_method=PUT" method="POST">
+					<input class="api-search-results-album-artist api-search-results-label" value="{{this.artist}}"/><br>
+					<input class="api-search-results-album-title api-search-results-label" value="{{this.title}}"/><br>
+					<input class="api-search-results-album-year api-search-results-label" value="{{this.year}}"/><br>
+					<input class="api-search-results-album-genre api-search-results-label" value="{{this.genre}}"/><br>
+					<input class="api-search-results-album-price api-search-results-label" value="{{this.price}}"/><br>
+					<input class="api-search-results-album-format api-search-results-label" value="{{this.format}}"/><br>
+					<input class="api-search-results-album-quantity api-search-results-label" value="{{this.quantity}}"/><br>
+					<input class="api-search-results-album-isStaffPick api-search-results-label" value="{{this.isStaffPick}}"/>
+				{{!-- </form> --}}
+			{{!-- </div> --}}
+			{{!-- <div class="api-search-results-buttons-container"> --}}
+					<button type="submit" class="update-button">Update</button>
+				</form>
 			</div>
 			<div class="api-search-results-buttons-container">
 				<form action="/api-admin/albums/delete/{{this.id}}?_method=DELETE" method="POST">
 					<button type="submit" class="delete-button">Delete</button>
-				</form>
-			</div>
-			<div class="api-search-results-buttons-container">
-				<form action="/api-admin/albums/update/{{this.id}}?_method=PUT" method="POST">
-					<button type="submit" class="update-button">Submit Update</button>
 				</form>
 			</div>
 		</div>
