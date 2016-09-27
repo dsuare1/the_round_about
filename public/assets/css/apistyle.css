@@ -223,6 +223,7 @@ label {
 	margin-left: 25px;
 	margin-right: 75px;
 	width: 250px;
+	font-weight: 300;
 }
 
 .api-search-results-buttons-container {
@@ -254,4 +255,14 @@ label {
 
 .update-button:hover {
 	cursor: pointer;
+}
+
+/* api search results container - no results message */
+
+.api-no-results-message-container {
+	padding: 5%;
+}
+
+.api-no-results-message {
+	font-size: 2em;
 }

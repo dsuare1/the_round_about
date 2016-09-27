@@ -16,7 +16,7 @@
 		</form>
 	</div>
 	<h3 class="api-form-section-label">Filter:</h3>
-	<form action="api-admin/albums/search" method="GET" id="browse-options">
+	<form action="/api-admin/albums/search" method="GET" id="browse-options">
 		<div class="api-search-form-control">
 			<label for="artist" class="api-filter-label">Artist</label><br>
 			<input type="text" name="artist" class="api-filter" /><br>
@@ -36,15 +36,19 @@
 
 		<div class="api-search-form-control" id="api-filter-submit-button-container">
 			<button type="submit" id="api-search-submit" class="api-search-form-button">Search</button>
-			<button type="reset" id="api-clear-filters" class="api-search-form-button">Clear Filters</button>
 		</div>
-
 	</form>
 </aside>
 {{!-- end search sidebar section --}}
 
 {{!-- begin search results section --}}
 <section id="api-search-results">
+	{{#if noResMessage}}
+	<div class="api-no-results-message-container">
+		<p class="api-no-results-message">{{noResMessage}}</p>
+	</div>
+	{{/if}}
+
 	{{#each albums}}
 		<div class="api-search-result-item">
 			<img src="{{this.imgURL}}" width="125px" height="125px" class="api-search-results-album-cover" alt="Album Cover">
@@ -61,7 +65,7 @@
 				<p class="api-search-results-album-genre api-search-results-label">{{this.genre}}</p><br>
 				<p class="api-search-results-album-price api-search-results-label">{{this.price}}</p><br>
 				<p class="api-search-results-album-format api-search-results-label">{{this.format}}</p><br>
-				<p class="api-search-results-album-quantity api-search-results-label">{{this.quantity}}</p><br>
+				<p class="api-search-results-album-quantity api-search-results-label">Quantity: {{this.quantity}}</p><br>
 				<p class="api-search-results-album-isStaffPick api-search-results-label">Staff Pick?  {{this.isStaffPick}}</p>
 			</div>
 			<div class="api-search-results-buttons-container">
@@ -76,11 +80,5 @@
 			</div>
 		</div>
 	{{/each}}
-
-	{{#unless albums}}
-	<div class="no-results-message-container">
-		<p class="no-results-message">{{this.message}}</p>
-	</div>
-	{{/unless}}
 </section>
 {{!-- end search results section --}}

@@ -108,10 +108,10 @@ module.exports = (router) => {
             })
     });
 
-    router.get('/api-admin/albums/search/', (req, res) => {
+    router.get('/api-admin/albums/search', (req, res) => {
         console.log('search for specific item');
         console.log(req.query);
-        var query = {};
+        let query = {};
         if (req.query.artist !== '') {
             query['artist'] = req.query.artist;
         };
@@ -134,6 +134,20 @@ module.exports = (router) => {
             query['isStaffPick'] = req.query.isStaffPick;
         };
         console.log(query);
+        Album.find(query)
+            .sort({ artist: 1 })
+            .exec((err, albums) => {
+                if (err) {
+                    console.log(err);
+                } else if (albums[0] === undefined) {
+                    console.log('foo');
+                    res.render('api-admin', { noResMessage: 'Looks like there isn\'t anything in the database matching your query; try again.'});
+                } else {
+                    var albums = { albums: albums };
+                    console.log(albums);
+                    res.render('api-admin', albums);
+                }
+            })
     });
 
     router.post('/api-admin/albums/create', (req, res) => {
