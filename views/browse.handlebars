@@ -18,15 +18,16 @@
 
 {{!-- begin search sidebar section --}}
 <aside id="search-sidebar">
-	<h3>Browse by:</h3>
 	<div class="search-form-control">
 		<form action="/browse/all" method="GET">
-			<button type="submit" id="search-all-submit" class="search-form-button">Browse All Items</button>
+			<button type="submit" id="search-all-submit" class="search-form-button">Browse All Items<br><span id="incl-out-stock-msg">(includes items not in stock)</span></button>
+		</form>
+		<form action="/browse/in-stock" method="GET">
+			<button type="submit" id="search-in-stock-submit" class="search-form-button">Browse In-Stock Items</button>
 		</form>
 	</div>
-	
+	<h3>Filter search by:</h3>
 	<form action="/browse/search" method="GET" id="browse-options">
-
 		<div class="search-form-control" id="format-container">
 			<p id="format-label">Format:</p>
 			<input type="radio" name="format" value="7" class="filter format-filter" />&nbsp;&nbsp;7''<br><br>
@@ -72,13 +73,30 @@
 
 {{!-- begin search results section --}}
 <section id="search-results">
-	{{#each aAlbums}}
+
+{{#if inStockAlbums}}
+	{{#each inStockAlbums}}
 		<div class="search-result-item">
 			<img src="{{this.imgURL}}" width="125px" height="125px" class="search-results-album-cover" alt="Album Cover">
 			<form action="/browse/{{this.id}}" method="GET" id="specific-album-form">
 				<input type="submit" class="search-results-album-title single-album-input" value="{{this.title}}"/><br>
 				<input type="submit" class="search-results-artist single-album-input" value="{{this.artist}}"/><br>
 				<input type="submit" class="search-results-year single-album-input" value="{{this.year}}"/><br>
+				<input type="submit" class="search-results-quantity single-album-input" value="Quantity: {{this.quantity}}"><br>
+				<input type="submit" class="search-results-price single-album-input" value="${{this.price}}" style="color: #f1c40f;"/>
+			</form>
+		</div>
+	{{/each}}
+{{/if}}
+
+	{{#each albums}}
+		<div class="search-result-item">
+			<img src="{{this.imgURL}}" width="125px" height="125px" class="search-results-album-cover" alt="Album Cover">
+			<form action="/browse/{{this.id}}" method="GET" id="specific-album-form">
+				<input type="submit" class="search-results-album-title single-album-input" value="{{this.title}}"/><br>
+				<input type="submit" class="search-results-artist single-album-input" value="{{this.artist}}"/><br>
+				<input type="submit" class="search-results-year single-album-input" value="{{this.year}}"/><br>
+				<input type="submit" class="search-results-quantity single-album-input" value="Quantity: {{this.quantity}}"><br>
 				<input type="submit" class="search-results-price single-album-input" value="${{this.price}}" style="color: #f1c40f;"/>
 			</form>
 		</div>

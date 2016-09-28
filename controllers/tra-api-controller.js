@@ -194,6 +194,9 @@ module.exports = (router) => {
         if (req.body.format !== undefined) {
             query['format'] = req.body.format;
         };
+        if (req.body.imgURL !== undefined) {
+            query['imgURL'] = req.body.imgURL;
+        }
         if (req.body.quantity !== undefined) {
             query['quantity'] = req.body.quantity;
         };
@@ -215,6 +218,15 @@ module.exports = (router) => {
     router.delete('/api-admin/albums/delete/:id', (req, res) => {
         console.log('delete a specific item');
         console.log('deleting item: ' + req.params.id);
+        Album.findOneAndRemove({ _id: req.params.id }, (err, doc) => {
+            if (err) {
+                console.log(err);
+            } else {
+                console.log(doc);
+                let deletedAlbum = { deletedAlbum: doc }
+                res.render('api-admin', deletedAlbum);
+            }
+        })
     });
 
     // /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-

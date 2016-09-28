@@ -435,22 +435,20 @@ textarea:focus {
 	max-width: 25%;
 	min-width: 25%;
 	display: inline-block;
-	height: 1000px;
-	max-height: 1000px;
-	min-height: 1000px;
+	height: 1125px;
+	max-height: 1125px;
+	min-height: 1125px;
 	border-bottom: 1px solid #fff;
 }
 
 #search-sidebar > h3 {
 	border-bottom: 2px solid #0e2338;;
 	padding-bottom: 2%;
-	font-weight: 300;
+	font-weight: 100;
 	font-size: 1.65em;
 	color: #fff;
-}
-
-#browse-options {
-	margin-top: 10%;
+	margin-top: 50px;
+	margin-bottom: 20px;
 }
 
 .search-form-control {
@@ -467,6 +465,7 @@ textarea:focus {
 	padding: 5% 0;
 	margin-bottom: 10%;
 	border-bottom: 1px solid #fff;
+	margin-left: 20px;
 }
 
 #format-container {
@@ -479,6 +478,7 @@ textarea:focus {
 	margin-bottom: 10%;
 	border-bottom: 2px solid #fff;
 	color: #fff;
+	margin-left: 20px;
 }
 
 #price-label {
@@ -533,6 +533,15 @@ textarea:focus {
 
 #search-all-submit {
 	margin-left: 8%;
+	height: 65px;
+}
+
+#incl-out-stock-msg {
+	font-size: .5em;
+}
+
+#search-in-stock-submit {
+	margin-left: 8%;
 }
 
 /* search results section */
@@ -542,9 +551,9 @@ textarea:focus {
     flex-direction: row;
     flex-wrap: wrap;
 	background-color: #0e2338;
-	height: 1000px;
-	min-height: 1000px;
-	max-height: 1000px;
+	height: 1125px;
+	min-height: 1125px;
+	max-height: 1125px;
 	width: 75%;
 	float: right;
 	border-left: 1px solid #fff;
@@ -556,7 +565,7 @@ textarea:focus {
 .search-result-item {
 	display: inline-block;
 	margin: 3%;
-	height: 265px;
+	height: 275px;
 	min-height: 265px;
 	width: 165px;
 	max-width: 175px;

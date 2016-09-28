@@ -237,7 +237,6 @@ label {
 
 .api-search-results-input-label {
 	display: inline-block;
-	margin-right: 20px;
 }
 
 .api-search-results-details-labels {
@@ -300,4 +299,28 @@ label {
 	font-size: 2em;
 	line-height: 1.5em;
 	color: red;
+}
+
+/* api search results container - deleted album message */
+
+.api-deleted-album-message-container {
+	padding: 5%;
+	width: 85%;
+}
+
+.api-deleted-album-message {
+	font-size: 1.5em;
+    color: #2ecc71;
+    padding: 10px;
+    border-left: 1px solid #2ecc71;
+    border-bottom: 1px solid #2ecc71;
+    font-weight: 300;
+    width: 85%;
+}
+
+.api-deleted-album-details {
+	font-size: 1em;
+    color: #0e2338;
+    margin: 5%;
+    font-weight: 300;
 }

@@ -120,18 +120,6 @@
 
 {
 	"artist": "Al Green",
-	"title": "Greatest Hits",
-	"year": "1975",
-	"genre": "Soul",
-	"price": 17.98,
-	"format": "12",
-	"imgURL": "http://www.disqueria12pulgadas.cl/6-medium_default/al-green-greatest-hits.jpg",
-	"quantity": 0,
-	"isStaffPick": false
-}
-
-{
-	"artist": "Al Green",
 	"title": "Let's Stay Together",
 	"year": "1972",
 	"genre": "Soul",
@@ -5266,3 +5254,14 @@
 	"isStaffPick": false	
 }
 
+{
+	"artist": "Paper Plains",
+	"title": "The Summer House EP",
+	"year": "2007",
+	"genre": "Emo",
+	"price": 14.98,
+	"format": "12",
+	"imgURL": "https://cdn3.graphicleftovers.com/49607/2575626/2575626_125.jpg",
+	"quantity": 3,
+	"isStaffPick": false
+}

@@ -73,6 +73,15 @@
 	</div>
 	{{/if}}
 
+	{{#if deletedAlbum}}
+	<div class="api-deleted-album-message-container">
+		<p class="api-deleted-album-message">The following album was deleted from the database:</p>
+		<p class="api-deleted-album-details">Album ID: {{deletedAlbum._id}}</p>
+		<p class="api-deleted-album-details">Album Artist: {{deletedAlbum.artist}}</p>
+		<p class="api-deleted-album-details">Album Title: {{deletedAlbum.title}}</p>
+	</div>
+	{{/if}}	
+
 	{{#each albums}}
 		<div class="api-search-result-item">
 			<img src="{{this.imgURL}}" width="125px" height="125px" class="api-search-results-album-cover" alt="Album Cover">
@@ -89,6 +98,7 @@
 				<p class="api-search-results-input-label">Genre:</p><br/>
 				<p class="api-search-results-input-label">Price: $</p><br/>
 				<p class="api-search-results-input-label">Format:</p><br/>
+				<p class="api-search-results-input-label">Image URL:</p><br/>
 				<p class="api-search-results-input-label">Quantity:</p><br/>
 				<p class="api-search-results-input-label">Staff Pick</p>
 			</div>
@@ -100,6 +110,7 @@
 					<input class="api-search-results-album-genre api-search-results-label" value="{{this.genre}}" name="genre"/><br>
 					<input class="api-search-results-album-price api-search-results-label" value="{{this.price}}" name="price"/><br>
 					<input class="api-search-results-album-format api-search-results-label" value="{{this.format}}" name="format"/><br>
+					<input class="api-search-results-album-imgURL api-search-results-label" value="{{this.imgURL}}" name="imgURL"/><br><br>
 					<input class="api-search-results-album-quantity api-search-results-label" value="{{this.quantity}}" name="quantity"/><br>
 					<input class="api-search-results-album-isStaffPick api-search-results-label" value="{{this.isStaffPick}}" name="isStaffPick"/>
 				{{!-- </form> --}}
