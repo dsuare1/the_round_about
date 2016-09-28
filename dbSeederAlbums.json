@@ -1670,7 +1670,7 @@
 	"artist": "M83",
 	"title": "Hurry Up, We're Dreaming",
 	"year": "2011",
-	"genre": "Rock",
+	"genre": "Electronic",
 	"price": 25.98,
 	"format": "12",
 	"imgURL": "http://goto.thesyn.com/specialty/graphics11/M83_hurryup.jpg",
@@ -3160,7 +3160,7 @@
 	"year": "1999",
 	"genre": "Emo",
 	"price": 15.98,
-	"format": "",
+	"format": "12",
 	"imgURL": "https://www.levykauppax.fi/cover/width_100/3/39/397372.jpg?lp",
 	"quantity": 0,
 	"isStaffPick": false
@@ -3561,3 +3561,1708 @@
 	"quantity": 1,
 	"isStaffPick": false	
 }
+
+{
+	"artist": "Eminem",
+	"title": "The Marshal Mathers LP",
+	"year": "2000",
+	"genre": "Rap",
+	"price": 29.98,
+	"format": "12",
+	"imgURL": "http://mla-d2-p.mlstatic.com/eminem-the-marshall-mathers-lp-cd-nuevo-dido-dr-dre-779511-MLA20594759485_022016-F.jpg?square=false",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Frank Sinatra",
+	"title": "In the Wee Small Hours",
+	"year": "1955",
+	"genre": "Jazz",
+	"price": 18.98,
+	"format": "12",
+	"imgURL": "http://audio-club.ru/data/small/0724349475526.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Gram Parsons",
+	"title": "Early Years",
+	"year": "1979",
+	"genre": "Country",
+	"price": 28.98,
+	"format": "12",
+	"imgURL": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQdmn94jE6WYPYBx-pLVayRB-i0d_Z_cfLPq4XgF5pKUSe0h-tE",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Grateful Dead",
+	"title": "American Beauty",
+	"year": "1970",
+	"genre": "Rock",
+	"price": 24.98,
+	"format": "12",
+	"imgURL": "http://www.deaddisc.com/images/American_Beauty.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Grateful Dead",
+	"title": "Workingman's Dead",
+	"year": "1970",
+	"genre": "Rock",
+	"price": 24.98,
+	"format": "12",
+	"imgURL": "http://www.gutsofdarkness.com/images/pochettes_125/5751_16204.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Green Day",
+	"title": "Dookie",
+	"year": "1994",
+	"genre": "Punk",
+	"price": 21.98,
+	"format": "12",
+	"imgURL": "http://greendaychords.com/album_covers/dookie.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Heatmiser",
+	"title": "Cop And Speeder",
+	"year": "1994",
+	"genre": "Indie",
+	"price": 15.98,
+	"format": "12",
+	"imgURL": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Cop_and_Speeder.jpg/220px-Cop_and_Speeder.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Herbie Hancock",
+	"title": "Takin' Off",
+	"year": "1962",
+	"genre": "Jazz",
+	"price": 18.98,
+	"format": "12",
+	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drc600/c602/c602867ya3t.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Jack White",
+	"title": "Acoustic Recordings 1998 - 2016",
+	"year": "2016",
+	"genre": "Rock",
+	"price": 29.98,
+	"format": "12",
+	"imgURL": "http://thirdmanstore.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/m/tmr387_jackwhite_acoustic_back_550_2.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Jefferson Airplane",
+	"title": "Surrealistic Pillow",
+	"year": "1967",
+	"genre": "Rock",
+	"price": 24.98,
+	"format": "12",
+	"imgURL": "http://www.toppermost.co.uk/wp-content/uploads/2013/07/Jefferson-Airplane-Surrealistic-Pillow--125x125.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Kanye West",
+	"title": "My Beautiful Dark Twisted Fantasy",
+	"year": "2010",
+	"genre": "Rap",
+	"price": 29.98,
+	"format": "12",
+	"imgURL": "http://images.artistdirect.com/Images/artd/amg/music/cover/7701633_beautiful_dark_125.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Kurt Cobain",
+	"title": "And I Love Her / Sappy",
+	"year": "2015",
+	"genre": "Rock",
+	"price": 10.98,
+	"format": "7",
+	"imgURL": "http://audio-club.ru/data/small/0602547592347.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Led Zeppelin",
+	"title": "III",
+	"year": "1970",
+	"genre": "Rock",
+	"price": 24.98,
+	"format": "12",
+	"imgURL": "http://musicsojourn.com/AR/Prog/img/l/LedZeppelin/Lzep3_125.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Led Zeppelin",
+	"title": "IV",
+	"year": "1971",
+	"genre": "Rock",
+	"price": 24.98,
+	"format": "12",
+	"imgURL": "http://appve.net/wp-content/uploads/2016/06/thmvwff3st24pcg8czjs0y06e2k8pj8ofqizy4xk-125x125.jpeg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Leon Bridges",
+	"title": "Coming Home",
+	"year": "2015",
+	"genre": "Soul",
+	"price": 19.98,
+	"format": "12",
+	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drx100/x108/x10802xg15d.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Levon Helm",
+	"title": "Ramble at the Ryman",
+	"year": "2011",
+	"genre": "Rock",
+	"price": 25.98,
+	"format": "12",
+	"imgURL": "http://www.toppermost.co.uk/wp-content/uploads/2013/07/Levon-Helm-Ramble-At-The-Ryman-125x125.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Luther Dickinson",
+	"title": "Blues & Ballads",
+	"year": "2016",
+	"genre": "Blues",
+	"price": 27.98,
+	"format": "12",
+	"imgURL": "http://www.writteninmusic.com/wp-content/uploads/wp-post-thumbnail/cp6no.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Mac Demarco",
+	"title": "2",
+	"year": "2012",
+	"genre": "Rock",
+	"price": 22.98,
+	"format": "12",
+	"imgURL": "http://www.atomheart.ca/img/MD54289.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Madonna",
+	"title": "Like a Virgin",
+	"year": "1984",
+	"genre": "Pop",
+	"price": 21.98,
+	"format": "12",
+	"imgURL": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/LikeAVirgin1984.png/220px-LikeAVirgin1984.png",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Metallica",
+	"title": "Ride the Lightning",
+	"year": "1984",
+	"genre": "Metal",
+	"price": 19.98,
+	"format": "12",
+	"imgURL": "http://www.vintagevinyljournals.com/wp-content/uploads/2011/12/metallica-ridethelightning-cover-125x125.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "The Meters",
+	"title": "People Say",
+	"year": "1974",
+	"genre": "Funk",
+	"price": 17.98,
+	"format": "12",
+	"imgURL": "http://audio-club.ru/data/small/8718469533596.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Miles Davis",
+	"title": "Birth of the Cool",
+	"year": "1957",
+	"genre": "Jazz",
+	"price": 25.98,
+	"format": "12",
+	"imgURL": "http://arttattler.com/Images/NorthAmerica/Missouri/St.%20Louis/Mildred%20Lane%20Kemper/Birth%20of%20the%20Cool/Miles-Davis---Birth-Of-The-Cool---Front-(2-2).jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Miles Davis",
+	"title": "Kind of Blue",
+	"year": "1959",
+	"genre": "Jazz",
+	"price": 23.98,
+	"format": "12",
+	"imgURL": "http://www.handsandarms.com/6400-medium_default/miles-davis-lp-kind-of-blue.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "The Misfits",
+	"title": "Misfits (Collection I)",
+	"year": "1986",
+	"genre": "Punk",
+	"price": 19.98,
+	"format": "12",
+	"imgURL": "http://www.sputnikmusic.com/images/albums/8204.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Modest Mouse",
+	"title": "Building Nothing Out Of Something",
+	"year": "1999",
+	"genre": "Indie",
+	"price": 20.98,
+	"format": "12",
+	"imgURL": "https://d1wtzzt4oxg683.cloudfront.net/images/covers/171/152921.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Mogwai",
+	"title": "Atomic",
+	"year": "2016",
+	"genre": "Rock",
+	"price": 24.98,
+	"format": "12",
+	"imgURL": "http://appve.net/wp-content/uploads/2016/04/pdlllctxidzwk86rqjy13h7zcdc1x88pj1eyoffr-125x125.jpeg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Mumford And Sons",
+	"title": "Wilder Mind",
+	"year": "2015",
+	"genre": "Folk",
+	"price": 29.98,
+	"format": "12",
+	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drw900/w909/w90975ysj3j.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "My Morning Jacket",
+	"title": "It Still Moves",
+	"year": "2003",
+	"genre": "Rock",
+	"price": 21.98,
+	"format": "12",
+	"imgURL": "http://images.popmatters.com/music_cover_art/m/mymorningjacket-itstillmoves.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "My Morning Jacket",
+	"title": "Z",
+	"year": "2005",
+	"genre": "Rock",
+	"price": 1,
+	"format": "12",
+	"imgURL": "http://www.sputnikmusic.com/images/albums/6604.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Of Montreal",
+	"title": "Satanic Panic in the Attic",
+	"year": "2004",
+	"genre": "Indie",
+	"price": 12.98,
+	"format": "12",
+	"imgURL": "http://images.popmatters.com/music_cover_art/o/ofmontreal-satanic.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Of Montreal",
+	"title": "Skeletal Lamping",
+	"year": "2008",
+	"genre": "Indie",
+	"price": 24.98,
+	"format": "12",
+	"imgURL": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/SkeletalLampingCover2.jpg/220px-SkeletalLampingCover2.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Opeth",
+	"title": "Pale Communion",
+	"year": "2014",
+	"genre": "Rock",
+	"price": 28.98,
+	"format": "12",
+	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drw300/w312/w31206opf0r.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "The Pixies",
+	"title": "Surfer Rosa",
+	"year": "1988",
+	"genre": "Rock",
+	"price": 21.98,
+	"format": "12",
+	"imgURL": "http://images.popmatters.com/music_cover_art/p/pixies-surfer.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Queen",
+	"title": "News Of The World",
+	"year": "1977",
+	"genre": "Rock",
+	"price": 19.98,
+	"format": "12",
+	"imgURL": "http://www.nextimerecords.cl/757-medium_default/queen-news-of-the-world.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "REM",
+	"title": "Green",
+	"year": "1988",
+	"genre": "Rock",
+	"price": 24.98,
+	"format": "12",
+	"imgURL": "http://covers3.booksamillion.com/covers/music/0/81/227/966/081227966454_w_2490177.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Steve Earle",
+	"title": "Copperhead Road",
+	"year": "1988",
+	"genre": "Country",
+	"price": 19.98,
+	"format": "12",
+	"imgURL": "http://www.topcountrymusicvideos.com/wp-content/uploads/2011/02/steve-earle-copperhead-road-125x125.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Steve Earle",
+	"title": "Guitar Town",
+	"year": "1986",
+	"genre": "Country",
+	"price": 19.98,
+	"format": "12",
+	"imgURL": "http://images.popmatters.com/music_cover_art/e/earlesteve-guitar.jpg",
+	"quantity": 2,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Stone Temple Pilots",
+	"title": "Purple",
+	"year": "1994",
+	"genre": "Rock",
+	"price": 22.98,
+	"format": "12",
+	"imgURL": "http://www.music-for-you.ru/data/small/8718469533121.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Sufjan Stevens",
+	"title": "Michigan",
+	"year": "2003",
+	"genre": "Indie",
+	"price": 17.98,
+	"format": "12",
+	"imgURL": "http://www.toppermost.co.uk/wp-content/uploads/2015/03/sufjan-stevens-michigan-125x125.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Sunny Day Real Estate",
+	"title": "Diary",
+	"year": "1994",
+	"genre": "Emo",
+	"price": 17.98,
+	"format": "12",
+	"imgURL": "https://images-na.ssl-images-amazon.com/images/I/51HcRpIl6rL._SY355_.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Tame Impala",
+	"title": "Lonerism",
+	"year": "2012",
+	"genre": "Rock",
+	"price": 24.98,
+	"format": "12",
+	"imgURL": "http://www.peakhifi.co.uk/db_images/TameImpalaLonerism.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Tom Waits",
+	"title": "Swordfishtrombones",
+	"year": "1983",
+	"genre": "Rock",
+	"price": 24.98,
+	"format": "12",
+	"imgURL": "http://www.gutsofdarkness.com/images/pochettes_125/752_3088.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Various Artists",
+	"title": "Deathproof",
+	"year": "2007",
+	"genre": "Soundtrack",
+	"price": 19.98,
+	"format": "12",
+	"imgURL": "http://www.filmmusic.pl/images/covers/dproof.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "The White Stripes",
+	"title": "De Stijl",
+	"year": "2000",
+	"genre": "Rock",
+	"price": 19.98,
+	"format": "12",
+	"imgURL": "http://images.popmatters.com/music_cover_art/w/whitestripes-de.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Wu-Tang Clan",
+	"title": "Enter the Wu-Tang (36 Chambers)",
+	"year": "1993",
+	"genre": "Rap",
+	"price": 24.98,
+	"format": "12",
+	"imgURL": "http://images.popmatters.com/music_cover_art/w/wutangclan-enter.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Jimi Hendrix",
+	"title": "Are You Experienced",
+	"year": "1967",
+	"genre": "Rock",
+	"price": 19.98,
+	"format": "12",
+	"imgURL": "http://images.artistdirect.com/Images/artd/amg/music/cover/2749072_are_you_expreienced_125.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Ozzy Osbourne",
+	"title": "Blizzard of Ozz",
+	"year": "1980",
+	"genre": "Metal",
+	"price": 27.98,
+	"format": "12",
+	"imgURL": "http://vinyl38.ru/1479-medium_default/ozzy-osbourne-blizzard-of-ozz-lp.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Borns",
+	"title": "Dopamine",
+	"year": "2015",
+	"genre": "Pop",
+	"price": 29.98,
+	"format": "12",
+	"imgURL": "https://upload.wikimedia.org/wikipedia/en/7/72/Dopamine_Studio_Album_Cover.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Luciano Pavarotti",
+	"title": "Pavarotti Anniversary",
+	"year": "1987",
+	"genre": "Other",
+	"price": 16.98,
+	"format": "12",
+	"imgURL": "http://www.erecord.it/19998-medium_default/luciano-pavarotti-lp-33giri-anniversary-nuovo-gatefold.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Atoms For Peace",
+	"title": "Amok",
+	"year": "2013",
+	"genre": "Rock",
+	"price": 26.98,
+	"format": "12",
+	"imgURL": "http://musictown.cz/5887-medium_default/atoms-for-peace-amok-cd.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Thirty Seconds To Mars",
+	"title": "A Beautiful Lie",
+	"year": "2005",
+	"genre": "Rock",
+	"price": 19.98,
+	"format": "12",
+	"imgURL": "http://fanmusicfest.com/sites/default/files/styles/red_125x125/public/pictures/lastfm//34788339.png?itok=p9uhqX1a",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "311",
+	"title": "311",
+	"year": "1995",
+	"genre": "Reggae",
+	"price": 40.98,
+	"format": "12",
+	"imgURL": "https://upload.wikimedia.org/wikipedia/en/5/56/311_album_cover.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Action Bronson",
+	"title": "Mr. Wonderful",
+	"year": "2015",
+	"genre": "Rap",
+	"price": 19.98,
+	"format": "12",
+	"imgURL": "http://musictown.cz/5350-medium_default/action-bronson-mr-wonderful-cd.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Al Green",
+	"title": "Greatest Hits",
+	"year": "1975",
+	"genre": "Soul",
+	"price": 17.98,
+	"format": "12",
+	"imgURL": "http://www.disqueria12pulgadas.cl/6-medium_default/al-green-greatest-hits.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Andrew Bird",
+	"title": "Noble Beast",
+	"year": "2009",
+	"genre": "Indie",
+	"price": 24.98,
+	"format": "12",
+	"imgURL": "http://audio-club.ru/data/small/0767981112428.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Arctic Monkeys",
+	"title": "Whatever People Say I Am, That's What I'm Not",
+	"year": "2006",
+	"genre": "Indie",
+	"price": 18.98,
+	"format": "12",
+	"imgURL": "http://www.arcticmonkeys-store.co.uk/images/artists/arctic-monkeys/125_125/arceys_rel_22.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Motorhead",
+	"title": "Iron Fist",
+	"year": "1982",
+	"genre": "Metal",
+	"price": 17.98,
+	"format": "12",
+	"imgURL": "http://www.troppobuio.it/5217-medium_default/Motorhead-Iron-Fist-Lp.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Art Blakey and the Jazz Messengers",
+	"title": "Moanin'",
+	"year": "1958",
+	"genre": "Jazz",
+	"price": 20.98,
+	"format": "12",
+	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drr400/r497/r49727u7c48.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "The Avett Brothers",
+	"title": "Emotionalism",
+	"year": "2007",
+	"genre": "Folk",
+	"price": 26.98,
+	"format": "12",
+	"imgURL": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Emotionalismcover.jpg/220px-Emotionalismcover.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "BB King",
+	"title": "Live at the Regal",
+	"year": "1965",
+	"genre": "Blues",
+	"price": 19.98,
+	"format": "12",
+	"imgURL": "http://www.disqueria12pulgadas.cl/1067-medium_default/bb-king-live-at-the-regal.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "BB King",
+	"title": "The Blues",
+	"year": "1958",
+	"genre": "Blues",
+	"price": 22.98,
+	"format": "12",
+	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drs400/s496/s49624uihfk.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Bill Conti",
+	"title": "Rocky",
+	"year": "1976",
+	"genre": "Soundtrack",
+	"price": 24.98,
+	"format": "12",
+	"imgURL": "https://upload.wikimedia.org/wikipedia/en/e/ee/RockyOST.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Bill Evans",
+	"title": "Sunday at the Village Vanguard",
+	"year": "1961",
+	"genre": "Jazz",
+	"price": 21.98,
+	"format": "12",
+	"imgURL": "http://www.toppermost.co.uk/wp-content/uploads/2016/03/bill-evans-sunday-at-the-village-vanguard-125x125.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Billy Joel",
+	"title": "Piano Man",
+	"year": "1973",
+	"genre": "Rock",
+	"price": 29.98,
+	"format": "12",
+	"imgURL": "http://www.peakhifi.co.uk/db_images/BillyJoelPianoMan.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Bill Joel",
+	"title": "Streetlife Serenade",
+	"year": "1974",
+	"genre": "Rock",
+	"price": 29.98,
+	"format": "12",
+	"imgURL": "http://www.billyjoelfan.com/Albums/StreetlifeSerenade/StreetlifeSerenade3.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Bjork",
+	"title": "Vespertine",
+	"year": "2001",
+	"genre": "Pop",
+	"price": 22.98,
+	"format": "12",
+	"imgURL": "http://images.popmatters.com/music_cover_art/b/bjork-vespertine.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Black Sabbath",
+	"title": "Master Of Reality",
+	"year": "1971",
+	"genre": "Metal",
+	"price": 21.98,
+	"format": "12",
+	"imgURL": "http://klanshop.cz/188-medium_default/nasivka-s-kapelou-black-sabbath-master-of-reality.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Bob Dylan",
+	"title": "Blonde on Blonde",
+	"year": "1966",
+	"genre": "Folk",
+	"price": 32.98,
+	"format": "12",
+	"imgURL": "http://www.toppermost.co.uk/wp-content/uploads/2013/07/Bob-Dylan-Blonde-On-Blonde-125x125.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Bob Marley",
+	"title": "Catch A Fire",
+	"year": "1973",
+	"genre": "Reggae",
+	"price": 24.98,
+	"format": "12",
+	"imgURL": "http://images.popmatters.com/music_cover_art/m/marleybob-catch.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Booker T. And The M.G.'s",
+	"title": "McLemore Avenue",
+	"year": "1970",
+	"genre": "Soul",
+	"price": 19.98,
+	"format": "12",
+	"imgURL": "http://ink19.com/wp-content/uploads/2011/08/ftr-booker-t-and-the-mgs.jpeg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Booker T. And The M.G.'s",
+	"title": "Green Onions",
+	"year": "1962",
+	"genre": "Soul",
+	"price": 23.98,
+	"format": "12",
+	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drf500/f562/f56215vhg2o.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Booker T. And The M.G.'s",
+	"title": "Hip Hug-Her",
+	"year": "1967",
+	"genre": "Soul",
+	"price": 23.98,
+	"format": "12",
+	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/dru700/u796/u79613rh3rc.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Bruce Springsteen",
+	"title": "Born in the USA",
+	"year": "1984",
+	"genre": "Rock",
+	"price": 26.98,
+	"format": "12",
+	"imgURL": "http://musicsojourn.com/AR/Prog/img/s/SpringsteenBruce/BornInTheUSA_125.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "The Budos Band",
+	"title": "The Budos Band",
+	"year": "2005",
+	"genre": "Funk",
+	"price": 15.98,
+	"format": "12",
+	"imgURL": "https://www.platekompaniet.no/globalassets/imported-images/lp/1551031683.jpg?preset=ProductList",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Built To Spill",
+	"title": "Keep It Like A Secret",
+	"year": "1999",
+	"genre": "Indie",
+	"price": 18.98,
+	"format": "12",
+	"imgURL": "http://audio-club.ru/data/small/0093624695226.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Children of Bodom",
+	"title": "Halo of Blood",
+	"year": "2013",
+	"genre": "Metal",
+	"price": 15.98,
+	"format": "12",
+	"imgURL": "http://www.icarusmusicstore.com/2761-medium_default/children-of-bodom-halo-of-blood-cd-dvd-.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Cocteau Twins",
+	"title": "Heaven or Las Vegas",
+	"year": "1990",
+	"genre": "Pop",
+	"price": 21.98,
+	"format": "12",
+	"imgURL": "http://www.writteninmusic.com/wp-content/uploads/wp-post-thumbnail/qizXoC.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Courtney Barnett",
+	"title": "Sometimes I Sit and Think, and Sometimes I Just Sit",
+	"year": "2015",
+	"genre": "Indie",
+	"price": 19.98,
+	"format": "12",
+	"imgURL": "http://www.radioinfo.com/wp-content/uploads/2016/01/%E2%80%9CElevator-Operator%E2%80%9D-by-Courtney-Barnett-Sometimes-I-Sit-and-Think-And-Sometimes-I-Just-Sit-1.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Culture Club",
+	"title": "Colour By Numbers",
+	"year": "1983",
+	"genre": "Pop",
+	"price": 26.98,
+	"format": "12",
+	"imgURL": "http://musictown.cz/1573-medium_default/culture-club-colour-by-numbers-cd.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "The Cure",
+	"title": "Kiss Me, Kiss Me, Kiss Me",
+	"year": "1987",
+	"genre": "Rock",
+	"price": 32.98,
+	"format": "12",
+	"imgURL": "http://musics-box.us/20-medium_default/the-cure-kiss-me-kiss-me-kiss-me.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Cypress Hill",
+	"title": "Black Sunday",
+	"year": "1993",
+	"genre": "Rap",
+	"price": 32.98,
+	"format": "12",
+	"imgURL": "http://musictown.cz/6260-medium_default/cypress-hill-black-sunday-2lp.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Death Cab For Cutie",
+	"title": "Plans",
+	"year": "2005",
+	"genre": "Indie",
+	"price": 23.98,
+	"format": "12",
+	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drg900/g982/g98254mxvup.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Death Cab For Cutie",
+	"title": "Something About Airplanes",
+	"year": "1998",
+	"genre": "Indie",
+	"price": 19.98,
+	"format": "12",
+	"imgURL": "http://worldkeyrings.com/2/5976-medium_default/mod5954-death-cab-for-cutie-something-about-airplanes-iman-nevera-fridge-magnet.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "The Descendents",
+	"title": "Somery",
+	"year": "1991",
+	"genre": "Punk",
+	"price": 29.98,
+	"format": "12",
+	"imgURL": "http://images.coveralia.com/audio/d/Descendents-Somery-Frontal.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Donny Hathaway",
+	"title": "Live",
+	"year": "1972",
+	"genre": "Soul",
+	"price": 32.98,
+	"format": "12",
+	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/dre500/e569/e56930te8nn.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Elvis Presley",
+	"title": "Elvis at Stax",
+	"year": "2013",
+	"genre": "Rock",
+	"price": 32.98,
+	"format": "12",
+	"imgURL": "https://culturefactory.fr/1914-medium_default/promised-land.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Elvis",
+	"title": "ELvis",
+	"year": "1956",
+	"genre": "Rock",
+	"price": 24.98,
+	"format": "12",
+	"imgURL": "http://media.homeofrecords.com/graphics/title/Elvis.png",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "The Flaming Lips",
+	"title": "Soft Bulletin",
+	"year": "1999",
+	"genre": "Rock",
+	"price": 29.98,
+	"format": "12",
+	"imgURL": "http://www.johnmcferrinmusicreviews.org/softbulletin.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Florence And The Machine",
+	"title": "How Big, How Blue, How Beautiful",
+	"year": "2015",
+	"genre": "Indie",
+	"price": 23.69,
+	"format": "12",
+	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drx100/x165/x16577ipn5o.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Foo Fighters",
+	"title": "Foo Fighters",
+	"year": "1995",
+	"genre": "Rock",
+	"price": 21.98,
+	"format": "12",
+	"imgURL": "https://upload.wikimedia.org/wikipedia/en/0/0d/FooFighters-FooFighters.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Foo Fighters",
+	"title": "The Colour and the Shape",
+	"year": "1997",
+	"genre": "Rock",
+	"price": 32.98,
+	"format": "12",
+	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drs000/s012/s01253hv4da.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "The Fugees",
+	"title": "The Score",
+	"year": "1996",
+	"genre": "Soul",
+	"price": 32.98,
+	"format": "12",
+	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drc700/c763/c76385abf37.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Glen Campbell",
+	"title": "Rhinestone Cowboy",
+	"year": "1975",
+	"genre": "Country",
+	"price": 24.98,
+	"format": "12",
+	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drf300/f381/f38194oyoc1.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Honeyhoney",
+	"title": "3",
+	"year": "2015",
+	"genre": "Folk",
+	"price": 19.98,
+	"format": "12",
+	"imgURL": "http://www.radioinfo.com/wp-content/uploads/2015/06/%E2%80%9CBig-Man%E2%80%9D-by-HoneyHoney..jpeg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Hozier",
+	"title": "Hozier",
+	"year": "2014",
+	"genre": "Blues",
+	"price": 29.98,
+	"format": "12",
+	"imgURL": "http://ecx.images-amazon.com/images/I/61oB4nFwuuL._SL125_.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "JJ Cale",
+	"title": "Rewind",
+	"year": "2007",
+	"genre": "Blues",
+	"price": 24.98,
+	"format": "12",
+	"imgURL": "http://www.pinballwizardrecords.com/online/img/p/2/2/3/7/3/22373-medium_default.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Jimi Hendrix",
+	"title": "Band Of Gypsys",
+	"year": "1970",
+	"genre": "Rock",
+	"price": 24.98,
+	"format": "12",
+	"imgURL": "http://media.homeofhendrix.com/graphics/title/cover_bandofgypsys.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Jimi Hendrix",
+	"title": "Live at Monterey",
+	"year": "2007",
+	"genre": "Rock",
+	"price": 24.98,
+	"format": "12",
+	"imgURL": "http://earthblues.jimihendrix.com/store/125/622001076.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "John Coltrane",
+	"title": "My Favorite Things",
+	"year": "1961",
+	"genre": "Jazz",
+	"price": 24.98,
+	"format": "12",
+	"imgURL": "http://www.jerryjazzmusician.com/pics/mft1.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "John Williams",
+	"title": "The Force Awakens",
+	"year": "2015",
+	"genre": "Soundtrack",
+	"price": 48.98,
+	"format": "12",
+	"imgURL": "http://covers4.booksamillion.com/covers/music/0/50/087/323/050087323295_w_3043493.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Johnny Cash",
+	"title": "The Essential Johnny Cash",
+	"year": "2002",
+	"genre": "Country",
+	"price": 32.98,
+	"format": "12",
+	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drf100/f105/f10586574cm.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Johnny Cash",
+	"title": "The Man Comes Around",
+	"year": "2002",
+	"genre": "Country",
+	"price": 8.98,
+	"format": "12",
+	"imgURL": "http://media-cdn.list.ly/production/22740/183329/41iwf-2b4w3pl_185px.png",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Junior Kimbrough",
+	"title": "Meet Me in the City",
+	"year": "1999",
+	"genre": "Blues",
+	"price": 17.98,
+	"format": "12",
+	"imgURL": "http://juanvitoria.com/shop/img/p/1/3/4/8/1348-medium_default.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Lady Gaga",
+	"title": "The Fame Monster",
+	"year": "2009",
+	"genre": "Pop",
+	"price": 24.98,
+	"format": "12",
+	"imgURL": "http://www.panicposters.com/media/catalog/product/cache/1/small_image/125x/f63dc5ec28f3175f8a7f615bd217eb71/l/p/lp1369-lady-gaga.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Led Zeppelin",
+	"title": "II",
+	"year": "1969",
+	"genre": "Rock",
+	"price": 24.98,
+	"format": "12",
+	"imgURL": "https://s-media-cache-ak0.pinimg.com/236x/8e/d9/74/8ed974227362b4d3cf3c793d6d0b7d50.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Local Natives",
+	"title": "Sunlit Youth",
+	"year": "2016",
+	"genre": "Indie",
+	"price": 22.98,
+	"format": "12",
+	"imgURL": "https://consequenceofsound.files.wordpress.com/2016/06/local-natives-sunlit-youth-album-new1.jpg?w=380&h=380&crop=1",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Lou Reed",
+	"title": "Transformer",
+	"year": "1972",
+	"genre": "Rock",
+	"price": 24.98,
+	"format": "12",
+	"imgURL": "http://juanvitoria.com/shop/img/p/2/0/5/3/2053-medium_default.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "M83",
+	"title": "Junk",
+	"year": "2016",
+	"genre": "Electronic",
+	"price": 25.98,
+	"format": "12",
+	"imgURL": "http://www.stereoboard.com/images/stories/2013/images/A-Z%20Main%20Artist%20Images/M/125xNxm83_lj_020316.jpeg.pagespeed.ic.3GAlNRxSfJ.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "M83",
+	"title": "Saturdays = Youth",
+	"year": "2008",
+	"genre": "Electronic",
+	"price": 25.98,
+	"format": "12",
+	"imgURL": "http://audio-club.ru/data/small/3298498333114.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Mark Ronson",
+	"title": "Uptown Special",
+	"year": "2015",
+	"genre": "Funk",
+	"price": 21.98,
+	"format": "12",
+	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drw700/w710/w71027g1t8o.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Metallica",
+	"title": "...And Justice For All",
+	"year": "1988",
+	"genre": "Metal",
+	"price": 24.98,
+	"format": "12",
+	"imgURL": "http://www.handsandarms.com/7100-medium_default/2nd-hand-occas-metallica-and-justice-for-all.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Modest Mouse",
+	"title": "Interstate 8",
+	"year": "1996",
+	"genre": "Indie",
+	"price": 20.98,
+	"format": "12",
+	"imgURL": "http://audio-club.ru/data/small/0767981149226.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "The National",
+	"title": "High Violet",
+	"year": "2010",
+	"genre": "Rock",
+	"price": 26.98,
+	"format": "12",
+	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drn600/n659/n65989vxql4.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Neil Young",
+	"title": "After The Gold Rush",
+	"year": "1970",
+	"genre": "ROck",
+	"price": 22.98,
+	"format": "12",
+	"imgURL": "http://media-cdn.list.ly/production/127462/971268/item971268_185px.jpeg?ver=9452673964",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Otis Redding",
+	"title": "Otis Blue: Otis Redding Sings Soul",
+	"year": "1965",
+	"genre": "Soul",
+	"price": 24.98,
+	"format": "12",
+	"imgURL": "http://www.toppermost.co.uk/wp-content/uploads/2013/12/otis-redding-otis-blue-125x125.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Pavement",
+	"title": "Crooked Rain, Crooked Rain",
+	"year": "1994",
+	"genre": "Rock",
+	"price": 21.98,
+	"format": "12",
+	"imgURL": "http://www.toppermost.co.uk/wp-content/uploads/2013/07/Pavement-Crooked-Rain-Crooked-Rain-125x125.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Phil Collins",
+	"title": "No Jacket Required",
+	"year": "1985",
+	"genre": "Rock",
+	"price": 21.98,
+	"format": "12",
+	"imgURL": "http://www.music-for-you.ru/data/small/0075678124020.jpg",
+	"quantity": 2,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "The Pixies",
+	"title": "Doolittle",
+	"year": "1989",
+	"genre": "Rock",
+	"price": 21.98,
+	"format": "12",
+	"imgURL": "http://www.toppermost.co.uk/wp-content/uploads/2015/06/pixies-doolittle-125x125.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Queen",
+	"title": "A Night At The Opera",
+	"year": "1975",
+	"genre": "Rock",
+	"price": 29.98,
+	"format": "12",
+	"imgURL": "https://upload.wikimedia.org/wikipedia/en/4/4d/Queen_A_Night_At_The_Opera.png",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Radiohead",
+	"title": "Kid A",
+	"year": "2000",
+	"genre": "Rock",
+	"price": 26.98,
+	"format": "12",
+	"imgURL": "http://images.popmatters.com/music_cover_art/r/radiohead-kida.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Red Hot Chili Peppers",
+	"title": "By The Way",
+	"year": "2002",
+	"genre": "Rock",
+	"price": 29.98,
+	"format": "12",
+	"imgURL": "http://images.popmatters.com/music_cover_art/r/redhotchilipeppers-bytheway.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Rush",
+	"title": "2112",
+	"year": "1976",
+	"genre": "Rock",
+	"price": 29.98,
+	"format": "12",
+	"imgURL": "http://basskitchenrecords.com/7777-medium_default/rush-2112.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Ryan Adams",
+	"title": "Ten Songs from Live at Carnegie Hall",
+	"year": "2014",
+	"genre": "Indie",
+	"price": 17.98,
+	"format": "12",
+	"imgURL": "http://www.encorerecords.ca/images/covers/resized/images/covers/carn-0x125.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Sam Cooke",
+	"title": "The Wonderful World of Sam Cooke",
+	"year": "1960",
+	"genre": "Soul",
+	"price": 21.98,
+	"format": "12",
+	"imgURL": "https://upload.wikimedia.org/wikipedia/en/f/f0/The_Wonderful_World_of_Sam_Cooke.jpeg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Stevie Wonder",
+	"title": "I Was Made To Love Her",
+	"year": "1967",
+	"genre": "Soul",
+	"price": 15.98,
+	"format": "12",
+	"imgURL": "http://www.toppermost.co.uk/wp-content/uploads/2014/07/stevie-wonder-i-was-made-to-love-her-125x125.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Sufjan Stevens",
+	"title": "Seven Swans",
+	"year": "2004",
+	"genre": "Indie",
+	"price": 17.98,
+	"format": "12",
+	"imgURL": "http://www.toppermost.co.uk/wp-content/uploads/2015/03/sufjan-stevens-seven-swans-125x125.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Suicidal Tendencies",
+	"title": "Suicidal Tendencies",
+	"year": "1983",
+	"genre": "Punk",
+	"price": 16.98,
+	"format": "12",
+	"imgURL": "http://audio-club.ru/data/small/0018663101118.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Thelonious Monk",
+	"title": "Genius of Modern Music: Volume 1",
+	"year": "1951",
+	"genre": "Jazz",
+	"price": 19.98,
+	"format": "12",
+	"imgURL": "http://www.themusicresource.com/catalog/images/monk-geniusvol1.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Tom Petty and the Heartbreakers",
+	"title": "You're Gonna Get It!",
+	"year": "1978",
+	"genre": "Rock",
+	"price": 20.98,
+	"format": "12",
+	"imgURL": "http://covers3.booksamillion.com/covers/music/0/93/624/978/093624978350_w_1792924.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Tool",
+	"title": "Undertow",
+	"year": "1993",
+	"genre": "Metal",
+	"price": 32.98,
+	"format": "12",
+	"imgURL": "http://cbskroq2.files.wordpress.com/2013/04/toolundertow2.jpg?w=125&h=125",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Townes Van Zandt",
+	"title": "Delta Momma Blues",
+	"year": "1971",
+	"genre": "Country",
+	"price": 16.98,
+	"format": "12",
+	"imgURL": "http://www.toppermost.co.uk/wp-content/uploads/2013/10/townes-van-zandt-delta-momma-blues-125x125.png",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Townes Van Zandt",
+	"title": "For the Sake of the Song",
+	"year": "1968",
+	"genre": "Country",
+	"price": 17.98,
+	"format": "12",
+	"imgURL": "http://audio-club.ru/data/small/0767981108711.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Various Artists",
+	"title": "High Fidelity",
+	"year": "2000",
+	"genre": "Soundtrack",
+	"price": 29.98,
+	"format": "12",
+	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/dre000/e086/e08692r6f67.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Vince Gill",
+	"title": "Down To My Last Bad Habit",
+	"year": "2016",
+	"genre": "Country",
+	"price": 19.98,
+	"format": "12",
+	"imgURL": "http://www.savingcountrymusic.com/wp-content/uploads/2015/11/vince-gill-down-to-my-last-bad-habit-125x125.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Wilco",
+	"title": "Schmilco",
+	"year": "2016",
+	"genre": "Rock",
+	"price": 21.98,
+	"format": "12",
+	"imgURL": "http://www.electricfetus.com/Photo/418457638999:125",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Devendra Banhart",
+	"title": "Ape In Pink Marble",
+	"year": "2016",
+	"genre": "Indie",
+	"price": 25.98,
+	"format": "12",
+	"imgURL": "http://www.stefanosantoni14.it/wp-content/uploads/2016/06/devendra-banhart-ape-in-pink-marble-1000sq_1_3-300x274.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Jah Malla",
+	"title": "Jah Malla",
+	"year": "1981",
+	"genre": "Reggae",
+	"price": 9.98,
+	"format": "12",
+	"imgURL": "http://www.ebreggae.com/reggae-images/front/Vinyl/111525/Jah-Malla-Jah-Malla.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Claypool Lennon",
+	"title": "Monolith of Phobos",
+	"year": "2016",
+	"genre": "Rock",
+	"price": 26.98,
+	"format": "12",
+	"imgURL": "http://www.music-for-you.ru/data/small/0880882251222.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Blake Mills",
+	"title": "Heigh Ho",
+	"year": "2014",
+	"genre": "Indie",
+	"price": 25.98,
+	"format": "12",
+	"imgURL": "http://audio-club.ru/data/small/0602537915163.jpg",
+	"quantity": 1,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Glass Animals",
+	"title": "How To Be A Human Being",
+	"year": "2016",
+	"genre": "Electronic",
+	"price": 22.98,
+	"format": "12",
+	"imgURL": "http://www.stereoboard.com/images/stories/2013/images/A-Z%20Main%20Artist%20Images/G/125xNx125xNxglass_animals_lj_070616.png,Mic.ZZwzBNvhJt.jpg.pagespeed.ic.ZOitk-DFGf.jpg",
+	"quantity": 2,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "Kamasi Washington",
+	"title": "The Epic",
+	"year": "2015",
+	"genre": "Jazz",
+	"price": 38.98,
+	"format": "12",
+	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drx000/x073/x07351r85wj.jpg",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+
+{
+	"artist": "The New American Orchestra",
+	"title": "Blade Runner",
+	"year": "1982",
+	"genre": "Soundtrack",
+	"price": 48.98,
+	"format": "12",
+	"imgURL": "http://www.sleepbot.com/ambience/covergif/bladernr.gif",
+	"quantity": 0,
+	"isStaffPick": false	
+}
+

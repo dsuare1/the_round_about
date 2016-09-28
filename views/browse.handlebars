@@ -72,7 +72,7 @@
 
 {{!-- begin search results section --}}
 <section id="search-results">
-	{{#each albums}}
+	{{#each aAlbums}}
 		<div class="search-result-item">
 			<img src="{{this.imgURL}}" width="125px" height="125px" class="search-results-album-cover" alt="Album Cover">
 			<form action="/browse/{{this.id}}" method="GET" id="specific-album-form">

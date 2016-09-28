@@ -8,11 +8,13 @@ const AlbumSchema = new Schema({
 	artist: {
 		type: String,
 		trim: true,
+		lowercase: true,
 		required: [true, 'Album artist must be included.']
 	},
 	title: {
 		type: String,
 		trim: true,
+		lowercase: true,
 		required: [true, 'Album title must be included.']
 	},
 	year: {
@@ -23,6 +25,7 @@ const AlbumSchema = new Schema({
 	genre: {
 		type: String,
 		trim: true,
+		lowercase: true,
 		required: [true, 'Album genre must be included.']
 	},
 	price: {
