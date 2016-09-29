@@ -35,13 +35,6 @@ app.use(cookieParser());
 app.use(methodOverride('_method'));
 
 // middleware for serving static files
-
-/*
-* the line below should be serving the public directory to all subdirectories, but is not functioning 
-*
-* app.use(express.static('public'));
-*/
-
 app.use('/', express.static('public'));
 app.use('/browse', express.static('public'));
 app.use('/events', express.static('public'));
@@ -78,10 +71,10 @@ if (app.get('env') === 'development') {
 }
 
 // connect to localhost MongoDB
-mongoose.connect('mongodb://localhost/the_round_about');
+// mongoose.connect('mongodb://localhost/the_round_about');
 
 // connect to livehost MongoDB
-// mongoose.connect('mongodb://heroku_7jnkclkj:bh42qjgiavnprbks5r97eujt6b@ds043714.mlab.com:43714/heroku_7jnkclkj');
+mongoose.connect('mongodb://heroku_7jnkclkj:bh42qjgiavnprbks5r97eujt6b@ds043714.mlab.com:43714/heroku_7jnkclkj');
 
 const db = mongoose.connection;
 
