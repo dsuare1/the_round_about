@@ -31,11 +31,11 @@
 			<label for="quantity" class="api-filter-label">Quantity (number)</label><br>
 			<input type="number" name="quantity" class="api-filter" /><br>
 			<label for="isStaffPick" class="api-filter-label">isStaffPick (true or false, lowercase)</label><br>
-			<input type="text" name="isStaffPick" class="api-filter" /><br>
+			<input type="text" name="isStaffPick" class="api-filter" id="isStaffPick-input" /><br>
 		</div>
 
 		<div class="api-search-form-control" id="api-filter-submit-button-container">
-			<button type="submit" id="api-search-submit" class="api-search-form-button">Search</button>
+			<button type="submit" id="api-search-submit" class="api-search-form-button" onclick="formValidation()">Search</button>
 		</div>
 	</form>
 
@@ -80,7 +80,38 @@
 		<p class="api-deleted-album-details">Album Artist: {{deletedAlbum.artist}}</p>
 		<p class="api-deleted-album-details">Album Title: {{deletedAlbum.title}}</p>
 	</div>
-	{{/if}}	
+
+	<form action="/api-admin/albums/create" method="POST">
+		<input class="api-search-results-album-artist api-search-results-label" value="{{deletedAlbum.artist}}" name="artist" type="hidden" /><br>
+		<input class="api-search-results-album-title api-search-results-label" value="{{deletedAlbum.title}}" name="title" type="hidden" /><br>
+		<input class="api-search-results-album-year api-search-results-label" value="{{deletedAlbum.year}}" name="year" type="hidden" /><br>
+		<input class="api-search-results-album-genre api-search-results-label" value="{{deletedAlbum.genre}}" name="genre" type="hidden" /><br>
+		<input class="api-search-results-album-price api-search-results-label" value="{{deletedAlbum.price}}" name="price" type="hidden" /><br>
+		<input class="api-search-results-album-format api-search-results-label" value="{{deletedAlbum.format}}" name="format" type="hidden" /><br>
+		<input class="api-search-results-album-imgURL api-search-results-label" value="{{deletedAlbum.imgURL}}" name="imgURL" type="hidden" /><br>
+		<input class="api-search-results-album-quantity api-search-results-label" value="{{deletedAlbum.quantity}}" name="quantity" type="hidden" /><br>
+		<input class="api-search-results-album-isStaffPick api-search-results-label" value="{{deletedAlbum.isStaffPick}}" name="isStaffPick" type="hidden" />
+		<p id="re-add-label">Didn't mean to delete that album?  Add it back to the database here:</p>
+		<button type="submit" id="re-add-button">Re-add Album</button>
+	</form>
+
+	{{/if}}
+
+	{{#if updatedAlbum}}
+	<div class="api-updated-album-message-container">
+		<p class="api-updated-album-message">Album updated; changes in the database are reflected below:</p>
+		<p class="api-updated-album-details"><span style="font-weight: 700;">Album ID:</span> {{updatedAlbum._id}}</p>
+		<p class="api-updated-album-details"><span style="font-weight: 700;">Album Artist:</span> {{updatedAlbum.artist}}</p>
+		<p class="api-updated-album-details"><span style="font-weight: 700;">Album Title:</span> {{updatedAlbum.title}}</p>
+		<p class="api-updated-album-details"><span style="font-weight: 700;">Album Year:</span> {{updatedAlbum.year}}</p>
+		<p class="api-updated-album-details"><span style="font-weight: 700;">Album Genre:</span> {{updatedAlbum.genre}}</p>
+		<p class="api-updated-album-details"><span style="font-weight: 700;">Album price:</span> {{updatedAlbum.price}}</p>
+		<p class="api-updated-album-details"><span style="font-weight: 700;">Album Format:</span> {{updatedAlbum.format}}</p>
+		<p class="api-updated-album-details"><span style="font-weight: 700;">Album imgURL:</span> {{updatedAlbum.imgURL}}</p>
+		<p class="api-updated-album-details"><span style="font-weight: 700;">Album Quantity:</span> {{updatedAlbum.quantity}}</p>
+		<p class="api-updated-album-details"><span style="font-weight: 700;">Staff Pick?</span> {{updatedAlbum.isStaffPick}}</p>
+	</div>
+	{{/if}}
 
 	{{#each albums}}
 		<div class="api-search-result-item">
@@ -110,7 +141,7 @@
 					<input class="api-search-results-album-genre api-search-results-label" value="{{this.genre}}" name="genre"/><br>
 					<input class="api-search-results-album-price api-search-results-label" value="{{this.price}}" name="price"/><br>
 					<input class="api-search-results-album-format api-search-results-label" value="{{this.format}}" name="format"/><br>
-					<input class="api-search-results-album-imgURL api-search-results-label" value="{{this.imgURL}}" name="imgURL"/><br><br>
+					<input class="api-search-results-album-imgURL api-search-results-label" value="{{this.imgURL}}" name="imgURL"/><br>
 					<input class="api-search-results-album-quantity api-search-results-label" value="{{this.quantity}}" name="quantity"/><br>
 					<input class="api-search-results-album-isStaffPick api-search-results-label" value="{{this.isStaffPick}}" name="isStaffPick"/>
 				{{!-- </form> --}}

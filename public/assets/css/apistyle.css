@@ -248,6 +248,32 @@ label {
 	display: inline-block;
 }
 
+#re-add-label {
+	margin-left: 5%;
+    margin-top: -15%;
+    font-size: 1.5em;
+    border-top: 1px solid #0e2338;
+    padding-top: 2%;
+    width: 65%;
+}
+
+#re-add-button {
+	border: none;
+    background: #2ecc71;
+    margin: 25px 0 0 5%;
+    width: 150px;
+    height: 50px;
+    font-size: .9em;
+    color: #fff;
+}
+
+#re-add-button:hover {
+	cursor: pointer;
+	background-color: #fff;
+	color: #2ecc71;
+	border: 1px solid #2ecc71;
+}
+
 .api-search-results-details {
 	display: inline-block;
 	margin-left: 25px;
@@ -273,6 +299,9 @@ label {
 
 .update-button:hover {
 	cursor: pointer;
+	background-color: #fff;
+	border: 1px solid #2ecc71;
+	color: #2ecc71;
 }
 
 .delete-button {
@@ -286,6 +315,9 @@ label {
 
 .delete-button:hover {
 	cursor: pointer;
+	background-color: #fff;
+	border: 1px solid #c0392b;
+	color: #c0392b;
 }
 
 /* api search results container - no results message */
@@ -319,6 +351,28 @@ label {
 }
 
 .api-deleted-album-details {
+	font-size: 1em;
+    color: #0e2338;
+    margin: 5%;
+    font-weight: 300;
+}
+
+.api-updated-album-message-container {
+	padding: 5%;
+	width: 85%;
+}
+
+.api-updated-album-message {
+	font-size: 1.5em;
+    color: #2ecc71;
+    padding: 10px;
+    border-left: 1px solid #2ecc71;
+    border-bottom: 1px solid #2ecc71;
+    font-weight: 300;
+    width: 85%;
+}
+
+.api-updated-album-details {
 	font-size: 1em;
     color: #0e2338;
     margin: 5%;

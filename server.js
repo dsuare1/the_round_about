@@ -35,9 +35,18 @@ app.use(cookieParser());
 app.use(methodOverride('_method'));
 
 // middleware for serving static files
+
+/*
+* the line below should be serving the public directory to all subdirectories, but is not functioning 
+*
+* app.use(express.static('public'));
+*/
+
 app.use('/', express.static('public'));
 app.use('/browse', express.static('public'));
+app.use('/events', express.static('public'));
 app.use('/api', express.static('public'));
+app.use('/api-admin', express.static('public'));
 app.use('/api-admin/albums', express.static('public'));
 app.use('/api-admin/albums/search', express.static('public'));
 app.use('/api-admin/albums/create', express.static('public'));

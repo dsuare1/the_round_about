@@ -59,8 +59,6 @@ module.exports = (router) => {
             // console.log(loginUser[0].username);
             if (loginUser[0] === undefined) {
                 console.log('no such user');
-                // res.redirect('/api');
-                // I want the below to happen; but it's giving me a starnge 'router.post (line 24) is not a function' error; ??
                 res.render('api-login', { errorMsg: 'No such user found in the database' });
             } else {
                 console.log('user in database');
@@ -203,14 +201,16 @@ module.exports = (router) => {
         if (req.body.isStaffPick !== undefined) {
             query['isStaffPick'] = req.body.isStaffPick;
         };
-        console.log('query: ' + JSON.stringify(query, null, 2));
 
         Album.findOneAndUpdate({ _id: req.params.id }, query, { upsert: true }, (err, doc) => {
             if (err) {
                 console.log(err);
             } else {
                 console.log(doc);
-                res.redirect('/api-admin/albums/search/all');
+                Album.findOne({ _id: doc.id }, (err, doc) => {
+                    let updatedAlbum = { updatedAlbum: doc };
+                    res.render('api-admin', updatedAlbum);
+                })
             }
         })
     });
