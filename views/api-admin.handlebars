@@ -25,7 +25,7 @@
 			<input type="text" name="title" class="api-filter" id="filter-title-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
 			
 			<label for="year" class="api-filter-label">Year</label><br>
-			<input type="text" name="year" class="api-filter" id="filter-year-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
+			<input type="number" min="1940" name="year" class="api-filter" id="filter-year-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
 			
 			<label for="genre" class="api-filter-label">Genre</label><br>		
 			<input type="text" name="genre" class="api-filter" id="filter-genre-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
@@ -70,7 +70,7 @@
 			<input type="text" name="imgURL" class="api-filter" id="create-imgURL-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
 			
 			<label for="quantity" class="api-filter-label">Quantity (number)</label><br>
-			<input type="number" name="quantity" class="api-filter" id="create-quantity-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
+			<input type="number" min="0" name="quantity" class="api-filter" id="create-quantity-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
 			
 			<label for="isStaffPick" class="api-filter-label">isStaffPick (true or false, lowercase)</label><br>
 			<input type="text" name="isStaffPick" class="api-filter" id="create-isStaffPick-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
@@ -193,3 +193,5 @@
 	{{/each}}
 </section>
 {{!-- end search results section --}}
+
+<script src="../assets/js/api-form-validation.js"></script>

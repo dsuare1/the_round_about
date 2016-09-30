@@ -28,19 +28,6 @@ const createIsStaffPick = document.getElementById('create-isStaffPick-input');
 // const to hold add new album submit button element
 const addNewAlbumSubmit = document.getElementById('api-add-new-album-submit');
 
-// const to hold regex for numbers
-const nums = /^[0-9]*$/gm;
-
-// console.log(artistInput);
-// console.log(titleInput);
-// console.log(yearInput);
-// console.log(genreInput);
-// console.log(formatInput);
-// console.log(quantityInput);
-// console.log(isStaffPick);
-// console.log(searchFilterSubmit);
-console.log(addNewAlbumSubmit);
-
 searchFilterSubmit.addEventListener('click', (e) => {
 	if (typeof filterArtistInput.value !== 'string') {
 		console.log('problem with artist input');
@@ -54,19 +41,21 @@ searchFilterSubmit.addEventListener('click', (e) => {
 		filterTitleInput.style.boxShadow = '0 0 15px red';
 	};
 
-	if (typeof filterYearInput.value !== 'string' || filterYearInput.value.length > 4 || filterYearInput.value.length === 1 || filterYearInput.value.length === 2 || filterYearInput.value.length === 3) {
+	if (typeof parseInt(filterYearInput.value) !== 'number' || filterYearInput.value.length > 4 || filterYearInput.value.length === 1 || filterYearInput.value.length === 2 || filterYearInput.value.length === 3) {
 		console.log('problem with year input');
+		console.log(typeof filterYearInput.value);
 		e.preventDefault();
 		filterYearInput.style.boxShadow = '0 0 15px red';
 	};
 
-	if (typeof filterGenreInput.value !== 'string' || filterGenreInput.value == nums) {			/* need to add check against numbers here */
+	if (typeof filterGenreInput.value !== 'string' || filterGenreInput.value.match(/^\d+$/)) {
 		console.log('problem with genre input');
 		e.preventDefault();
 		filterGenreInput.style.boxShadow = '0 0 15px red';
 	};
 
-	if (typeof filterFormatInput.value !== 'string' || filterFormatInput.value.length > 2) {			/* need to add check against letters here */
+	if (typeof parseInt(filterFormatInput.value) !== 'number' || filterFormatInput.value.length > 2 || filterFormatInput.value.match(/[a-zA-Z]/)) {
+		console.log(typeof filterFormatInput.value);
 		console.log('problem with format input');
 		e.preventDefault();
 		filterFormatInput.style.boxShadow = '0 0 15px red';
@@ -79,11 +68,7 @@ searchFilterSubmit.addEventListener('click', (e) => {
 		filterQuantityInput.style.boxShadow = '0 0 15px red';
 	};
 
-	// isStaffPick.value.toLowerCase();  ?? not working ??
-	// console.log('isStaffPick value after .toLowerCase() called ' + isStaffPick.value);
-	// if (isStaffPick.value !== 'true' || isStaffPick.value !== 'false') {
 	if (typeof filterIsStaffPick.value !== 'string') {
-		console.log(typeof filterIsStaffPick.value);
 		console.log('problem with isStaffPick input');
        	e.preventDefault();
        	filterIsStaffPick.style.boxShadow = '0 0 15px red';
@@ -110,7 +95,7 @@ addNewAlbumSubmit.addEventListener('click', (e) => {
 		createYearInput.style.boxShadow = '0 0 15px red';
 	};
 
-	if (typeof createPriceInput.value !== 'number' || createPriceInput.value === '' || createPriceInput.value === undefined) {
+	if (typeof parseFloat(createPriceInput.value) !== 'number' || createPriceInput.value === '' || createPriceInput.value === undefined) {
 		console.log('problem with price input');
 		e.preventDefault();
 		createPriceInput.style.boxShadow = '0 0 15px red';
@@ -134,7 +119,7 @@ addNewAlbumSubmit.addEventListener('click', (e) => {
 		createImgURLInput.style.boxShadow = '0 0 15px red';
 	}
 
-	if (typeof createQuantityInput.value !== 'number' || createQuantityInput.value === '' || createQuantityInput.value === undefined || createQuantityInput.value.length > 2) {	/* need to add check against letters here */
+	if (typeof parseInt(createQuantityInput.value) !== 'number' || createQuantityInput.value === '' || createQuantityInput.value === undefined || createQuantityInput.value.length > 2) {	/* need to add check against letters here */
 		console.log('problem with quantity input');
 		e.preventDefault();
 		createQuantityInput.style.boxShadow = '0 0 15px red';

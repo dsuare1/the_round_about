@@ -92,6 +92,7 @@ module.exports = (router) => {
     // Database CRUD for owners and webmaster (Albums)
     // /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
 
+    // READ - retrieve all albums
     router.get('/api-admin/albums/search/all', (req, res) => {
         console.log('search entire database');
         Album.find({})
@@ -106,6 +107,7 @@ module.exports = (router) => {
             })
     });
 
+    // READ - retrieve albums based on filters
     router.get('/api-admin/albums/search', (req, res) => {
         console.log('search for specific item');
         console.log(req.query);
@@ -148,6 +150,7 @@ module.exports = (router) => {
             })
     });
 
+    // CREATE - add new album to the database
     router.post('/api-admin/albums/create', (req, res) => {
 
         // validation before processing request to database
@@ -236,6 +239,7 @@ module.exports = (router) => {
         });
     });
 
+    // UPDATE - update data for a specific album
     router.put('/api-admin/albums/update/:id', (req, res) => {
         console.log('update a specific item');
         console.log('updating item: ' + req.params.id);
@@ -279,6 +283,7 @@ module.exports = (router) => {
         })
     });
 
+    // DELETE - delete an album from the database (built-in user-error check; can re-add album if deletion was a mistake)
     router.delete('/api-admin/albums/delete/:id', (req, res) => {
         console.log('delete a specific item');
         console.log('deleting item: ' + req.params.id);

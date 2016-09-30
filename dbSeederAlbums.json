@@ -4,7 +4,7 @@
 	"year": "2000",
 	"genre": "Rock",
 	"price": 30.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drs100/s130/s13080vlqdj.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -16,7 +16,7 @@
 	"year": "1991",
 	"genre": "Rap",
 	"price": 37.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://01.img.society6.com/society6/img/KrJzFPrTZ-hJytVueoTOa1t-tss/h_125,w_125/wall-clocks/front/natural-frame/white-hands/~artwork/s6-0034/v/16019007_14408451/~~/a-tribe-called-quest-the-low-end-theory-wall-clock.jpg",
 	"quantity": 0,
 	"isStaffPick": false 
@@ -28,7 +28,7 @@
 	"year": "1980",
 	"genre": "Rock",
 	"price": 26.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/a/acdc-back.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -40,7 +40,7 @@
 	"year": "1981",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.coolstreams.com/AR/Prog/img/a/ACDC/ForThoseAboutToRock_125.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -52,7 +52,7 @@
 	"year": "1978",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://vinylunderground.com/294-medium_default/acdc-if-you-want-blood.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -64,7 +64,7 @@
 	"year": "1977",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://lametralleta.es/36648-medium_default/ac-dc-let-there-be-rock-lp-disco-de-vinilo-.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -76,7 +76,7 @@
 	"year": "2008",
 	"genre": "Pop",
 	"price": 26.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/artd/amg/music/cover/4548661_adele_125.jpg",
 	"quantity": 2,
 	"isStaffPick": false
@@ -88,7 +88,7 @@
 	"year": "2011",
 	"genre": "Pop",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://covers3.booksamillion.com/covers/music/8/86/974/469/886974469926_w_1693256.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -100,7 +100,7 @@
 	"year": "2015",
 	"genre": "Pop",
 	"price": 23.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://i.imgur.com/pKNxXUB.png",
 	"quantity": 3,
 	"isStaffPick": false
@@ -112,7 +112,7 @@
 	"year": "1998",
 	"genre": "Pop",
 	"price": 18.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/dre500/e535/e535576f9ik.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -124,7 +124,7 @@
 	"year": "1972",
 	"genre": "Soul",
 	"price": 16.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.music-for-you.ru/data/small/0767981113715.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -136,7 +136,7 @@
 	"year": "2012",
 	"genre": "Rock",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.disqueria12pulgadas.cl/757-medium_default/alabama-shakes-boys-girls-.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -148,7 +148,7 @@
 	"year": "2015",
 	"genre": "Rock",
 	"price": 27.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.radioinfo.com/wp-content/uploads/2015/03/%E2%80%9CGimme-All-Your-Love%E2%80%9D-by-Alabama-Shakes-Sound-Color.jpeg",
 	"quantity": 3,
 	"isStaffPick": false
@@ -160,7 +160,7 @@
 	"year": "1996",
 	"genre": "Rock",
 	"price": 38.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://worldkeyrings.com/2/5725-medium_default/mod5703-alice-in-chains-mtv-unplugged-iman-nevera-fridge-magnet.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -172,7 +172,7 @@
 	"year": "2003",
 	"genre": "Soul",
 	"price": 29.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/k/keysalicia-diary.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -184,7 +184,7 @@
 	"year": "2012",
 	"genre": "Rock",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drt200/t234/t23498lblu4.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -196,7 +196,7 @@
 	"year": "2006",
 	"genre": "Soul",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.reneywarrington.co.za/wp-content/uploads/2009/10/winehouse-125x125.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -208,7 +208,7 @@
 	"year": "2016",
 	"genre": "Folk",
 	"price": 20.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.radioinfo.com/wp-content/uploads/2016/02/%E2%80%9CCapsized%E2%80%9D-Andrew-Bird-Are-You-Serious-2.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -220,7 +220,7 @@
 	"year": "2007",
 	"genre": "Rock",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.peakhifi.co.uk/db_images/ArcadeFireNeonBible.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -232,7 +232,7 @@
 	"year": "2010",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://live4ever.live4evermediall.netdna-cdn.com/wp-content/uploads/2010/12/arcade-fire-the-suburbs.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -244,7 +244,7 @@
 	"year": "1998",
 	"genre": "Emo",
 	"price": 18.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drd500/d576/d57679s7ih2.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -256,7 +256,7 @@
 	"year": "2012",
 	"genre": "Comedy",
 	"price": 15.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://d3mjk82f332v2.cloudfront.net/assets/Uploads/_resampled/CroppedImage125%20%20125-logo-thumb.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -268,7 +268,7 @@
 	"year": "1984",
 	"genre": "Soundtrack",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://im2.spacebro.net/mc_d931da01985b52380c4f2824ee4e33487c138a92.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -280,7 +280,7 @@
 	"year": "2007",
 	"genre": "Emo",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.vintagevinyljournals.com/wp-content/uploads/2012/03/boniver-foremma-cover-125x125.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -292,7 +292,7 @@
 	"year": "1981",
 	"genre": "Punk",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.sputnikmusic.com/images/albums/7168.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -304,7 +304,7 @@
 	"year": "2007",
 	"genre": "Indie",
 	"price": 14.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/artd/amg/music/cover/4403715_ceasetoexist_125.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -316,7 +316,7 @@
 	"year": "2006",
 	"genre": "Indie",
 	"price": 17.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.sputnikmusic.com/images/albums/10902.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -328,7 +328,7 @@
 	"year": "2010",
 	"genre": "Indie",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://cbswxrt2.files.wordpress.com/2010/05/boh_125.jpg?w=420",
 	"quantity": 1,
 	"isStaffPick": false
@@ -340,7 +340,7 @@
 	"year": "2012",
 	"genre": "Indie",
 	"price": 25.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.encorerecords.ca/images/covers/resized/images/covers/horses-125x0.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -352,7 +352,7 @@
 	"year": "2016",
 	"genre": "Indie",
 	"price": 22.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.posaldisc.com/botiga/7753-medium_default/band-of-horses-why-are-you-ok-.jpg",
 	"quantity": 2,
 	"isStaffPick": false
@@ -364,7 +364,7 @@
 	"year": "2009",
 	"genre": "Rock",
 	"price": 17.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://ecx.images-amazon.com/images/I/611lBc1FNeL._SL125_.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -376,7 +376,7 @@
 	"year": "2016",
 	"genre": "Rock",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.rockandfolk.com/7616-medium_default/band-of-skulls-by-default.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -388,7 +388,7 @@
 	"year": "1986",
 	"genre": "Pop",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.vinyl-minded.com/30331-medium_default/ix00559-bangles-different-light----lp-cbs-cbs-26659.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -400,7 +400,7 @@
 	"year": "2015",
 	"genre": "Metal",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://consequenceofsound.files.wordpress.com/2015/12/baroness-purple.jpg?w=150&h=150&crop=1",
 	"quantity": 0,
 	"isStaffPick": false
@@ -412,7 +412,7 @@
 	"year": "1963",
 	"genre": "Pop",
 	"price": 26.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://cdn2.songlyricscom.netdna-cdn.com/album_covers/63/the-beach-boys-little-deuce-coupe/the-beach-boys-97983-little-deuce-coupe.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -424,7 +424,7 @@
 	"year": "1966",
 	"genre": "Pop",
 	"price": 22.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://audio-club.ru/data/small/0821797206563.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -436,7 +436,7 @@
 	"year": "1967",
 	"genre": "Pop",
 	"price": 26.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.toppermost.co.uk/wp-content/uploads/2015/02/the-beach-boys-smiley-smile-125x125.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -448,7 +448,7 @@
 	"year": "2015",
 	"genre": "Indie",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.radioinfo.com/wp-content/uploads/2015/07/%E2%80%9CSparks%E2%80%9D-by-Beach-House-Depression-Cherry.jpg",
 	"quantity": 1,
 	"isStaffPick": true
@@ -460,7 +460,7 @@
 	"year": "2015",
 	"genre": "Indie",
 	"price": 18.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.stereoboard.com/images/stories/2013/images/A-Z%20Main%20Artist%20Images/B/125xNxbeach_house_hb_081015.jpg.pagespeed.ic.a6FalmcPFF.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -472,7 +472,7 @@
 	"year": "1992",
 	"genre": "Rap",
 	"price": 31.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://s-media-cache-ak0.pinimg.com/236x/95/b6/47/95b647c6e9491d1252b7dcfdc699cecd.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -484,7 +484,7 @@
 	"year": "1994",
 	"genre": "Rap",
 	"price": 31.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drd800/d818/d81836f1unm.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -496,7 +496,7 @@
 	"year": "2005",
 	"genre": "Rap",
 	"price": 22.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drh000/h093/h09314l1y2q.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -508,7 +508,7 @@
 	"year": "1989",
 	"genre": "Rap",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://media-cdn.list.ly/production/27463/225128/images_185px.png",
 	"quantity": 1,
 	"isStaffPick": false
@@ -520,7 +520,7 @@
 	"year": "1969",
 	"genre": "Pop",
 	"price": 22.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/b/beatles-abbeyroadmft.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -532,7 +532,7 @@
 	"year": "1970",
 	"genre": "Pop",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.vintagevinyljournals.com/wp-content/uploads/2013/12/thebeatles-letitbe-cover-125x125.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -544,7 +544,7 @@
 	"year": "1966",
 	"genre": "Pop",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/b/beatles-revolvermft.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -556,7 +556,7 @@
 	"year": "1967",
 	"genre": "Pop",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://rokpool.com/files/The-Beatles-Sgt-Pepper.jpg?1322484707",
 	"quantity": 0,
 	"isStaffPick": false
@@ -568,7 +568,7 @@
 	"year": "2014",
 	"genre": "Indie",
 	"price": 22.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://s-media-cache-ak0.pinimg.com/736x/9e/32/cb/9e32cb2a572c1990fe8f5d51cfdc0db1.jpg",
 	"quantity": 1,
 	"isStaffPick": true
@@ -580,7 +580,7 @@
 	"year": "2006",
 	"genre": "Rock",
 	"price": 17.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://juanvitoria.com/shop/img/p/2/4/2/9/2429-medium_default.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -592,7 +592,7 @@
 	"year": "1970",
 	"genre": "Metal",
 	"price": 17.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.stereoboard.com/images/stories/2013/images/A-Z%20Main%20Artist%20Images/B/125xNxblack_sabbath_hb_230915.jpg.pagespeed.ic.ItmHaOnm1W.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -604,7 +604,7 @@
 	"year": "1994",
 	"genre": "Punk",
 	"price": 17.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://1.bp.blogspot.com/-9wjfX0uFd3g/T5MMWrjctsI/AAAAAAAAAhU/ZIKy9V4hs-Q/s1600/buddha-W125.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -616,7 +616,7 @@
 	"year": "2016",
 	"genre": "Punk",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.radioinfo.com/wp-content/uploads/2016/05/Bored-To-Death%E2%80%9D-by-Blink-182-California.jpg",
 	"quantity": 2,
 	"isStaffPick": false
@@ -628,7 +628,7 @@
 	"year": "1984",
 	"genre": "Reggae",
 	"price": 22.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/m/marleybobwailers-legend.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -640,7 +640,7 @@
 	"year": "2004",
 	"genre": "Rap",
 	"price": 22.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://i194.photobucket.com/albums/z166/bonesis2007/b28.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -652,7 +652,7 @@
 	"year": "2003",
 	"genre": "Punk",
 	"price": 26.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/b/brandnew-deja.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -664,7 +664,7 @@
 	"year": "2012",
 	"genre": "Pop",
 	"price": 22.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drt600/t611/t61163td3sc.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -676,7 +676,7 @@
 	"year": "2016",
 	"genre": "Rock",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.encorerecords.ca/images/covers/resized/images/covers/71fkgp1FoRL_SL1200_-0x125.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -688,7 +688,7 @@
 	"year": "2002",
 	"genre": "Indie",
 	"price": 18.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://shop.depechemode.cz/1180-medium_default/coldplay-a-rush-of-blood-to-the-head-lp.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -700,7 +700,7 @@
 	"year": "1986",
 	"genre": "Pop",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://lpcd.ru/images/stories/virtuemart/product/resized/thumb_Cyndi%20Lauper%20-%20True%20Colors_J_125.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -712,7 +712,7 @@
 	"year": "2001",
 	"genre": "Pop",
 	"price": 18.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/d/daftpunk-discovery.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -724,7 +724,7 @@
 	"year": "1973",
 	"genre": "Rock",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/b/bowiedavid-aladdinsane.jpg",
 	"quantity": 1,
 	"isStaffPick": true
@@ -736,7 +736,7 @@
 	"year": "1972",
 	"genre": "Rock",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://musicmoz.org/img/editors/mookid/album-ziggy.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -748,7 +748,7 @@
 	"year": "2008",
 	"genre": "Indie",
 	"price": 18.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://musictown.cz/6980-medium_default/death-cab-for-cutie-narrow-stairs-lp.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -760,7 +760,7 @@
 	"year": "2001",
 	"genre": "Indie",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/d/deathcabforcutie-photo.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -772,7 +772,7 @@
 	"year": "2003",
 	"genre": "Indie",
 	"price": 25.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/d/deathcabforcutie-transatlanticism.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -784,7 +784,7 @@
 	"year": "2000",
 	"genre": "Indie",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/d/deathcabforcutie-we.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -796,7 +796,7 @@
 	"year": "2006",
 	"genre": "Indie",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drh800/h801/h80177hpqhn.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -808,7 +808,7 @@
 	"year": "2000",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.blistering.com/fastpage/images/deftones.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -820,7 +820,7 @@
 	"year": "1982",
 	"genre": "Punk",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://cps-static.rovicorp.com/3/JPG_250/MI0001/841/MI0001841105.jpg?partner=allrovi.com",
 	"quantity": 0,
 	"isStaffPick": false
@@ -832,7 +832,7 @@
 	"year": "2016",
 	"genre": "Country",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.wbwn.com/wp-content/uploads/sites/380/2016/06/Dierks-Bentley-Black-album-debuts-Number-one-125x125.png",
 	"quantity": 1,
 	"isStaffPick": false
@@ -844,7 +844,7 @@
 	"year": "1998",
 	"genre": "Country",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://covers4.booksamillion.com/covers/music/8/86/919/811/886919811223_w_2204963.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -856,7 +856,7 @@
 	"year": "2016",
 	"genre": "Rock",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.radioinfo.com/wp-content/uploads/2016/01/%E2%80%9CBring-My-Baby-Back%E2%80%9D-by-Dr.-Dog-Psychedelic-Swamp-1.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -868,7 +868,7 @@
 	"year": "1992",
 	"genre": "Rap",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drf600/f601/f60172iv73v.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -880,7 +880,7 @@
 	"year": "2011",
 	"genre": "Rap",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/dru300/u313/u31389l1l77.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -892,7 +892,7 @@
 	"year": "1988",
 	"genre": "Rap",
 	"price": 10.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://mgrecords.hu/content/images/thumbs/0425378_602547557735.jpg_125.jpeg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -904,7 +904,7 @@
 	"year": "2014",
 	"genre": "Pop",
 	"price": 25.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://covers2.booksamillion.com/covers/music/8/25/646/285/825646285877_w_2745774.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -916,7 +916,7 @@
 	"year": "2000",
 	"genre": "Rap",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drw000/w083/w08371ny34j.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -928,7 +928,7 @@
 	"year": "2015",
 	"genre": "Soundtrack",
 	"price": 27.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://pbs.twimg.com/media/Ce-7y52WIAA2U_A.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -940,7 +940,7 @@
 	"year": "2003",
 	"genre": "Soul",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/b/baduerykah-worldwide.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -952,7 +952,7 @@
 	"year": "2007",
 	"genre": "Rock",
 	"price": 17.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.maelstromzine.com/ezine/show_album_picture.php?id=5467",
 	"quantity": 0,
 	"isStaffPick": false
@@ -964,7 +964,7 @@
 	"year": "2016",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.stereoboard.com/images/stories/2013/images/A-Z%20Main%20Artist%20Images/E/125xNxexplosions_in_the_sky_lj_110116.jpg.pagespeed.ic.vNtBMNpc-W.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -976,7 +976,7 @@
 	"year": "2001",
 	"genre": "Rock",
 	"price": 15.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://audio-club.ru/data/small/0656605303420.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -988,7 +988,7 @@
 	"year": "2015",
 	"genre": "Rock",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.writteninmusic.com/wp-content/uploads/wp-post-thumbnail/fAIp0d.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1000,7 +1000,7 @@
 	"year": "2014",
 	"genre": "Indie",
 	"price": 25.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drw000/w025/w02512hizdc.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1012,7 +1012,7 @@
 	"year": "2014",
 	"genre": "Rock",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.writteninmusic.com/wp-content/uploads/wp-post-thumbnail/8S23qV.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1024,7 +1024,7 @@
 	"year": "2002",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/f/flaminglips-yoshimi.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1036,7 +1036,7 @@
 	"year": "1977",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://www.dutchyrecords.co.uk/13-medium_default/fleetwood-mac-rumours.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1048,7 +1048,7 @@
 	"year": "2015",
 	"genre": "Rock",
 	"price": 15.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://i.imgur.com/62yfcdo.png",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1060,7 +1060,7 @@
 	"year": "2009",
 	"genre": "Rock",
 	"price": 29.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://worldkeyrings.com/2/6140-medium_default/mod6118-foo-fighters-greatest-hits-iman-nevera-fridge-magnet.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1072,7 +1072,7 @@
 	"year": "2016",
 	"genre": "Rock",
 	"price": 11.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.writteninmusic.com/wp-content/uploads/wp-post-thumbnail/xPbxyD.png",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1084,7 +1084,7 @@
 	"year": "2016",
 	"genre": "Indie",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.gtmusic.it/798-medium_default/frightened-rabbit-painting-of-a-panic-attack-cd.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1096,7 +1096,7 @@
 	"year": "1988",
 	"genre": "Punk",
 	"price": 14.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.handsandarms.com/6512-medium_default/fugazi-lp-s-t.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1108,7 +1108,7 @@
 	"year": "1971",
 	"genre": "Funk",
 	"price": 23.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.toppermost.co.uk/wp-content/uploads/2013/10/funkadelic-maggot-brain-125x125.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1120,7 +1120,7 @@
 	"year": "2014",
 	"genre": "Rock",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.encorerecords.ca/images/covers/resized/images/covers/81HBFoiE0aL_SL1500_-0x125.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1132,7 +1132,7 @@
 	"year": "2015",
 	"genre": "Rap",
 	"price": 27.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://cdn.spinrilla.com/albums/28829/thumb/bba47caf9bb994aafff0.png?1449024411",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1144,7 +1144,7 @@
 	"year": "1956",
 	"genre": "Country",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.waynecountry.net/GJ/starday/Starday101ASM.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1156,7 +1156,7 @@
 	"year": "1999",
 	"genre": "Emo",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/g/getupkids-something.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1168,7 +1168,7 @@
 	"year": "1991",
 	"genre": "Rap",
 	"price": 17.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://i1.music.tuko.co.ke/mc_623e14db245ddd15acab77c4dc7dca9b13e9b916.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1180,7 +1180,7 @@
 	"year": "2016",
 	"genre": "Indie",
 	"price": 13.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.writteninmusic.com/wp-content/uploads/wp-post-thumbnail/V1oXhl.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1192,7 +1192,7 @@
 	"year": "2012",
 	"genre": "Rock",
 	"price": 14.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.toppermost.co.uk/wp-content/uploads/2015/08/godspeed-you-black-emperor-allelujah-don%E2%80%99t-bend-ascend-125x125.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1204,7 +1204,7 @@
 	"year": "2002",
 	"genre": "Indie",
 	"price": 17.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.sputnikmusic.com/images/albums/7411.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1216,7 +1216,7 @@
 	"year": "2000",
 	"genre": "Indie",
 	"price": 17.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/g/goodlife-novena.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1228,7 +1228,7 @@
 	"year": "2001",
 	"genre": "Rock",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/g/gorillaz-st.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1240,7 +1240,7 @@
 	"year": "2008",
 	"genre": "Rock",
 	"price": 15.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://f4.bcbits.com/img/a3819675577_16.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1252,7 +1252,7 @@
 	"year": "1987",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://ecx.images-amazon.com/images/I/51WjtFzY1fL._SL125_.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1264,7 +1264,7 @@
 	"year": "1995",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://4.bp.blogspot.com/_rC8KOlJ3cVY/SjmZoMZMLLI/AAAAAAAAAG8/TClTFI6cxP0/w1200-h630-p-nu/Hum_-_You'd_Prefer_an_Astronaut.JPG",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1276,7 +1276,7 @@
 	"year": "1990",
 	"genre": "Rap",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://rs44.pbsrc.com/albums/f36/sumosmurf/CD%20Covers/Ice_Cube-1990-AmeriKKKas_Most_Wante.jpg~c200",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1288,7 +1288,7 @@
 	"year": "2004",
 	"genre": "Indie",
 	"price": 17.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/i/ironandwine-ourendless.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1300,7 +1300,7 @@
 	"year": "1982",
 	"genre": "Metal",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.vinyl-minded.com/61889-medium_default/rr01236-iron-maiden-the-number-of-the-beast----lp-emi-italiana-spa-54-1076081.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1312,7 +1312,7 @@
 	"year": "2006",
 	"genre": "Rap",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://file2.answcdn.com/answ-cld/image/upload/w_760,c_fill,g_faces:center,fl_lossy,q_60/v1401276713/sesjqahznym24h3s26zt.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1324,7 +1324,7 @@
 	"year": "2003",
 	"genre": "Indie",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.ojosdepapel.com/Thumbnail.aspx?SubPath=/images/ready/11083.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1336,7 +1336,7 @@
 	"year": "2014",
 	"genre": "Rock",
 	"price": 27.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://d3mjk82f332v2.cloudfront.net/assets/NewsPhotos/_resampled/CroppedImage125125-lazaretto-thumb.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1348,7 +1348,7 @@
 	"year": "1970",
 	"genre": "Soul",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://eil.com/images/main/The+Jackson+Five+The+Jackson+5+Christmas+Album+478957.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1360,7 +1360,7 @@
 	"year": "1966",
 	"genre": "Soul",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://static1.q-music.vmmacdn.be/web_song/song_list_tablet_l//0/c6/63/6a/826145/james_brown_papas_got_a_brand_new_bag.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1372,7 +1372,7 @@
 	"year": "2015",
 	"genre": "Country",
 	"price": 16.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.savingcountrymusic.com/wp-content/uploads/2015/07/jason-isbell-something-more-than-free-125x125.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1384,7 +1384,7 @@
 	"year": "2013",
 	"genre": "Country",
 	"price": 16.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.writteninmusic.com/wp-content/uploads/wp-post-thumbnail/olJWHe.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1396,7 +1396,7 @@
 	"year": "2003",
 	"genre": "Rap",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/features_art/j/jayz-black1.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1408,7 +1408,7 @@
 	"year": "2001",
 	"genre": "Rap",
 	"price": 32.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/dre900/e935/e93576bwjbf.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1420,7 +1420,7 @@
 	"year": "1998",
 	"genre": "Rap",
 	"price": 27.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.hiphopcertified.com/hhc/wp-content/uploads/2014/02/Jay-Z-Vol.-2-Hard-Knock-Life.jpg",
 	"quantity": 27.98,
 	"isStaffPick": false
@@ -1432,7 +1432,7 @@
 	"year": "2014",
 	"genre": "Indie",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drw200/w287/w28796xcl78.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1444,7 +1444,7 @@
 	"year": "2001",
 	"genre": "Emo",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/j/jimmyeatworld-bleed.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1456,7 +1456,7 @@
 	"year": "1999",
 	"genre": "Emo",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://audio-club.ru/data/small/0602547473646.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1468,7 +1468,7 @@
 	"year": "2005",
 	"genre": "Emo",
 	"price": 17.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://www.platekompaniet.no/globalassets/imported-images/cd/355427864.jpg?preset=ProductList",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1480,7 +1480,7 @@
 	"year": "2016",
 	"genre": "Soundtrack",
 	"price": 17.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://f4.bcbits.com/img/a3713470057_5.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1492,7 +1492,7 @@
 	"year": "1971",
 	"genre": "Folk",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://americanmusic.com.br/product_images/m/326/xblue__02764_thumb.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1504,7 +1504,7 @@
 	"year": "2010",
 	"genre": "Indie",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://musictown.cz/7013-medium_default/jonsi-go-cd-dvd.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1516,7 +1516,7 @@
 	"year": "2009",
 	"genre": "Pop",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.theaterboekwinkel.nl/uploads/tx_AmbitionWebshopBE/thumbs/125_2000_bw.justinbieber.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1528,7 +1528,7 @@
 	"year": "2004",
 	"genre": "Rap",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/w/westkanye-college.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1540,7 +1540,7 @@
 	"year": "2005",
 	"genre": "Rap",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drg900/g989/g98904khcg3.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1552,7 +1552,7 @@
 	"year": "2016",
 	"genre": "Rap",
 	"price": 25.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://shatteredbackboard.files.wordpress.com/2016/06/kendrick-lamar-untitled-unmastered-album-cover.jpeg?w=125&h=125&crop=1",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1564,7 +1564,7 @@
 	"year": "2016",
 	"genre": "Rap",
 	"price": 27.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://cdn.spinrilla.com/albums/43288/thumb/8396e1cfbd8dd49465eb.jpg?1462825136",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1576,7 +1576,7 @@
 	"year": "2015",
 	"genre": "Indie",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://juanvitoria.com/shop/img/p/2/2/3/5/2235-medium_default.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1588,7 +1588,7 @@
 	"year": "2011",
 	"genre": "Pop",
 	"price": 32.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://vignette3.wikia.nocookie.net/ladygaga/images/2/2d/BornThisWay-DeluxeEdition.jpg/revision/latest/scale-to-width-down/125?cb=20111120030308",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1600,7 +1600,7 @@
 	"year": "2008",
 	"genre": "Rap",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/artd/amg/music/cover/4771663_wayne_carter_iii_125.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1612,7 +1612,7 @@
 	"year": "2014",
 	"genre": "Rap",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drw500/w510/w51092k5f21.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1624,7 +1624,7 @@
 	"year": "2013",
 	"genre": "Pop",
 	"price": 29.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/artd/amg/music/cover/10727619_lorde_pure_heroine_125.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1636,7 +1636,7 @@
 	"year": "2015",
 	"genre": "Comedy",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.brooklynvegan.com/files/img/bv/louis-ck-live-at-msg.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1648,7 +1648,7 @@
 	"year": "2016",
 	"genre": "Indie",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.quai-baco.com/wp-content/uploads/2016/05/The-Lumineers-Cleopatra-chronique.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1660,7 +1660,7 @@
 	"year": "2011",
 	"genre": "Electronic",
 	"price": 25.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://goto.thesyn.com/specialty/graphics11/M83_hurryup.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1672,7 +1672,7 @@
 	"year": "1971",
 	"genre": "Soul",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.bobbysbackingtracks.com/339-medium_default/whats-going-on-backing-track.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1684,7 +1684,7 @@
 	"year": "2009",
 	"genre": "Metal",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/artd/amg/music/cover/4943288_crack_the_skye_mastodon_125.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1696,7 +1696,7 @@
 	"year": "2015",
 	"genre": "Indie",
 	"price": 13.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://audio-club.ru/data/small/0655173115527.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1708,7 +1708,7 @@
 	"year": "1986",
 	"genre": "Metal",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.musikmachine.com/5853-medium_default/patch-metallica-master-of-puppets.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1720,7 +1720,7 @@
 	"year": "1975",
 	"genre": "Funk",
 	"price": 22.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://www.platekompaniet.no/globalassets/imported-images/lp/1551358743.jpg?preset=ProductList",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1732,7 +1732,7 @@
 	"year": "2007",
 	"genre": "Indie",
 	"price": 18.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://audio-club.ru/data/small/0803238006222.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1744,7 +1744,7 @@
 	"year": "1990",
 	"genre": "Pop",
 	"price": 32.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.gutsofdarkness.com/images/pochettes_125/4582_10582.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1756,7 +1756,7 @@
 	"year": "2012",
 	"genre": "Indie",
 	"price": 17.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://valslist.com/system/albums/artworks/706/standard/886443584525.100x100_75.jpg?1350062649",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1768,7 +1768,7 @@
 	"year": "2009",
 	"genre": "Indie",
 	"price": 15.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://valslist.com/system/albums/artworks/379/standard/mzi.zzyuenrw.100x100_75.jpg?1290978124",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1780,7 +1780,7 @@
 	"year": "2002",
 	"genre": "Rock",
 	"price": 15.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://worldkeyrings.com/2/6630-medium_default/my-morning-jacket-chocolate-and-ice-iman-nevera-fridge-magnet.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1792,7 +1792,7 @@
 	"year": "2008",
 	"genre": "Rock",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://static.stereogum.com/blogs.dir/2/files/2013/04/evilurges-583x560.jpeg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1804,7 +1804,7 @@
 	"year": "1988",
 	"genre": "Rap",
 	"price": 23.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drc400/c440/c44046410gv.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1816,7 +1816,7 @@
 	"year": "1994",
 	"genre": "Rap",
 	"price": 23.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drd100/d107/d107033sn8b.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1828,7 +1828,7 @@
 	"year": "1998",
 	"genre": "Indie",
 	"price": 18.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://www.platendraaier.nl/wp-content/uploads/2014/04/Neutral-Milk-Hotel-In-The-Aeroplane-Over-The-Sea.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1840,7 +1840,7 @@
 	"year": "1996",
 	"genre": "Indie",
 	"price": 18.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://audio-club.ru/data/small/0673855010311.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1852,7 +1852,7 @@
 	"year": "1972",
 	"genre": "Folk",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.toppermost.co.uk/wp-content/uploads/2013/10/nick-drake-pink-moon-125x125.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1864,7 +1864,7 @@
 	"year": "1974",
 	"genre": "Indie",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://static.raru.co.za/cover/2015/11/11-01/3504163-l.jpg?v=1447282800",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1876,7 +1876,7 @@
 	"year": "1989",
 	"genre": "Metal",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.gutsofdarkness.com/images/pochettes_125/562_1567.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1888,7 +1888,7 @@
 	"year": "1994",
 	"genre": "Metal",
 	"price": 29.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://static1.squarespace.com/static/50527c0c24ac3b03d5345ee2/t/561dac40e4b0b97ecf1698c3/1444785447170/",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1900,7 +1900,7 @@
 	"year": "1994",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://shop.depechemode.cz/1140-medium_default/nirvana-mtv-unplugged-in-new-york.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1912,7 +1912,7 @@
 	"year": "1991",
 	"genre": "Rock",
 	"price": 29.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://rokpool.com/files/nirvana-nevermind-front.jpg?1317048950",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1924,7 +1924,7 @@
 	"year": "1995",
 	"genre": "Rock",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.ohgizmo.com/wp-content/uploads/2008/12/no-doubt-tragic-kingdom-125x125.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1936,7 +1936,7 @@
 	"year": "1995",
 	"genre": "Rock",
 	"price": 32.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.rockmusictimeline.com/oasis_morningglory.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1948,7 +1948,7 @@
 	"year": "2013",
 	"genre": "Soul",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drt900/t949/t94997enp56.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -1960,7 +1960,7 @@
 	"year": "1990",
 	"genre": "Rap",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drf600/f647/f64766fhvxh.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1972,7 +1972,7 @@
 	"year": "2015",
 	"genre": "Rap",
 	"price": 10.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.939thebeat.com/wp-content/uploads/sites/398/2015/11/newmissyelliott1-125x125.jpeg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1984,7 +1984,7 @@
 	"year": "1996",
 	"genre": "Rap",
 	"price": 32.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drs000/s056/s05688cxyfm.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -1996,7 +1996,7 @@
 	"year": "1994",
 	"genre": "Rap",
 	"price": 30.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.gutsofdarkness.com/images/pochettes_125/5644_17746.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2008,7 +2008,7 @@
 	"year": "2011",
 	"genre": "Indie",
 	"price": 14.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://www.platekompaniet.no/globalassets/imported-images/cd/1247984597.jpg?preset=ProductList",
 	"quantity": 0,
 	"isStaffPick": false
@@ -2020,7 +2020,7 @@
 	"year": "2014",
 	"genre": "Indie",
 	"price": 16.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://f4.bcbits.com/img/a0710438073_2.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2032,7 +2032,7 @@
 	"year": "2016",
 	"genre": "Indie",
 	"price": 18.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://consequenceofsound.files.wordpress.com/2016/07/owen-the-king-of-whys.jpg?w=380&h=380&crop=1",
 	"quantity": 2,
 	"isStaffPick": true
@@ -2044,7 +2044,7 @@
 	"year": "1992",
 	"genre": "Metal",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.icarusmusicstore.com/5258-medium_default/pantera-vulgar-display-of-power-ed-20-aniversario-cddvd.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2056,7 +2056,7 @@
 	"year": "1975",
 	"genre": "Folk",
 	"price": 32.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://covers4.booksamillion.com/covers/music/8/88/837/610/888837610711_w_2649712.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2068,7 +2068,7 @@
 	"year": "1992",
 	"genre": "Indie",
 	"price": 13.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drc500/c543/c54378oxst4.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -2080,7 +2080,7 @@
 	"year": "1993",
 	"genre": "Rock",
 	"price": 28.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://kapost-files-prod.s3.amazonaws.com/uploads/direct/20130401-0304-2-9567/pearljam.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2092,7 +2092,7 @@
 	"year": "2004",
 	"genre": "Indie",
 	"price": 20.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://musictown.cz/5528-medium_default/phoenix-alphabetical-lp.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2104,7 +2104,7 @@
 	"year": "2006",
 	"genre": "Indie",
 	"price": 20.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.sputnikmusic.com/images/albums/9760.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2116,7 +2116,7 @@
 	"year": "1984",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://covers3.booksamillion.com/covers/music/0/81/227/991/081227991494_w_1041586.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2128,7 +2128,7 @@
 	"year": "2008",
 	"genre": "Rap",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://www.platekompaniet.no/globalassets/imported-images/cd/769422193.jpg?preset=ProductList",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2140,7 +2140,7 @@
 	"year": "1975",
 	"genre": "Rock",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://worldkeyrings.com/2/5104-medium_default/mod5082-queen-a-night-at-the-opera-iman-nevera-fridge-magnet.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -2152,7 +2152,7 @@
 	"year": "1980",
 	"genre": "Rock",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/dru900/u986/u98682n7c7o.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -2164,7 +2164,7 @@
 	"year": "2005",
 	"genre": "Rock",
 	"price": 32.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://ink19.com/wp-content/uploads/2006/06/ftr-queens-of-the-stone-age.jpeg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2176,7 +2176,7 @@
 	"year": "2016",
 	"genre": "Rock",
 	"price": 27.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://thmb.inkfrog.com/rsz.php?username=hansmusicspot&gap=1&size=125&image=Radiohead-A-Moon-Shaped-Pool-1500x1500.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2188,7 +2188,7 @@
 	"year": "2007",
 	"genre": "Rock",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.jambase.com/features/bestof2007/rain_1.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -2200,7 +2200,7 @@
 	"year": "1997",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://worldkeyrings.com/2/6749-medium_default/radiohead-ok-computer-iman-nevera-fridge-magnet.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2212,7 +2212,7 @@
 	"year": "1992",
 	"genre": "Rock",
 	"price": 28.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://vignette2.wikia.nocookie.net/starpolar/images/c/c0/220px-RageAgainsttheMachineRageAgainsttheMachine.jpg/revision/latest/scale-to-width-down/125?cb=20150224025102",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2224,7 +2224,7 @@
 	"year": "1962",
 	"genre": "Soul",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://www.platekompaniet.no/globalassets/imported-images/lp/1740248986.jpg?preset=ProductList",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2236,7 +2236,7 @@
 	"year": "2003",
 	"genre": "Rock",
 	"price": 27.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://991.com/gallery_180x180/Red+Hot+Chili+Peppers+Greatest+Hits+264101-991.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -2248,7 +2248,7 @@
 	"year": "1984",
 	"genre": "Punk",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.toppermost.co.uk/wp-content/uploads/2015/12/the-replacements-let-it-be-125x125.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -2260,7 +2260,7 @@
 	"year": "2010",
 	"genre": "Rap",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.audio-club.ru/data/small/0602527094601.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2272,7 +2272,7 @@
 	"year": "2013",
 	"genre": "Rap",
 	"price": 18.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://cdn.spinrilla.com/albums/10009/thumb/7ebd972a72ca06d17400.jpg?1408666087",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2284,7 +2284,7 @@
 	"year": "2015",
 	"genre": "Indie",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.stereoboard.com/images/stories/2013/images/A-Z%20Main%20Artist%20Images/R/125xNxryan_adams_lj_170915.jpg.pagespeed.ic.AWK8P4PhPY.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2296,7 +2296,7 @@
 	"year": "2000",
 	"genre": "Indie",
 	"price": 25.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/a/adamsryan-heartbreaker.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2308,7 +2308,7 @@
 	"year": "2014",
 	"genre": "Indie",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.encorerecords.ca/images/covers/resized/images/covers/61jExBypTxL_SX466_-0x125.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -2320,7 +2320,7 @@
 	"year": "2014",
 	"genre": "Pop",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drw100/w101/w10189y5bl6.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -2332,7 +2332,7 @@
 	"year": "1999",
 	"genre": "Emo",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://24.media.tumblr.com/tumblr_lq7mkkgYWd1qf7krko1_400.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2344,7 +2344,7 @@
 	"year": "2013",
 	"genre": "Rock",
 	"price": 14.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.indigo.de/img/cover/middle/11839.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2356,7 +2356,7 @@
 	"year": "2003",
 	"genre": "Indie",
 	"price": 13.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/s/shins-chutes.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -2368,7 +2368,7 @@
 	"year": "2013",
 	"genre": "Indie",
 	"price": 14.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drw200/w233/w23346kxbxu.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2380,7 +2380,7 @@
 	"year": "2012",
 	"genre": "Indie",
 	"price": 25.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.encorerecords.ca/images/covers/resized/images/covers/shins-0x125.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -2392,7 +2392,7 @@
 	"year": "2014",
 	"genre": "Pop",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drw100/w153/w15396rs27p.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2404,7 +2404,7 @@
 	"year": "2016",
 	"genre": "Pop",
 	"price": 27.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://audio-club.ru/data/small/0888751805521.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2416,7 +2416,7 @@
 	"year": "1999",
 	"genre": "Indie",
 	"price": 27.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://musictown.cz/626-medium_default/sigur-ros-agaetis-byrjun-cd.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2428,7 +2428,7 @@
 	"year": "2007",
 	"genre": "Indie",
 	"price": 22.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.handsandarms.com/5369-medium_default/sigur-ros-hvarf-heim.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2440,7 +2440,7 @@
 	"year": "2008",
 	"genre": "Indie",
 	"price": 22.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.freezeec.com/upload/200807231334340.sigur-ros-2008.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2452,7 +2452,7 @@
 	"year": "1991",
 	"genre": "Rock",
 	"price": 15.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://vignette4.wikia.nocookie.net/musrecommendedalbums/images/9/9d/Slint_spiderland.jpg/revision/latest/scale-to-width-down/125?cb=20100131173402",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2464,7 +2464,7 @@
 	"year": "1987",
 	"genre": "Rock",
 	"price": 29.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://worldkeyrings.com/2/5546-medium_default/mod5524-the-smiths-louder-than-bombs-iman-nevera-fridge-magnet.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2476,7 +2476,7 @@
 	"year": "1993",
 	"genre": "Rap",
 	"price": 18.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.dubcnm.com/playerart/snoopdogg-doggystyle125.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2488,7 +2488,7 @@
 	"year": "2013",
 	"genre": "Rap",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.dubcnm.com/playerart/snooplion-reincarnated.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2500,7 +2500,7 @@
 	"year": "1973",
 	"genre": "Soul",
 	"price": 15.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.gutsofdarkness.com/images/pochettes_125/6357_14109.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -2512,7 +2512,7 @@
 	"year": "2001",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://ebeqsne.cloudimg.io/s/resize/125/http://images.fasterlouder.com.au/2/65f2a94_2707.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2524,7 +2524,7 @@
 	"year": "2003",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/s/strokes-roomonfire.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -2536,7 +2536,7 @@
 	"year": "2016",
 	"genre": "Country",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://audio-club.ru/data/small/0075678668296.jpg",
 	"quantity": 2,
 	"isStaffPick": false
@@ -2548,7 +2548,7 @@
 	"year": "2014",
 	"genre": "Country",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://audio-club.ru/data/small/0748252907103.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -2560,7 +2560,7 @@
 	"year": "1992",
 	"genre": "Reggae",
 	"price": 27.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drc700/c750/c750168sl40.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2572,7 +2572,7 @@
 	"year": "1996",
 	"genre": "Reggae",
 	"price": 27.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drv800/v859/v85966xlm14.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2584,7 +2584,7 @@
 	"year": "2015",
 	"genre": "Rap",
 	"price": 17.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://blacksheepsound.ro/wp-content/uploads/2015/07/Train-of-Thought-125x125.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2596,7 +2596,7 @@
 	"year": "2015",
 	"genre": "Rock",
 	"price": 27.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://covers2.booksamillion.com/covers/music/6/02/547/306/602547306777_w_3003516.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -2608,7 +2608,7 @@
 	"year": "2010",
 	"genre": "Rock",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/dro400/o473/o47362oqlhl.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -2620,7 +2620,7 @@
 	"year": "2014",
 	"genre": "Pop",
 	"price": 23.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://i796.photobucket.com/albums/yy241/celebritybug/Pop%20Stars/Taylor-Swift-1989.jpeg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2632,7 +2632,7 @@
 	"year": "2012",
 	"genre": "Country",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/artd/amg/music/cover/10235222_taylor_swift_red_125.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2644,7 +2644,7 @@
 	"year": "1985",
 	"genre": "Pop",
 	"price": 26.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/t/tearsforfears-songs.jpg",
 	"quantity": 2,
 	"isStaffPick": false
@@ -2656,7 +2656,7 @@
 	"year": "2016",
 	"genre": "Pop",
 	"price": 18.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://s2.vagalume.com/tegan-and-sara/discografia/love-you-to-death-W125.png",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2668,7 +2668,7 @@
 	"year": "1969",
 	"genre": "Soul",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://jazzymas.com/1172-medium_default/the-temptations-cloud-nine-lp-180-gr.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2680,7 +2680,7 @@
 	"year": "2006",
 	"genre": "Rock",
 	"price": 27.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drr900/r918/r91871wh2r8.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -2692,7 +2692,7 @@
 	"year": "2013",
 	"genre": "Indie",
 	"price": 13.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://chiselrecords.com/wp-content/uploads/2014/02/TTT-analog-weekend.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -2704,7 +2704,7 @@
 	"year": "2006",
 	"genre": "Indie",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://musictown.cz/5965-medium_default/thom-yorke-the-eraser-cd.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -2716,7 +2716,7 @@
 	"year": "1994",
 	"genre": "Rap",
 	"price": 33.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://tunecaster.com/pictures/t/tlc-crazysexycool.JPG",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2728,7 +2728,7 @@
 	"year": "1994",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.recsando.org/mm_forum/musica/solisti%20stranieri/amos/pink.gif",
 	"quantity": 0,
 	"isStaffPick": false
@@ -2740,7 +2740,7 @@
 	"year": "2011",
 	"genre": "Rap",
 	"price": 26.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://musictown.cz/2432-medium_default/tyler-the-creator-goblin-2lp.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2752,7 +2752,7 @@
 	"year": "1984",
 	"genre": "Soundtrack",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.anything80s.com/totallyawesome/3767-medium_default/original-soundtrack-footloose-lp.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -2764,7 +2764,7 @@
 	"year": "1984",
 	"genre": "Soundtrack",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://vignette4.wikia.nocookie.net/ghostbusters/images/9/91/GB2016_Soundtrack_Album_Preliminary_Cover.jpg/revision/latest/scale-to-width-down/125?cb=20160809015930",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2776,7 +2776,7 @@
 	"year": "1989",
 	"genre": "Soundtrack",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://i.imgur.com/sx1NR6n.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2788,7 +2788,7 @@
 	"year": "1985",
 	"genre": "Soundtrack",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.game-ost.com/static/covers_soundtracks/1/9/19237_277244.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2800,7 +2800,7 @@
 	"year": "2014",
 	"genre": "Soundtrack",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://covers4.booksamillion.com/covers/music/0/50/087/310/050087310851_w_2781900.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -2812,7 +2812,7 @@
 	"year": "2008",
 	"genre": "Rock",
 	"price": 17.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://cdn.shopify.com/s/files/1/0993/9646/products/RR077CD_grande.jpeg?v=1466344069",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2824,7 +2824,7 @@
 	"year": "1985",
 	"genre": "Soundtrack",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drn000/n005/n00551y8yx3.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2836,7 +2836,7 @@
 	"year": "2013",
 	"genre": "Soundtrack",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://d3mjk82f332v2.cloudfront.net/assets/NewsPhotos/_resampled/CroppedImage125%20%20125-great-gatsby-thumb.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -2848,7 +2848,7 @@
 	"year": "1969",
 	"genre": "Rock",
 	"price": 32.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.popspotsnyc.com/lou_reed_velvet_underground/The-Velvet-Underground_1234.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -2860,7 +2860,7 @@
 	"year": "2011",
 	"genre": "Pop",
 	"price": 27.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.livemixtapes.com/artists/unknown/weeknd-houseofballoons/tn_cover.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2872,7 +2872,7 @@
 	"year": "1996",
 	"genre": "Emo",
 	"price": 35.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://media.udiscovermusic.com/img/albums/Weezer/Pinkerton.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -2884,7 +2884,7 @@
 	"year": "1994",
 	"genre": "Emo",
 	"price": 35.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.soundcentralstore.com/items/17489.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2896,7 +2896,7 @@
 	"year": "2003",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/w/whitestripes-elephant.gif",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2908,7 +2908,7 @@
 	"year": "1971",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drc800/c851/c851010q3cj.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2920,7 +2920,7 @@
 	"year": "1996",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://fanmusicfest.com/sites/default/files/styles/red_125x125/public/MI0001520282.jpg?itok=G9-Io1UY",
 	"quantity": 0,
 	"isStaffPick": false
@@ -2932,7 +2932,7 @@
 	"year": "2007",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://www.platekompaniet.no/globalassets/imported-images/cd/561132993.jpg?preset=ProductList",
 	"quantity": 0,
 	"isStaffPick": false
@@ -2944,7 +2944,7 @@
 	"year": "2002",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://rockthatfont.com/wp-content/images/yankee-hotel-foxtrot1.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -2956,7 +2956,7 @@
 	"year": "2015",
 	"genre": "Country",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.wbwn.com/wp-content/uploads/sites/380/2015/03/1425578080-125x125.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2968,7 +2968,7 @@
 	"year": "2015",
 	"genre": "Rock",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.writteninmusic.com/wp-content/uploads/wp-post-thumbnail/4vi2Wf.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -2980,7 +2980,7 @@
 	"year": "1998",
 	"genre": "Emo",
 	"price": 17.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drd400/d464/d46447ytws3.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -2992,7 +2992,7 @@
 	"year": "2015",
 	"genre": "Indie",
 	"price": 14.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.toppermost.co.uk/wp-content/uploads/2015/03/sufjan-stevens-carrie-and-lowell-125x125.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -3004,7 +3004,7 @@
 	"year": "2005",
 	"genre": "Indie",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://images-na.ssl-images-amazon.com/images/I/610ktjFdVqL.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -3016,7 +3016,7 @@
 	"year": "1994",
 	"genre": "Rap",
 	"price": 9.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://cps-static.rovicorp.com/3/JPG_500/MI0000/053/MI0000053862.jpg?partner=allrovi.com",
 	"quantity": 1,
 	"isStaffPick": false
@@ -3028,7 +3028,7 @@
 	"year": "2004",
 	"genre": "Indie",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/a/air-talkie.jpg",
 	"quantity": 1,
 	"isStaffPick": true
@@ -3040,7 +3040,7 @@
 	"year": "2016",
 	"genre": "Indie",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://musictown.cz/7872-medium_default/album-leaf-the-between-waves-cd.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -3052,7 +3052,7 @@
 	"year": "1989",
 	"genre": "Pop",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://musics-box.us/10-medium_default/the-cure-disintegration.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -3064,7 +3064,7 @@
 	"year": "2006",
 	"genre": "Pop",
 	"price": 33.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drh600/h633/h63344icfkw.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -3076,7 +3076,7 @@
 	"year": "2008",
 	"genre": "Country",
 	"price": 22.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.topcountrymusicvideos.com/wp-content/uploads/2009/09/zac-brown-band-foundation.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -3088,7 +3088,7 @@
 	"year": "2010",
 	"genre": "Comedy",
 	"price": 14.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://thirdmanstore.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/m/tml_cob_1.jpg",
 	"quantity": 2,
 	"isStaffPick": false
@@ -3100,7 +3100,7 @@
 	"year": "1985",
 	"genre": "Soundtrack",
 	"price": 15.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://thelimitedpress.com/wp-content/uploads/2013/08/dayofthedead.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -3112,7 +3112,7 @@
 	"year": "2012",
 	"genre": "Rock",
 	"price": 10.90,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://i1.starbro.net/c_50d41fa5d48827ef487e87bc93f0d051bb11f0c7.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -3124,7 +3124,7 @@
 	"year": "1995",
 	"genre": "Rock",
 	"price": 6.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drn300/n322/n32215xzt76.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -3136,7 +3136,7 @@
 	"year": "1999",
 	"genre": "Emo",
 	"price": 14.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://f4.bcbits.com/img/a2753906385_16.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -3148,7 +3148,7 @@
 	"year": "1999",
 	"genre": "Emo",
 	"price": 15.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://www.levykauppax.fi/cover/width_100/3/39/397372.jpg?lp",
 	"quantity": 0,
 	"isStaffPick": false
@@ -3160,7 +3160,7 @@
 	"year": "2005",
 	"genre": "Rap",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://www.albumkings.xyz/packages/anahkiasen/illuminage/827789efb4c5f2a835b2a397c90ffce2.png",
 	"quantity": 0,
 	"isStaffPick": false
@@ -3172,7 +3172,7 @@
 	"year": "2005",
 	"genre": "Emo",
 	"price": 20.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.librarypoint.org/sites/librarypoint.org/files/imagecache/picaresque.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -3184,7 +3184,7 @@
 	"year": "2010",
 	"genre": "Indie",
 	"price": 15.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://www.platekompaniet.no/globalassets/imported-images/cd/977420844.jpg?preset=ProductList",
 	"quantity": 0,
 	"isStaffPick": false
@@ -3196,7 +3196,7 @@
 	"year": "1991",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.coveralia.com/audio/thumbs/7357g.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -3208,7 +3208,7 @@
 	"year": "1977",
 	"genre": "Rock",
 	"price": 25.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.handsandarms.com/6545-medium_default/aerosmith-lp-draw-the-line.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -3220,7 +3220,7 @@
 	"year": "1974",
 	"genre": "Rock",
 	"price": 25.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://cbskzok2.files.wordpress.com/2015/11/get-your-wings-aerosmith.jpg?w=125&h=125",
 	"quantity": 0,
 	"isStaffPick": false
@@ -3232,7 +3232,7 @@
 	"year": "1968",
 	"genre": "Pop",
 	"price": 25.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://media-cdn.list.ly/production/812/5449/sugar_sugar_the_archies_185px.png",
 	"quantity": 1,
 	"isStaffPick": false
@@ -3244,7 +3244,7 @@
 	"year": "2013",
 	"genre": "Folk",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drv400/v441/v44184ss713.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -3256,7 +3256,7 @@
 	"year": "1992",
 	"genre": "Blues",
 	"price": 25.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://upload.wikimedia.org/wikipedia/en/1/14/King_of_the_Blues_cover.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -3268,7 +3268,7 @@
 	"year": "1971",
 	"genre": "Blues",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://jazzymas.com/2663-medium_default/king-b-b-live-in-cook-county-jail-lp-180-gr.jpg",
 	"quantity": 0,
 	"isStaffPick": false
@@ -3280,7 +3280,7 @@
 	"year": "1969",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.toppermost.co.uk/wp-content/uploads/2013/05/the-band-the-band-125x125.jpg",
 	"quantity": 1,
 	"isStaffPick": false
@@ -3292,7 +3292,7 @@
 	"year": "2009",
 	"genre": "Metal",
 	"price": 36.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://static1.squarespace.com/static/54da7ffbe4b06c67da90bea3/54dba389e4b07bfb9a81e6f4/54dbafefe4b07bfb9a835ef0/1423683567238/baroness_blue_record-thumb.jpg?format=original",
 	"quantity": 0,
 	"isStaffPick": false
@@ -3304,7 +3304,7 @@
 	"year": "1987",
 	"genre": "Soundtrack",
 	"price": 32.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.music-for-you.ru/data/small/0731383671425.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3316,7 +3316,7 @@
 	"year": "1967",
 	"genre": "Rock",
 	"price": 25.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://rokpool.com/files/magical_mystery_tour.jpg?1323083603",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3328,7 +3328,7 @@
 	"year": "1996",
 	"genre": "Pop",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.sputnikmusic.com/images/albums/2246.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3340,7 +3340,7 @@
 	"year": "2015",
 	"genre": "Soundtrack",
 	"price": 23.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://darkmp3.ru/imgs/9902332-460x460/psycho-1960-original-motion-picture-soundtrack.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3352,7 +3352,7 @@
 	"year": "1972",
 	"genre": "Rock",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.toppermost.co.uk/wp-content/uploads/2013/11/big-star-number-one-record-125x125.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -3364,7 +3364,7 @@
 	"year": "1970",
 	"genre": "Metal",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.interrecords.net/media/catalog/product/cache/1/small_image/125x/9df78eab33525d08d6e5fb8d27136e95/6/4/649989_219313270.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -3376,7 +3376,7 @@
 	"year": "1998",
 	"genre": "Rap",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.udiscovermusic.com/wp-content/uploads/2016/02/Black-Star-Album-Cover-cropped-with-logos-compressor-125x125.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -3388,7 +3388,7 @@
 	"year": "2013",
 	"genre": "Blues",
 	"price": 16.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://intothemusic.ca/images/covers/McTell_Blind_Willie_-_Volume_1.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3400,7 +3400,7 @@
 	"year": "2011",
 	"genre": "Emo",
 	"price": 17.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.encorerecords.ca/images/covers/resized/images/covers/iver-0x125.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -3412,7 +3412,7 @@
 	"year": "1982",
 	"genre": "Rock",
 	"price": 28.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.rockandfolk.com/7787-medium_default/bruce-springsteen-nebraska.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3424,7 +3424,7 @@
 	"year": "2015",
 	"genre": "Indie",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.audio-club.ru/data/small/0744861108825.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3436,7 +3436,7 @@
 	"year": "1978",
 	"genre": "Rock",
 	"price": 30.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://backseatmafia.files.wordpress.com/2014/08/cheap-trick-budokan.png",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -3448,7 +3448,7 @@
 	"year": "2015",
 	"genre": "Country",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.radioinfo.com/wp-content/uploads/2015/05/%E2%80%9CTraveller%E2%80%9D-by-Chris-Stapleton-Traveller-2.jpg",
 	"quantity": 2,
 	"isStaffPick": true	
@@ -3460,7 +3460,7 @@
 	"year": "1979",
 	"genre": "Punk",
 	"price": 34.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/c/clash-londonmft.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -3472,7 +3472,7 @@
 	"year": "1972",
 	"genre": "Soul",
 	"price": 17.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.toppermost.co.uk/wp-content/uploads/2013/10/curtis-mayfield-superfly-125x125.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -3484,7 +3484,7 @@
 	"year": "1988",
 	"genre": "Soundtrack",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drw800/w874/w87447kodti.jpg",
 	"quantity": 24.98,
 	"isStaffPick": false	
@@ -3496,7 +3496,7 @@
 	"year": "2016",
 	"genre": "Folk",
 	"price": 18.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://upcomingvinyl.com/pics/covers/d/dawes-we-re-all-gonna-die.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3508,7 +3508,7 @@
 	"year": "1971",
 	"genre": "Rock",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drr800/r880/r88093k64qx.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3520,7 +3520,7 @@
 	"year": "1969",
 	"genre": "Pop",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://historic-memphis.com/biographies/american-studios/dusty-in-memphis_small.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3532,7 +3532,7 @@
 	"year": "1986",
 	"genre": "Country",
 	"price": 26.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.toppermost.co.uk/wp-content/uploads/2016/04/dwight-yoakam-guitars-cadillacs-etc-etc-125x125.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -3544,7 +3544,7 @@
 	"year": "1956",
 	"genre": "Jazz",
 	"price": 18.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/dri600/i602/i60231qzg2w.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3556,7 +3556,7 @@
 	"year": "2000",
 	"genre": "Rap",
 	"price": 29.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://mla-d2-p.mlstatic.com/eminem-the-marshall-mathers-lp-cd-nuevo-dido-dr-dre-779511-MLA20594759485_022016-F.jpg?square=false",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3568,7 +3568,7 @@
 	"year": "1955",
 	"genre": "Jazz",
 	"price": 18.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://audio-club.ru/data/small/0724349475526.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3580,7 +3580,7 @@
 	"year": "1979",
 	"genre": "Country",
 	"price": 28.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQdmn94jE6WYPYBx-pLVayRB-i0d_Z_cfLPq4XgF5pKUSe0h-tE",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3592,7 +3592,7 @@
 	"year": "1970",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.deaddisc.com/images/American_Beauty.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3604,7 +3604,7 @@
 	"year": "1970",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.gutsofdarkness.com/images/pochettes_125/5751_16204.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3616,7 +3616,7 @@
 	"year": "1994",
 	"genre": "Punk",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://greendaychords.com/album_covers/dookie.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -3628,7 +3628,7 @@
 	"year": "1994",
 	"genre": "Indie",
 	"price": 15.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Cop_and_Speeder.jpg/220px-Cop_and_Speeder.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -3640,7 +3640,7 @@
 	"year": "1962",
 	"genre": "Jazz",
 	"price": 18.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drc600/c602/c602867ya3t.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -3652,7 +3652,7 @@
 	"year": "2016",
 	"genre": "Rock",
 	"price": 29.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://thirdmanstore.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/m/tmr387_jackwhite_acoustic_back_550_2.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3664,7 +3664,7 @@
 	"year": "1967",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.toppermost.co.uk/wp-content/uploads/2013/07/Jefferson-Airplane-Surrealistic-Pillow--125x125.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3676,7 +3676,7 @@
 	"year": "2010",
 	"genre": "Rap",
 	"price": 29.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/artd/amg/music/cover/7701633_beautiful_dark_125.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3688,7 +3688,7 @@
 	"year": "2015",
 	"genre": "Rock",
 	"price": 10.98,
-	"format": "7",
+	"format": 7,
 	"imgURL": "http://audio-club.ru/data/small/0602547592347.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -3700,7 +3700,7 @@
 	"year": "1970",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://musicsojourn.com/AR/Prog/img/l/LedZeppelin/Lzep3_125.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -3712,7 +3712,7 @@
 	"year": "1971",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://appve.net/wp-content/uploads/2016/06/thmvwff3st24pcg8czjs0y06e2k8pj8ofqizy4xk-125x125.jpeg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -3724,7 +3724,7 @@
 	"year": "2015",
 	"genre": "Soul",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drx100/x108/x10802xg15d.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -3736,7 +3736,7 @@
 	"year": "2011",
 	"genre": "Rock",
 	"price": 25.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.toppermost.co.uk/wp-content/uploads/2013/07/Levon-Helm-Ramble-At-The-Ryman-125x125.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3748,7 +3748,7 @@
 	"year": "2016",
 	"genre": "Blues",
 	"price": 27.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.writteninmusic.com/wp-content/uploads/wp-post-thumbnail/cp6no.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3760,7 +3760,7 @@
 	"year": "2012",
 	"genre": "Rock",
 	"price": 22.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.atomheart.ca/img/MD54289.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -3772,7 +3772,7 @@
 	"year": "1984",
 	"genre": "Pop",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/LikeAVirgin1984.png/220px-LikeAVirgin1984.png",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3784,7 +3784,7 @@
 	"year": "1984",
 	"genre": "Metal",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.vintagevinyljournals.com/wp-content/uploads/2011/12/metallica-ridethelightning-cover-125x125.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -3796,7 +3796,7 @@
 	"year": "1974",
 	"genre": "Funk",
 	"price": 17.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://audio-club.ru/data/small/8718469533596.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3808,7 +3808,7 @@
 	"year": "1957",
 	"genre": "Jazz",
 	"price": 25.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://arttattler.com/Images/NorthAmerica/Missouri/St.%20Louis/Mildred%20Lane%20Kemper/Birth%20of%20the%20Cool/Miles-Davis---Birth-Of-The-Cool---Front-(2-2).jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3820,7 +3820,7 @@
 	"year": "1959",
 	"genre": "Jazz",
 	"price": 23.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.handsandarms.com/6400-medium_default/miles-davis-lp-kind-of-blue.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -3832,7 +3832,7 @@
 	"year": "1986",
 	"genre": "Punk",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.sputnikmusic.com/images/albums/8204.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -3844,7 +3844,7 @@
 	"year": "1999",
 	"genre": "Indie",
 	"price": 20.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://d1wtzzt4oxg683.cloudfront.net/images/covers/171/152921.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3856,7 +3856,7 @@
 	"year": "2016",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://appve.net/wp-content/uploads/2016/04/pdlllctxidzwk86rqjy13h7zcdc1x88pj1eyoffr-125x125.jpeg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3868,7 +3868,7 @@
 	"year": "2015",
 	"genre": "Folk",
 	"price": 29.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drw900/w909/w90975ysj3j.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3880,7 +3880,7 @@
 	"year": "2003",
 	"genre": "Rock",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/m/mymorningjacket-itstillmoves.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3892,7 +3892,7 @@
 	"year": "2005",
 	"genre": "Rock",
 	"price": 1,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.sputnikmusic.com/images/albums/6604.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3904,7 +3904,7 @@
 	"year": "2004",
 	"genre": "Indie",
 	"price": 12.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/o/ofmontreal-satanic.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -3916,7 +3916,7 @@
 	"year": "2008",
 	"genre": "Indie",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/SkeletalLampingCover2.jpg/220px-SkeletalLampingCover2.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3928,7 +3928,7 @@
 	"year": "2014",
 	"genre": "Rock",
 	"price": 28.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drw300/w312/w31206opf0r.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3940,7 +3940,7 @@
 	"year": "1988",
 	"genre": "Rock",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/p/pixies-surfer.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -3952,7 +3952,7 @@
 	"year": "1977",
 	"genre": "Rock",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.nextimerecords.cl/757-medium_default/queen-news-of-the-world.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3964,7 +3964,7 @@
 	"year": "1988",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://covers3.booksamillion.com/covers/music/0/81/227/966/081227966454_w_2490177.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3976,7 +3976,7 @@
 	"year": "1988",
 	"genre": "Country",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.topcountrymusicvideos.com/wp-content/uploads/2011/02/steve-earle-copperhead-road-125x125.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -3988,7 +3988,7 @@
 	"year": "1986",
 	"genre": "Country",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/e/earlesteve-guitar.jpg",
 	"quantity": 2,
 	"isStaffPick": false	
@@ -4000,7 +4000,7 @@
 	"year": "1994",
 	"genre": "Rock",
 	"price": 22.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.music-for-you.ru/data/small/8718469533121.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4012,7 +4012,7 @@
 	"year": "2003",
 	"genre": "Indie",
 	"price": 17.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.toppermost.co.uk/wp-content/uploads/2015/03/sufjan-stevens-michigan-125x125.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -4024,7 +4024,7 @@
 	"year": "1994",
 	"genre": "Emo",
 	"price": 17.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://images-na.ssl-images-amazon.com/images/I/51HcRpIl6rL._SY355_.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -4036,7 +4036,7 @@
 	"year": "2012",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.peakhifi.co.uk/db_images/TameImpalaLonerism.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -4048,7 +4048,7 @@
 	"year": "1983",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.gutsofdarkness.com/images/pochettes_125/752_3088.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -4060,7 +4060,7 @@
 	"year": "2007",
 	"genre": "Soundtrack",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.filmmusic.pl/images/covers/dproof.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -4072,7 +4072,7 @@
 	"year": "2000",
 	"genre": "Rock",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/w/whitestripes-de.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -4084,7 +4084,7 @@
 	"year": "1993",
 	"genre": "Rap",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/w/wutangclan-enter.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -4096,7 +4096,7 @@
 	"year": "1967",
 	"genre": "Rock",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/artd/amg/music/cover/2749072_are_you_expreienced_125.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -4108,7 +4108,7 @@
 	"year": "1980",
 	"genre": "Metal",
 	"price": 27.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://vinyl38.ru/1479-medium_default/ozzy-osbourne-blizzard-of-ozz-lp.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4120,7 +4120,7 @@
 	"year": "2015",
 	"genre": "Pop",
 	"price": 29.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://upload.wikimedia.org/wikipedia/en/7/72/Dopamine_Studio_Album_Cover.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -4132,7 +4132,7 @@
 	"year": "1987",
 	"genre": "Other",
 	"price": 16.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.erecord.it/19998-medium_default/luciano-pavarotti-lp-33giri-anniversary-nuovo-gatefold.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4144,7 +4144,7 @@
 	"year": "2013",
 	"genre": "Rock",
 	"price": 26.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://musictown.cz/5887-medium_default/atoms-for-peace-amok-cd.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -4156,7 +4156,7 @@
 	"year": "2005",
 	"genre": "Rock",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://fanmusicfest.com/sites/default/files/styles/red_125x125/public/pictures/lastfm//34788339.png?itok=p9uhqX1a",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4168,7 +4168,7 @@
 	"year": "1995",
 	"genre": "Reggae",
 	"price": 40.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://upload.wikimedia.org/wikipedia/en/5/56/311_album_cover.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4180,7 +4180,7 @@
 	"year": "2015",
 	"genre": "Rap",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://musictown.cz/5350-medium_default/action-bronson-mr-wonderful-cd.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -4192,7 +4192,7 @@
 	"year": "1975",
 	"genre": "Soul",
 	"price": 17.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.disqueria12pulgadas.cl/6-medium_default/al-green-greatest-hits.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4204,7 +4204,7 @@
 	"year": "2009",
 	"genre": "Indie",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://audio-club.ru/data/small/0767981112428.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4216,7 +4216,7 @@
 	"year": "2006",
 	"genre": "Indie",
 	"price": 18.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.arcticmonkeys-store.co.uk/images/artists/arctic-monkeys/125_125/arceys_rel_22.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -4228,7 +4228,7 @@
 	"year": "1982",
 	"genre": "Metal",
 	"price": 17.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.troppobuio.it/5217-medium_default/Motorhead-Iron-Fist-Lp.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -4240,7 +4240,7 @@
 	"year": "1958",
 	"genre": "Jazz",
 	"price": 20.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drr400/r497/r49727u7c48.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4252,7 +4252,7 @@
 	"year": "2007",
 	"genre": "Folk",
 	"price": 26.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Emotionalismcover.jpg/220px-Emotionalismcover.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -4264,7 +4264,7 @@
 	"year": "1965",
 	"genre": "Blues",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.disqueria12pulgadas.cl/1067-medium_default/bb-king-live-at-the-regal.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4276,7 +4276,7 @@
 	"year": "1958",
 	"genre": "Blues",
 	"price": 22.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drs400/s496/s49624uihfk.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4288,7 +4288,7 @@
 	"year": "1976",
 	"genre": "Soundtrack",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://upload.wikimedia.org/wikipedia/en/e/ee/RockyOST.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4300,7 +4300,7 @@
 	"year": "1961",
 	"genre": "Jazz",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.toppermost.co.uk/wp-content/uploads/2016/03/bill-evans-sunday-at-the-village-vanguard-125x125.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4312,7 +4312,7 @@
 	"year": "1973",
 	"genre": "Rock",
 	"price": 29.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.peakhifi.co.uk/db_images/BillyJoelPianoMan.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4324,7 +4324,7 @@
 	"year": "1974",
 	"genre": "Rock",
 	"price": 29.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.billyjoelfan.com/Albums/StreetlifeSerenade/StreetlifeSerenade3.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4336,7 +4336,7 @@
 	"year": "2001",
 	"genre": "Pop",
 	"price": 22.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/b/bjork-vespertine.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4348,7 +4348,7 @@
 	"year": "1971",
 	"genre": "Metal",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://klanshop.cz/188-medium_default/nasivka-s-kapelou-black-sabbath-master-of-reality.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4360,7 +4360,7 @@
 	"year": "1966",
 	"genre": "Folk",
 	"price": 32.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.toppermost.co.uk/wp-content/uploads/2013/07/Bob-Dylan-Blonde-On-Blonde-125x125.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4372,7 +4372,7 @@
 	"year": "1973",
 	"genre": "Reggae",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/m/marleybob-catch.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4384,7 +4384,7 @@
 	"year": "1970",
 	"genre": "Soul",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://ink19.com/wp-content/uploads/2011/08/ftr-booker-t-and-the-mgs.jpeg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4396,7 +4396,7 @@
 	"year": "1962",
 	"genre": "Soul",
 	"price": 23.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drf500/f562/f56215vhg2o.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4408,7 +4408,7 @@
 	"year": "1967",
 	"genre": "Soul",
 	"price": 23.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/dru700/u796/u79613rh3rc.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4420,7 +4420,7 @@
 	"year": "1984",
 	"genre": "Rock",
 	"price": 26.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://musicsojourn.com/AR/Prog/img/s/SpringsteenBruce/BornInTheUSA_125.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4432,7 +4432,7 @@
 	"year": "2005",
 	"genre": "Funk",
 	"price": 15.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://www.platekompaniet.no/globalassets/imported-images/lp/1551031683.jpg?preset=ProductList",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4444,7 +4444,7 @@
 	"year": "1999",
 	"genre": "Indie",
 	"price": 18.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://audio-club.ru/data/small/0093624695226.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -4456,7 +4456,7 @@
 	"year": "2013",
 	"genre": "Metal",
 	"price": 15.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.icarusmusicstore.com/2761-medium_default/children-of-bodom-halo-of-blood-cd-dvd-.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -4468,7 +4468,7 @@
 	"year": "1990",
 	"genre": "Pop",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.writteninmusic.com/wp-content/uploads/wp-post-thumbnail/qizXoC.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4480,7 +4480,7 @@
 	"year": "2015",
 	"genre": "Indie",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.radioinfo.com/wp-content/uploads/2016/01/%E2%80%9CElevator-Operator%E2%80%9D-by-Courtney-Barnett-Sometimes-I-Sit-and-Think-And-Sometimes-I-Just-Sit-1.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4492,7 +4492,7 @@
 	"year": "1983",
 	"genre": "Pop",
 	"price": 26.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://musictown.cz/1573-medium_default/culture-club-colour-by-numbers-cd.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4504,7 +4504,7 @@
 	"year": "1987",
 	"genre": "Rock",
 	"price": 32.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://musics-box.us/20-medium_default/the-cure-kiss-me-kiss-me-kiss-me.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4516,7 +4516,7 @@
 	"year": "1993",
 	"genre": "Rap",
 	"price": 32.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://musictown.cz/6260-medium_default/cypress-hill-black-sunday-2lp.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4528,7 +4528,7 @@
 	"year": "2005",
 	"genre": "Indie",
 	"price": 23.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drg900/g982/g98254mxvup.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -4540,7 +4540,7 @@
 	"year": "1998",
 	"genre": "Indie",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://worldkeyrings.com/2/5976-medium_default/mod5954-death-cab-for-cutie-something-about-airplanes-iman-nevera-fridge-magnet.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -4552,7 +4552,7 @@
 	"year": "1991",
 	"genre": "Punk",
 	"price": 29.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.coveralia.com/audio/d/Descendents-Somery-Frontal.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4564,7 +4564,7 @@
 	"year": "1972",
 	"genre": "Soul",
 	"price": 32.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/dre500/e569/e56930te8nn.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4576,7 +4576,7 @@
 	"year": "2013",
 	"genre": "Rock",
 	"price": 32.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://culturefactory.fr/1914-medium_default/promised-land.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4588,7 +4588,7 @@
 	"year": "1956",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://media.homeofrecords.com/graphics/title/Elvis.png",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4600,7 +4600,7 @@
 	"year": "1999",
 	"genre": "Rock",
 	"price": 29.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.johnmcferrinmusicreviews.org/softbulletin.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4612,7 +4612,7 @@
 	"year": "2015",
 	"genre": "Indie",
 	"price": 23.69,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drx100/x165/x16577ipn5o.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -4624,7 +4624,7 @@
 	"year": "1995",
 	"genre": "Rock",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://upload.wikimedia.org/wikipedia/en/0/0d/FooFighters-FooFighters.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4636,7 +4636,7 @@
 	"year": "1997",
 	"genre": "Rock",
 	"price": 32.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drs000/s012/s01253hv4da.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4648,7 +4648,7 @@
 	"year": "1996",
 	"genre": "Soul",
 	"price": 32.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drc700/c763/c76385abf37.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4660,7 +4660,7 @@
 	"year": "1975",
 	"genre": "Country",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drf300/f381/f38194oyoc1.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4672,7 +4672,7 @@
 	"year": "2015",
 	"genre": "Folk",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.radioinfo.com/wp-content/uploads/2015/06/%E2%80%9CBig-Man%E2%80%9D-by-HoneyHoney..jpeg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4684,7 +4684,7 @@
 	"year": "2014",
 	"genre": "Blues",
 	"price": 29.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://ecx.images-amazon.com/images/I/61oB4nFwuuL._SL125_.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -4696,7 +4696,7 @@
 	"year": "2007",
 	"genre": "Blues",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.pinballwizardrecords.com/online/img/p/2/2/3/7/3/22373-medium_default.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4708,7 +4708,7 @@
 	"year": "1970",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://media.homeofhendrix.com/graphics/title/cover_bandofgypsys.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4720,7 +4720,7 @@
 	"year": "2007",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://earthblues.jimihendrix.com/store/125/622001076.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4732,7 +4732,7 @@
 	"year": "1961",
 	"genre": "Jazz",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.jerryjazzmusician.com/pics/mft1.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -4744,7 +4744,7 @@
 	"year": "2015",
 	"genre": "Soundtrack",
 	"price": 48.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://covers4.booksamillion.com/covers/music/0/50/087/323/050087323295_w_3043493.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4756,7 +4756,7 @@
 	"year": "2002",
 	"genre": "Country",
 	"price": 32.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drf100/f105/f10586574cm.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4768,7 +4768,7 @@
 	"year": "2002",
 	"genre": "Country",
 	"price": 8.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://media-cdn.list.ly/production/22740/183329/41iwf-2b4w3pl_185px.png",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4780,7 +4780,7 @@
 	"year": "1999",
 	"genre": "Blues",
 	"price": 17.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://juanvitoria.com/shop/img/p/1/3/4/8/1348-medium_default.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -4792,7 +4792,7 @@
 	"year": "2009",
 	"genre": "Pop",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.panicposters.com/media/catalog/product/cache/1/small_image/125x/f63dc5ec28f3175f8a7f615bd217eb71/l/p/lp1369-lady-gaga.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4804,7 +4804,7 @@
 	"year": "1969",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://s-media-cache-ak0.pinimg.com/236x/8e/d9/74/8ed974227362b4d3cf3c793d6d0b7d50.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4816,7 +4816,7 @@
 	"year": "2016",
 	"genre": "Indie",
 	"price": 22.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://consequenceofsound.files.wordpress.com/2016/06/local-natives-sunlit-youth-album-new1.jpg?w=380&h=380&crop=1",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4828,7 +4828,7 @@
 	"year": "1972",
 	"genre": "Rock",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://juanvitoria.com/shop/img/p/2/0/5/3/2053-medium_default.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -4840,7 +4840,7 @@
 	"year": "2016",
 	"genre": "Electronic",
 	"price": 25.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.stereoboard.com/images/stories/2013/images/A-Z%20Main%20Artist%20Images/M/125xNxm83_lj_020316.jpeg.pagespeed.ic.3GAlNRxSfJ.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4852,7 +4852,7 @@
 	"year": "2008",
 	"genre": "Electronic",
 	"price": 25.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://audio-club.ru/data/small/3298498333114.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4864,7 +4864,7 @@
 	"year": "2015",
 	"genre": "Funk",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drw700/w710/w71027g1t8o.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4876,7 +4876,7 @@
 	"year": "1988",
 	"genre": "Metal",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.handsandarms.com/7100-medium_default/2nd-hand-occas-metallica-and-justice-for-all.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4888,7 +4888,7 @@
 	"year": "1996",
 	"genre": "Indie",
 	"price": 20.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://audio-club.ru/data/small/0767981149226.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4900,7 +4900,7 @@
 	"year": "2010",
 	"genre": "Rock",
 	"price": 26.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drn600/n659/n65989vxql4.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4912,7 +4912,7 @@
 	"year": "1970",
 	"genre": "ROck",
 	"price": 22.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://media-cdn.list.ly/production/127462/971268/item971268_185px.jpeg?ver=9452673964",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4924,7 +4924,7 @@
 	"year": "1965",
 	"genre": "Soul",
 	"price": 24.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.toppermost.co.uk/wp-content/uploads/2013/12/otis-redding-otis-blue-125x125.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4936,7 +4936,7 @@
 	"year": "1994",
 	"genre": "Rock",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.toppermost.co.uk/wp-content/uploads/2013/07/Pavement-Crooked-Rain-Crooked-Rain-125x125.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4948,7 +4948,7 @@
 	"year": "1985",
 	"genre": "Rock",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.music-for-you.ru/data/small/0075678124020.jpg",
 	"quantity": 2,
 	"isStaffPick": false	
@@ -4960,7 +4960,7 @@
 	"year": "1989",
 	"genre": "Rock",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.toppermost.co.uk/wp-content/uploads/2015/06/pixies-doolittle-125x125.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -4972,7 +4972,7 @@
 	"year": "1975",
 	"genre": "Rock",
 	"price": 29.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://upload.wikimedia.org/wikipedia/en/4/4d/Queen_A_Night_At_The_Opera.png",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4984,7 +4984,7 @@
 	"year": "2000",
 	"genre": "Rock",
 	"price": 26.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/r/radiohead-kida.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -4996,7 +4996,7 @@
 	"year": "2002",
 	"genre": "Rock",
 	"price": 29.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.popmatters.com/music_cover_art/r/redhotchilipeppers-bytheway.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -5008,7 +5008,7 @@
 	"year": "1976",
 	"genre": "Rock",
 	"price": 29.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://basskitchenrecords.com/7777-medium_default/rush-2112.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -5020,7 +5020,7 @@
 	"year": "2014",
 	"genre": "Indie",
 	"price": 17.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.encorerecords.ca/images/covers/resized/images/covers/carn-0x125.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -5032,7 +5032,7 @@
 	"year": "1960",
 	"genre": "Soul",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://upload.wikimedia.org/wikipedia/en/f/f0/The_Wonderful_World_of_Sam_Cooke.jpeg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -5044,7 +5044,7 @@
 	"year": "1967",
 	"genre": "Soul",
 	"price": 15.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.toppermost.co.uk/wp-content/uploads/2014/07/stevie-wonder-i-was-made-to-love-her-125x125.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -5056,7 +5056,7 @@
 	"year": "2004",
 	"genre": "Indie",
 	"price": 17.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.toppermost.co.uk/wp-content/uploads/2015/03/sufjan-stevens-seven-swans-125x125.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -5068,7 +5068,7 @@
 	"year": "1983",
 	"genre": "Punk",
 	"price": 16.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://audio-club.ru/data/small/0018663101118.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -5080,7 +5080,7 @@
 	"year": "1951",
 	"genre": "Jazz",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.themusicresource.com/catalog/images/monk-geniusvol1.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -5092,7 +5092,7 @@
 	"year": "1978",
 	"genre": "Rock",
 	"price": 20.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://covers3.booksamillion.com/covers/music/0/93/624/978/093624978350_w_1792924.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -5104,7 +5104,7 @@
 	"year": "1993",
 	"genre": "Metal",
 	"price": 32.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://cbskroq2.files.wordpress.com/2013/04/toolundertow2.jpg?w=125&h=125",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -5116,7 +5116,7 @@
 	"year": "1971",
 	"genre": "Country",
 	"price": 16.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.toppermost.co.uk/wp-content/uploads/2013/10/townes-van-zandt-delta-momma-blues-125x125.png",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -5128,7 +5128,7 @@
 	"year": "1968",
 	"genre": "Country",
 	"price": 17.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://audio-club.ru/data/small/0767981108711.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -5140,7 +5140,7 @@
 	"year": "2000",
 	"genre": "Soundtrack",
 	"price": 29.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/dre000/e086/e08692r6f67.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -5152,7 +5152,7 @@
 	"year": "2016",
 	"genre": "Country",
 	"price": 19.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.savingcountrymusic.com/wp-content/uploads/2015/11/vince-gill-down-to-my-last-bad-habit-125x125.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -5164,7 +5164,7 @@
 	"year": "2016",
 	"genre": "Rock",
 	"price": 21.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.electricfetus.com/Photo/418457638999:125",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -5176,7 +5176,7 @@
 	"year": "2016",
 	"genre": "Indie",
 	"price": 25.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.stefanosantoni14.it/wp-content/uploads/2016/06/devendra-banhart-ape-in-pink-marble-1000sq_1_3-300x274.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -5188,7 +5188,7 @@
 	"year": "1981",
 	"genre": "Reggae",
 	"price": 9.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.ebreggae.com/reggae-images/front/Vinyl/111525/Jah-Malla-Jah-Malla.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -5200,7 +5200,7 @@
 	"year": "2016",
 	"genre": "Rock",
 	"price": 26.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.music-for-you.ru/data/small/0880882251222.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -5212,7 +5212,7 @@
 	"year": "2014",
 	"genre": "Indie",
 	"price": 25.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://audio-club.ru/data/small/0602537915163.jpg",
 	"quantity": 1,
 	"isStaffPick": false	
@@ -5224,7 +5224,7 @@
 	"year": "2016",
 	"genre": "Electronic",
 	"price": 22.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.stereoboard.com/images/stories/2013/images/A-Z%20Main%20Artist%20Images/G/125xNx125xNxglass_animals_lj_070616.png,Mic.ZZwzBNvhJt.jpg.pagespeed.ic.ZOitk-DFGf.jpg",
 	"quantity": 2,
 	"isStaffPick": false	
@@ -5236,7 +5236,7 @@
 	"year": "2015",
 	"genre": "Jazz",
 	"price": 38.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://images.artistdirect.com/Images/Sources/AMGCOVERS/music/cover125/drx000/x073/x07351r85wj.jpg",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -5248,7 +5248,7 @@
 	"year": "1982",
 	"genre": "Soundtrack",
 	"price": 48.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "http://www.sleepbot.com/ambience/covergif/bladernr.gif",
 	"quantity": 0,
 	"isStaffPick": false	
@@ -5260,7 +5260,7 @@
 	"year": "2007",
 	"genre": "Emo",
 	"price": 14.98,
-	"format": "12",
+	"format": 12,
 	"imgURL": "https://cdn3.graphicleftovers.com/49607/2575626/2575626_125.jpg",
 	"quantity": 3,
 	"isStaffPick": false

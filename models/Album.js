@@ -33,7 +33,7 @@ const AlbumSchema = new Schema({
 		required: [true, 'Album price must be included.']
 	},
 	format: {
-		type: String,
+		type: Number,
 		trim: true,
 		required: [true, 'Album format (7 or 12) must be included.']
 	},
