@@ -12,7 +12,6 @@ const filterQuantityInput = document.getElementById('filter-quantity-input');
 const filterIsStaffPick = document.getElementById('filter-isStaffPick-input');
 const filterFormatAllowedInputs = ['12', '7', ''];
 const filterIsStaffPickAllowedInputs = ['true', 'false', ''];
-
 // const to hold filter submit button element
 const searchFilterSubmit = document.getElementById('api-search-submit');
 
@@ -28,11 +27,27 @@ const createQuantityInput = document.getElementById('create-quantity-input');
 const createIsStaffPick = document.getElementById('create-isStaffPick-input');
 const createFormatAllowedInputs = ['12', '7'];
 const createIsStaffPickAllowedInputs = ['true', 'false'];
-console.log(createIsStaffPickAllowedInputs);
-
 // const to hold add new album submit button element
 const addNewAlbumSubmit = document.getElementById('api-add-new-album-submit');
 
+// consts to hold input elements for update album form validation
+// const updateArtistInput = document.getElementsByClassName('update-artist-input');
+// const updateTitleInput = document.getElementsByClassName('update-title-input');
+// const updateYearInput = document.getElementsByClassName('update-year-input');
+// const updateGenreInput = document.getElementsByClassName('update-genre-input');
+// const updatePriceInput = document.getElementsByClassName('update-price-input');
+// const updateFormatInput = document.getElementsByClassName('update-format-input');
+// const updateImgURLInput = document.getElementsByClassName('update-imgURL-input');
+// const updateQuantityInput = document.getElementsByClassName('update-quantity-input');
+// const updateIsStaffPick = document.getElementsByClassName('update-isStaffPick-input');
+// const updateFormatAllowedInputs = ['12', '7'];
+// const updateIsStaffPickAllowedInputs = ['true', 'false'];
+// // const to hold update album submit button element
+// const updateAlbumSubmits = document.getElementsByClassName('update-button');
+
+// /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+// form validation for Search Filter form
+// /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
 searchFilterSubmit.addEventListener('click', (e) => {
 	if (typeof filterArtistInput.value !== 'string') {
 		console.log('problem with artist input');
@@ -81,6 +96,9 @@ searchFilterSubmit.addEventListener('click', (e) => {
 });
 
 
+// /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+// form validation for Create New Album form
+// /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
 addNewAlbumSubmit.addEventListener('click', (e) => {
 	if (typeof createArtistInput.value !== 'string' || createArtistInput.value === '' || createArtistInput.value === undefined) {
 		console.log('problem with artist input');
@@ -140,6 +158,76 @@ addNewAlbumSubmit.addEventListener('click', (e) => {
 	};
 });
 
+
+// /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+// form validation for Update Album form
+// /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+
+// how do I add 'e' to each of the function calls?
+
+// function updateFormValidation(e) {
+// 	if (typeof updateArtistInput.value !== 'string' || updateArtistInput.value === '' || updateArtistInput.value === undefined) {
+// 		console.log('problem with artist input');
+// 		e.preventDefault();
+// 		updateArtistInput.style.boxShadow = '0 0 15px red';
+// 	};
+
+// 	if (typeof updateTitleInput.value !== 'string' || updateTitleInput.value === '' || updateTitleInput.value === undefined) {
+// 		console.log('problem with title input');
+// 		e.preventDefault();
+// 		updateTitleInput.style.boxShadow = '0 0 15px red';
+// 	};
+
+// 	if (typeof parseInt(updateYearInput.value) !== 'number' || updateYearInput.value === '' || updateYearInput.value === undefined || updateYearInput.value.length !== 4 || updateYearInput.value.match(/[a-zA-Z]/)) {
+// 		console.log('problem with year input');
+// 		e.preventDefault();
+// 		updateYearInput.style.boxShadow = '0 0 15px red';
+// 	};
+
+// 	if (typeof parseFloat(updatePriceInput.value) !== 'number' || updatePriceInput.value === '' || updatePriceInput.value === undefined) {
+// 		console.log('problem with price input');
+// 		e.preventDefault();
+// 		updatePriceInput.style.boxShadow = '0 0 15px red';
+// 	}
+
+// 	if (typeof updateGenreInput.value !== 'string' || updateGenreInput.value === '' || updateGenreInput.value === undefined || updateGenreInput.value.match(/^\d+$/)) {
+// 		console.log('problem with genre input');
+// 		e.preventDefault();
+// 		updateGenreInput.style.boxShadow = '0 0 15px red';
+// 	};
+
+// 	if (typeof parseInt(updateFormatInput.value) !== 'number' || updateFormatInput.value === '' || updateFormatInput.value === undefined || createFormatAllowedInputs.indexOf(updateFormatInput.value) === -1) {
+// 		console.log('problem with format input');
+// 		e.preventDefault();
+// 		updateFormatInput.style.boxShadow = '0 0 15px red';
+// 	};
+
+// 	if (typeof updateImgURLInput.value !== 'string' || updateImgURLInput.value === '' || updateImgURLInput.value === undefined) {
+// 		console.log('problem with imgURL input');
+// 		e.preventDefault();
+// 		updateImgURLInput.style.boxShadow = '0 0 15px red';
+// 	};
+
+// 	if (typeof parseInt(updateQuantityInput.value) !== 'number' || updateQuantityInput.value === '' || updateQuantityInput.value === undefined || updateQuantityInput.value.length > 2) {	/* need to add check against letters here */
+// 		console.log('problem with quantity input');
+// 		e.preventDefault();
+// 		updateQuantityInput.style.boxShadow = '0 0 15px red';
+// 	};
+
+// 	// isStaffPick.value.toLowerCase();  ?? not working ??
+// 	// console.log('isStaffPick value after .toLowerCase() called ' + isStaffPick.value);
+// 	// if (isStaffPick.value !== 'true' || isStaffPick.value !== 'false') {
+// 	if (typeof updateIsStaffPick.value !== 'string' || updateIsStaffPick.value === '' || updateIsStaffPick.value === undefined || updateIsStaffPickAllowedInputs.indexOf(updateIsStaffPick.value) === -1) {
+// 		console.log('problem with isStaffPick input');
+//        	e.preventDefault();
+//        	updateIsStaffPick.style.boxShadow = '0 0 15px red';
+// 	};
+// };
+
+// for (var i = 0; i < updateAlbumSubmits.length; i++) {
+// 	updateAlbumSubmits[i].addEventListener('click', updateFormValidation(event.target));
+// };
+
 // function to remove red box-shadow for error; called in each form input
 function removeRed() {
 	filterArtistInput.style.boxShadow = 'none';
@@ -159,4 +247,14 @@ function removeRed() {
 	createImgURLInput.style.boxShadow = 'none';
 	createQuantityInput.style.boxShadow = 'none';
 	createIsStaffPick.style.boxShadow = 'none';
-}
+
+	// updateArtistInput.style.boxShadow = 'none';
+	// updateTitleInput.style.boxShadow = 'none';
+	// updateYearInput.style.boxShadow = 'none';
+	// updateGenreInput.style.boxShadow = 'none';
+	// updatePriceInput.style.boxShadow = 'none';
+	// updateFormatInput.style.boxShadow = 'none';
+	// updateImgURLInput.style.boxShadow = 'none';
+	// updateQuantityInput.style.boxShadow = 'none';
+	// updateIsStaffPick.style.boxShadow = 'none';
+};

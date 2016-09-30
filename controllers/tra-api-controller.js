@@ -235,7 +235,7 @@ module.exports = (router) => {
                             // ...send error status and message
                         return res.status(409).render('error', hbsObj);
                     }
-                }))
+                }));
         });
     });
 
