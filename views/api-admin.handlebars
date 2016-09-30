@@ -19,19 +19,25 @@
 	<form action="/api-admin/albums/search" method="GET">
 		<div class="api-search-form-control">
 			<label for="artist" class="api-filter-label">Artist</label><br>
-			<input type="text" name="artist" class="api-filter" id="artist-input" /><br>
+			<input type="text" name="artist" class="api-filter" id="filter-artist-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
+			
 			<label for="title" class="api-filter-label">Title</label><br>		
-			<input type="text" name="title" class="api-filter" id="title-input" /><br>
+			<input type="text" name="title" class="api-filter" id="filter-title-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
+			
 			<label for="year" class="api-filter-label">Year</label><br>
-			<input type="text" name="year" class="api-filter" id="year-input" /><br>
+			<input type="text" name="year" class="api-filter" id="filter-year-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
+			
 			<label for="genre" class="api-filter-label">Genre</label><br>		
-			<input type="text" name="genre" class="api-filter" id="genre-input" /><br>
+			<input type="text" name="genre" class="api-filter" id="filter-genre-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
+			
 			<label for="format" class="api-filter-label">Format (7 or 12)<br></label>
-			<input type="text" name="format" class="api-filter" id="format-input" /><br>
+			<input type="string" name="format" class="api-filter" id="filter-format-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
+			
 			<label for="quantity" class="api-filter-label">Quantity (number)</label><br>
-			<input type="number" name="quantity" class="api-filter" id="quantity-input" /><br>
+			<input type="number" name="quantity" class="api-filter" id="filter-quantity-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
+			
 			<label for="isStaffPick" class="api-filter-label">isStaffPick (true or false, lowercase)</label><br>
-			<input type="text" name="isStaffPick" class="api-filter" id="isStaffPick-input" /><br>
+			<input type="text" name="isStaffPick" class="api-filter" id="filter-isStaffPick-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
 		</div>
 
 		<div class="api-search-form-control" id="api-filter-submit-button-container">
@@ -43,19 +49,31 @@
 	<form action="/api-admin/albums/create" method="POST" id="add-new-album">
 		<div class="api-search-form-control">
 			<label for="artist" class="api-filter-label">Artist</label><br>
-			<input type="text" name="artist" class="api-filter" /><br>
-			<label for="title" class="api-filter-label">Title</label><br>		
-			<input type="text" name="title" class="api-filter" /><br>
+			<input type="text" name="artist" class="api-filter" id="create-artist-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
+			
+			<label for="title" class="api-filter-label">Title</label><br>
+			<input type="text" name="title" class="api-filter" id="create-title-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
+			
 			<label for="year" class="api-filter-label">Year</label><br>
-			<input type="text" name="year" class="api-filter" /><br>
-			<label for="genre" class="api-filter-label">Genre</label><br>		
-			<input type="text" name="genre" class="api-filter" /><br>
+			<input type="text" name="year" class="api-filter" id="create-year-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
+			
+			<label for="genre" class="api-filter-label">Genre</label><br>
+			<input type="text" name="genre" class="api-filter" id="create-genre-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
+			
+			<label for="price" class="api-filter-label">Price</label><br>
+			<input type="number" step="0.01" min="0" name="price" class="api-filter" id="create-price-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
+			
 			<label for="format" class="api-filter-label">Format (7 or 12)<br></label>
-			<input type="text" name="format" class="api-filter" /><br>
+			<input type="string" name="format" class="api-filter" id="create-format-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
+			
+			<label for="imgURL" class="api-filter-label">imgURL<br></label>
+			<input type="text" name="imgURL" class="api-filter" id="create-imgURL-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
+			
 			<label for="quantity" class="api-filter-label">Quantity (number)</label><br>
-			<input type="number" name="quantity" class="api-filter" /><br>
+			<input type="number" name="quantity" class="api-filter" id="create-quantity-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
+			
 			<label for="isStaffPick" class="api-filter-label">isStaffPick (true or false, lowercase)</label><br>
-			<input type="text" name="isStaffPick" class="api-filter" /><br>
+			<input type="text" name="isStaffPick" class="api-filter" id="create-isStaffPick-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
 		</div>
 
 		<div class="api-search-form-control" id="api-create-submit-button-container">
@@ -110,6 +128,22 @@
 		<p class="api-updated-album-details"><span style="font-weight: 700;">Album imgURL:</span> {{updatedAlbum.imgURL}}</p>
 		<p class="api-updated-album-details"><span style="font-weight: 700;">Album Quantity:</span> {{updatedAlbum.quantity}}</p>
 		<p class="api-updated-album-details"><span style="font-weight: 700;">Staff Pick?</span> {{updatedAlbum.isStaffPick}}</p>
+	</div>
+	{{/if}}
+
+	{{#if createdAlbum}}
+	<div class="api-created-album-message-container">
+		<p class="api-created-album-message">The following album was added to the database:</p>
+		<p class="api-created-album-details"><span style="font-weight: 700;">Album ID:</span> {{createdAlbum._id}}</p>
+		<p class="api-created-album-details"><span style="font-weight: 700;">Album Artist:</span> {{createdAlbum.artist}}</p>
+		<p class="api-created-album-details"><span style="font-weight: 700;">Album Title:</span> {{createdAlbum.title}}</p>
+		<p class="api-created-album-details"><span style="font-weight: 700;">Album Year:</span> {{createdAlbum.year}}</p>
+		<p class="api-created-album-details"><span style="font-weight: 700;">Album Genre:</span> {{createdAlbum.genre}}</p>
+		<p class="api-created-album-details"><span style="font-weight: 700;">Album price:</span> {{createdAlbum.price}}</p>
+		<p class="api-created-album-details"><span style="font-weight: 700;">Album Format:</span> {{createdAlbum.format}}</p>
+		<p class="api-created-album-details"><span style="font-weight: 700;">Album imgURL:</span> {{createdAlbum.imgURL}}</p>
+		<p class="api-created-album-details"><span style="font-weight: 700;">Album Quantity:</span> {{createdAlbum.quantity}}</p>
+		<p class="api-created-album-details"><span style="font-weight: 700;">Staff Pick?</span> {{createdAlbum.isStaffPick}}</p>
 	</div>
 	{{/if}}
 

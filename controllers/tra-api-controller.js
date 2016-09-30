@@ -139,7 +139,7 @@ module.exports = (router) => {
                     console.log(err);
                 } else if (albums[0] === undefined) {
                     console.log('foo');
-                    res.render('api-admin', { noResMessage: 'Looks like there isn\'t anything in the database matching your query; try again.'});
+                    res.render('api-admin', { noResMessage: 'Looks like there isn\'t anything in the database matching your query; try again.' });
                 } else {
                     var albums = { albums: albums };
                     console.log(albums);
@@ -149,27 +149,91 @@ module.exports = (router) => {
     });
 
     router.post('/api-admin/albums/create', (req, res) => {
-        console.log('create new entry');
-        console.log(req.body);
-        // var newAlbum = Album({
-        //     artist: req.body.artist,
-        //     title: req.body.title,
-        //     year: req.body.year,
-        //     genre: req.body.genre,
-        //     price: req.body.price,
-        //     format: req.body.format,
-        //     imgURL: req.body.imgURL,
-        //     quantity: req.body.quantity,
-        //     isStaffPick: req.body.isStaffPick
-        // })
 
-        // newAlbum.save((err) => {
-        //     if (err) {
-        //         console.log(err);
-        //     } else {
-        //         console.log('User created!');
-        //     }
-        // });
+        // validation before processing request to database
+        return new Promise((resolve, reject) => {
+            if (typeof req.body.artist !== 'string' || req.body.artist === '' || req.body.artist === undefined) {
+                return reject(new Error('Artist must be provided'));
+            };
+
+            if (typeof req.body.title !== 'string' || req.body.title === '' || req.body.title === undefined) {
+                return reject(new Error('Title must be provided'));
+            };
+
+            if (typeof req.body.year !== 'string' || req.body.year === '' || req.body.year === undefined) {
+                return reject(new Error('Year must be provided'));
+            };
+
+            if (typeof req.body.genre !== 'string' || req.body.genre === '' || req.body.genre === undefined) {
+                return reject(new Error('Genre must be provided'));
+            };
+
+            if ( /* typeof req.body.price !== 'number' || */ req.body.price === '' || req.body.price === undefined) {
+                return reject(new Error('Price must be provided and must be a number'));
+            };
+
+            if (typeof req.body.format !== 'string' || req.body.format === '' || req.body.format === undefined || req.body.format.length > 2) {
+                return reject(new Error('Format must be provided and must be either 7 or 12'));
+            };
+
+            if (typeof req.body.imgURL !== 'string' || req.body.imgURL === '' || req.body.imgURL === undefined) {
+                return reject(new Error('Image URL must be provided'));
+            };
+
+            if ( /* typeof req.body.quantity !== 'number' || */ req.body.quantity === '' || req.body.quantity === undefined) {
+                return reject(new Error('Quantity must be provided and must be a number'));
+            };
+
+            if (typeof req.body.isStaffPick !== 'string' || req.body.isStaffPick === '' /* || req.body.isStaffPick !== 'true' || req.body.isStaffPick !== 'false' */ ) {
+                return reject(new Error('isStaffPick must be provided and must be either "true" or "false"'));
+            };
+
+            // once the request passes all the tests above, a new Album is created
+            let newAlbum = Album({
+                artist: req.body.artist,
+                title: req.body.title,
+                year: req.body.year,
+                genre: req.body.genre,
+                price: req.body.price,
+                format: req.body.format,
+                imgURL: req.body.imgURL,
+                quantity: req.body.quantity,
+                isStaffPick: req.body.isStaffPick
+            });
+
+            // if no 'reject' was returned above from validation check, a 'resolve' is returned here
+            return resolve(
+                // first we check to see if the same album already exists in the database
+                Album.find({ artist: req.body.artist, title: req.body.title })
+                .then((album) => {
+                    // if the album DOES already exist in the database...
+                    console.log(album.artist);
+                    console.log(album.title);
+                    console.log(`type of returned db query: ${typeof album}`);
+                    if (album.artist === undefined && album.title === undefined) {
+                        newAlbum.save((err) => {
+                            if (err) {
+                                console.log(err);
+                            } else {
+                                console.log('Album created!');
+                                let createdAlbum = { createdAlbum: newAlbum };
+                                res.render('api-admin', createdAlbum);
+                            }
+                        });
+                    } else {
+                        let hbsObj = {
+                                message: 'Album already exists in the database',
+                                error: {
+                                    status: 409,
+                                    /* Conflict response - request would conflict with state of server */
+                                    stack: JSON.stringify(album, null, 2)
+                                }
+                            }
+                            // ...send error status and message
+                        return res.status(409).render('error', hbsObj);
+                    }
+                }))
+        });
     });
 
     router.put('/api-admin/albums/update/:id', (req, res) => {
