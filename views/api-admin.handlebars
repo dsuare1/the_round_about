@@ -19,23 +19,23 @@
 	<form action="/api-admin/albums/search" method="GET">
 		<div class="api-search-form-control">
 			<label for="artist" class="api-filter-label">Artist</label><br>
-			<input type="text" name="artist" class="api-filter" /><br>
+			<input type="text" name="artist" class="api-filter" id="artist-input" /><br>
 			<label for="title" class="api-filter-label">Title</label><br>		
-			<input type="text" name="title" class="api-filter" /><br>
+			<input type="text" name="title" class="api-filter" id="title-input" /><br>
 			<label for="year" class="api-filter-label">Year</label><br>
-			<input type="text" name="year" class="api-filter" /><br>
+			<input type="text" name="year" class="api-filter" id="year-input" /><br>
 			<label for="genre" class="api-filter-label">Genre</label><br>		
-			<input type="text" name="genre" class="api-filter" /><br>
+			<input type="text" name="genre" class="api-filter" id="genre-input" /><br>
 			<label for="format" class="api-filter-label">Format (7 or 12)<br></label>
-			<input type="text" name="format" class="api-filter" /><br>
+			<input type="text" name="format" class="api-filter" id="format-input" /><br>
 			<label for="quantity" class="api-filter-label">Quantity (number)</label><br>
-			<input type="number" name="quantity" class="api-filter" /><br>
+			<input type="number" name="quantity" class="api-filter" id="quantity-input" /><br>
 			<label for="isStaffPick" class="api-filter-label">isStaffPick (true or false, lowercase)</label><br>
 			<input type="text" name="isStaffPick" class="api-filter" id="isStaffPick-input" /><br>
 		</div>
 
 		<div class="api-search-form-control" id="api-filter-submit-button-container">
-			<button type="submit" id="api-search-submit" class="api-search-form-button" onclick="formValidation()">Search</button>
+			<button type="submit" id="api-search-submit" class="api-search-form-button">Search</button>
 		</div>
 	</form>
 
