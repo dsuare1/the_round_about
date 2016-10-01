@@ -30,7 +30,7 @@ const createIsStaffPickAllowedInputs = ['true', 'false'];
 // const to hold add new album submit button element
 const addNewAlbumSubmit = document.getElementById('api-add-new-album-submit');
 
-// consts to hold input elements for update album form validation
+// // consts to hold input elements for update album form validation
 // const updateArtistInput = document.getElementsByClassName('update-artist-input');
 // const updateTitleInput = document.getElementsByClassName('update-title-input');
 // const updateYearInput = document.getElementsByClassName('update-year-input');
@@ -166,6 +166,7 @@ addNewAlbumSubmit.addEventListener('click', (e) => {
 // how do I add 'e' to each of the function calls?
 
 // function updateFormValidation(e) {
+// 	// console.log(e.target.parentNode.children);
 // 	if (typeof updateArtistInput.value !== 'string' || updateArtistInput.value === '' || updateArtistInput.value === undefined) {
 // 		console.log('problem with artist input');
 // 		e.preventDefault();
@@ -225,7 +226,7 @@ addNewAlbumSubmit.addEventListener('click', (e) => {
 // };
 
 // for (var i = 0; i < updateAlbumSubmits.length; i++) {
-// 	updateAlbumSubmits[i].addEventListener('click', updateFormValidation(event.target));
+// 	updateAlbumSubmits[i].addEventListener('click', updateFormValidation);
 // };
 
 // function to remove red box-shadow for error; called in each form input

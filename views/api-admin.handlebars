@@ -9,12 +9,14 @@
 
 {{!-- begin search sidebar section --}}
 <aside id="api-sidebar">
-	{{!-- <h3 class="api-form-section-label">Browse by:</h3> --}}
+	<h1 id="albums-header">Albums</h1>
 	<div class="search-form-control">
 		<form action="/api-admin/albums/search/all" method="GET">
 			<button type="submit" id="api-search-all-submit" class="api-search-form-button">Browse All Items</button>
 		</form>
 	</div>
+
+	{{!-- begin filter search form --}}
 	<h3 class="api-form-section-label">Filter:</h3>
 	<form action="/api-admin/albums/search" method="GET">
 		<div class="api-search-form-control">
@@ -44,7 +46,9 @@
 			<button type="submit" id="api-search-submit" class="api-search-form-button">Search</button>
 		</div>
 	</form>
+	{{!-- end filter search form --}}
 
+	{{!-- begin add album form --}}
 	<h3 class="api-form-section-label">Add New Item:</h3>
 	<form action="/api-admin/albums/create" method="POST" id="add-new-album">
 		<div class="api-search-form-control">
@@ -80,6 +84,69 @@
 			<button type="submit" id="api-add-new-album-submit" class="api-search-form-button">Add New Item</button>
 		</div>
 	</form>
+	{{!-- end all new album form --}}
+
+	<h1 id="events-header">Events</h1>
+	<div class="search-form-control">
+		<form action="/api-admin/events/search/all" method="GET">
+			<button type="submit" id="api-search-all-events-submit" class="api-search-form-button">Browse All Events</button>
+		</form>
+	</div>
+
+	{{!-- begin event filter search form --}}
+	<h3 class="api-form-section-label">Filter:</h3>
+	<form action="/api-admin/events/search" method="GET">
+		<div class="api-search-form-control">
+			<label for="year" class="api-filter-label">Year</label><br>
+			<input type="text" name="year" class="api-filter" id="filter-event-year-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
+			
+			<label for="month" class="api-filter-label">Month</label><br>
+			<input type="text" name="month" class="api-filter" id="filter-event-month-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
+			
+			<label for="day" class="api-filter-label">Day</label><br>
+			<input type="text" name="day" class="api-filter" id="filter-event-day-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
+
+			<label for="date" class="api-filter-label">Date</label><br>
+			<input type="text" name="date" class="api-filter" id="filter-event-date-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
+			
+			<label for="time" class="api-filter-label">Time</label><br>
+			<input type="text" name="time" class="api-filter" id="filter-event-time-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
+		</div>
+
+		<div class="api-search-form-control" id="api-filter-event-submit-button-container">
+			<button type="submit" id="api-event-search-submit" class="api-search-form-button">Search Events</button>
+		</div>
+	</form>
+	{{!-- end event filter search form --}}
+
+	{{!-- begin add event form --}}
+	<h3 class="api-form-section-label">Add New Event:</h3>
+	<form action="/api-admin/events/create" method="POST" id="add-new-event">
+		<div class="api-search-form-control">
+			<label for="year" class="api-filter-label">Year</label><br>
+			<input type="text" name="year" class="api-filter" id="create-event-year-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
+			
+			<label for="month" class="api-filter-label">Month</label><br>
+			<input type="text" name="month" class="api-filter" id="create-event-month-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
+			
+			<label for="day" class="api-filter-label">Day</label><br>
+			<input type="text" name="day" class="api-filter" id="create-event-day-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
+
+			<label for="date" class="api-filter-label">Date</label><br>
+			<input type="text" name="date" class="api-filter" id="create-event-date-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
+			
+			<label for="time" class="api-filter-label">Time</label><br>
+			<input type="text" name="time" class="api-filter" id="create-event-time-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
+
+			<label for="description" class="api-filter-label">Description</label><br>
+			<input type="text" name="description" class="api-filter" id="create-event-time-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
+		</div>
+
+		<div class="api-search-form-control" id="api-create-submit-button-container">
+			<button type="submit" id="api-add-new-event-submit" class="api-search-form-button">Add New Event</button>
+		</div>
+	</form>
+	{{!-- end add event form --}}
 </aside>
 {{!-- end search sidebar section --}}
 
@@ -148,24 +215,18 @@
 	{{/if}}
 
 	{{#each albums}}
-		<div class="api-search-result-item">
+		<div class="api-search-results-item">
 			<img src="{{this.imgURL}}" width="125px" height="125px" class="api-search-results-album-cover" alt="Album Cover">
-			{{!-- <form action="/browse/{{this.id}}" method="GET" id="specific-album-form"> --}}
-				{{!-- <input type="submit" class="search-results-album-title single-album-input" value="{{this.title}}"/><br>
-				<input type="submit" class="search-results-artist single-album-input" value="{{this.artist}}"/><br>
-				<input type="submit" class="search-results-year single-album-input" value="{{this.year}}"/><br>
-				<input type="submit" class="search-results-price single-album-input" value="${{this.price}}" style="color: #f1c40f;"/> --}}
-			{{!-- </form> --}}
 			<div class="api-search-results-details-labels">
 				<p class="api-search-results-input-label">Artist:</p><br/>
-				<p class="api-search-results-input-label">Album Title</p><br/>
+				<p class="api-search-results-input-label">Album Title:</p><br/>
 				<p class="api-search-results-input-label">Year:</p><br/>
 				<p class="api-search-results-input-label">Genre:</p><br/>
-				<p class="api-search-results-input-label">Price: $</p><br/>
+				<p class="api-search-results-input-label">Price:</p><br/>
 				<p class="api-search-results-input-label">Format:</p><br/>
 				<p class="api-search-results-input-label">Image URL:</p><br/>
 				<p class="api-search-results-input-label">Quantity:</p><br/>
-				<p class="api-search-results-input-label">Staff Pick</p>
+				<p class="api-search-results-input-label">Staff Pick:</p>
 			</div>
 			<div class="api-search-results-details">
 				<form action="/api-admin/albums/update/{{this.id}}?_method=PUT" method="POST">
@@ -178,9 +239,6 @@
 					<input class="api-search-results-album-imgURL api-search-results-label update-imgURL-input" value="{{this.imgURL}}" name="imgURL"/><br>
 					<input class="api-search-results-album-quantity api-search-results-label update-quantity-input" value="{{this.quantity}}" name="quantity"/><br>
 					<input class="api-search-results-album-isStaffPick api-search-results-label update-isStaffPick-input" value="{{this.isStaffPick}}" name="isStaffPick"/>
-				{{!-- </form> --}}
-			{{!-- </div> --}}
-			{{!-- <div class="api-search-results-buttons-container"> --}}
 					<button type="submit" class="update-button">Update</button>
 				</form>
 			</div>
@@ -191,7 +249,39 @@
 			</div>
 		</div>
 	{{/each}}
+
+	{{!-- begin events collection rendering --}}
+	{{#each allEvents}}
+	<div class="api-search-events-item">
+		<div class="api-event-search-results-details-labels">
+			<p class="api-search-results-input-label">Year:</p><br/>
+			<p class="api-search-results-input-label">Month:</p><br/>
+			<p class="api-search-results-input-label">Day:</p><br/>
+			<p class="api-search-results-input-label">Date:</p><br/>
+			<p class="api-search-results-input-label">Time:</p><br/>
+			<p class="api-search-results-input-label">Description:</p><br/>
+		</div>
+		<div class="api-search-results-details">
+			<form action="/api-admin/events/update/{{this.id}}?_method=PUT" method="POST">
+				<input class="api-search-results-event-year api-search-results-label update-year-input" value="{{this.year}}" name="year"/><br>
+				<input class="api-search-results-event-month api-search-results-label update-month-input" value="{{this.month}}" name="month"/><br>
+				<input class="api-search-results-event-day api-search-results-label update-day-input" value="{{this.day}}" name="day"/><br>
+				<input class="api-search-results-event-date api-search-results-label update-date-input" value="{{this.date}}" name="date"/><br>
+				<input class="api-search-results-event-time api-search-results-label update-time-input" value="{{this.time}}" name="time"/><br>
+				<input class="api-search-results-event-description api-search-results-label update-description-input" value="{{this.description}}" name="description"/>
+				<button type="submit" class="update-button">Update</button>
+			</form>
+		</div>
+		<div class="api-search-results-buttons-container">
+			<form action="/api-admin/events/delete/{{this.id}}?_method=DELETE" method="POST">
+				<button type="submit" class="delete-button">Delete</button>
+			</form>
+		</div>
+
+	</div>
+	{{/each}}
+	{{!-- end events collection rendering --}}
 </section>
 {{!-- end search results section --}}
 
-<script src="../assets/js/api-form-validation.js"></script>
+<script src="/assets/js/api-form-validation.js"></script>

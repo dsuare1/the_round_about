@@ -8,6 +8,20 @@ h1, h2, label, input {
 	color: #0e2338;
 }
 
+#events-header,
+#albums-header {
+	font-size: 4em;
+	margin-bottom: 50px;
+    border-bottom: 5px double #0e2338;
+    width: 100%;
+	margin-top: 100px;
+    padding-top: 35px;
+}
+
+#albums-header {
+	margin-top: 0;
+}
+
 #api-login-page-wrapper {
 	display: flex;
 	flex-direction: column;
@@ -154,9 +168,9 @@ label {
     max-width: 25%;
     min-width: 25%;
     display: inline-block;
-    height: 1500px;
-    max-height: 1500px;
-    min-height: 1500px;
+    height: 3000px;
+    max-height: 3000px;
+    min-height: 3000px;
     border-bottom: 1px solid #0e2338;
     border-right: 1px solid #0e2338;
 }
@@ -220,16 +234,17 @@ label {
     width: 75%;
     max-width: 75%;
     min-width: 75%;
-    height: 1500px;
-    max-height: 1500px;
-    min-height: 1500px;
+    height: 3000px;
+    max-height: 3000px;
+    min-height: 3000px;
     border-bottom: 1px solid #0e2338;
     float: right;
     overflow: scroll;
     padding: 1%;
 }
 
-.api-search-result-item {
+/* album search results items */
+.api-search-results-item {
 	margin: 2% 0 2% 0;
 	border-bottom: 1px solid #0e2338;
     padding-bottom: 15px;
@@ -399,4 +414,15 @@ label {
     color: #0e2338;
     margin: 5%;
     font-weight: 300;
+}
+
+.api-search-events-item {
+	margin: 2% 0 2% 0;
+	border-bottom: 1px solid #0e2338;
+    padding-bottom: 15px;
+}
+
+.api-event-search-results-details-labels {
+	display: inline-block;
+	line-height: 1.15em;
 }

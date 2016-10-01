@@ -302,23 +302,52 @@ module.exports = (router) => {
     // Database CRUD for owners and webmaster (Events)
     // /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
 
+    // READ - retrieve all events
     router.get('/api-admin/events/search/all', (req, res) => {
-        console.log('search entire database');
+        console.log('search entire database for events');
+        Event.find({}, (err, events) => {
+                if (err) {
+                    console.log(err);
+                } else {
+                    console.log(events);
+                    let allEvents = { allEvents: events };
+                    res.render('api-admin', allEvents);
+                }
+            });
     });
 
-    router.get('/api-admin/events/search/:id', (req, res) => {
-        console.log('search for specific item');
+    // READ - retrieve events based on filters
+    router.get('/api-admin/events/search', (req, res) => {
+        console.log('search for specific event');
+        // console.log(req.query);
+        let query = {};
+        if (req.query.year !== '') {
+            query['year'] = req.query.year;
+        };
+        if (req.query.month !== '') {
+            query['month'] = req.query.month;
+        };
+        if (req.query.day !== '') {
+            query['day'] = req.query.day;
+        };
+        if (req.query.date !== '') {
+            query['date'] = req.query.date;
+        };
+        if (req.query.time !== '') {
+            query['time'] = req.query.time;
+        };
+        console.log(query);
     });
 
     router.post('/api-admin/events/create', (req, res) => {
-        console.log('create new entry');
+        console.log('create new event');
     });
 
     router.put('/api-admin/events/update/:id', (req, res) => {
-        console.log('update a specific item');
+        console.log('update a specific event');
     });
 
     router.delete('/api-admin/events/delete/:id', (req, res) => {
-        console.log('delete a specific item');
+        console.log('delete a specific event');
     });
 };
