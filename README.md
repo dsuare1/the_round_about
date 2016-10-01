@@ -4,4 +4,4 @@
 
 [Live site hosted on Heroku](http://suarez-theroundabout.herokuapp.com/)
 
-![The Round About Landing Page](https://drive.google.com/file/d/0BxBMGEkzbtvjTDFZRzFCN3RrUFU/view?usp=sharing "The Round About Landing Page")
+![The Round About Landing Page](https://github.com/dsuare1/the_round_about/blob/master/public/assets/img/The-Round-About-Landing-Page.png?raw=true "The Round About Landing Page")
