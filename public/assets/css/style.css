@@ -831,9 +831,9 @@ textarea:focus {
 		width: 85%;
     	margin-right: 7.5%;
     	border-left: none;
-    	height: 100vh;
-	    max-height: 100vh;
-	    min-height: 100vh;
+    	height: 450px;
+	    max-height: 450px;
+	    min-height: 450px;
 	}
 
 	.search-result-item {
