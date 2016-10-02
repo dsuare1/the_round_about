@@ -805,6 +805,10 @@ textarea:focus {
 }
 
 @media only screen and (max-width: 320px) {
+	#hero-header {
+		background: #0e2338;
+	}
+
 	#header-title h1 {
 		font-size: 1.5em;
 	}
@@ -823,6 +827,10 @@ textarea:focus {
 
 	.staff-picks-item {
 		padding-left: 12px;
+	}
+
+	#nav-section {
+		background: #0e2338;
 	}
 
 	#browse-inventory {
