@@ -416,6 +416,7 @@ textarea:focus {
     margin: 1% 0;
     border-bottom: 1px solid #0e2338;
     padding: 1%;
+    white-space: nowrap;
 }
 
 #header > p {
@@ -430,14 +431,14 @@ textarea:focus {
 
 #search-sidebar {
 	background-color: #0e2338;
-	padding: 2% 1% 2% 3%;
+	padding: 2% 1% 2% 1%;
 	width: 25%;
 	max-width: 25%;
 	min-width: 25%;
 	display: inline-block;
-	height: 1125px;
-	max-height: 1125px;
-	min-height: 1125px;
+	height: 1250px;
+	max-height: 1250px;
+	min-height: 1250px;
 	border-bottom: 1px solid #fff;
 }
 
@@ -481,6 +482,14 @@ textarea:focus {
 	margin-left: 20px;
 }
 
+.radio-format-option-label {
+	margin-left: 50px;
+}
+
+.radio-option-label {
+	margin-left: 25px;
+}
+
 #price-label {
 	font-size: 1.5em;
 	padding: 5% 0;
@@ -490,10 +499,11 @@ textarea:focus {
 }
 
 #radio-left {
-	width: 50%;
+	width: 42%;
     display: inline-block;
-    padding-left: 8%;
+    padding-left: 5%;
     padding-bottom: 15%;
+    margin-left: 8px;
 }
 
 #radio-right {
@@ -504,7 +514,8 @@ textarea:focus {
 }
 
 .filter {
-	display: inline-block;
+	display: block;
+	margin-top: 10px;
 }
 
 #filter-submit-button-container {
@@ -551,9 +562,9 @@ textarea:focus {
     flex-direction: row;
     flex-wrap: wrap;
 	background-color: #0e2338;
-	height: 1125px;
-	min-height: 1125px;
-	max-height: 1125px;
+	height: 1250px;
+	min-height: 1250px;
+	max-height: 1250px;
 	width: 75%;
 	float: right;
 	border-left: 1px solid #fff;
@@ -662,7 +673,11 @@ textarea:focus {
 /***** Media Queries  *****/
 /********************************************************/
 
-@media screen and (max-width: 838px) {
+/* landing page */
+/**********************************************/
+
+/* approx. landscape tablet width */
+@media screen and (max-width: 1024px) {
 	#header-title h1 {
 		font-size: 3.5em;
 	}
@@ -676,6 +691,7 @@ textarea:focus {
 	}
 }
 
+/* approx. portrait tablet width */
 @media screen and (max-width: 768px) {
 	#header-title h1 {
 		font-size: 3em;
@@ -690,7 +706,8 @@ textarea:focus {
 	}
 }
 
-@media screen and (max-width: 648px) {
+/* approx. iPhone landscape width */
+@media screen and (max-width: 568px) {
 	#header-title h1 {
 		font-size: 2.5em;
 	}
@@ -704,7 +721,7 @@ textarea:focus {
 	}
 }
 
-@media screen and (max-width: 168px) {
+@media screen and (max-width: 320px) {
 	#header-title h1 {
 		font-size: 2em;
 	}
@@ -717,3 +734,168 @@ textarea:focus {
 		font-size: .15em;
 	}
 }
+
+
+/* browse inventory page
+/**********************************************/
+
+/* approx. landscape tablet width */
+@media screen and (max-width: 1024px) {
+	#navbar h1 {
+		font-size: 2.5em;
+	}
+
+	#navbar p {
+		font-size: .95em;
+	}
+
+	#header h3 {
+		font-size: 2em;
+	}
+
+	#header p {
+		font-size: .95em;
+	}
+}
+
+/* approx. portrait tablet width */
+@media screen and (max-width: 768px) {
+	body {
+		background-color: #f1c40f;
+	}
+
+	#navbar h1 {
+		font-size: 2em;
+	}
+
+	#navbar p {
+		font-size: .65em;
+	}
+
+	#header h3 {
+		font-size: 1.75em;
+	}
+
+	#header p {
+		font-size: .75em;
+	}
+
+	#search-sidebar {
+		width: 100%;
+	    max-width: 100%;
+	    min-width: 100%;
+	    display: block;
+	}
+
+	#search-sidebar h3 {
+		display: inline-block;
+		border-bottom: 1px solid #fff;
+	}
+
+	#format-label {
+		display: inline-block;
+    	margin-bottom: 2%;
+    	border-bottom: none;
+	}
+
+	#format-container {
+		display: inline;
+		width: 20%;
+		margin-left: 35px;
+	}
+
+	#genre-section-wrapper {
+	    width: 65%;
+	    float: right;
+	    margin-top: -165px;
+	}
+
+	.format-filter {
+		display: block;
+	}
+
+	.radio-format-option-label {
+		margin-left: 90px;
+	}
+
+	#genre-label {
+		border-bottom: none;
+		padding-top: 8px;
+		margin-bottom: 5%;
+	}
+
+	#search-results {
+		width: 85%;
+    	margin-right: 7.5%;
+    	border-left: none;
+	}
+
+	.search-result-item {
+		width: 25%;
+		max-width: 25%;
+	}
+
+	#footer-section {
+		width: 100%;
+	    max-width: 100%;
+	    min-width: 100%;
+	}
+
+	#social-links-container {
+		width: 100%;
+	}
+}
+
+/* approx. iPhone landscape width */
+@media screen and (max-width: 568px) {
+	#navbar h1 {
+		font-size: 1.5em;
+	}
+
+	#navbar p {
+		font-size: .45em;
+	}
+
+	#search-sidebar {
+		width: 100%;
+	    max-width: 100%;
+	    min-width: 100%;
+	    display: block;
+	}
+
+	#header h3 {
+		font-size: 1.15em;
+	}
+
+	#header p {
+		font-size: .65em;
+	}
+}
+
+/* approx. iPhone portrait width */
+@media screen and (max-width: 320px) {
+	#navbar h1 {
+		font-size: 1em;
+	}
+
+	#navbar p {
+		font-size: .35em;
+	}
+
+	#search-sidebar {
+		width: 100%;
+	    max-width: 100%;
+	    min-width: 100%;
+	    display: block;
+	}
+
+	#header h3 {
+		font-size: 1em;
+	}
+
+	#header p {
+		font-size: .45em;
+	}
+}
+
+

@@ -30,42 +30,44 @@
 	<form action="/browse/search" method="GET" id="browse-options">
 		<div class="search-form-control" id="format-container">
 			<p id="format-label">Format:</p>
-			<input type="radio" name="format" value="7" class="filter format-filter" />&nbsp;&nbsp;7''<br><br>
-			<input type="radio" name="format" value="12" class="filter format-filter" />&nbsp;&nbsp;12''
+			<input type="radio" name="format" value="7" class="filter format-filter" />&nbsp;&nbsp;<span class="radio-format-option-label">7</span>''<br><br>
+			<input type="radio" name="format" value="12" class="filter format-filter" />&nbsp;&nbsp;<span class="radio-format-option-label">12</span>''
 		</div>
 
-		<p id="genre-label">Genre:</p>
-		<div class="search-form-control" id="radio-left">
-			<input type="radio" name="genre" value="Blues" class="filter" />&nbsp;&nbsp;Blues<br><br>
-			<input type="radio" name="genre" value="Comedy" class="filter" />&nbsp;&nbsp;Comedy<br><br>
-			<input type="radio" name="genre" value="Country" class="filter" />&nbsp;&nbsp;Country<br><br>
-			<input type="radio" name="genre" value="Electronic" class="filter" />&nbsp;&nbsp;Eletronic<br><br>
-			<input type="radio" name="genre" value="Emo" class="filter" />&nbsp;&nbsp;Emo<br><br>
-			<input type="radio" name="genre" value="Folk" class="filter" />&nbsp;&nbsp;Folk<br><br>
-			<input type="radio" name="genre" value="Funk" class="filter" />&nbsp;&nbsp;Funk<br><br>
-			<input type="radio" name="genre" value="Indie" class="filter" />&nbsp;&nbsp;Indie
+		<div id="genre-section-wrapper">
+			<p id="genre-label">Genre:</p>
+			<div class="search-form-control" id="radio-left">
+				<input type="radio" name="genre" value="Blues" class="filter" /><span class="radio-option-label">Blues</span>
+				<input type="radio" name="genre" value="Comedy" class="filter" /><span class="radio-option-label">Comedy</span>
+				<input type="radio" name="genre" value="Country" class="filter" /><span class="radio-option-label">Country</span>
+				<input type="radio" name="genre" value="Electronic" class="filter" /><span class="radio-option-label">Eletronic</span>
+				<input type="radio" name="genre" value="Emo" class="filter" /><span class="radio-option-label">Emo</span>
+				<input type="radio" name="genre" value="Folk" class="filter" /><span class="radio-option-label">Folk</span>
+				<input type="radio" name="genre" value="Funk" class="filter" /><span class="radio-option-label">Funk</span>
+				<input type="radio" name="genre" value="Indie" class="filter" /><span class="radio-option-label">Indie</span>
+			</div>
+
+			<div class="search-form-control" id="radio-right">
+				<input type="radio" name="genre" value="Jazz" class="filter" /><span class="radio-option-label">Jazz</span>
+				<input type="radio" name="genre" value="Pop" class="filter" /><span class="radio-option-label">Pop</span>
+				<input type="radio" name="genre" value="Punk" class="filter" /><span class="radio-option-label">Punk</span>
+				<input type="radio" name="genre" value="Reggae" class="filter" /><span class="radio-option-label">Reggae</span>
+				<input type="radio" name="genre" value="Rap" class="filter" /><span class="radio-option-label">Rap</span>
+				<input type="radio" name="genre" value="Rock" class="filter" /><span class="radio-option-label">Rock</span>
+				<input type="radio" name="genre" value="Soul" class="filter" /><span class="radio-option-label">Soul</span>
+				<input type="radio" name="genre" value="Soundtrack" class="filter" /><span class="radio-option-label">Soundtrack</span>
+			</div>
 		</div>
 
-		<div class="search-form-control" id="radio-right">
-			<input type="radio" name="genre" value="Jazz" class="filter" />&nbsp;&nbsp;Jazz<br><br>
-			<input type="radio" name="genre" value="Pop" class="filter" />&nbsp;&nbsp;Pop<br><br>
-			<input type="radio" name="genre" value="Punk" class="filter" />&nbsp;&nbsp;Punk<br><br>
-			<input type="radio" name="genre" value="Reggae" class="filter" />&nbsp;&nbsp;Reggae<br><br>
-			<input type="radio" name="genre" value="Rap" class="filter" />&nbsp;&nbsp;Rap<br><br>
-			<input type="radio" name="genre" value="Rock" class="filter" />&nbsp;&nbsp;Rock<br><br>
-			<input type="radio" name="genre" value="Soul" class="filter" />&nbsp;&nbsp;Soul<br><br>
-			<input type="radio" name="genre" value="Soundtrack" class="filter" />&nbsp;&nbsp;Soundtrack
-		</div>
+			{{!-- <div class="search-form-control">
+				<p id="price-label">Price:</p>
+				<input type="radio" name="price" value=""
+			</div> --}}
 
-		{{!-- <div class="search-form-control">
-			<p id="price-label">Price:</p>
-			<input type="radio" name="price" value=""
-		</div> --}}
-
-		<div class="search-form-control" id="filter-submit-button-container">
-			<button type="submit" id="search-submit" class="search-form-button">Search</button>
-			<button type="reset" id="clear-filters" class="search-form-button">Clear Filters</button>
-		</div>
+			<div class="search-form-control" id="filter-submit-button-container">
+				<button type="submit" id="search-submit" class="search-form-button">Search</button>
+				<button type="reset" id="clear-filters" class="search-form-button">Clear Filters</button>
+			</div>
 
 	</form>
 </aside>
