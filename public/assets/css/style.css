@@ -676,7 +676,7 @@ textarea:focus {
 /* landing page */
 /**********************************************/
 
-/* approx. landscape tablet width */
+/* approx. landscape laptop width */
 @media only screen and (max-width: 1024px) {
 	#header-title h1 {
 		font-size: 3.5em;
@@ -806,15 +806,44 @@ textarea:focus {
 
 @media only screen and (max-width: 320px) {
 	#header-title h1 {
-		font-size: 2em;
+		font-size: 1.5em;
 	}
 
 	#header-title h3 {
-		font-size: .25em;
+		font-size: .75em;
 	}
 
 	#contact-info {
-		font-size: .15em;
+		font-size: .75em;
+	}
+
+	#chevron-down {
+		margin-left: -20px;
+	}
+
+	.staff-picks-item {
+		padding-left: 12px;
+	}
+
+	#browse-inventory {
+		width: 275px;
+	    font-size: 1.5em;
+	    height: 65px;
+	}
+
+	#upcoming-events {
+		width: 275px;
+	    font-size: 1.5em;
+	    height: 65px;
+	}
+
+	.personal-form-control {
+		width: 200px;
+	}
+
+	#message-body {
+		width: 275px;
+	    height: 250px;
 	}
 }
 
@@ -822,7 +851,7 @@ textarea:focus {
 /* browse inventory page
 /**********************************************/
 
-/* approx. landscape tablet width */
+/* approx. landscape laptop width */
 @media only screen and (max-width: 1024px) {
 	#navbar h1 {
 		font-size: 2.5em;
