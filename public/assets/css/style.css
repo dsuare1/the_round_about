@@ -677,7 +677,7 @@ textarea:focus {
 /**********************************************/
 
 /* approx. landscape tablet width */
-@media screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
 	#header-title h1 {
 		font-size: 3.5em;
 	}
@@ -692,7 +692,7 @@ textarea:focus {
 }
 
 /* approx. portrait tablet width */
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 	#header-title h1 {
 		font-size: 3em;
 	}
@@ -707,7 +707,7 @@ textarea:focus {
 }
 
 /* approx. iPhone landscape width */
-@media screen and (max-width: 568px) {
+@media only screen and (max-width: 568px) {
 	#header-title h1 {
 		font-size: 2.5em;
 	}
@@ -721,7 +721,7 @@ textarea:focus {
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) {
 	#header-title h1 {
 		font-size: 2em;
 	}
@@ -740,7 +740,7 @@ textarea:focus {
 /**********************************************/
 
 /* approx. landscape tablet width */
-@media screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
 	#navbar h1 {
 		font-size: 2.5em;
 	}
@@ -759,7 +759,7 @@ textarea:focus {
 }
 
 /* approx. portrait tablet width */
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 	body {
 		background-color: #f1c40f;
 	}
@@ -785,6 +785,9 @@ textarea:focus {
 	    max-width: 100%;
 	    min-width: 100%;
 	    display: block;
+	    height: 1125px;
+	    max-height: 1125px;
+	    min-height: 1125px;
 	}
 
 	#search-sidebar h3 {
@@ -828,6 +831,9 @@ textarea:focus {
 		width: 85%;
     	margin-right: 7.5%;
     	border-left: none;
+    	height: 100vh;
+	    max-height: 100vh;
+	    min-height: 100vh;
 	}
 
 	.search-result-item {
@@ -847,7 +853,7 @@ textarea:focus {
 }
 
 /* approx. iPhone landscape width */
-@media screen and (max-width: 568px) {
+@media only screen and (max-width: 568px) {
 	#navbar h1 {
 		font-size: 1.5em;
 	}
@@ -861,6 +867,9 @@ textarea:focus {
 	    max-width: 100%;
 	    min-width: 100%;
 	    display: block;
+	    height: 950px;
+	    max-height: 950px;
+	    min-height: 950px;
 	}
 
 	#header h3 {
@@ -873,7 +882,7 @@ textarea:focus {
 }
 
 /* approx. iPhone portrait width */
-@media screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) {
 	#navbar h1 {
 		font-size: 1em;
 	}
