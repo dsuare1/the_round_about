@@ -575,7 +575,7 @@ textarea:focus {
 
 .search-result-item {
 	display: inline-block;
-	margin: 3%;
+	padding: 3%;
 	height: 275px;
 	min-height: 265px;
 	width: 165px;
@@ -719,6 +719,89 @@ textarea:focus {
 	#contact-info {
 		font-size: .25em;
 	}
+
+	#header-title {
+		width: 75%;
+		padding: 5%;
+	}
+
+	#header-title h1 {
+		font-size: 1.5em;
+	}
+
+	#chevron-down {
+		height: 50px;
+	    width: 50px;
+	    border-right: 2px solid #fff;
+	    border-bottom: 2px solid #fff;
+	}
+
+	#staff-picks-title h3 {
+		font-size: 1.5em;
+	    margin-top: 5%;
+	    margin-bottom: 10%;
+	}
+
+	#staff-picks-container {
+		height: 350px;
+	}
+
+	.staff-picks-item {
+		height: 150px;
+	    min-height: 150px;
+	    max-height: 150px;
+	    width: 33%;
+	    padding-left: 25px;
+	}
+
+	.staff-pick-album-cover {
+		width:75px;
+		height: 75px;
+	}
+
+	.staff-pick-album-title {
+		font-size: .85em;
+	}
+
+	.staff-pick-artist {
+		font-size: .75em;
+	}
+
+	.staff-pick-year {
+		font-size: .55em;
+	}
+
+	#browse-inventory {
+		width: 350px;
+	    height: 75px;
+	    font-size: 2em;
+	}
+
+	#map-section {
+		height: 500px;
+	    min-height: 500px;
+	    max-height: 500px;
+	}
+
+	#map-header-container h2 {
+		font-size: 1.5em;
+	}
+
+	#footer-section h2 {
+		font-size: 2em;
+	}
+
+	#contact-us label {
+		font-size: 1em;
+	}
+
+	.personal-form-control {
+		margin-bottom: 25px;
+	}
+
+	#message-body {
+		width: 350px;
+	}
 }
 
 @media only screen and (max-width: 320px) {
@@ -837,8 +920,8 @@ textarea:focus {
 	}
 
 	.search-result-item {
-		width: 25%;
-		max-width: 25%;
+		width: 45%;
+		max-width: 45%;
 	}
 
 	#footer-section {
