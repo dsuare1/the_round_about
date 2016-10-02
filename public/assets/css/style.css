@@ -353,7 +353,7 @@ textarea:focus {
 	padding: 3%;
 }
 
-#navbar > h1 {
+#navbar h1 {
 	color: #fff;
 }
 
@@ -850,6 +850,11 @@ textarea:focus {
 	#social-links-container {
 		width: 100%;
 	}
+
+	.social-link-image {
+		width: 75px;
+		height: 75px;
+	}
 }
 
 /* approx. iPhone landscape width */
@@ -878,6 +883,67 @@ textarea:focus {
 
 	#header p {
 		font-size: .65em;
+	}
+
+	#search-sidebar h3 {
+		font-size: 1.15em;
+		margin-left: 35px;
+	}
+
+	#format-label {
+		font-size: 1em;
+	}
+
+	.radio-format-option-label {
+		margin-left: 50px;
+	}
+
+	#genre-section-wrapper {
+		margin-top: -120px;
+	}
+
+	#genre-label {
+		font-size: 1em;
+	}
+
+	.search-results-album-cover {
+		width: 75px;
+		height: 75px;
+	}
+
+	.search-results-album-title {
+		font-size: .75em;
+	}
+
+	.search-results-artist {
+		font-size: .65em;
+	}
+
+	.search-results-year {
+		font-size: .45em;
+	}
+
+	.search-results-quantity {
+		font-size: .55em;
+	}
+
+	.search-results-price {
+		font-size: .85em;
+	}
+
+	.social-link-image {
+		width: 50px;
+		height: 50px;
+	}
+
+	#copyright-container {
+		height: 75px;
+	    min-height: 75px;
+	    max-height: 75px;
+	}
+
+	#copyright-container h6 {
+		font-size: .75em;
 	}
 }
 

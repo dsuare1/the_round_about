@@ -1,6 +1,8 @@
 {{!-- begin navbar section --}}
 <nav id="navbar">
-	<h1>The Round About</h1>
+	<div id="browse-h1-container">
+		<h1>The Round About</h1>
+	</div>
 	<div id="nav-links">
 		<a href="/"><p class="home-link nav-link">Home</p></a>
 		<a href="#"><p class="browse-link nav-link">Browse Inventory</p></a>
@@ -30,7 +32,7 @@
 	<form action="/browse/search" method="GET" id="browse-options">
 		<div class="search-form-control" id="format-container">
 			<p id="format-label">Format:</p>
-			<input type="radio" name="format" value="7" class="filter format-filter" />&nbsp;&nbsp;<span class="radio-format-option-label">7</span>''<br><br>
+			<input type="radio" name="format" value="7" class="filter format-filter" />&nbsp;&nbsp;<span class="radio-format-option-label">7</span>''
 			<input type="radio" name="format" value="12" class="filter format-filter" />&nbsp;&nbsp;<span class="radio-format-option-label">12</span>''
 		</div>
 
@@ -115,9 +117,9 @@
 {{!-- begin footer section --}}
 <footer id="footer-section">
 	<div id="social-links-container">
-		<div class="social-link"><a href="https://www.facebook.com/theroundaboutstore/?hc_ref=SEARCH&amp;fref=nf" target="_blank" rel="noopener noreferrer"><img src="./assets/img/social-link-fb.png"></a></div>
-		<div class="social-link"><a href="https://www.instagram.com/roundaboutstore/?hl=en" target="_blank" rel="noopener noreferrer"><img src="./assets/img/social-link-instagram.png"></a></div>
-		<div class="social-link"><a href="https://twitter.com/rickrez22" target="_blank" rel="noopener noreferrer"><img src="./assets/img/social-link-twitter.png"></a></div>
+		<div class="social-link"><a href="https://www.facebook.com/theroundaboutstore/?hc_ref=SEARCH&amp;fref=nf" target="_blank" rel="noopener noreferrer"><img src="./assets/img/social-link-fb.png" class="social-link-image"></a></div>
+		<div class="social-link"><a href="https://www.instagram.com/roundaboutstore/?hl=en" target="_blank" rel="noopener noreferrer"><img src="./assets/img/social-link-instagram.png" class="social-link-image"></a></div>
+		<div class="social-link"><a href="https://twitter.com/rickrez22" target="_blank" rel="noopener noreferrer"><img src="./assets/img/social-link-twitter.png" class="social-link-image"></a></div>
 	</div>
 	<div id="copyright-container">
 		<h6>&copy; <a href="http://www.derricksuarez.com/" target="_blank" rel="noopener noreferrer">Derrick Suarez 2016</a></h6>
