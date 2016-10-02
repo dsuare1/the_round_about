@@ -1091,6 +1091,41 @@ textarea:focus {
 	#header p {
 		font-size: .45em;
 	}
+
+	#format-container {
+		margin-left: 10px;
+	}
+
+	.radio-format-option-label {
+		margin-left: 30px;
+	}
+
+	#genre-section-wrapper {
+		margin-top: -113px;
+	}
+
+	#genre-label {
+		margin-left: 10px;
+	}
+
+	#radio-left {
+		margin-left: -10px;
+	}
+
+	#radio-right {
+		margin-right: 8px;
+	}
+
+	.radio-option-label {
+		margin-left: 10px;
+	}
+
+	#search-results {
+		background-image: linear-gradient(
+			to left,
+			#617f9c, #0e2338 10%
+			);
+	}
 }
 
 
