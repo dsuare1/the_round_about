@@ -41,7 +41,6 @@ module.exports = (router) => {
                         username: username,
                         password: hashedPassword
                     }).then((result) => {
-                        loggedIn = true;
                         res.redirect('/api-admin');
                     });
                 })
