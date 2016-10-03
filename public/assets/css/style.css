@@ -575,12 +575,12 @@ textarea:focus {
 
 .search-result-item {
 	display: inline-block;
-	padding: 3%;
-	height: 275px;
-	min-height: 265px;
-	width: 165px;
-	max-width: 175px;
-	overflow: scroll;
+    padding: 3%;
+    height: 325px;
+    min-height: 325px;
+    width: 165px;
+    max-width: 165px;
+    overflow: scroll;
 }
 
 .search-results-album-cover {
