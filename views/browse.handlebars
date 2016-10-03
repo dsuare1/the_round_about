@@ -28,6 +28,7 @@
 			<button type="submit" id="search-in-stock-submit" class="search-form-button">Browse In-Stock Items</button>
 		</form>
 	</div>
+	<p id="scroll-down-message">(scroll down for results)</p>
 	<h3>Filter search by:</h3>
 	<form action="/browse/search" method="GET" id="browse-options">
 		<div class="search-form-control" id="format-container">
@@ -39,25 +40,57 @@
 		<div id="genre-section-wrapper">
 			<p id="genre-label">Genre:</p>
 			<div class="search-form-control" id="radio-left">
-				<input type="radio" name="genre" value="Blues" class="filter" /><span class="radio-option-label">Blues</span>
-				<input type="radio" name="genre" value="Comedy" class="filter" /><span class="radio-option-label">Comedy</span>
-				<input type="radio" name="genre" value="Country" class="filter" /><span class="radio-option-label">Country</span>
-				<input type="radio" name="genre" value="Electronic" class="filter" /><span class="radio-option-label">Eletronic</span>
-				<input type="radio" name="genre" value="Emo" class="filter" /><span class="radio-option-label">Emo</span>
-				<input type="radio" name="genre" value="Folk" class="filter" /><span class="radio-option-label">Folk</span>
-				<input type="radio" name="genre" value="Funk" class="filter" /><span class="radio-option-label">Funk</span>
-				<input type="radio" name="genre" value="Indie" class="filter" /><span class="radio-option-label">Indie</span>
+				<div class="genre-radio-label-group">
+					<input type="radio" name="genre" value="Blues" class="filter" /><span class="radio-option-label">Blues</span>
+				</div>
+				<div class="genre-radio-label-group">
+					<input type="radio" name="genre" value="Comedy" class="filter" /><span class="radio-option-label">Comedy</span>
+				</div>
+				<div class="genre-radio-label-group">
+					<input type="radio" name="genre" value="Country" class="filter" /><span class="radio-option-label">Country</span>
+				</div>
+				<div class="genre-radio-label-group">
+					<input type="radio" name="genre" value="Electronic" class="filter" /><span class="radio-option-label">Eletronic</span>
+				</div>
+				<div class="genre-radio-label-group">
+					<input type="radio" name="genre" value="Emo" class="filter" /><span class="radio-option-label">Emo</span>
+				</div>
+				<div class="genre-radio-label-group">
+					<input type="radio" name="genre" value="Folk" class="filter" /><span class="radio-option-label">Folk</span>
+				</div>
+				<div class="genre-radio-label-group">
+					<input type="radio" name="genre" value="Funk" class="filter" /><span class="radio-option-label">Funk</span>
+				</div>
+				<div class="genre-radio-label-group">
+					<input type="radio" name="genre" value="Indie" class="filter" /><span class="radio-option-label">Indie</span>
+				</div>
 			</div>
 
 			<div class="search-form-control" id="radio-right">
-				<input type="radio" name="genre" value="Jazz" class="filter" /><span class="radio-option-label">Jazz</span>
-				<input type="radio" name="genre" value="Pop" class="filter" /><span class="radio-option-label">Pop</span>
-				<input type="radio" name="genre" value="Punk" class="filter" /><span class="radio-option-label">Punk</span>
-				<input type="radio" name="genre" value="Reggae" class="filter" /><span class="radio-option-label">Reggae</span>
-				<input type="radio" name="genre" value="Rap" class="filter" /><span class="radio-option-label">Rap</span>
-				<input type="radio" name="genre" value="Rock" class="filter" /><span class="radio-option-label">Rock</span>
-				<input type="radio" name="genre" value="Soul" class="filter" /><span class="radio-option-label">Soul</span>
-				<input type="radio" name="genre" value="Soundtrack" class="filter" /><span class="radio-option-label">Soundtrack</span>
+				<div class="genre-radio-label-group">
+					<input type="radio" name="genre" value="Jazz" class="filter" /><span class="radio-option-label">Jazz</span>
+				</div>
+				<div class="genre-radio-label-group">
+					<input type="radio" name="genre" value="Pop" class="filter" /><span class="radio-option-label">Pop</span>
+				</div>
+				<div class="genre-radio-label-group">
+					<input type="radio" name="genre" value="Punk" class="filter" /><span class="radio-option-label">Punk</span>
+				</div>
+				<div class="genre-radio-label-group">
+					<input type="radio" name="genre" value="Reggae" class="filter" /><span class="radio-option-label">Reggae</span>
+				</div>
+				<div class="genre-radio-label-group">
+					<input type="radio" name="genre" value="Rap" class="filter" /><span class="radio-option-label">Rap</span>
+				</div>
+				<div class="genre-radio-label-group">
+					<input type="radio" name="genre" value="Rock" class="filter" /><span class="radio-option-label">Rock</span>
+				</div>
+				<div class="genre-radio-label-group">
+					<input type="radio" name="genre" value="Soul" class="filter" /><span class="radio-option-label">Soul</span>
+				</div>
+				<div class="genre-radio-label-group">
+					<input type="radio" name="genre" value="Soundtrack" class="filter" /><span class="radio-option-label">Soundtrack</span>
+				</div>
 			</div>
 		</div>
 

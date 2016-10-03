@@ -456,6 +456,10 @@ textarea:focus {
 	color: #fff;
 }
 
+#scroll-down-message {
+	color: #0e2338;
+}
+
 .format-filter {
 	margin-left: 10%;
 }
@@ -483,11 +487,11 @@ textarea:focus {
 }
 
 .radio-format-option-label {
-	margin-left: 50px;
+	margin-left: 5px;
 }
 
 .radio-option-label {
-	margin-left: 25px;
+	margin-left: 5px;
 }
 
 #price-label {
@@ -501,8 +505,8 @@ textarea:focus {
 #radio-left {
 	width: 42%;
     display: inline-block;
-    padding-left: 5%;
-    padding-bottom: 15%;
+    padding-left: 2%;
+    padding-bottom: 5%;
     margin-left: 8px;
 }
 
@@ -510,12 +514,12 @@ textarea:focus {
 	width: 50%;
     display: inline-block;
     float: right;
-    padding-bottom: 15%;
+    padding-bottom: 5%;
 }
 
 .filter {
-	display: block;
 	margin-top: 10px;
+	margin-bottom: 15px;
 }
 
 #filter-submit-button-container {
@@ -561,6 +565,7 @@ textarea:focus {
 	display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-content: flex-start;
 	background-color: #0e2338;
 	height: 1250px;
 	min-height: 1250px;
@@ -905,20 +910,29 @@ textarea:focus {
 	    max-width: 100%;
 	    min-width: 100%;
 	    display: block;
-	    height: 1125px;
-	    max-height: 1125px;
-	    min-height: 1125px;
+	    height: 950px;
+	    max-height: 950px;
+	    min-height: 950px;
+	}
+
+	#scroll-down-message {
+		font-size: .75em;
+	    color: #fff;
+	    margin-left: 310px;
 	}
 
 	#search-sidebar h3 {
 		display: inline-block;
 		border-bottom: 1px solid #fff;
+		margin-top: 25px;
+		margin-left: 20px;
 	}
 
 	#format-label {
 		display: inline-block;
     	margin-bottom: 2%;
     	border-bottom: none;
+    	padding: 2%;
 	}
 
 	#format-container {
@@ -947,18 +961,102 @@ textarea:focus {
 		margin-bottom: 5%;
 	}
 
+	#format-container {
+		display: block;
+    	width: 100%;
+    	margin-left: 0;
+    	padding-bottom: 0;
+    	margin-bottom: 15px;
+	}
+
+	.format-filter {
+		display: inline-block;
+	}
+
+	.radio-format-option-label {
+		margin-left: 0;
+	}
+
+	#genre-section-wrapper {
+		display: block;
+		width: 100%;
+		margin-top: 0;
+	}
+
+	#genre-label {
+		margin-left: 20px;
+		margin-bottom: -10px;
+		padding: 2%;
+	}
+
+	#radio-left {
+		display: block;
+		width: 100%;
+		padding: 2% 2% 2% 35px;
+    	line-height: 30px;
+    	margin-left: 0;
+	}
+
+	#radio-right {
+		display: block;
+		width: 100%;
+		padding: 2% 2% 2% 35px;
+    	line-height: 30px;
+    	margin-top: -30px;
+	}
+
+	.genre-radio-label-group {
+		width: 20%;
+		display: inline-block;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	.radio-option-label {
+		margin-left: 5px;
+	}
+
+	.filter {
+		display: inline-block;
+	}
+
 	#search-results {
 		width: 85%;
     	margin-right: 7.5%;
     	border-left: none;
-    	height: 450px;
-	    max-height: 450px;
-	    min-height: 450px;
+    	height: 750px;
+	    max-height: 750px;
+	    min-height: 750px;
 	}
 
 	.search-result-item {
-		width: 45%;
-		max-width: 45%;
+		width: 33%;
+		max-width: 33%;
+	}
+
+	.search-results-album-cover {
+		width: 100px;
+		height: 100px;
+	}
+
+	.search-results-album-title {
+		font-size: .75em;
+	}
+
+	.search-results-artist {
+		font-size: .65em;
+	}
+
+	.search-results-year {
+		font-size: .5em;
+	}
+
+	.search-results-quantity {
+		font-size: .65em;
+	}
+
+	.search-results-price {
+		font-size: .75em;
 	}
 
 	#footer-section {
@@ -974,6 +1072,10 @@ textarea:focus {
 	.social-link-image {
 		width: 75px;
 		height: 75px;
+	}
+
+	#copyright h6, a {
+		font-size: 1em;
 	}
 }
 
@@ -992,9 +1094,9 @@ textarea:focus {
 	    max-width: 100%;
 	    min-width: 100%;
 	    display: block;
-	    height: 950px;
-	    max-height: 950px;
-	    min-height: 950px;
+	    height: 700px;
+	    max-height: 700px;
+	    min-height: 700px;
 	}
 
 	#header h3 {
@@ -1005,25 +1107,108 @@ textarea:focus {
 		font-size: .65em;
 	}
 
+	#scroll-down-message {
+		margin-left: 150px;
+	}
+
 	#search-sidebar h3 {
 		font-size: 1.15em;
 		margin-left: 35px;
 	}
 
-	#format-label {
-		font-size: 1em;
+	#search-all-submit {
+		display: none;
 	}
 
-	.radio-format-option-label {
-		margin-left: 50px;
+	#format-label {
+		display: inline-block;
+    	margin-bottom: 2%;
+    	border-bottom: none;
+    	padding: 2%;
+    	font-size: 1.15em;
+	}
+
+	#format-container {
+		display: inline;
+		width: 20%;
+		margin-left: 35px;
 	}
 
 	#genre-section-wrapper {
-		margin-top: -120px;
+	    width: 65%;
+	    float: right;
+	    margin-top: -165px;
+	}
+
+	.format-filter {
+		display: block;
+	}
+
+	.radio-format-option-label {
+		margin-left: 90px;
 	}
 
 	#genre-label {
-		font-size: 1em;
+		border-bottom: none;
+		padding-top: 8px;
+		margin-bottom: 5%;
+	}
+
+	#format-container {
+		display: block;
+    	width: 100%;
+    	margin-left: 0;
+    	padding-bottom: 0;
+    	margin-bottom: 15px;
+	}
+
+	.format-filter {
+		display: inline-block;
+	}
+
+	.radio-format-option-label {
+		margin-left: 0;
+		font-size: .75em;
+	}
+
+	#genre-section-wrapper {
+		display: block;
+		width: 100%;
+		margin-top: 0;
+	}
+
+	#genre-label {
+		margin-left: 20px;
+		margin-bottom: -10px;
+		padding: 2%;
+		font-size: 1.15em;
+	}
+
+	.radio-option-label {
+		font-size: .75em;
+	}
+
+	#radio-left {
+		display: block;
+		width: 100%;
+		padding: 2% 2% 2% 30px;
+    	line-height: 30px;
+    	margin-left: 0;
+	}
+
+	#radio-right {
+		display: block;
+		width: 100%;
+		padding: 2% 2% 2% 30px;
+    	line-height: 30px;
+    	margin-top: -17px;
+	}
+
+	.genre-radio-label-group {
+		width: 23%;
+		display: inline-block;
+		margin-top: 5px;
+		margin-bottom: 5px;
 	}
 
 	.search-results-album-cover {
@@ -1067,6 +1252,21 @@ textarea:focus {
 	}
 }
 
+/* approx. iPhone 6 portrait width */
+@media only screen and (max-width: 375px) {
+	#navbar h1 {
+		font-size: 1em;
+	}
+
+	.radio-option-label {
+		font-size: .65em;
+	}
+
+	#scroll-down-message {
+		margin-left: 125px;
+	}
+}
+
 /* approx. iPhone portrait width */
 @media only screen and (max-width: 320px) {
 	#navbar h1 {
@@ -1082,6 +1282,9 @@ textarea:focus {
 	    max-width: 100%;
 	    min-width: 100%;
 	    display: block;
+	    height: 700px;
+	    max-height: 700px;
+	    min-height: 700px;
 	}
 
 	#header h3 {
@@ -1092,39 +1295,94 @@ textarea:focus {
 		font-size: .45em;
 	}
 
+	#scroll-down-message {
+		font-size: .75em;
+	    color: #fff;
+	    display: block;
+	    width: 50%;
+	    margin-left: 30%;
+	}
+
+	#search-sidebar h3 {
+		margin-left: 20px;
+		border-bottom: none;
+		color: #f1c40f;
+	}
+
+	#search-all-submit {
+		display: none;
+	}
+
 	#format-container {
-		margin-left: 10px;
+		display: block;
+    	width: 100%;
+    	margin-left: 0;
+    	padding-bottom: 5%;
+	}
+
+	.format-filter {
+		display: inline-block;
 	}
 
 	.radio-format-option-label {
-		margin-left: 30px;
+		margin-left: 0;
 	}
 
 	#genre-section-wrapper {
-		margin-top: -113px;
+		display: block;
+		width: 100%;
+		margin-top: 0;
+		padding-top: 5%;
+		padding-bottom: 10%;
 	}
 
 	#genre-label {
-		margin-left: 10px;
+		margin-left: 20px;
+		margin-bottom: -10px;
 	}
 
 	#radio-left {
-		margin-left: -10px;
+		display: block;
+		width: 100%;
+		padding: 2% 2% 2% 10px;
+		margin-left: 0;
 	}
 
 	#radio-right {
-		margin-right: 8px;
+		display: block;
+		width: 100%;
+		padding: 2% 2% 2% 10px;
+		margin-left: 0;
+		margin-top: -12px;
+	}
+
+	.genre-radio-label-group {
+		width: 24%;
+		display: inline-block;
 	}
 
 	.radio-option-label {
-		margin-left: 10px;
+		margin-left: 5px;
+		font-size: .5em;
 	}
 
-	#search-results {
+	.filter {
+		display: inline-block;
+	}
+
+	/*#search-results {
 		background-image: linear-gradient(
 			to left,
 			#617f9c, #0e2338 10%
 			);
+	}*/
+
+	.search-result-item {
+		height: 300px;
+	    min-height: 300px;
+	    max-height: 300px;
+	    width: 50%;
+	    max-width: 50%;
 	}
 }
 
