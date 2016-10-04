@@ -1174,12 +1174,32 @@ textarea:focus {
 
 /* approx. iPhone landscape width */
 @media only screen and (max-width: 568px) {
+	#navbar {
+		display: block;
+		height: 100px;
+	}
+
 	#navbar h1 {
-		font-size: 1.5em;
+	    display: block;
+    	width: 100%;
+	    padding-left: 15%;
+	    font-size: 2em;
+	}
+
+	#nav-links {
+		width: 100%;
+		padding: 15px;
+		display: block;
+		right: 0;
+		background-color: #f1c40f;
 	}
 
 	#navbar p {
-		font-size: .45em;
+		display: inline-block;
+	    padding-left: 10%;
+	    border: none;
+	    font-size: 1em;
+	    color: #0e2338;
 	}
 
 	#search-sidebar {
@@ -1197,7 +1217,8 @@ textarea:focus {
 	}
 
 	#header p {
-		font-size: .65em;
+		font-size: .85em;
+		width: 90%;
 	}
 
 	#scroll-down-message {
@@ -1348,7 +1369,12 @@ textarea:focus {
 /* approx. iPhone 6 portrait width */
 @media only screen and (max-width: 375px) {
 	#navbar h1 {
-		font-size: 1em;
+		font-size: 2em;
+		padding-left: 10%;
+	}
+
+	#navbar p {
+		padding-left: 8%;
 	}
 
 	.radio-option-label {
@@ -1358,12 +1384,20 @@ textarea:focus {
 	#scroll-down-message {
 		margin-left: 125px;
 	}
+
+	#header {
+		margin-top: -2px;
+	}
 }
 
 /* approx. iPhone portrait width */
 @media only screen and (max-width: 320px) {
 	#navbar h1 {
 		font-size: 1em;
+	}
+
+	#browse-h1-container {
+		margin-left: 15px;
 	}
 
 	#navbar p {
@@ -1385,7 +1419,7 @@ textarea:focus {
 	}
 
 	#header p {
-		font-size: .45em;
+		font-size: .75em;
 	}
 
 	#scroll-down-message {
@@ -1503,17 +1537,22 @@ textarea:focus {
 	}
 
 	#navbar h1 {
-		margin-left: 0;
+		margin-bottom: 10px;
 	}
 }
 
 @media only screen and (max-width: 320px) {
 	#navbar h1 {
-		font-size: 1em;
+		font-size: 1.5em;
 	}
 
 	#navbar p {
-		font-size: .35em;
+		font-size: 1em;
+		padding-left: 5%;
+	}
+
+	#header {
+		margin-top: -10px;
 	}
 }
 
