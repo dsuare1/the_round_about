@@ -208,7 +208,7 @@ module.exports = (router) => {
                 // first we check to see if the same album already exists in the database
                 Album.find({ artist: req.body.artist, title: req.body.title })
                 .then((album) => {
-                    // if the album DOES already exist in the database...
+                    // if the album DOES NOT already exist in the database...
                     console.log(album.artist);
                     console.log(album.title);
                     console.log(`type of returned db query: ${typeof album}`);
@@ -261,7 +261,7 @@ module.exports = (router) => {
         };
         if (req.body.imgURL !== undefined) {
             query['imgURL'] = req.body.imgURL;
-        }
+        };
         if (req.body.quantity !== undefined) {
             query['quantity'] = req.body.quantity;
         };
@@ -320,9 +320,6 @@ module.exports = (router) => {
         console.log('search for specific event');
         // console.log(req.query);
         let query = {};
-        if (req.query.year !== '') {
-            query['year'] = req.query.year;
-        };
         if (req.query.month !== '') {
             query['month'] = req.query.month;
         };
@@ -336,17 +333,127 @@ module.exports = (router) => {
             query['time'] = req.query.time;
         };
         console.log(query);
+        Event.find(query, (err, events) => {
+            if (err) {
+                console.log(err);
+            } else {
+                if (events[0] === undefined) {
+                    res.render('api-admin', { noResMessage: 'Looks like there isn\'t anything in the database matching your query; try again.' });
+                } else {
+                    var filteredEvents = { filteredEvents: events };
+
+                    res.render('api-admin', filteredEvents);
+                }
+            }
+        })
     });
 
     router.post('/api-admin/events/create', (req, res) => {
         console.log('create new event');
+        return new Promise((resolve, reject) => {
+            if (typeof req.body.day !== 'string' || req.body.day === '' || req.body.day === undefined) {
+                return reject(new Error('Day for event must be provided'));
+            };
+
+            if (typeof req.body.month !== 'string' || req.body.month === '' || req.body.month === undefined) {
+                return reject(new Error('Month for event must be provided'));
+            };
+
+            if (typeof req.body.date !== 'string' || req.body.date === '' || req.body.date === undefined) {
+                return reject(new Error('Date for event must be provided'));
+            };
+
+            if (typeof req.body.time !== 'string' || req.body.time === '' || req.body.time === undefined) {
+                return reject(new Error('Time for event must be provided'));
+            };
+
+            if ( typeof req.body.description !== 'string' || req.body.description === '' || req.body.description === undefined || req.body.description.length > 150) {
+                return reject(new Error('Description for event must be provided and must not be more than 150 characters'));
+            };
+
+            // once the request passes all the tests above, a new Album is created
+            let newEvent = Event({
+                day: req.body.day,
+                month: req.body.month,
+                date: req.body.date,
+                time: req.body.time,
+                description: req.body.description
+            });
+
+            // if no 'reject' was returned above from validation check, a 'resolve' is returned here
+            return resolve(
+                // first we check to see if the same event already exists in the database
+                Event.find({ description: req.body.description })
+                .then((event) => {
+                    // if the event DOES NOT already exist in the database...
+                    if (event.description === undefined) {
+                        newEvent.save((err) => {
+                            if (err) {
+                                console.log(err);
+                            } else {
+                                console.log('Event created!');
+                                let createdEvent = { createdEvent: newEvent };
+                                res.render('api-admin', createdEvent);
+                            }
+                        });
+                    } else {
+                        let hbsObj = {
+                                message: 'Event already exists in the database',
+                                error: {
+                                    status: 409,
+                                    /* Conflict response - request would conflict with state of server */
+                                    stack: JSON.stringify(album, null, 2)
+                                }
+                            }
+                            // ...send error status and message
+                        return res.status(409).render('error', hbsObj);
+                    }
+                }));
+        });
     });
 
     router.put('/api-admin/events/update/:id', (req, res) => {
         console.log('update a specific event');
+        let query = {};
+        if (req.body.day !== undefined) {
+            query['day'] = req.body.day;
+        };
+        if (req.body.month !== undefined) {
+            query['month'] = req.body.month;
+        };
+        if (req.body.date !== undefined) {
+            query['date'] = req.body.date;
+        };
+        if (req.body.time !== undefined) {
+            query['time'] = req.body.time;
+        };
+        if (req.body.description !== undefined) {
+            query['description'] = req.body.description;
+        };
+
+        Event.findOneAndUpdate({ _id: req.params.id }, query, { upsert: true }, (err, doc) => {
+            if (err) {
+                console.log(err);
+            } else {
+                console.log(doc);
+                Event.findOne({ _id: doc.id }, (err, doc) => {
+                    let updatedEvent = { updatedEvent: doc };
+                    res.render('api-admin', updatedEvent);
+                })
+            }
+        })
     });
 
     router.delete('/api-admin/events/delete/:id', (req, res) => {
         console.log('delete a specific event');
+        Event.findOneAndRemove({ _id: req.params.id }, (err, doc) => {
+            if (err) {
+                console.log(err);
+            } else {
+                console.log(doc);
+                let deletedEvent = { deletedEvent: doc }
+                res.render('api-admin', deletedEvent);
+            }
+        })
     });
 };

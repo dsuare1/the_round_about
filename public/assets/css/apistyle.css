@@ -227,6 +227,11 @@ label {
 	font-weight: 300;
 }
 
+#api-event-time-format-suggestion {
+	font-size: .75em;
+	margin-left: 5px;
+}
+
 /* api search results section */
 
 #api-search-results {
@@ -394,6 +399,8 @@ label {
     font-weight: 300;
 }
 
+
+
 .api-created-album-message-container {
 	padding: 5%;
 	width: 85%;
@@ -425,4 +432,70 @@ label {
 .api-event-search-results-details-labels {
 	display: inline-block;
 	line-height: 1.15em;
+}
+
+.api-updated-event-message-container {
+	padding: 5%;
+	width: 85%;
+}
+
+.api-updated-event-message {
+	font-size: 1.5em;
+    color: #2ecc71;
+    padding: 10px;
+    border-left: 1px solid #2ecc71;
+    border-bottom: 1px solid #2ecc71;
+    font-weight: 300;
+    width: 85%;
+}
+
+.api-updated-event-details {
+	font-size: 1em;
+    color: #0e2338;
+    margin: 5%;
+    font-weight: 300;
+}
+
+.api-deleted-event-message-container {
+	padding: 5%;
+	width: 85%;
+}
+
+.api-deleted-event-message {
+	font-size: 1.5em;
+    color: #2ecc71;
+    padding: 10px;
+    border-left: 1px solid #2ecc71;
+    border-bottom: 1px solid #2ecc71;
+    font-weight: 300;
+    width: 85%;
+}
+
+.api-deleted-event-details {
+	font-size: 1em;
+    color: #0e2338;
+    margin: 5%;
+    font-weight: 300;
+}
+
+.api-created-event-message-container {
+	padding: 5%;
+	width: 85%;
+}
+
+.api-created-event-message {
+	font-size: 1.5em;
+    color: #2ecc71;
+    padding: 10px;
+    border-left: 1px solid #2ecc71;
+    border-bottom: 1px solid #2ecc71;
+    font-weight: 300;
+    width: 85%;
+}
+
+.api-created-event-details {
+	font-size: 1em;
+    color: #0e2338;
+    margin: 5%;
+    font-weight: 300;
 }

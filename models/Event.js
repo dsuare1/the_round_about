@@ -5,20 +5,15 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const EventSchema = new Schema({
-	year: {
+	day: {
 		type: String,
 		trim: true,
-		required: [true, 'A year for the event must be included.']
+		required: [true, 'A day for the event must be included.']
 	},
 	month: {
 		type: String,
 		trim: true,
 		required: [true, 'A month for the event must be included.']
-	},
-	day: {
-		type: String,
-		trim: true,
-		required: [true, 'A day for the event must be included.']
 	},
 	date: {
 		type: String,

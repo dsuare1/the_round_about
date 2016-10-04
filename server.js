@@ -41,6 +41,7 @@ app.use('/events', express.static('public'));
 app.use('/api', express.static('public'));
 app.use('/api-admin', express.static('public'));
 app.use('/api-admin/albums', express.static('public'));
+app.use('/api-admin/events', express.static('public'));
 app.use('/api-admin/albums/search', express.static('public'));
 app.use('/api-admin/albums/create', express.static('public'));
 app.use('/api-admin/albums/update', express.static('public'));
