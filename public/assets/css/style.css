@@ -176,7 +176,7 @@ body {
 #browse-inventory {
 	width: 450px;
     height: 100px;
-    background: none;
+    background-color: #0d2338;
     border: 2px solid #fff;
     font-size: 2em;
     font-weight: 100;
@@ -192,7 +192,7 @@ body {
 #upcoming-events {
 	width: 250px;
     height: 75px;
-    background: none;
+    background-color: #0d2338;
     border: 2px solid #fff;
     font-size: 1.35em;
     font-weight: 100;

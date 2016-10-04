@@ -111,7 +111,7 @@
 			<label for="date" class="api-filter-label">Date</label><br>
 			<input type="date" name="date" class="api-filter" id="filter-event-date-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
 			
-			<label for="time" class="api-filter-label">Time <span id="api-event-time-format-suggestion">(format: 7:00pm)</span></label><br>
+			<label for="time" class="api-filter-label">Time<span class="api-event-time-format-suggestion">(format: 7:00pm)</span></label><br>
 			<input type="text" name="time" class="api-filter" id="filter-event-time-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
 		</div>
 
@@ -135,7 +135,7 @@
 			<label for="date" class="api-filter-label">Date</label><br>
 			<input type="date" name="date" class="api-filter" id="create-event-date-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
 			
-			<label for="time" class="api-filter-label">Time</label><br>
+			<label for="time" class="api-filter-label">Time<span class="api-event-time-format-suggestion">(format: 7:00pm)</label><br>
 			<input type="text" name="time" class="api-filter" id="create-event-time-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
 
 			<label for="description" class="api-filter-label">Description</label><br>
@@ -254,9 +254,8 @@
 	{{#each allEvents}}
 	<div class="api-search-events-item">
 		<div class="api-event-search-results-details-labels">
-			<p class="api-search-results-input-label">Year:</p><br/>
-			<p class="api-search-results-input-label">Month:</p><br/>
 			<p class="api-search-results-input-label">Day:</p><br/>
+			<p class="api-search-results-input-label">Month:</p><br/>
 			<p class="api-search-results-input-label">Date:</p><br/>
 			<p class="api-search-results-input-label">Time:</p><br/>
 			<p class="api-search-results-input-label">Description:</p><br/>

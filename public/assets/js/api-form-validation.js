@@ -246,12 +246,12 @@ filterEventSubmit.addEventListener('click', (e) => {
 		filterEventMonthInput.style.boxShadow = '0 0 15px red';
 	};
 
-	if (typeof filterEventDateInput.value !== 'string' || filterEventDateInput.value.match(/[a-zA-Z]/)) {
+	if (typeof filterEventDateInput.value !== 'string') {
 		e.preventDefault();
 		filterEventDateInput.style.boxShadow = '0 0 15px red';
 	};
 
-	if (typeof filterEventTimeInput.value !== 'string' || filterEventTimeInput.value.match(/[a-zA-Z]/)) {
+	if (typeof filterEventTimeInput.value !== 'string') {
 		e.preventDefault();
 		filterEventTimeInput.style.boxShadow = '0 0 15px red';
 	};
@@ -277,7 +277,7 @@ createEventSubmit.addEventListener('click', (e) => {
 		createEventDateInput.style.boxShadow = '0 0 15px red';
 	};
 
-	if (typeof createEventTimeInput.value !== 'string' || createEventTimeInput.value.match(/[a-zA-Z]/) || createEventTimeInput.value === '' || createEventTimeInput.value === undefined) {
+	if (typeof createEventTimeInput.value !== 'string' || createEventTimeInput.value === '' || createEventTimeInput.value === undefined) {
 		e.preventDefault();
 		createEventTimeInput.style.boxShadow = '0 0 15px red';
 	};
