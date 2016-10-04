@@ -223,6 +223,8 @@ const createEventMonthInput = document.getElementById('create-event-month-input'
 const createEventDateInput = document.getElementById('create-event-date-input');
 const createEventTimeInput = document.getElementById('create-event-time-input');
 const createEventDescriptionInput = document.getElementById('create-event-description-input');
+// const to hold create event submit button
+const createEventSubmit = document.getElementById('api-add-new-event-submit');
 
 // const to hold accepted inputs for Day
 const acceptedEventDayInputs = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
@@ -247,11 +249,41 @@ filterEventSubmit.addEventListener('click', (e) => {
 	if (typeof filterEventDateInput.value !== 'string' || filterEventDateInput.value.match(/[a-zA-Z]/)) {
 		e.preventDefault();
 		filterEventDateInput.style.boxShadow = '0 0 15px red';
-	}
-})
+	};
 
+	if (typeof filterEventTimeInput.value !== 'string' || filterEventTimeInput.value.match(/[a-zA-Z]/)) {
+		e.preventDefault();
+		filterEventTimeInput.style.boxShadow = '0 0 15px red';
+	};
+});
 
 
 // /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
 // form validation for Add Event form
 // /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+createEventSubmit.addEventListener('click', (e) => {
+	if (typeof createEventDayInput.value !== 'string' || createEventDayInput.value.match(/^\d+$/) || createEventDayInput.value === '' || createEventDayInput.value === undefined || acceptedEventDayInputs.indexOf(createEventDayInput.value) === -1) {
+		e.preventDefault();
+		createEventDayInput.style.boxShadow = '0 0 15px red';
+	};
+
+	if (typeof createEventMonthInput.value !== 'string' || createEventMonthInput.value.match(/^\d+$/) || createEventMonthInput.value === '' || createEventMonthInput.value === undefined || acceptedEventMonthInputs.indexOf(createEventMonthInput.value) === -1) {
+		e.preventDefault();
+		createEventMonthInput.style.boxShadow = '0 0 15px red';
+	};
+
+	if (typeof createEventDateInput.value !== 'string' || createEventDateInput.value.match(/[a-zA-Z]/) || createEventDateInput.value === '') {
+		e.preventDefault();
+		createEventDateInput.style.boxShadow = '0 0 15px red';
+	};
+
+	if (typeof createEventTimeInput.value !== 'string' || createEventTimeInput.value.match(/[a-zA-Z]/) || createEventTimeInput.value === '' || createEventTimeInput.value === undefined) {
+		e.preventDefault();
+		createEventTimeInput.style.boxShadow = '0 0 15px red';
+	};
+
+	if (typeof createEventDescriptionInput.value !== 'string' || createEventDescriptionInput.value === '' || createEventDescriptionInput.value === undefined || createEventDescriptionInput.value.length > 150) {
+		e.preventDefault();
+		createEventDescriptionInput.style.boxShadow = '0 0 15px red';
+	}
+});
