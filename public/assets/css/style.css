@@ -646,7 +646,7 @@ textarea:focus {
 	max-width: 66%;
 	min-width: 66%;
 	background-color: #0e2338;
-	opacity: 0.65;
+	opacity: 0.85;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -709,10 +709,70 @@ textarea:focus {
 	#contact-info {
 		font-size: .5em;
 	}
+
+	#chevron-down-container {
+		left: 400px;
+	}
+
+	#chevron-down {
+		width: 50px;
+	    height: 50px;
+	    border-right: 2px solid #fff;
+	    border-bottom: 2px solid #fff;
+	}
+
+	#staff-picks {
+		height: 350px;
+	    min-height: 350px;
+	    max-height: 350px;
+	}
+
+	#staff-picks-title h3 {
+		font-size: 2em;
+	}
+
+	.staff-pick-album-cover {
+		width: 85px;
+		height: 85px;
+	}
+
+	.staff-pick-album-title {
+		font-size: 1em;
+	}
+
+	.staff-pick-artist {
+		font-size: .8em;
+	}
+
+	.staff-pick-year {
+		font-size: .65em;
+	}
+
+	#map-section {
+		height: 500px;
+		min-height: 500px;
+		max-height: 500px;
+	}
+
+	#map-header-container h2 {
+		font-size: 2em;
+	}
+
+	#footer-section h2 {
+		font-size: 2em;
+	}
+
+	#contact-us label {
+		font-size: 1em;
+	}
 }
 
 /* approx. iPhone landscape width */
 @media only screen and (max-width: 568px) {
+	#hero-header {
+		background: #0e2338;
+	}
+
 	#header-title h1 {
 		font-size: 2.5em;
 	}
@@ -734,11 +794,21 @@ textarea:focus {
 		font-size: 1.5em;
 	}
 
+	#chevron-down-container {
+		left: 225px;
+	}
+
 	#chevron-down {
 		height: 50px;
 	    width: 50px;
 	    border-right: 2px solid #fff;
 	    border-bottom: 2px solid #fff;
+	}
+
+	#staff-picks {
+		height: 450px;
+	    min-height: 450px;
+	    max-height: 450px;
 	}
 
 	#staff-picks-title h3 {
@@ -776,9 +846,22 @@ textarea:focus {
 		font-size: .55em;
 	}
 
+	#nav-section {
+		background: #0e2338;
+	}
+
 	#browse-inventory {
 		width: 350px;
 	    height: 75px;
+	    font-size: 2em;
+	    color: #0e2338;
+	    background-color: #fff;
+	}
+
+	#upcoming-events {
+		color: #0e2338;
+	    background-color: #fff;
+	    width: 350px;
 	    font-size: 2em;
 	}
 
@@ -809,6 +892,12 @@ textarea:focus {
 	}
 }
 
+@media only screen and (max-width: 375px) {
+	#chevron-down-container {
+		left: 205px;
+	}
+}
+
 @media only screen and (max-width: 320px) {
 	#hero-header {
 		background: #0e2338;
@@ -824,6 +913,10 @@ textarea:focus {
 
 	#contact-info {
 		font-size: .75em;
+	}
+
+	#chevron-down-container {
+		left: 155px;
 	}
 
 	#chevron-down {
@@ -1385,5 +1478,44 @@ textarea:focus {
 	    max-width: 50%;
 	}
 }
+
+/* events page
+/**********************************************/
+@media only screen and (max-width: 768px) {
+	.month {
+		font-size: 2em;
+	}
+
+	.event {
+		font-size: 1em;
+	}
+}
+
+@media only screen and (max-width: 568px) {
+	#events-section {
+		background: #000;
+	}
+
+	#events-container {
+		width: 90%;
+		max-width: 90%;
+		min-width: 90%;
+	}
+
+	#navbar h1 {
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	#navbar h1 {
+		font-size: 1em;
+	}
+
+	#navbar p {
+		font-size: .35em;
+	}
+}
+
 
 

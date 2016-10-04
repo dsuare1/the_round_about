@@ -85,6 +85,8 @@ searchFilterSubmit.addEventListener('click', (e) => {
 // form validation for Create New Album form
 // /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
 addNewAlbumSubmit.addEventListener('click', (e) => {
+	console.log('foo');
+	console.log(createPriceInput.value.length);
 	if (typeof createArtistInput.value !== 'string' || createArtistInput.value === '' || createArtistInput.value === undefined) {
 		console.log('problem with artist input');
 		e.preventDefault();
@@ -103,7 +105,7 @@ addNewAlbumSubmit.addEventListener('click', (e) => {
 		createYearInput.style.boxShadow = '0 0 15px red';
 	};
 
-	if (typeof parseFloat(createPriceInput.value) !== 'number' || createPriceInput.value === '' || createPriceInput.value === undefined) {
+	if (typeof parseFloat(createPriceInput.value) !== 'number' || createPriceInput.value === '' || createPriceInput.value === undefined || createPriceInput.value.length > 5 || createPriceInput.value.length < 5) {
 		console.log('problem with price input');
 		e.preventDefault();
 		createPriceInput.style.boxShadow = '0 0 15px red';
@@ -142,39 +144,6 @@ addNewAlbumSubmit.addEventListener('click', (e) => {
        	createIsStaffPick.style.boxShadow = '0 0 15px red';
 	};
 });
-
-
-// function to remove red box-shadow for error; called in each form input
-function removeRed() {
-	filterArtistInput.style.boxShadow = 'none';
-	filterTitleInput.style.boxShadow = 'none';
-	filterYearInput.style.boxShadow = 'none';
-	filterGenreInput.style.boxShadow = 'none';
-	filterFormatInput.style.boxShadow = 'none';
-	filterQuantityInput.style.boxShadow = 'none';
-	filterIsStaffPick.style.boxShadow = 'none';
-
-	createArtistInput.style.boxShadow = 'none';
-	createTitleInput.style.boxShadow = 'none';
-	createYearInput.style.boxShadow = 'none';
-	createGenreInput.style.boxShadow = 'none';
-	createPriceInput.style.boxShadow = 'none';
-	createFormatInput.style.boxShadow = 'none';
-	createImgURLInput.style.boxShadow = 'none';
-	createQuantityInput.style.boxShadow = 'none';
-	createIsStaffPick.style.boxShadow = 'none';
-
-	filterEventDayInput.style.boxShadow = 'none';
-	filterEventMonthInput.style.boxShadow = 'none';
-	filterEventDateInput.style.boxShadow = 'none';
-	filterEventTimeInput.style.boxShadow = 'none';
-
-	createEventDayInput.style.boxShadow = 'none';
-	createEventMonthInput.style.boxShadow = 'none';
-	createEventDateInput.style.boxShadow = 'none';
-	createEventTimeInput.style.boxShadow = 'none';
-	createEventDescriptionInput.style.boxShadow = 'none';
-};
 
 
 
@@ -287,3 +256,71 @@ createEventSubmit.addEventListener('click', (e) => {
 		createEventDescriptionInput.style.boxShadow = '0 0 15px red';
 	}
 });
+
+
+
+
+// function to remove red box-shadow for error; called in each form input
+function removeRed() {
+	filterArtistInput.style.boxShadow = 'none';
+	filterTitleInput.style.boxShadow = 'none';
+	filterYearInput.style.boxShadow = 'none';
+	filterGenreInput.style.boxShadow = 'none';
+	filterFormatInput.style.boxShadow = 'none';
+	filterQuantityInput.style.boxShadow = 'none';
+	filterIsStaffPick.style.boxShadow = 'none';
+
+	createArtistInput.style.boxShadow = 'none';
+	createTitleInput.style.boxShadow = 'none';
+	createYearInput.style.boxShadow = 'none';
+	createGenreInput.style.boxShadow = 'none';
+	createPriceInput.style.boxShadow = 'none';
+	createFormatInput.style.boxShadow = 'none';
+	createImgURLInput.style.boxShadow = 'none';
+	createQuantityInput.style.boxShadow = 'none';
+	createIsStaffPick.style.boxShadow = 'none';
+
+	filterEventDayInput.style.boxShadow = 'none';
+	filterEventMonthInput.style.boxShadow = 'none';
+	filterEventDateInput.style.boxShadow = 'none';
+	filterEventTimeInput.style.boxShadow = 'none';
+
+	createEventDayInput.style.boxShadow = 'none';
+	createEventMonthInput.style.boxShadow = 'none';
+	createEventDateInput.style.boxShadow = 'none';
+	createEventTimeInput.style.boxShadow = 'none';
+	createEventDescriptionInput.style.boxShadow = 'none';
+};
+
+
+
+
+// function to count characters in description field
+let charCount = 0;
+const createEventDescriptionCharCount = document.getElementById('char-count-holder');
+
+createEventDescriptionInput.addEventListener('keyup', (e) => {
+	console.log(createEventDescriptionInput.value);
+	console.log(event.which);
+	if (charCount <= 0) {
+			charCount = 0;
+		};
+	if (event.which === 8 || event.which === 46) {
+		if (createEventDescriptionInput.value === '') {
+			console.log('reset in backspace');
+			charCount = 0;
+			createEventDescriptionCharCount.innerHTML = charCount;
+		};
+	} else if (event.which >= 48 && event.which <= 91) {
+		if (createEventDescriptionInput.value === '') {
+			console.log('reset in key');
+			charCount = 0;
+			createEventDescriptionCharCount.innerHTML = charCount;	
+		}
+		createEventDescriptionCharCount.innerHTML = ++charCount;
+	} else {
+		return;
+	}
+
+
+})
