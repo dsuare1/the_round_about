@@ -5,6 +5,10 @@ off-white color: #fff;
 yellow color: #f1c40f;
 */
 
+::-webkit-scrollbar { 
+    display: none; 
+}
+
 * {
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -656,7 +660,7 @@ textarea:focus {
 	flex-direction: column;
 	align-items: center;
 	padding: 5% 10%;
-	overflow: scroll;
+	/*overflow: scroll;*/
 }
 
 .month {
