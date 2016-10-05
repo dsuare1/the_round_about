@@ -33,7 +33,7 @@
 			<input type="text" name="genre" class="api-filter" id="filter-genre-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
 			
 			<label for="format" class="api-filter-label">Format (7 or 12)<br></label>
-			<input type="number" name="format" class="api-filter" id="filter-format-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
+			<input type="number" name="format" min="7" class="api-filter" id="filter-format-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
 			
 			<label for="quantity" class="api-filter-label">Quantity (number)</label><br>
 			<input type="number" name="quantity" min="0" class="api-filter" id="filter-quantity-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
@@ -49,7 +49,7 @@
 	{{!-- end filter search form --}}
 
 	{{!-- begin add album form --}}
-	<h3 class="api-form-section-label">Add New Item:</h3>
+	<h3 class="api-form-section-label">Add New Album:</h3>
 	<form action="/api-admin/albums/create" method="POST" id="add-new-album" enctype="multipart/form-data">
 		<div class="api-search-form-control">
 			<label for="artist" class="api-filter-label">Artist</label><br>
