@@ -50,7 +50,7 @@
 
 	{{!-- begin add album form --}}
 	<h3 class="api-form-section-label">Add New Item:</h3>
-	<form action="/api-admin/albums/create" method="POST" id="add-new-album">
+	<form action="/api-admin/albums/create" method="POST" id="add-new-album" enctype="multipart/form-data">
 		<div class="api-search-form-control">
 			<label for="artist" class="api-filter-label">Artist</label><br>
 			<input type="text" name="artist" class="api-filter" id="create-artist-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
@@ -68,10 +68,10 @@
 			<input type="number" step="0.01" min="0" name="price" class="api-filter" id="create-price-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
 			
 			<label for="format" class="api-filter-label">Format (7 or 12)<br></label>
-			<input type="number" name="format" class="api-filter" id="create-format-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
+			<input type="number" name="format" min="7" class="api-filter" id="create-format-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
 			
-			<label for="imgURL" class="api-filter-label">imgURL<br></label>
-			<input type="text" name="imgURL" class="api-filter" id="create-imgURL-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
+			<label for="albumCover" class="api-filter-label">Album Cover (500 x 500)<br></label>
+			<input type="file" name="albumCover" class="api-filter" id="create-album-cover-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
 			
 			<label for="quantity" class="api-filter-label">Quantity (number)</label><br>
 			<input type="number" min="0" name="quantity" class="api-filter" id="create-quantity-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
@@ -174,7 +174,7 @@
 		<input class="api-search-results-album-genre api-search-results-label" value="{{deletedAlbum.genre}}" name="genre" type="hidden" /><br>
 		<input class="api-search-results-album-price api-search-results-label" value="{{deletedAlbum.price}}" name="price" type="hidden" /><br>
 		<input class="api-search-results-album-format api-search-results-label" value="{{deletedAlbum.format}}" name="format" type="hidden" /><br>
-		<input class="api-search-results-album-imgURL api-search-results-label" value="{{deletedAlbum.imgURL}}" name="imgURL" type="hidden" /><br>
+		<input class="api-search-results-album-albumCover api-search-results-label" value="{{deletedAlbum.albumCover}}" name="albumCover" type="hidden" /><br>
 		<input class="api-search-results-album-quantity api-search-results-label" value="{{deletedAlbum.quantity}}" name="quantity" type="hidden" /><br>
 		<input class="api-search-results-album-isStaffPick api-search-results-label" value="{{deletedAlbum.isStaffPick}}" name="isStaffPick" type="hidden" />
 		<p id="re-add-label">Didn't mean to delete that album?  Add it back to the database here:</p>
@@ -193,7 +193,7 @@
 		<p class="api-updated-album-details"><span style="font-weight: 700;">Album Genre:</span> {{updatedAlbum.genre}}</p>
 		<p class="api-updated-album-details"><span style="font-weight: 700;">Album price:</span> {{updatedAlbum.price}}</p>
 		<p class="api-updated-album-details"><span style="font-weight: 700;">Album Format:</span> {{updatedAlbum.format}}</p>
-		<p class="api-updated-album-details"><span style="font-weight: 700;">Album imgURL:</span> {{updatedAlbum.imgURL}}</p>
+		<p class="api-updated-album-details"><span style="font-weight: 700;">Album cover file path:</span> {{updatedAlbum.albumCover}}</p>
 		<p class="api-updated-album-details"><span style="font-weight: 700;">Album Quantity:</span> {{updatedAlbum.quantity}}</p>
 		<p class="api-updated-album-details"><span style="font-weight: 700;">Staff Pick?</span> {{updatedAlbum.isStaffPick}}</p>
 	</div>
@@ -209,7 +209,7 @@
 		<p class="api-created-album-details"><span style="font-weight: 700;">Album Genre:</span> {{createdAlbum.genre}}</p>
 		<p class="api-created-album-details"><span style="font-weight: 700;">Album price:</span> {{createdAlbum.price}}</p>
 		<p class="api-created-album-details"><span style="font-weight: 700;">Album Format:</span> {{createdAlbum.format}}</p>
-		<p class="api-created-album-details"><span style="font-weight: 700;">Album imgURL:</span> {{createdAlbum.imgURL}}</p>
+		<p class="api-created-album-details"><span style="font-weight: 700;">Album cover file path:</span> {{createdAlbum.albumCover}}</p>
 		<p class="api-created-album-details"><span style="font-weight: 700;">Album Quantity:</span> {{createdAlbum.quantity}}</p>
 		<p class="api-created-album-details"><span style="font-weight: 700;">Staff Pick?</span> {{createdAlbum.isStaffPick}}</p>
 	</div>
@@ -217,7 +217,7 @@
 
 	{{#each albums}}
 		<div class="api-search-results-item">
-			<img src="{{this.imgURL}}" width="125px" height="125px" class="api-search-results-album-cover" alt="Album Cover">
+			<img src="{{this.albumCover}}" width="125px" height="125px" class="api-search-results-album-cover" alt="Album Cover">
 			<div class="api-search-results-details-labels">
 				<p class="api-search-results-input-label">Artist:</p><br/>
 				<p class="api-search-results-input-label">Album Title:</p><br/>
@@ -237,7 +237,7 @@
 					<input class="api-search-results-album-genre api-search-results-label update-genre-input" value="{{this.genre}}" name="genre"/><br>
 					<input class="api-search-results-album-price api-search-results-label update-price-input" value="{{this.price}}" name="price"/><br>
 					<input class="api-search-results-album-format api-search-results-label update-format-input" value="{{this.format}}" name="format"/><br>
-					<input class="api-search-results-album-imgURL api-search-results-label update-imgURL-input" value="{{this.imgURL}}" name="imgURL"/><br>
+					<input class="api-search-results-album-albumCover api-search-results-label update-albumCover-input" value="{{this.albumCover}}" name="albumCover"/><br>
 					<input class="api-search-results-album-quantity api-search-results-label update-quantity-input" value="{{this.quantity}}" name="quantity"/><br>
 					<input class="api-search-results-album-isStaffPick api-search-results-label update-isStaffPick-input" value="{{this.isStaffPick}}" name="isStaffPick"/>
 					<button type="submit" class="update-button">Update</button>

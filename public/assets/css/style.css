@@ -159,7 +159,7 @@ body {
 	flex-wrap: wrap;
 }
 
-/* Nav Section */
+ /* Nav Section */
 
 #nav-section {
 	background: linear-gradient( rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../img/ppl-browsing-cut.jpg);
@@ -282,7 +282,12 @@ body {
 
 textarea {
 	border-style: solid;
-    border-width: 1px;	
+    border-width: 1px;
+    margin: 2%;
+    width: 540px;
+    height: 250px;
+    font-size: 1.25em;
+    color: #0e2338;
 }
 
 .personal-form-control:focus {
@@ -1181,7 +1186,6 @@ textarea:focus {
 
 	#navbar h1 {
 	    display: block;
-    	width: 100%;
 	    padding-left: 15%;
 	    font-size: 2em;
 	}
@@ -1325,6 +1329,10 @@ textarea:focus {
 		margin-bottom: 5px;
 	}
 
+	#filter-submit-button-container {
+		padding-left: 15%;
+	}
+
 	.search-results-album-cover {
 		width: 75px;
 		height: 75px;
@@ -1370,7 +1378,7 @@ textarea:focus {
 @media only screen and (max-width: 375px) {
 	#navbar h1 {
 		font-size: 2em;
-		padding-left: 10%;
+		padding-left: 45px;
 	}
 
 	#navbar p {
@@ -1394,10 +1402,6 @@ textarea:focus {
 @media only screen and (max-width: 320px) {
 	#navbar h1 {
 		font-size: 1em;
-	}
-
-	#browse-h1-container {
-		margin-left: 15px;
 	}
 
 	#navbar p {

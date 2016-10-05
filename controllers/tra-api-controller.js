@@ -1,6 +1,9 @@
 'use strict';
 
 const cookieParser = require('cookie-parser');
+const multer = require('multer');
+const upload = multer({ dest: 'public/assets/img/covers/' });
+const fs = require('fs');
 
 const bcrypt = require('bcrypt');
 const saltRounds = 10;
@@ -150,7 +153,9 @@ module.exports = (router) => {
     });
 
     // CREATE - add new album to the database
-    router.post('/api-admin/albums/create', (req, res) => {
+    router.post('/api-admin/albums/create', upload.single('albumCover'), (req, res) => {
+
+        console.log(req.file);
 
         // validation before processing request to database
         return new Promise((resolve, reject) => {
@@ -170,7 +175,7 @@ module.exports = (router) => {
                 return reject(new Error('Genre must be provided'));
             };
 
-            if ( /* typeof req.body.price !== 'number' || */ req.body.price === '' || req.body.price === undefined) {
+            if (req.body.price === '' || req.body.price === undefined) {
                 return reject(new Error('Price must be provided and must be a number'));
             };
 
@@ -178,8 +183,8 @@ module.exports = (router) => {
                 return reject(new Error('Format must be provided and must be either 7 or 12'));
             };
 
-            if (typeof req.body.imgURL !== 'string' || req.body.imgURL === '' || req.body.imgURL === undefined) {
-                return reject(new Error('Image URL must be provided'));
+            if (typeof req.file.path !== 'string' || req.file.path === '' || req.file === undefined) {
+                return reject(new Error('Image for album cover must be provided'));
             };
 
             if ( /* typeof req.body.quantity !== 'number' || */ req.body.quantity === '' || req.body.quantity === undefined) {
@@ -190,6 +195,13 @@ module.exports = (router) => {
                 return reject(new Error('isStaffPick must be provided and must be either "true" or "false"'));
             };
 
+            let tmp_path = req.file.path;
+            let target_path = 'public/assets/img/covers/' + req.file.originalname;
+
+            let src = fs.createReadStream(tmp_path);
+            let dest = fs.createWriteStream(target_path);
+            src.pipe(dest);
+
             // once the request passes all the tests above, a new Album is created
             let newAlbum = Album({
                 artist: req.body.artist,
@@ -198,10 +210,12 @@ module.exports = (router) => {
                 genre: req.body.genre,
                 price: req.body.price,
                 format: req.body.format,
-                imgURL: req.body.imgURL,
+                albumCover: '/assets/img/covers/' + req.file.originalname,
                 quantity: req.body.quantity,
                 isStaffPick: req.body.isStaffPick
             });
+
+            fs.unlink(tmp_path);
 
             // if no 'reject' was returned above from validation check, a 'resolve' is returned here
             return resolve(
@@ -209,20 +223,8 @@ module.exports = (router) => {
                 Album.find({ artist: req.body.artist, title: req.body.title })
                 .then((album) => {
                     // if the album DOES NOT already exist in the database...
-                    console.log(album.artist);
-                    console.log(album.title);
-                    console.log(`type of returned db query: ${typeof album}`);
-                    if (album.artist === undefined && album.title === undefined) {
-                        newAlbum.save((err) => {
-                            if (err) {
-                                console.log(err);
-                            } else {
-                                console.log('Album created!');
-                                let createdAlbum = { createdAlbum: newAlbum };
-                                res.render('api-admin', createdAlbum);
-                            }
-                        });
-                    } else {
+                    console.log(album);
+                    if (album[0]) {
                         let hbsObj = {
                                 message: 'Album already exists in the database',
                                 error: {
@@ -233,6 +235,16 @@ module.exports = (router) => {
                             }
                             // ...send error status and message
                         return res.status(409).render('error', hbsObj);
+                    } else {
+                        newAlbum.save((err) => {
+                            if (err) {
+                                console.log(err);
+                            } else {
+                                console.log('Album created!');
+                                let createdAlbum = { createdAlbum: newAlbum };
+                                res.render('api-admin', createdAlbum);
+                            }
+                        });
                     }
                 }));
         });
@@ -259,8 +271,8 @@ module.exports = (router) => {
         if (req.body.format !== undefined) {
             query['format'] = req.body.format;
         };
-        if (req.body.imgURL !== undefined) {
-            query['imgURL'] = req.body.imgURL;
+        if (req.body.albumCover !== undefined) {
+            query['albumCover'] = req.body.albumCover;
         };
         if (req.body.quantity !== undefined) {
             query['quantity'] = req.body.quantity;

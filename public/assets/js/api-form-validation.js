@@ -22,7 +22,7 @@ const createYearInput = document.getElementById('create-year-input');
 const createGenreInput = document.getElementById('create-genre-input');
 const createPriceInput = document.getElementById('create-price-input');
 const createFormatInput = document.getElementById('create-format-input');
-const createImgURLInput = document.getElementById('create-imgURL-input');
+const createAlbumCoverInput = document.getElementById('create-album-cover-input');
 const createQuantityInput = document.getElementById('create-quantity-input');
 const createIsStaffPick = document.getElementById('create-isStaffPick-input');
 const createFormatAllowedInputs = ['12', '7'];
@@ -85,8 +85,6 @@ searchFilterSubmit.addEventListener('click', (e) => {
 // form validation for Create New Album form
 // /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
 addNewAlbumSubmit.addEventListener('click', (e) => {
-	console.log('foo');
-	console.log(createPriceInput.value.length);
 	if (typeof createArtistInput.value !== 'string' || createArtistInput.value === '' || createArtistInput.value === undefined) {
 		console.log('problem with artist input');
 		e.preventDefault();
@@ -123,21 +121,18 @@ addNewAlbumSubmit.addEventListener('click', (e) => {
 		createFormatInput.style.boxShadow = '0 0 15px red';
 	};
 
-	if (typeof createImgURLInput.value !== 'string' || createImgURLInput.value === '' || createImgURLInput.value === undefined) {
+	/*if (typeof createImgURLInput.value !== 'string' || createImgURLInput.value === '' || createImgURLInput.value === undefined) {
 		console.log('problem with imgURL input');
 		e.preventDefault();
 		createImgURLInput.style.boxShadow = '0 0 15px red';
-	};
+	};*/
 
-	if (typeof parseInt(createQuantityInput.value) !== 'number' || createQuantityInput.value === '' || createQuantityInput.value === undefined || createQuantityInput.value.length > 2) {	/* need to add check against letters here */
+	if (typeof parseInt(createQuantityInput.value) !== 'number' || createQuantityInput.value === '' || createQuantityInput.value === undefined || createQuantityInput.value.length > 2) {
 		console.log('problem with quantity input');
 		e.preventDefault();
 		createQuantityInput.style.boxShadow = '0 0 15px red';
 	};
 
-	// isStaffPick.value.toLowerCase();  ?? not working ??
-	// console.log('isStaffPick value after .toLowerCase() called ' + isStaffPick.value);
-	// if (isStaffPick.value !== 'true' || isStaffPick.value !== 'false') {
 	if (typeof createIsStaffPick.value !== 'string' || createIsStaffPick.value === '' || createIsStaffPick.value === undefined || createIsStaffPickAllowedInputs.indexOf(createIsStaffPick.value) === -1) {
 		console.log('problem with isStaffPick input');
        	e.preventDefault();
@@ -276,7 +271,7 @@ function removeRed() {
 	createGenreInput.style.boxShadow = 'none';
 	createPriceInput.style.boxShadow = 'none';
 	createFormatInput.style.boxShadow = 'none';
-	createImgURLInput.style.boxShadow = 'none';
+	createAlbumCoverInput.style.boxShadow = 'none';
 	createQuantityInput.style.boxShadow = 'none';
 	createIsStaffPick.style.boxShadow = 'none';
 

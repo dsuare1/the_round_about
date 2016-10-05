@@ -9,6 +9,14 @@
 		<p>Lake Charles, LA</p>
 		<p>(337) 602 - 6452</p>
 	</div>
+
+	{{#if emailSuccessMessage}}
+	<div id="email-success-message-container">
+		<p>Thanks for contacting The Round About!</p>
+		<p>{{this.message}}</p>
+	</div>
+	{{/if}}
+
 	<div id="chevron-down-container">
 		<a href="#" onclick="return false;" onmousedown="autoScrollTo('staff-picks');"><div id="chevron-down"></div></a>
 	</div>
@@ -23,7 +31,7 @@
 	<div id="staff-picks-container">
 		{{#each staffPicks}}
 		<div class="staff-picks-item">
-			<img src="{{this.imgURL}}" width="125px" height="125px" class="staff-pick-album-cover">
+			<img src="{{this.albumCover}}" width="125px" height="125px" class="staff-pick-album-cover">
 			<p class="staff-pick-album-title">{{this.title}}</p>
 			<p class="staff-pick-artist">{{this.artist}}</p>
 			<p class="staff-pick-year">{{this.year}}</p>
@@ -58,17 +66,21 @@
 {{!-- begin footer section --}}
 <footer id="footer-section">
 	<h2>Get in touch with us</h2>
-	<form action="" method="POST" id="contact-us">
+	<form action="/contact" method="POST" id="contact-us">
 		<label for="name">Name</label>
 		<input type="text" name="name" id="name" class="personal-form-control" placeholder="John Doe">
 
 		<label for="email">Email</label>
 		<input type="email" name="email" id="email" class="personal-form-control" placeholder="johndoe@email.com">
 
-		<label for="message-body">Message</label>
-		<textarea rows="20" cols="75" name="message-body" id="message-body" placeholder="Let me tell you how much I LOVE the Round About!"></textarea>
+		<label for="subject">Subject</label>
+		<input type="text" name="subject" id="subject" class="personal-form-control" placeholder="Email Subject">
+
+		<label for="messageBody">Message</label>
+		<textarea rows="20" cols="75" name="messageBody" id="message-body" placeholder="Let me tell you how much I LOVE the Round About!"></textarea>
 		<button type="submit" id="send-email">Submit</button>
 	</form>
+
 	<div id="social-links-container">
 		<div class="social-link"><a href="https://www.facebook.com/theroundaboutstore/?hc_ref=SEARCH&amp;fref=nf" target="_blank" rel="noopener noreferrer"><img src="./assets/img/social-link-fb.png" class="social-link-image"></a></div>
 		<div class="social-link"><a href="https://www.instagram.com/roundaboutstore/?hl=en" target="_blank" rel="noopener noreferrer"><img src="./assets/img/social-link-instagram.png" class="social-link-image"></a></div>

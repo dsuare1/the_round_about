@@ -114,7 +114,7 @@
 {{#if inStockAlbums}}
 	{{#each inStockAlbums}}
 		<div class="search-result-item">
-			<img src="{{this.imgURL}}" width="125px" height="125px" class="search-results-album-cover" alt="Album Cover">
+			<img src="{{this.albumCover}}" width="125px" height="125px" class="search-results-album-cover" alt="Album Cover">
 			<form action="/browse/{{this.id}}" method="GET" id="specific-album-form">
 				<input type="submit" class="search-results-album-title single-album-input" value="{{this.title}}"/><br>
 				<input type="submit" class="search-results-artist single-album-input" value="{{this.artist}}"/><br>
@@ -128,7 +128,7 @@
 
 	{{#each albums}}
 		<div class="search-result-item">
-			<img src="{{this.imgURL}}" width="125px" height="125px" class="search-results-album-cover" alt="Album Cover">
+			<img src="{{this.albumCover}}" width="125px" height="125px" class="search-results-album-cover" alt="Album Cover">
 			<form action="/browse/{{this.id}}" method="GET" id="specific-album-form">
 				<input type="submit" class="search-results-album-title single-album-input" value="{{this.title}}"/><br>
 				<input type="submit" class="search-results-artist single-album-input" value="{{this.artist}}"/><br>
