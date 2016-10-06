@@ -34,7 +34,7 @@ body {
 
 #hero-header {
 	/*background: linear-gradient( rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../img/hero-img.JPG);*/
-	background: linear-gradient( rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../img/hero-img-2.JPG);
+	background: linear-gradient( rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../img/hero-img-2-prog.JPG);
 	height: 100vh;
 	background-size: cover;
 	display: flex;
@@ -166,7 +166,7 @@ body {
  /* Nav Section */
 
 #nav-section {
-	background: linear-gradient( rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../img/ppl-browsing-cut.jpg);
+	background: linear-gradient( rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../img/ppl-browsing-cut-prog.jpg);
 	height: 500px;
 	min-height: 500px;
 	max-height: 500px;
