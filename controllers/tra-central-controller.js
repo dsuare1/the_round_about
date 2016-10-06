@@ -28,19 +28,15 @@ router.get('/', (req, res) => {
 			res.status(200).render('index', staffPicks);
 		}
 	});
+	// res.status(200).render('index', fetchStaffPicks());
+});
+
+router.get('/contact', (req, res) => {
+	res.redirect('/');
 });
 
 router.post('/contact', (req, res) => {
-	Albums.find({ isStaffPick: true }, (err, staffPicks) => {
-		if (err) {
-			console.log(err);
-		} else {
-			var staffPicks = { staffPicks: staffPicks };
-		}
-	});
 
-	console.log('send mail button hit');
-	console.log(req.body);
 	let mailOptions = {
 		from: req.body.email,
 		to: 'roundaboutstore@gmail.com',
@@ -54,12 +50,34 @@ router.post('/contact', (req, res) => {
 		if (err) {
 			console.log(err);
 		};
-		console.log('Message sent: ' + info.response);
 	});
 
-	let emailSuccessMessage = { message: 'We\'ve received your message!  Thank you for contacting The Round About!' };
-	res.status(200).render('index', emailSuccessMessage);
-	// res.redirect('/');
+	Albums.find({ isStaffPick: true }, (err, picks) => {
+		if (err) {
+			console.log(err);
+		} else {
+			var staffPicks = { picks: picks };
+			console.log(picks);
+			let message = { message: 'We\'ve received your message!  Thank you for contacting The Round About!' };
+			res.status(200).render('index', {
+				message: message,
+				picks: picks
+			});
+		}
+	});
 });
+
+// function fetchStaffPicks() {
+// 	Albums.find({ isStaffPick: true }, (err, staffPicks) => {
+// 		if (err) {
+// 			console.log(err);
+// 		} else {
+// 			var staffPicks = { staffPicks: staffPicks };
+// 			console.log(staffPicks);
+// 			return staffPicks;
+// 			// res.status(200).render('index', staffPicks);
+// 		}
+// 	});
+// }
 
 module.exports = router;

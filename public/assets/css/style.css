@@ -76,6 +76,21 @@ body {
 	color: #f1c40f;
 }
 
+#email-success-message-container {
+    width: 30%;
+    margin-bottom: -100px;
+    margin-top: 100px;
+    text-align: center;
+    padding: 10px;
+    opacity: 0.75;
+}
+
+#email-success-message-container p {
+	font-size: 1.5em;
+	color: #fff;
+	line-height: 1.25;
+}
+
 @keyframes bounce {
 	0%, 100% {
 		transform: translateY(0);
@@ -657,7 +672,7 @@ textarea:focus {
 /********************************************************/
 
 #events-section {
-	background: linear-gradient( rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../img/hero-img.JPG);
+	background: linear-gradient( rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../img/hero-img-prog.jpg);
 	/*height: 87vh;*/
 	background-size: cover;
 	display: flex;
@@ -920,6 +935,16 @@ textarea:focus {
 @media only screen and (max-width: 375px) {
 	#chevron-down-container {
 		left: 205px;
+	}
+
+	#email-success-message-container {
+		width: 80%;
+	    margin-bottom: -50px;
+	    margin-top: 50px;
+	}
+
+	#email-success-message-container p {
+		font-size: 1em;
 	}
 }
 
@@ -1394,6 +1419,45 @@ textarea:focus {
 	}
 }
 
+/* approx. iPhone6Plus portrait width */
+@media only screen and (max-width: 414px) {
+	#search-sidebar h3 {
+		border-bottom: none;
+	    color: #f1c40f;
+	    margin-left: 142px;
+	}
+
+	#scroll-down-message {
+		margin-left: 142px;
+	}
+
+	#format-container {
+		display: block;
+    	width: 100%;
+    	margin-left: 0;
+    	margin-bottom: 0;
+    	padding-left: 90px;
+	}
+
+	#format-label {
+		display: block;
+		margin-left: 76px;
+	}
+
+	#twelve-format-input {
+		margin-left: 48px;
+	}
+
+	#genre-section-wrapper {
+		border-top: 1px solid #fff;
+    	padding-top: 10px;
+	}
+
+	#genre-label {
+		margin-left: 168px;
+	}
+}
+
 /* approx. iPhone 6 portrait width */
 @media only screen and (max-width: 375px) {
 	#navbar h1 {
@@ -1415,6 +1479,42 @@ textarea:focus {
 
 	#header {
 		margin-top: -2px;
+	}
+
+	#search-sidebar h3 {
+		margin-left: 124px;
+    	border-bottom: none;
+    	color: #f1c40f;
+	}
+
+	#search-all-submit {
+		display: none;
+	}
+
+	#format-container {
+		display: block;
+    	width: 100%;
+    	margin-left: 0;
+    	margin-bottom: 0;
+    	padding-left: 84px;
+	}
+
+	#format-label {
+		display: block;
+		margin-left: 63px;
+	}
+
+	#twelve-format-input {
+		margin-left: 41px;
+	}
+
+	#genre-section-wrapper {
+		border-top: 1px solid #fff;
+    	padding-top: 10px;
+	}
+
+	#genre-label {
+		margin-left: 150px;
 	}
 }
 
@@ -1455,9 +1555,9 @@ textarea:focus {
 	}
 
 	#search-sidebar h3 {
-		margin-left: 20px;
-		border-bottom: none;
-		color: #f1c40f;
+		margin-left: 95px;
+    	border-bottom: none;
+    	color: #f1c40f;
 	}
 
 	#search-all-submit {
@@ -1468,7 +1568,17 @@ textarea:focus {
 		display: block;
     	width: 100%;
     	margin-left: 0;
-    	padding-bottom: 5%;
+    	margin-bottom: 0;
+    	padding-left: 63px;
+	}
+
+	#format-label {
+		display: block;
+		margin-left: 55px;
+	}
+
+	#twelve-format-input {
+		margin-left: 36px;
 	}
 
 	.format-filter {
@@ -1481,14 +1591,15 @@ textarea:focus {
 
 	#genre-section-wrapper {
 		display: block;
-		width: 100%;
-		margin-top: 0;
-		padding-top: 5%;
-		padding-bottom: 10%;
+	    width: 100%;
+	    margin-top: 0;
+	    padding-top: 5%;
+	    padding-bottom: 5%;
+	    border-top: 1px solid #fff;
 	}
 
 	#genre-label {
-		margin-left: 20px;
+		margin-left: 122px;
 		margin-bottom: -10px;
 	}
 
@@ -1540,6 +1651,10 @@ textarea:focus {
 /* events page
 /**********************************************/
 @media only screen and (max-width: 768px) {
+	#events-container {
+		height: 640px;
+	}
+
 	.month {
 		font-size: 2em;
 	}
