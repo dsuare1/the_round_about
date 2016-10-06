@@ -34,7 +34,7 @@ body {
 
 #hero-header {
 	/*background: linear-gradient( rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../img/hero-img.JPG);*/
-	background: linear-gradient( rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../img/hero-img-2-prog.JPG);
+	background: linear-gradient( rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../img/hero-img-2-prog.jpg);
 	height: 100vh;
 	background-size: cover;
 	display: flex;
