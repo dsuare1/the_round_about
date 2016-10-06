@@ -28,6 +28,9 @@ router.get('/', (req, res) => {
 			res.status(200).render('index', staffPicks);
 		}
 	});
+	// var staffPicks = fetchStaffPicks();
+	// console.log('********************************************************')
+	// console.log(fetchStaffPicks());
 	// res.status(200).render('index', fetchStaffPicks());
 });
 
@@ -68,14 +71,13 @@ router.post('/contact', (req, res) => {
 });
 
 // function fetchStaffPicks() {
+// 	console.log('inside function');
 // 	Albums.find({ isStaffPick: true }, (err, staffPicks) => {
 // 		if (err) {
 // 			console.log(err);
 // 		} else {
-// 			var staffPicks = { staffPicks: staffPicks };
-// 			console.log(staffPicks);
+// 			// console.log(staffPicks);
 // 			return staffPicks;
-// 			// res.status(200).render('index', staffPicks);
 // 		}
 // 	});
 // }

@@ -103,17 +103,17 @@ addNewAlbumSubmit.addEventListener('click', (e) => {
 		createYearInput.style.boxShadow = '0 0 15px red';
 	};
 
+	if (typeof createGenreInput.value !== 'string' || createGenreInput.value === '' || createGenreInput.value === undefined || createGenreInput.value.match(/^\d+$/) || createGenreInput.value.charAt(2) === '.') {
+		console.log('problem with genre input');
+		e.preventDefault();
+		createGenreInput.style.boxShadow = '0 0 15px red';
+	};
+
 	if (typeof parseFloat(createPriceInput.value) !== 'number' || createPriceInput.value === '' || createPriceInput.value === undefined || createPriceInput.value.length > 5 || createPriceInput.value.length < 5) {
 		console.log('problem with price input');
 		e.preventDefault();
 		createPriceInput.style.boxShadow = '0 0 15px red';
 	}
-
-	if (typeof createGenreInput.value !== 'string' || createGenreInput.value === '' || createGenreInput.value === undefined || createGenreInput.value.match(/^\d+$/)) {
-		console.log('problem with genre input');
-		e.preventDefault();
-		createGenreInput.style.boxShadow = '0 0 15px red';
-	};
 
 	if (typeof parseInt(createFormatInput.value) !== 'number' || createFormatInput.value === '' || createFormatInput.value === undefined || createFormatAllowedInputs.indexOf(createFormatInput.value) === -1) {
 		console.log('problem with format input');
