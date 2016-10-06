@@ -246,12 +246,7 @@ module.exports = (router) => {
                             }
                         });
                     }
-                })
-                .catch((err) => {
-                    let error = { err: err };
-                    res.render('error', err);
-                })
-                );
+                }));
         });
     });
 

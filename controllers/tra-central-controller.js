@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const nodemailer = require('nodemailer');
 
 const router = express.Router();
-const transporter = nodemailer.createTransport('smtps://roundaboutstore%40gmail.com:loverecords@smtp.gmail.com');
+const transporter = nodemailer.createTransport();
 
 const Albums = require('../models/Album.js');
 
@@ -35,7 +35,8 @@ router.post('/contact', (req, res) => {
 	console.log(req.body);
 	let mailOptions = {
 		from: req.body.email,
-		to: 'roundaboutstore@gmail.com',
+		// to: 'roundaboutstore@gmail.com',
+		to: 'suarez.derrick@gmail.com',
 		subject: req.body.subject,
 		text: req.body.messageBody
 	}
