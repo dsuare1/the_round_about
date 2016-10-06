@@ -584,17 +584,19 @@ textarea:focus {
 	border-left: 1px solid #fff;
 	border-bottom: 1px solid #fff;
 	padding: 3%;
-	overflow: scroll;
+	overflow-y: scroll;
 }
 
 .search-result-item {
 	display: inline-block;
-    padding: 3%;
-    height: 325px;
-    min-height: 325px;
+    padding: 0 5px 5px 5px;
+    height: 400px;
+    min-height: 400px;
     width: 165px;
     max-width: 165px;
-    overflow: scroll;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /*overflow-y: scroll;*/
 }
 
 .search-results-album-cover {
@@ -602,36 +604,50 @@ textarea:focus {
 }
 
 .search-results-album-title {
-	font-size: .95em;
-    margin-bottom: 5%;
+	font-size: 1.15em;
+    margin-bottom: 10px;
     font-weight: 300;
     margin-top: 10px;
+    color: #fff;
 }
 
 .search-results-artist {
-	font-size: .85em;
+	font-size: 1em;
     margin-bottom: 5%;
+    color: #fff;
 }
 
 .search-results-year {
-	font-size: .65em;
+	font-size: .95em;
+	color: #fff;
+	margin: 10px 0;
+}
+
+.search-results-quantity {
+	color: #fff;
+	margin-bottom: 10px;
 }
 
 .search-results-price {
 	font-size: 1em;
-    margin-bottom: 5%;
+    margin-bottom: 10px;
     margin-top: 2%;
+    color: #f1c40f;
+    font-weight: 500;
 }
 
-.single-album-input {
-	border: none;
+.view-album-details-button {
 	background: none;
-	color: #fff;
+    border: 1px solid #fff;
+    padding: 5px;
+    color: #fff;
+    margin-top: 10px;
 }
 
-#specific-album-form:hover,
-.single-album-input:hover {
+.view-album-details-button:hover {
 	cursor: pointer;
+	border: 1px solid #f1c40f;
+	color: #f1c40f;
 }
 
 
@@ -660,7 +676,7 @@ textarea:focus {
 	flex-direction: column;
 	align-items: center;
 	padding: 5% 10%;
-	overflow: scroll;
+	/*overflow: scroll;*/
 }
 
 .month {

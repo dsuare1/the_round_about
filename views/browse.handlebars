@@ -116,11 +116,12 @@
 		<div class="search-result-item">
 			<img src="{{this.albumCover}}" width="125px" height="125px" class="search-results-album-cover" alt="Album Cover">
 			<form action="/browse/{{this.id}}" method="GET" id="specific-album-form">
-				<input type="submit" class="search-results-album-title single-album-input" value="{{this.title}}"/><br>
-				<input type="submit" class="search-results-artist single-album-input" value="{{this.artist}}"/><br>
-				<input type="submit" class="search-results-year single-album-input" value="{{this.year}}"/><br>
-				<input type="submit" class="search-results-quantity single-album-input" value="Quantity: {{this.quantity}}"><br>
-				<input type="submit" class="search-results-price single-album-input" value="${{this.price}}" style="color: #f1c40f;"/>
+				<p class="search-results-album-title">{{this.title}}</p>
+				<p class="search-results-artist">{{this.artist}}</p>
+				<p class="search-results-year">{{this.year}}</p>
+				<p class="search-results-quantity">Quantity: {{this.quantity}}</p>
+				<p class="search-results-price">${{this.price}}</p>
+				<button type="submit" class="view-album-details-button">View album details</button>
 			</form>
 		</div>
 	{{/each}}
@@ -130,11 +131,13 @@
 		<div class="search-result-item">
 			<img src="{{this.albumCover}}" width="125px" height="125px" class="search-results-album-cover" alt="Album Cover">
 			<form action="/browse/{{this.id}}" method="GET" id="specific-album-form">
-				<input type="submit" class="search-results-album-title single-album-input" value="{{this.title}}"/><br>
-				<input type="submit" class="search-results-artist single-album-input" value="{{this.artist}}"/><br>
-				<input type="submit" class="search-results-year single-album-input" value="{{this.year}}"/><br>
-				<input type="submit" class="search-results-quantity single-album-input" value="Quantity: {{this.quantity}}"><br>
-				<input type="submit" class="search-results-price single-album-input" value="${{this.price}}" style="color: #f1c40f;"/>
+				
+				<p class="search-results-album-title">{{this.title}}</p>
+				<p class="search-results-artist">{{this.artist}}</p>
+				<p class="search-results-year">{{this.year}}</p>
+				<p class="search-results-quantity">Quantity: {{this.quantity}}</p>
+				<p class="search-results-price">${{this.price}}</p>
+				<button type="submit" class="view-album-details-button">View album details</button>
 			</form>
 		</div>
 	{{/each}}
