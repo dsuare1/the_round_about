@@ -31,12 +31,19 @@ router.get('/', (req, res) => {
 });
 
 router.post('/contact', (req, res) => {
+	Albums.find({ isStaffPick: true }, (err, staffPicks) => {
+		if (err) {
+			console.log(err);
+		} else {
+			var staffPicks = { staffPicks: staffPicks };
+		}
+	});
+
 	console.log('send mail button hit');
 	console.log(req.body);
 	let mailOptions = {
 		from: req.body.email,
-		// to: 'roundaboutstore@gmail.com',
-		to: 'suarez.derrick@gmail.com',
+		to: 'roundaboutstore@gmail.com',
 		subject: req.body.subject,
 		text: req.body.messageBody
 	}
@@ -50,9 +57,9 @@ router.post('/contact', (req, res) => {
 		console.log('Message sent: ' + info.response);
 	});
 
-	// let emailSuccessMessage = { message: 'We\'ve received your message!  Thank you for contacting The Round About!' };
-	// res.status(200).render('index', emailSuccessMessage);
-	res.redirect('/');
+	let emailSuccessMessage = { message: 'We\'ve received your message!  Thank you for contacting The Round About!' };
+	res.status(200).render('index', emailSuccessMessage);
+	// res.redirect('/');
 });
 
 module.exports = router;
