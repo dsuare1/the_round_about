@@ -1,0 +1,499 @@
+/********************************************************/
+/***** Media Queries  *****/
+/********************************************************/
+
+/* landing page */
+/**********************************************/
+
+/* approx. landscape laptop width */
+@media only screen and (max-width: 1024px) {
+	#header-title h1 {
+		font-size: 3.5em;
+	}
+
+	#header-title h3 {
+		font-size: 1.5em;
+	}
+
+	#contact-info {
+		font-size: .75em;
+	}
+}
+
+
+
+
+
+
+
+
+
+/* approx. portrait tablet width */
+@media only screen and (max-width: 768px) {
+	#header-title h1 {
+		font-size: 3em;
+	}
+
+	#header-title h3 {
+		font-size: 1.5em;
+	}
+
+	#contact-info {
+		font-size: .95em;
+	}
+
+	#chevron-down-container {
+		left: 400px;
+	}
+
+	#chevron-down {
+		width: 50px;
+	    height: 50px;
+	    border-right: 2px solid #fff;
+	    border-bottom: 2px solid #fff;
+	}
+
+	#staff-picks {
+		height: 350px;
+	    min-height: 350px;
+	    max-height: 350px;
+	}
+
+	#staff-picks-title h3 {
+		font-size: 2em;
+	}
+
+	.staff-pick-album-cover {
+		width: 85px;
+		height: 85px;
+	}
+
+	.staff-pick-album-title {
+		font-size: 1em;
+	}
+
+	.staff-pick-artist {
+		font-size: .8em;
+	}
+
+	.staff-pick-year {
+		font-size: .65em;
+	}
+
+	#map-section {
+		height: 500px;
+		min-height: 500px;
+		max-height: 500px;
+	}
+
+	#map-header-container h2 {
+		font-size: 2em;
+	}
+
+	#footer-section h2 {
+		font-size: 2em;
+	}
+
+	#contact-us label {
+		font-size: 1em;
+	}
+}
+
+
+
+
+
+
+
+
+
+/* approx. iPhone6Plus landscape width */
+@media only screen and (max-width: 736px) {
+	#hero-header {
+		background: #0e2338;
+	}
+
+	#chevron-down-container {
+	    left: 385px;
+	}
+
+	#staff-picks {
+	    height: 300px;
+	    min-height: 300px;
+	    max-height: 300px;
+	}
+
+	#nav-section {
+		background: #0e2338;
+		height: 375px;
+	    max-height: 375px;
+	    min-height: 375px;
+	}
+
+	#browse-inventory {
+		width: 350px;
+	    height: 75px;
+	    font-size: 2em;
+	    color: #0e2338;
+	    background-color: #fff;
+	}
+
+	#upcoming-events {
+		color: #0e2338;
+	    background-color: #fff;
+	    width: 350px;
+	    font-size: 2em;
+	}
+
+	#map-section {
+	    height: 555px;
+	    min-height: 555px;
+	    max-height: 555px;
+	}
+
+	#footer-section {
+		padding-top: 20px;
+	}
+
+	#send-email {
+		margin-top: 15px;
+	}
+}
+
+
+
+
+
+
+
+
+
+/* approx. iPhone6 landscape width */
+@media only screen and (max-width: 667px) {
+	#hero-header {
+		background: #0e2338;
+	}
+
+	#chevron-down-container {
+	    left: 350px;
+	}
+
+	#staff-picks {
+	    height: 300px;
+	    min-height: 300px;
+	    max-height: 300px;
+	}
+
+	#nav-section {
+		background: #0e2338;
+		height: 375px;
+	    max-height: 375px;
+	    min-height: 375px;
+	}
+
+	#browse-inventory {
+		width: 350px;
+	    height: 75px;
+	    font-size: 2em;
+	    color: #0e2338;
+	    background-color: #fff;
+	}
+
+	#upcoming-events {
+		color: #0e2338;
+	    background-color: #fff;
+	    width: 350px;
+	    font-size: 2em;
+	}
+
+	#map-section {
+	    height: 555px;
+	    min-height: 555px;
+	    max-height: 555px;
+	}
+
+	#footer-section {
+		padding-top: 20px;
+	}
+
+	#send-email {
+		margin-top: 15px;
+	}
+}
+
+
+
+
+
+
+
+
+
+/* approx. iPhone landscape width */
+@media only screen and (max-width: 568px) {
+	#hero-header {
+		background: #0e2338;
+	}
+
+	#header-title h1 {
+		font-size: 2.5em;
+	}
+
+	#header-title h3 {
+		font-size: .75em;
+	}
+
+	#contact-info {
+		font-size: .65em;
+	}
+
+	#header-title {
+		width: 75%;
+		padding: 10px;
+		margin-top: 2px;
+	}
+
+	#header-title h1 {
+		font-size: 1.5em;
+	}
+
+	#chevron-down-container {
+		left: 305px;
+	}
+
+	#chevron-down {
+		height: 35px;
+	    width: 35px;
+	    border-right: 2px solid #fff;
+	    border-bottom: 2px solid #fff;
+	}
+
+	#staff-picks {
+	    height: 425px;
+	    min-height: 425px;
+	    max-height: 425px;
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	}
+
+	#staff-picks-title {
+		display: inline-block;
+		margin-bottom: 15px;
+	}
+
+	#staff-picks-title h3 {
+		font-size: 1.5em;
+	    margin-top: 5%;
+	    margin-bottom: 10%;
+	}
+
+	#staff-picks-container {
+		height: 350px;
+	}
+
+	.staff-picks-item {
+		height: 150px;
+	    min-height: 150px;
+	    max-height: 150px;
+	    width: 33%;
+	    padding-left: 25px;
+	}
+
+	.staff-pick-album-cover {
+		width:75px;
+		height: 75px;
+	}
+
+	.staff-pick-album-title {
+		font-size: .85em;
+	}
+
+	.staff-pick-artist {
+		font-size: .75em;
+	}
+
+	.staff-pick-year {
+		font-size: .55em;
+	}
+
+	#nav-section {
+		background: #0e2338;
+		height: 375px;
+	    max-height: 375px;
+	    min-height: 375px;
+	}
+
+	#browse-inventory {
+		width: 350px;
+	    height: 75px;
+	    font-size: 2em;
+	    color: #0e2338;
+	    background-color: #fff;
+	}
+
+	#upcoming-events {
+		color: #0e2338;
+	    background-color: #fff;
+	    width: 350px;
+	    font-size: 2em;
+	}
+
+	#map-section {
+		height: 535px;
+	    min-height: 535px;
+	    max-height: 535px;
+	}
+
+	#map-header-container h2 {
+		font-size: 1.5em;
+	}
+
+	#footer-section h2 {
+		font-size: 2em;
+		margin: 25px 0 5px 0;
+	}
+
+	#contact-us label {
+		font-size: 1em;
+	}
+
+	.personal-form-control {
+		margin-bottom: 25px;
+	}
+
+	#message-body {
+		width: 350px;
+	}
+
+	#send-email {
+		margin-top: 15px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+/* approx. iPhone6Plus portrait width */
+@media only screen and (max-width: 414px) {
+	#contact-info {
+		font-size: .85em;
+	}
+
+	#chevron-down-container {
+	    left: 230px;
+	}
+
+	#map-section {
+	    height: 520px;
+	    min-height: 520px;
+	    max-height: 520px;
+	}
+}
+
+
+
+
+
+
+
+
+
+/* approx. iPhone6 portrait width */
+@media only screen and (max-width: 375px) {
+	#chevron-down-container {
+		left: 205px;
+	}
+
+	#email-success-message-container {
+		width: 80%;
+	    margin-bottom: -50px;
+	    margin-top: 50px;
+	}
+
+	#email-success-message-container p {
+		font-size: 1em;
+	}
+
+	#map-section {
+	    height: 515px;
+	    min-height: 515px;
+	    max-height: 515px;
+	}
+}
+
+
+
+
+
+
+
+
+
+/* approx. iPhone 5 portrait width */
+@media only screen and (max-width: 320px) {
+	#hero-header {
+		background: #0e2338;
+	}
+
+	#header-title h1 {
+		font-size: 1.5em;
+	}
+
+	#header-title h3 {
+		font-size: .75em;
+	}
+
+	#contact-info {
+		font-size: .75em;
+	}
+
+	#chevron-down-container {
+		left: 163px;
+	}
+
+	#chevron-down {
+		margin-left: -20px;
+	}
+
+	.staff-picks-item {
+		padding-left: 12px;
+	}
+
+	#nav-section {
+		background: #0e2338;
+	}
+
+	#browse-inventory {
+		width: 275px;
+	    font-size: 1.5em;
+	    height: 65px;
+	}
+
+	#upcoming-events {
+		width: 275px;
+	    font-size: 1.5em;
+	    height: 65px;
+	}
+
+	#map-section {
+	    height: 510px;
+	    min-height: 510px;
+	    max-height: 510px;
+	}
+
+	.personal-form-control {
+		width: 200px;
+	}
+
+	#message-body {
+		width: 275px;
+	    height: 250px;
+	}
+}

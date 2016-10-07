@@ -1,0 +1,76 @@
+/********************************************************/
+/***** Media Queries  *****/
+/********************************************************/
+
+/* events page
+/**********************************************/
+
+/* approx. iPad portrait */
+@media only screen and (max-width: 768px) {
+	.month {
+		font-size: 2em;
+	}
+
+	.event {
+		font-size: 1em;
+	}
+}
+
+/* approx. iPhone 6 Plus landscape width */
+@media only screen and (max-width: 736px) {
+	#events-section {
+		background: #000;
+	}
+}
+
+
+/* approx. iPhone 6 landscape witdth */
+@media only screen and (max-width: 667px) {
+	#events-section {
+		background: #000;
+	}
+}
+
+/* approx. iPhone 5 landscape width */
+@media only screen and (max-width: 568px) {
+	#events-section {
+		background: #000;
+		margin-top: 10px;
+	}
+
+	#events-container {
+		width: 90%;
+		max-width: 90%;
+		min-width: 90%;
+	}
+
+	#navbar h1 {
+		margin-bottom: 10px;
+	}
+}
+
+/* approx. iPhone 6 portrait width */
+@media only screen and (max-width: 375px) {
+	#events-section {
+		margin-top: 0;
+	}
+}
+
+/* approx. iPhone 5 portrait width */
+@media only screen and (max-width: 320px) {
+	#navbar {
+	    height: 90px;
+	}
+
+	#navbar h1 {
+		font-size: 1.5em;
+	}
+
+	#navbar p {
+		font-size: 1em;
+		padding-left: 5%;
+	}
+}
+
+
+

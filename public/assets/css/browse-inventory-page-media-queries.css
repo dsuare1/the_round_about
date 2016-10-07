@@ -1,0 +1,697 @@
+/********************************************************/
+/***** Media Queries  *****/
+/********************************************************/
+
+/* browse inventory page
+/**********************************************/
+
+/* approx. landscape laptop width */
+@media only screen and (max-width: 1024px) {
+	#navbar h1 {
+		font-size: 2.5em;
+	}
+
+	#navbar p {
+		font-size: .95em;
+	}
+
+	#header h3 {
+		font-size: 2em;
+	}
+
+	#header p {
+		font-size: .95em;
+	}
+}
+
+
+
+
+
+
+
+
+
+/* approx. portrait tablet width */
+@media only screen and (max-width: 768px) {
+	body {
+		background-color: #f1c40f;
+	}
+
+	#navbar h1 {
+		font-size: 2em;
+	}
+
+	#navbar p {
+		font-size: 1em;
+	}
+
+	#header h3 {
+		font-size: 1.75em;
+	}
+
+	#header p {
+		font-size: .75em;
+	}
+
+	#search-sidebar {
+		width: 100%;
+	    max-width: 100%;
+	    min-width: 100%;
+	    display: block;
+	    height: 950px;
+	    max-height: 950px;
+	    min-height: 950px;
+	}
+
+	#scroll-down-message {
+		font-size: .75em;
+	    color: #fff;
+	    margin-left: 42.5%;
+	}
+
+	#search-sidebar h3 {
+		display: inline-block;
+		border-bottom: 1px solid #fff;
+		margin-top: 25px;
+		margin-left: 20px;
+	}
+
+	#format-label {
+		display: inline-block;
+    	margin-bottom: 2%;
+    	border-bottom: none;
+    	padding: 2%;
+	}
+
+	#format-container {
+		display: inline;
+		width: 20%;
+		margin-left: 35px;
+	}
+
+	#genre-section-wrapper {
+	    width: 65%;
+	    float: right;
+	    margin-top: -165px;
+	}
+
+	.format-filter {
+		display: block;
+	}
+
+	.radio-format-option-label {
+		margin-left: 90px;
+	}
+
+	#genre-label {
+		border-bottom: none;
+		padding-top: 8px;
+		margin-bottom: 5%;
+	}
+
+	#format-container {
+		display: block;
+    	width: 100%;
+    	margin-left: 0;
+    	padding-bottom: 0;
+    	margin-bottom: 15px;
+	}
+
+	.format-filter {
+		display: inline-block;
+	}
+
+	.radio-format-option-label {
+		margin-left: 0;
+	}
+
+	#genre-section-wrapper {
+		display: block;
+		width: 100%;
+		margin-top: 0;
+	}
+
+	#genre-label {
+		margin-left: 20px;
+		margin-bottom: -10px;
+		padding: 2%;
+	}
+
+	#radio-left {
+		display: block;
+		width: 100%;
+		padding: 2% 2% 2% 35px;
+    	line-height: 30px;
+    	margin-left: 0;
+	}
+
+	#radio-right {
+		display: block;
+		width: 100%;
+		padding: 2% 2% 2% 35px;
+    	line-height: 30px;
+    	margin-top: -30px;
+	}
+
+	.genre-radio-label-group {
+		width: 20%;
+		display: inline-block;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	.radio-option-label {
+		margin-left: 5px;
+	}
+
+	.filter {
+		display: inline-block;
+	}
+
+	#search-results {
+		width: 85%;
+    	margin-right: 7.5%;
+    	border-left: none;
+    	height: 750px;
+	    max-height: 750px;
+	    min-height: 750px;
+	}
+
+	.search-result-item {
+		width: 33%;
+		max-width: 33%;
+	}
+
+	.search-results-album-cover {
+		width: 100px;
+		height: 100px;
+	}
+
+	.search-results-album-title {
+		font-size: .75em;
+	}
+
+	.search-results-artist {
+		font-size: .65em;
+	}
+
+	.search-results-year {
+		font-size: .5em;
+	}
+
+	.search-results-quantity {
+		font-size: .65em;
+	}
+
+	.search-results-price {
+		font-size: .75em;
+	}
+
+	#footer-section {
+		width: 100%;
+	    max-width: 100%;
+	    min-width: 100%;
+	}
+
+	#social-links-container {
+		width: 100%;
+	}
+
+	.social-link-image {
+		width: 75px;
+		height: 75px;
+	}
+
+	#copyright h6, a {
+		font-size: 1em;
+	}
+}
+
+
+
+
+
+
+
+
+
+/* approx. iPhone landscape width */
+@media only screen and (max-width: 568px) {
+	#navbar {
+		display: block;
+		height: 100px;
+	}
+
+	#browse-h1-container {
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	}
+
+	#navbar h1 {
+		margin-left: 0;
+	}
+
+	#nav-links {
+		width: 100%;
+	    padding: 15px;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    right: 0;
+	    background-color: #f1c40f;
+	}
+
+	#nav-links a {
+		margin: 0 10px 0 10px;
+	}
+
+	#navbar p {
+		display: inline-block;
+	    /*padding-left: 10%;*/
+	    border: none;
+	    font-size: 1em;
+	    color: #0e2338;
+	}
+
+	#search-sidebar {
+		width: 100%;
+	    max-width: 100%;
+	    min-width: 100%;
+	    display: block;
+	    height: 750px;
+	    max-height: 750px;
+	    min-height: 750px;
+	}
+
+	#header h3 {
+		font-size: 1.15em;
+	}
+
+	#header p {
+		font-size: .85em;
+		width: 90%;
+	}
+
+	#scroll-down-message {
+		margin-left: 150px;
+	}
+
+	#search-sidebar h3 {
+		font-size: 1.15em;
+		margin-left: 35px;
+	}
+
+	#search-all-submit {
+		display: none;
+	}
+
+	#scroll-down-message {
+		margin-left: 218px;
+	}
+
+	#search-sidebar h3 {
+		border-bottom: none;
+	    color: #f1c40f;
+	    margin-left: 218px;
+	}
+
+	#format-container {
+		display: block;
+    	width: 100%;
+    	margin-left: 0;
+    	margin-bottom: 0;
+    	padding-left: 180px;
+	}
+
+	#format-label {
+		display: block;
+		margin-left: 51px;
+	}
+
+	#twelve-format-input {
+		margin-left: 48px;
+	}
+
+	#genre-section-wrapper {
+		border-top: 1px solid #fff;
+    	padding-top: 10px;
+	}
+
+	#genre-label {
+		margin-left: 168px;
+	}
+
+	.format-filter {
+		display: inline-block;
+	}
+
+	.radio-format-option-label {
+		margin-left: 0;
+		font-size: .75em;
+	}
+
+	#genre-section-wrapper {
+		display: block;
+		width: 100%;
+		margin-top: 0;
+	}
+
+	#genre-label {
+		margin-left: 232px;
+	    margin-bottom: -10px;
+	    padding: 2%;
+	    font-size: 1.5em;
+	}
+
+	.radio-option-label {
+		font-size: .75em;
+	}
+
+	#radio-left {
+		display: block;
+		width: 100%;
+		padding: 2% 2% 2% 30px;
+    	line-height: 30px;
+    	margin-left: 0;
+	}
+
+	#radio-right {
+		display: block;
+		width: 100%;
+		padding: 2% 2% 2% 30px;
+    	line-height: 30px;
+    	margin-top: -17px;
+	}
+
+	.genre-radio-label-group {
+		width: 23%;
+		display: inline-block;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	#filter-submit-button-container {
+		padding-left: 15%;
+	}
+
+	.search-results-album-cover {
+		width: 75px;
+		height: 75px;
+	}
+
+	.search-results-album-title {
+		font-size: .75em;
+	}
+
+	.search-results-artist {
+		font-size: .65em;
+	}
+
+	.search-results-year {
+		font-size: .45em;
+	}
+
+	.search-results-quantity {
+		font-size: .55em;
+	}
+
+	.search-results-price {
+		font-size: .85em;
+	}
+
+	.social-link-image {
+		width: 50px;
+		height: 50px;
+	}
+
+	#copyright-container {
+		height: 75px;
+	    min-height: 75px;
+	    max-height: 75px;
+	}
+
+	#copyright-container h6 {
+		font-size: .75em;
+	}
+}
+
+
+
+
+
+
+
+
+
+/* approx. iPhone6Plus portrait width */
+@media only screen and (max-width: 414px) {
+	#search-sidebar h3 {
+		border-bottom: none;
+	    color: #f1c40f;
+	    margin-left: 142px;
+	}
+
+	#nav-links a {
+		margin: 0;
+	}
+
+	#scroll-down-message {
+		margin-left: 142px;
+	}
+
+	#format-container {
+		display: block;
+    	width: 100%;
+    	margin-left: 0;
+    	margin-bottom: 0;
+    	padding-left: 90px;
+	}
+
+	#format-label {
+		display: block;
+		margin-left: 70px;
+	}
+
+	#twelve-format-input {
+		margin-left: 48px;
+	}
+
+	#genre-section-wrapper {
+		border-top: 1px solid #fff;
+    	padding-top: 10px;
+	}
+
+	#genre-label {
+		margin-left: 165px;
+	}
+}
+
+
+
+
+
+
+
+
+
+/* approx. iPhone 6 portrait width */
+@media only screen and (max-width: 375px) {
+	#navbar {
+	    height: 100px;
+	}
+
+	#navbar h1 {
+		font-size: 2em;
+	}
+
+	#navbar p {
+		padding-left: 8%;
+	}
+
+	.radio-option-label {
+		font-size: .65em;
+	}
+
+	#scroll-down-message {
+		margin-left: 125px;
+	}
+
+	#header {
+		margin-top: -2px;
+	}
+
+	#search-sidebar {
+		height: 700px;
+	    max-height: 700px;
+	    min-height: 700px;
+	}
+
+	#search-sidebar h3 {
+		margin-left: 124px;
+    	border-bottom: none;
+    	color: #f1c40f;
+	}
+
+	#search-all-submit {
+		display: none;
+	}
+
+	#format-container {
+		display: block;
+    	width: 100%;
+    	margin-left: 0;
+    	margin-bottom: 0;
+    	padding-left: 84px;
+	}
+
+	#format-label {
+		display: block;
+		margin-left: 58px;
+	}
+
+	#twelve-format-input {
+		margin-left: 41px;
+	}
+
+	#genre-section-wrapper {
+		border-top: 1px solid #fff;
+    	padding-top: 10px;
+	}
+
+	#genre-label {
+		margin-left: 147px;
+	}
+}
+
+
+
+
+
+
+
+
+
+/* approx. iPhone portrait width */
+@media only screen and (max-width: 320px) {
+	#navbar h1 {
+		font-size: 1em;
+	}
+
+	#navbar p {
+		font-size: .85em;
+	}
+
+	#search-sidebar {
+		width: 100%;
+	    max-width: 100%;
+	    min-width: 100%;
+	    display: block;
+	    height: 700px;
+	    max-height: 700px;
+	    min-height: 700px;
+	}
+
+	#header h3 {
+		font-size: 1em;
+	}
+
+	#header p {
+		font-size: .75em;
+	}
+
+	#scroll-down-message {
+		font-size: .75em;
+	    color: #fff;
+	    display: block;
+	    width: 50%;
+	    margin-left: 30%;
+	}
+
+	#search-sidebar h3 {
+		margin-left: 95px;
+    	border-bottom: none;
+    	color: #f1c40f;
+	}
+
+	#search-all-submit {
+		display: none;
+	}
+
+	#format-container {
+		display: block;
+    	width: 100%;
+    	margin-left: 0;
+    	margin-bottom: 0;
+    	padding-left: 63px;
+	}
+
+	#format-label {
+		display: block;
+		margin-left: 55px;
+	}
+
+	#twelve-format-input {
+		margin-left: 36px;
+	}
+
+	.format-filter {
+		display: inline-block;
+	}
+
+	.radio-format-option-label {
+		margin-left: 0;
+	}
+
+	#genre-section-wrapper {
+		display: block;
+	    width: 100%;
+	    margin-top: 0;
+	    padding-top: 5%;
+	    padding-bottom: 5%;
+	    border-top: 1px solid #fff;
+	}
+
+	#genre-label {
+		margin-left: 122px;
+		margin-bottom: -10px;
+	}
+
+	#radio-left {
+		display: block;
+		width: 100%;
+		padding: 2% 2% 2% 10px;
+		margin-left: 0;
+	}
+
+	#radio-right {
+		display: block;
+		width: 100%;
+		padding: 2% 2% 2% 10px;
+		margin-left: 0;
+		margin-top: -12px;
+	}
+
+	.genre-radio-label-group {
+		width: 24%;
+		display: inline-block;
+	}
+
+	.radio-option-label {
+		margin-left: 5px;
+		font-size: .5em;
+	}
+
+	.filter {
+		display: inline-block;
+	}
+
+	.search-result-item {
+		height: 300px;
+	    min-height: 300px;
+	    max-height: 300px;
+	    width: 50%;
+	    max-width: 50%;
+	}
+}

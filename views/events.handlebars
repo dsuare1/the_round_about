@@ -1,6 +1,8 @@
 {{!-- begin navbar section --}}
 <nav id="navbar">
-	<h1>The Round About</h1>
+	<div id="browse-h1-container">
+		<h1>The Round About</h1>
+	</div>
 	<div id="nav-links">
 		<a href="/"><p class="home-link nav-link">Home</p></a>
 		<a href="/browse"><p class="browse-link nav-link">Browse Inventory</p></a>
@@ -14,31 +16,6 @@
 	<div id="events-container">
 		
 		<h1 class="month">October</h1>
-		{{!-- <ul class="events-list">
-		{{#each events}}
-			{{#if_eq this.month October}}
-			<li class="event">{{this.day}} {{this.date}} - {{this.description}} @ {{this.time}}</li>
-			{{/if_eq}}
-		{{/each}}
-		</ul>
-		
-		<h1 class="month">November</h1>
-		<ul class="events-list">
-		{{#each events}}
-			{{#if_eq this.month November}}
-			<li class="event">{{this.day}} {{this.date}} - {{this.description}} @ {{this.time}}</li>
-			{{/if_eq}}
-		{{/each}}
-		</ul>
-
-		<h1 class="month">December</h1>
-		<ul class="events-list">
-		{{#each events}}
-			{{#if_eq this.month December}}
-			<li class="event">{{this.day}} {{this.date}} - {{this.description}} @ {{this.time}}</li>
-			{{/if_eq}}
-		{{/each}}
-		</ul> --}}
 		<ul class="events-list">
 		{{#each events}}
 			<li class="event"><span style="color:#f1c40f;">{{this.day}} {{this.date}}</span> - {{this.description}} @ {{this.time}}</li>
