@@ -268,6 +268,9 @@ module.exports = (router) => {
         if (req.body.genre !== undefined) {
             query['genre'] = req.body.genre;
         };
+        if (req.body.price !== undefined) {
+            query['price'] = req.body.price;
+        };
         if (req.body.format !== undefined) {
             query['format'] = req.body.format;
         };
