@@ -109,7 +109,7 @@ addNewAlbumSubmit.addEventListener('click', (e) => {
 		createGenreInput.style.boxShadow = '0 0 15px red';
 	};
 
-	if (typeof parseFloat(createPriceInput.value) !== 'number' || createPriceInput.value === '' || createPriceInput.value === undefined || createPriceInput.value.length > 5 || createPriceInput.value.length < 5) {
+	if (typeof parseFloat(createPriceInput.value) !== 'number' || createPriceInput.value === '' || createPriceInput.value === undefined || createPriceInput.value.length > 5 || createPriceInput.value.length < 3) {
 		console.log('problem with price input');
 		e.preventDefault();
 		createPriceInput.style.boxShadow = '0 0 15px red';
