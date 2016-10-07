@@ -173,7 +173,7 @@ body {
 #staff-picks-container {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: flex-end;
 	align-items: center;
 	flex-wrap: wrap;
 }
@@ -270,18 +270,18 @@ body {
 	font-size: 4em;
 	color: #fff;
 	display: inline-block;
-	margin: 10% 25% 5% 25%;
+	margin: 15px 0 15px 0;
 	white-space: nowrap;
 }
 
 #contact-us {
-	margin-top: 1%;
     padding: 2%;
     width: 50%;
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    height: 600px;
 }
 
 #contact-us label {
@@ -304,7 +304,7 @@ textarea {
     border-width: 1px;
     margin: 2%;
     width: 540px;
-    height: 250px;
+    height: 200px;
     font-size: 1.25em;
     color: #0e2338;
 }
@@ -325,7 +325,6 @@ textarea:focus {
     font-size: 1.5em;
     font-weight: 100;
     color: #fff;
-    margin: 5% 0 20% 0;
 }
 
 #send-email:hover {
@@ -441,6 +440,10 @@ textarea:focus {
     border-bottom: 1px solid #0e2338;
     padding: 1%;
     white-space: nowrap;
+}
+
+#tra-browse-header {
+	font-weight: 500;
 }
 
 #header > p {
@@ -822,7 +825,7 @@ textarea:focus {
 	}
 
 	#contact-info {
-		font-size: .25em;
+		font-size: 1.25em;
 	}
 
 	#header-title {
@@ -846,9 +849,9 @@ textarea:focus {
 	}
 
 	#staff-picks {
-		height: 450px;
-	    min-height: 450px;
-	    max-height: 450px;
+		height: 500pxl;
+	    min-height: 500px;
+	    max-height: 500px;
 	}
 
 	#staff-picks-title h3 {
@@ -1037,7 +1040,7 @@ textarea:focus {
 	}
 
 	#navbar p {
-		font-size: .65em;
+		font-size: 1em;
 	}
 
 	#header h3 {
@@ -1061,7 +1064,7 @@ textarea:focus {
 	#scroll-down-message {
 		font-size: .75em;
 	    color: #fff;
-	    margin-left: 310px;
+	    margin-left: 42.5%;
 	}
 
 	#search-sidebar h3 {
@@ -1229,10 +1232,14 @@ textarea:focus {
 		height: 100px;
 	}
 
+	#browse-h1-container {
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	}
+
 	#navbar h1 {
-	    display: block;
-	    padding-left: 15%;
-	    font-size: 2em;
+		margin-left: 0;
 	}
 
 	#nav-links {
@@ -1241,6 +1248,10 @@ textarea:focus {
 		display: block;
 		right: 0;
 		background-color: #f1c40f;
+	}
+
+	#nav-links a {
+		margin: 0 10px 0 10px;
 	}
 
 	#navbar p {
@@ -1256,9 +1267,9 @@ textarea:focus {
 	    max-width: 100%;
 	    min-width: 100%;
 	    display: block;
-	    height: 700px;
-	    max-height: 700px;
-	    min-height: 700px;
+	    height: 750px;
+	    max-height: 750px;
+	    min-height: 750px;
 	}
 
 	#header h3 {
@@ -1283,46 +1294,40 @@ textarea:focus {
 		display: none;
 	}
 
-	#format-label {
-		display: inline-block;
-    	margin-bottom: 2%;
-    	border-bottom: none;
-    	padding: 2%;
-    	font-size: 1.15em;
+	#scroll-down-message {
+		margin-left: 218px;
 	}
 
-	#format-container {
-		display: inline;
-		width: 20%;
-		margin-left: 35px;
-	}
-
-	#genre-section-wrapper {
-	    width: 65%;
-	    float: right;
-	    margin-top: -165px;
-	}
-
-	.format-filter {
-		display: block;
-	}
-
-	.radio-format-option-label {
-		margin-left: 90px;
-	}
-
-	#genre-label {
+	#search-sidebar h3 {
 		border-bottom: none;
-		padding-top: 8px;
-		margin-bottom: 5%;
+	    color: #f1c40f;
+	    margin-left: 218px;
 	}
 
 	#format-container {
 		display: block;
     	width: 100%;
     	margin-left: 0;
-    	padding-bottom: 0;
-    	margin-bottom: 15px;
+    	margin-bottom: 0;
+    	padding-left: 180px;
+	}
+
+	#format-label {
+		display: block;
+		margin-left: 51px;
+	}
+
+	#twelve-format-input {
+		margin-left: 48px;
+	}
+
+	#genre-section-wrapper {
+		border-top: 1px solid #fff;
+    	padding-top: 10px;
+	}
+
+	#genre-label {
+		margin-left: 168px;
 	}
 
 	.format-filter {
@@ -1341,10 +1346,10 @@ textarea:focus {
 	}
 
 	#genre-label {
-		margin-left: 20px;
-		margin-bottom: -10px;
-		padding: 2%;
-		font-size: 1.15em;
+		margin-left: 232px;
+	    margin-bottom: -10px;
+	    padding: 2%;
+	    font-size: 1.5em;
 	}
 
 	.radio-option-label {
@@ -1427,6 +1432,10 @@ textarea:focus {
 	    margin-left: 142px;
 	}
 
+	#nav-links a {
+		margin: 0;
+	}
+
 	#scroll-down-message {
 		margin-left: 142px;
 	}
@@ -1441,7 +1450,7 @@ textarea:focus {
 
 	#format-label {
 		display: block;
-		margin-left: 76px;
+		margin-left: 70px;
 	}
 
 	#twelve-format-input {
@@ -1454,7 +1463,7 @@ textarea:focus {
 	}
 
 	#genre-label {
-		margin-left: 168px;
+		margin-left: 165px;
 	}
 }
 
@@ -1462,7 +1471,6 @@ textarea:focus {
 @media only screen and (max-width: 375px) {
 	#navbar h1 {
 		font-size: 2em;
-		padding-left: 45px;
 	}
 
 	#navbar p {
