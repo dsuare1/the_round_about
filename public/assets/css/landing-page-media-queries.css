@@ -185,8 +185,8 @@
 	}
 
 	.staff-picks-item {
-		height: 225px;
-    	min-height: 225px;
+		height: 155px;
+    	min-height: 155px;
 	}
 
 	#nav-section {
@@ -302,7 +302,6 @@
 	    min-height: 150px;
 	    max-height: 150px;
 	    width: 33%;
-	    padding-left: 25px;
 	}
 
 	.staff-pick-album-cover {
