@@ -1,7 +1,5 @@
 'use strict';
 
-console.log('api-form-validation-file');
-
 // consts to hold input elements for filter form validation
 const filterArtistInput = document.getElementById('filter-artist-input');
 const filterTitleInput = document.getElementById('filter-title-input');
