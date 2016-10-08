@@ -184,6 +184,11 @@
 	    max-height: 300px;
 	}
 
+	.staff-picks-item {
+		height: 225px;
+    	min-height: 225px;
+	}
+
 	#nav-section {
 		background: #0e2338;
 		height: 375px;
@@ -283,8 +288,8 @@
 	}
 
 	#staff-picks-title h3 {
-		font-size: 1.5em;
-	    margin-top: 5%;
+	    font-size: 1.5em;
+	    margin-top: 25px;
 	    margin-bottom: 10%;
 	}
 
