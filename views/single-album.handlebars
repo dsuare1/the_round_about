@@ -1,13 +1,20 @@
-<img src="{{this.album.albumCover}}" width="500px" height="500px" alt="Album Cover">
-<p>{{this.album.title}}</p>
-<p>{{this.album.artist}}</p>
-<p>{{this.album.year}}</p>
-<p>{{this.album.genre}}</p>
-<p>${{this.album.price}}</p>
-<p>{{this.album.format}}"</p>
-<p>Quantity: {{this.album.quantity}}</p>
+<div id="single-album-cover-container">
+	<img src="{{this.album.albumCover}}" width="500px" height="500px" alt="Album Cover" id="single-album-cover">
+</div>
 
-<button onclick="goBack()">Back</button>
+<div id="single-album-details-container">
+	<p id="single-album-title">{{this.album.title}}</p>
+	<p id="single-album-artist">{{this.album.artist}}</p>
+	<p id="single-album-year">{{this.album.year}}</p>
+	<p id="single-album-genre">{{this.album.genre}}</p>
+	<p id="single-album-price">${{this.album.price}}</p>
+	<p id="single-album-format">{{this.album.format}}"</p>
+	<p id="single-album-quantity">Quantity: {{this.album.quantity}}</p>
+</div>
+
+<div id="back-button-container">
+	<button id="go-back" onclick="goBack()">Back</button>
+</div>
 
 <script>
 function goBack() {

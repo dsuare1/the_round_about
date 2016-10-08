@@ -54,12 +54,4 @@ const AlbumSchema = new Schema({
 
 const Album = mongoose.model('Album', AlbumSchema);
 
-// function getPrice(num){
-//     return (num / 100).toFixed(2);
-// }
-
-// function setPrice(num){
-//     return num * 100;
-// }
-
 module.exports = Album;

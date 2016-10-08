@@ -28,10 +28,6 @@ router.get('/', (req, res) => {
 			res.status(200).render('index', staffPicks);
 		}
 	});
-	// var staffPicks = fetchStaffPicks();
-	// console.log('********************************************************')
-	// console.log(fetchStaffPicks());
-	// res.status(200).render('index', fetchStaffPicks());
 });
 
 router.get('/contact', (req, res) => {
@@ -45,9 +41,7 @@ router.post('/contact', (req, res) => {
 		to: 'roundaboutstore@gmail.com',
 		subject: req.body.subject,
 		text: req.body.messageBody
-	}
-
-	console.log(mailOptions);
+	};
 
 	transporter.sendMail(mailOptions, (err, info) => {
 		if (err) {
@@ -60,7 +54,6 @@ router.post('/contact', (req, res) => {
 			console.log(err);
 		} else {
 			var staffPicks = { picks: picks };
-			console.log(picks);
 			let message = { message: 'We\'ve received your message!  Thank you for contacting The Round About!' };
 			res.status(200).render('index', {
 				message: message,
@@ -69,17 +62,5 @@ router.post('/contact', (req, res) => {
 		}
 	});
 });
-
-// function fetchStaffPicks() {
-// 	console.log('inside function');
-// 	Albums.find({ isStaffPick: true }, (err, staffPicks) => {
-// 		if (err) {
-// 			console.log(err);
-// 		} else {
-// 			// console.log(staffPicks);
-// 			return staffPicks;
-// 		}
-// 	});
-// }
 
 module.exports = router;

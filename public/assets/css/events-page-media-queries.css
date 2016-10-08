@@ -16,12 +16,27 @@
 	}
 }
 
+
+
+
+
+
+
+
+
 /* approx. iPhone 6 Plus landscape width */
 @media only screen and (max-width: 736px) {
 	#events-section {
 		background: #000;
 	}
 }
+
+
+
+
+
+
+
 
 
 /* approx. iPhone 6 landscape witdth */
@@ -31,11 +46,19 @@
 	}
 }
 
+
+
+
+
+
+
+
+
 /* approx. iPhone 5 landscape width */
 @media only screen and (max-width: 568px) {
 	#events-section {
 		background: #000;
-		margin-top: 10px;
+		margin-top: 5px;
 	}
 
 	#events-container {
@@ -47,7 +70,34 @@
 	#navbar h1 {
 		margin-bottom: 10px;
 	}
+
+	#events-link {
+		font-weight: 500;
+	}
 }
+
+
+
+
+
+
+
+
+
+/* approx. iPhone 6 Plus portrait width */
+@media only screen and (max-width: 414px) {
+	#events-section {
+		margin-top: 0;
+	}
+}
+
+
+
+
+
+
+
+
 
 /* approx. iPhone 6 portrait width */
 @media only screen and (max-width: 375px) {
@@ -55,6 +105,14 @@
 		margin-top: 0;
 	}
 }
+
+
+
+
+
+
+
+
 
 /* approx. iPhone 5 portrait width */
 @media only screen and (max-width: 320px) {

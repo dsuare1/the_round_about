@@ -5,7 +5,7 @@
 	</div>
 	<div id="nav-links">
 		<a href="/"><p class="home-link nav-link">Home</p></a>
-		<a href="#"><p class="browse-link nav-link">Browse Inventory</p></a>
+		<a href="#"><p class="browse-link nav-link" id="browse-inventory-link" style="color: #f1c40f;">Browse Inventory</p></a>
 		<a href="/events"><p class="events-link nav-link">Events</p></a>
 	</div>
 </nav>
@@ -93,17 +93,10 @@
 				</div>
 			</div>
 		</div>
-
-			{{!-- <div class="search-form-control">
-				<p id="price-label">Price:</p>
-				<input type="radio" name="price" value=""
-			</div> --}}
-
 			<div class="search-form-control" id="filter-submit-button-container">
 				<button type="submit" id="search-submit" class="search-form-button">Search</button>
 				<button type="reset" id="clear-filters" class="search-form-button">Clear Filters</button>
 			</div>
-
 	</form>
 </aside>
 {{!-- end search sidebar section --}}

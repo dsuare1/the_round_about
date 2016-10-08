@@ -6,7 +6,7 @@
 	<div id="nav-links">
 		<a href="/"><p class="home-link nav-link">Home</p></a>
 		<a href="/browse"><p class="browse-link nav-link">Browse Inventory</p></a>
-		<a href="#"><p class="events-link nav-link">Events</p></a>
+		<a href="#"><p class="events-link nav-link" id="events-link" style="color: #f1c40f;">Events</p></a>
 	</div>
 </nav>
 {{!-- end navbar section --}}
@@ -14,14 +14,12 @@
 {{!-- begin events section --}}
 <section id="events-section">
 	<div id="events-container">
-		
 		<h1 class="month">October</h1>
 		<ul class="events-list">
 		{{#each events}}
 			<li class="event"><span style="color:#f1c40f;">{{this.day}} {{this.date}}</span> - {{this.description}} @ {{this.time}}</li>
 		{{/each}}
 		</ul>
-
 	</div>
 </section>
 {{!-- end events section --}}

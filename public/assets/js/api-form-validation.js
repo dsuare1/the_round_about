@@ -113,7 +113,7 @@ addNewAlbumSubmit.addEventListener('click', (e) => {
 		console.log('problem with price input');
 		e.preventDefault();
 		createPriceInput.style.boxShadow = '0 0 15px red';
-	}
+	};
 
 	if (typeof parseInt(createFormatInput.value) !== 'number' || createFormatInput.value === '' || createFormatInput.value === undefined || createFormatAllowedInputs.indexOf(createFormatInput.value) === -1) {
 		console.log('problem with format input');
@@ -249,7 +249,7 @@ createEventSubmit.addEventListener('click', (e) => {
 	if (typeof createEventDescriptionInput.value !== 'string' || createEventDescriptionInput.value === '' || createEventDescriptionInput.value === undefined || createEventDescriptionInput.value.length > 150) {
 		e.preventDefault();
 		createEventDescriptionInput.style.boxShadow = '0 0 15px red';
-	}
+	};
 });
 
 
@@ -291,31 +291,31 @@ function removeRed() {
 
 
 // function to count characters in description field
-let charCount = 0;
-const createEventDescriptionCharCount = document.getElementById('char-count-holder');
+// let charCount = 0;
+// const createEventDescriptionCharCount = document.getElementById('char-count-holder');
 
-createEventDescriptionInput.addEventListener('keyup', (e) => {
-	console.log(createEventDescriptionInput.value);
-	console.log(event.which);
-	if (charCount <= 0) {
-			charCount = 0;
-		};
-	if (event.which === 8 || event.which === 46) {
-		if (createEventDescriptionInput.value === '') {
-			console.log('reset in backspace');
-			charCount = 0;
-			createEventDescriptionCharCount.innerHTML = charCount;
-		};
-	} else if (event.which >= 48 && event.which <= 91) {
-		if (createEventDescriptionInput.value === '') {
-			console.log('reset in key');
-			charCount = 0;
-			createEventDescriptionCharCount.innerHTML = charCount;	
-		}
-		createEventDescriptionCharCount.innerHTML = ++charCount;
-	} else {
-		return;
-	}
+// createEventDescriptionInput.addEventListener('keyup', (e) => {
+// 	console.log(createEventDescriptionInput.value);
+// 	console.log(event.which);
+// 	if (charCount <= 0) {
+// 			charCount = 0;
+// 		};
+// 	if (event.which === 8 || event.which === 46) {
+// 		if (createEventDescriptionInput.value === '') {
+// 			console.log('reset in backspace');
+// 			charCount = 0;
+// 			createEventDescriptionCharCount.innerHTML = charCount;
+// 		};
+// 	} else if (event.which >= 48 && event.which <= 91) {
+// 		if (createEventDescriptionInput.value === '') {
+// 			console.log('reset in key');
+// 			charCount = 0;
+// 			createEventDescriptionCharCount.innerHTML = charCount;	
+// 		}
+// 		createEventDescriptionCharCount.innerHTML = ++charCount;
+// 	} else {
+// 		return;
+// 	}
 
 
-})
+// })

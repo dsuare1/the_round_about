@@ -5,7 +5,7 @@
 /* browse inventory page
 /**********************************************/
 
-/* approx. landscape laptop width */
+/* approx. iPad landscape width */
 @media only screen and (max-width: 1024px) {
 	#navbar h1 {
 		font-size: 2.5em;
@@ -32,7 +32,7 @@
 
 
 
-/* approx. portrait tablet width */
+/* approx. iPad portrait width */
 @media only screen and (max-width: 768px) {
 	body {
 		background-color: #f1c40f;
@@ -236,7 +236,117 @@
 
 
 
-/* approx. iPhone landscape width */
+/* approx. iPhone 6 Plus landscape width */
+@media only screen and (max-width: 736px) {
+	#scroll-down-message {
+	    margin-left: 302px;
+	}
+
+	#search-sidebar h3 {
+		border-bottom: none;
+	    color: #f1c40f;
+	    margin-left: 273px;
+	}
+
+	#format-container {
+		display: block;
+    	width: 100%;
+    	margin-left: 0;
+    	margin-bottom: 0;
+    	padding-left: 245px;
+	}
+
+	#format-label {
+		display: block;
+		margin-left: 65px;
+	}
+
+	#twelve-format-input {
+		margin-left: 48px;
+	}
+
+	#genre-section-wrapper {
+		border-top: 1px solid #fff;
+    	padding-top: 10px;
+	}
+
+	#genre-label {
+		margin-left: 312px;
+	}
+
+	.genre-radio-label-group {
+	    width: 23%;
+	}
+}
+
+
+
+
+
+
+
+
+
+/* approx. iPhone 6 landscape width */
+@media only screen and (max-width: 667px) {
+	#header {
+		display: none;
+	}
+
+	#search-all-submit {
+		display: none;
+	}
+
+	#scroll-down-message {
+	    margin-left: 267px;
+	}
+
+	#search-sidebar h3 {
+		border-bottom: none;
+	    color: #f1c40f;
+	    margin-left: 240px;
+	}
+
+	#format-container {
+		display: block;
+    	width: 100%;
+    	margin-left: 0;
+    	margin-bottom: 0;
+    	padding-left: 213px;
+	}
+
+	#format-label {
+		display: block;
+		margin-left: 65px;
+	}
+
+	#twelve-format-input {
+		margin-left: 48px;
+	}
+
+	#genre-section-wrapper {
+		border-top: 1px solid #fff;
+    	padding-top: 10px;
+	}
+
+	#genre-label {
+		margin-left: 280px;
+	}
+
+	.genre-radio-label-group {
+	    width: 23%;
+	}
+}
+
+
+
+
+
+
+
+
+
+/* approx. iPhone 5 landscape width */
 @media only screen and (max-width: 568px) {
 	#navbar {
 		display: block;
@@ -260,7 +370,7 @@
 	    align-items: center;
 	    justify-content: center;
 	    right: 0;
-	    background-color: #f1c40f;
+	    background-color: #fff;
 	}
 
 	#nav-links a {
@@ -269,10 +379,17 @@
 
 	#navbar p {
 		display: inline-block;
-	    /*padding-left: 10%;*/
 	    border: none;
 	    font-size: 1em;
 	    color: #0e2338;
+	}
+
+	#browse-inventory-link {
+		font-weight: 500;
+	}
+
+	#header {
+		display: none;
 	}
 
 	#search-sidebar {
@@ -445,7 +562,7 @@
 
 
 
-/* approx. iPhone6Plus portrait width */
+/* approx. iPhone 6 Plus portrait width */
 @media only screen and (max-width: 414px) {
 	#search-sidebar h3 {
 		border-bottom: none;
@@ -471,7 +588,7 @@
 
 	#format-label {
 		display: block;
-		margin-left: 70px;
+		margin-left: 65px;
 	}
 
 	#twelve-format-input {
@@ -484,7 +601,7 @@
 	}
 
 	#genre-label {
-		margin-left: 165px;
+		margin-left: 160px;
 	}
 }
 
@@ -573,7 +690,7 @@
 
 
 
-/* approx. iPhone portrait width */
+/* approx. iPhone 5 portrait width */
 @media only screen and (max-width: 320px) {
 	#navbar h1 {
 		font-size: 1em;

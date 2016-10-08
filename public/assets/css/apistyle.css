@@ -119,8 +119,6 @@ label {
 /***** Admin Page  *****/
 /********************************************************/
 
-/* api-admin-wrapper */
-
 /* api-navbar */
 
 #api-navbar {
@@ -500,12 +498,11 @@ label {
     font-weight: 300;
 }
 
-#char-count-label {
+/*#char-count-label {
 	font-size: .75em;
     margin-top: -10px;
 }
 
 #char-count-holder {
 	margin-left: 10px;
-}
-
+}*/

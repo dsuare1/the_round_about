@@ -5,7 +5,7 @@
 /* landing page */
 /**********************************************/
 
-/* approx. landscape laptop width */
+/* approx. iPad landscape width */
 @media only screen and (max-width: 1024px) {
 	#header-title h1 {
 		font-size: 3.5em;
@@ -28,7 +28,7 @@
 
 
 
-/* approx. portrait tablet width */
+/* approx. iPad portrait width */
 @media only screen and (max-width: 768px) {
 	#header-title h1 {
 		font-size: 3em;
@@ -107,7 +107,7 @@
 
 
 
-/* approx. iPhone6Plus landscape width */
+/* approx. iPhone 6 Plus landscape width */
 @media only screen and (max-width: 736px) {
 	#hero-header {
 		background: #0e2338;
@@ -168,7 +168,7 @@
 
 
 
-/* approx. iPhone6 landscape width */
+/* approx. iPhone 6 landscape width */
 @media only screen and (max-width: 667px) {
 	#hero-header {
 		background: #0e2338;
@@ -229,7 +229,7 @@
 
 
 
-/* approx. iPhone landscape width */
+/* approx. iPhone 5 landscape width */
 @media only screen and (max-width: 568px) {
 	#hero-header {
 		background: #0e2338;
@@ -380,7 +380,7 @@
 
 
 
-/* approx. iPhone6Plus portrait width */
+/* approx. iPhone 6 Plus portrait width */
 @media only screen and (max-width: 414px) {
 	#contact-info {
 		font-size: .85em;
@@ -405,7 +405,7 @@
 
 
 
-/* approx. iPhone6 portrait width */
+/* approx. iPhone 6 portrait width */
 @media only screen and (max-width: 375px) {
 	#chevron-down-container {
 		left: 205px;

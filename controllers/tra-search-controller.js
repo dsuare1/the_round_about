@@ -29,7 +29,6 @@ module.exports = (router) => {
                 if (err) {
                     console.log(err);
                 } else {
-                    console.log(inStockAlbums);
                     var inStockAlbums = { inStockAlbums };
                     res.render('browse', inStockAlbums);
                 }
@@ -44,7 +43,7 @@ module.exports = (router) => {
         if (req.query.genre !== undefined) {
             query['genre'] = req.query.genre;
         };
-        console.log(query);
+
         Album.find(query)
             .sort({ artist: 1 })
             .exec((err, albums) => {
@@ -58,15 +57,11 @@ module.exports = (router) => {
     });
 
     router.get('/browse/:id', (req, res) => {
-    	console.log('foo');
-        console.log(req);
-        console.log(req.params.id);
         Album.find({ _id: req.params.id }, (err, album) => {
             if (err) {
                 console.log(err);
             } else {
                 var album = { album: album[0] };
-                console.log(album);
                 res.render('single-album', album);
             };
         });

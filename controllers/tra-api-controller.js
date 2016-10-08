@@ -9,8 +9,6 @@ const bcrypt = require('bcrypt');
 const saltRounds = 10;
 const Promise = require('bluebird');
 
-// const database = require('./database.js');
-
 const Album = require('../models/Album.js');
 const Event = require('../models/Event.js');
 const User = require('../models/User.js');
@@ -26,12 +24,10 @@ module.exports = (router) => {
     });
 
     router.post('/api/register', (req, res) => {
-        console.log(req.body);
         var username = req.body.username;
         var password = req.body.password;
         User.findOne({ username: username }).then((duplicateUser) => {
             if (duplicateUser) {
-                console.log('username already taken');
                 res.redirect('/api');
             } else {
                 var hashedPassword = bcrypt.hash(req.body.password, saltRounds, (err, hash) => {
@@ -52,18 +48,11 @@ module.exports = (router) => {
     });
 
     router.post('/api/login', (req, res) => {
-        console.log('login button hit');
-        console.log(req.body);
         let username = req.body.username;
         User.find({ username: username }).then((loginUser) => {
-            console.log(loginUser);
-            console.log(loginUser[0]);
-            // console.log(loginUser[0].username);
             if (loginUser[0] === undefined) {
-                console.log('no such user');
                 res.render('api-login', { errorMsg: 'No such user found in the database' });
             } else {
-                console.log('user in database');
                 bcrypt.compare(req.body.password, loginUser[0].password, (err, result) => {
                     if (result === true) {
                         res.cookie('loggedIn', 'true', { maxAge: 900000, httpOnly: true });
@@ -77,8 +66,6 @@ module.exports = (router) => {
     });
 
     router.get('/api-admin', (req, res) => {
-        console.log(req.headers);
-        console.log(req.cookies);
         if (!req.cookies.loggedIn) {
             res.render('api-login', { errorMsg: 'You must be logged in to access that page' });
         } else {
@@ -111,8 +98,6 @@ module.exports = (router) => {
 
     // READ - retrieve albums based on filters
     router.get('/api-admin/albums/search', (req, res) => {
-        console.log('search for specific item');
-        console.log(req.query);
         let query = {};
         if (req.query.artist !== '') {
             query['artist'] = req.query.artist;
@@ -135,18 +120,16 @@ module.exports = (router) => {
         if (req.query.isStaffPick !== '') {
             query['isStaffPick'] = req.query.isStaffPick;
         };
-        console.log(query);
+
         Album.find(query)
             .sort({ artist: 1 })
             .exec((err, albums) => {
                 if (err) {
                     console.log(err);
                 } else if (albums[0] === undefined) {
-                    console.log('foo');
                     res.render('api-admin', { noResMessage: 'Looks like there isn\'t anything in the database matching your query; try again.' });
                 } else {
                     var albums = { albums: albums };
-                    console.log(albums);
                     res.render('api-admin', albums);
                 }
             })
@@ -154,8 +137,6 @@ module.exports = (router) => {
 
     // CREATE - add new album to the database
     router.post('/api-admin/albums/create', upload.single('albumCover'), (req, res) => {
-
-        console.log(req.file);
 
         // validation before processing request to database
         return new Promise((resolve, reject) => {
@@ -223,7 +204,6 @@ module.exports = (router) => {
                 Album.find({ artist: req.body.artist, title: req.body.title })
                 .then((album) => {
                     // if the album DOES NOT already exist in the database...
-                    console.log(album);
                     if (album[0]) {
                         let hbsObj = {
                                 message: 'Album already exists in the database',
@@ -240,7 +220,6 @@ module.exports = (router) => {
                             if (err) {
                                 console.log(err);
                             } else {
-                                console.log('Album created!');
                                 let createdAlbum = { createdAlbum: newAlbum };
                                 res.render('api-admin', createdAlbum);
                             }
@@ -252,9 +231,6 @@ module.exports = (router) => {
 
     // UPDATE - update data for a specific album
     router.put('/api-admin/albums/update/:id', (req, res) => {
-        console.log('update a specific item');
-        console.log('updating item: ' + req.params.id);
-        // console.log(req.body);
         let query = {};
         if (req.body.artist !== undefined) {
             query['artist'] = req.body.artist;
@@ -288,7 +264,6 @@ module.exports = (router) => {
             if (err) {
                 console.log(err);
             } else {
-                console.log(doc);
                 Album.findOne({ _id: doc.id }, (err, doc) => {
                     let updatedAlbum = { updatedAlbum: doc };
                     res.render('api-admin', updatedAlbum);
@@ -299,13 +274,10 @@ module.exports = (router) => {
 
     // DELETE - delete an album from the database (built-in user-error check; can re-add album if deletion was a mistake)
     router.delete('/api-admin/albums/delete/:id', (req, res) => {
-        console.log('delete a specific item');
-        console.log('deleting item: ' + req.params.id);
         Album.findOneAndRemove({ _id: req.params.id }, (err, doc) => {
             if (err) {
                 console.log(err);
             } else {
-                console.log(doc);
                 let deletedAlbum = { deletedAlbum: doc }
                 res.render('api-admin', deletedAlbum);
             }
@@ -318,12 +290,10 @@ module.exports = (router) => {
 
     // READ - retrieve all events
     router.get('/api-admin/events/search/all', (req, res) => {
-        console.log('search entire database for events');
         Event.find({}, (err, events) => {
                 if (err) {
                     console.log(err);
                 } else {
-                    console.log(events);
                     let allEvents = { allEvents: events };
                     res.render('api-admin', allEvents);
                 }
@@ -332,8 +302,6 @@ module.exports = (router) => {
 
     // READ - retrieve events based on filters
     router.get('/api-admin/events/search', (req, res) => {
-        console.log('search for specific event');
-        // console.log(req.query);
         let query = {};
         if (req.query.month !== '') {
             query['month'] = req.query.month;
@@ -347,7 +315,7 @@ module.exports = (router) => {
         if (req.query.time !== '') {
             query['time'] = req.query.time;
         };
-        console.log(query);
+
         Event.find(query, (err, events) => {
             if (err) {
                 console.log(err);
@@ -356,7 +324,6 @@ module.exports = (router) => {
                     res.render('api-admin', { noResMessage: 'Looks like there isn\'t anything in the database matching your query; try again.' });
                 } else {
                     var filteredEvents = { filteredEvents: events };
-
                     res.render('api-admin', filteredEvents);
                 }
             }
@@ -364,7 +331,6 @@ module.exports = (router) => {
     });
 
     router.post('/api-admin/events/create', (req, res) => {
-        console.log('create new event');
         return new Promise((resolve, reject) => {
             if (typeof req.body.day !== 'string' || req.body.day === '' || req.body.day === undefined) {
                 return reject(new Error('Day for event must be provided'));
@@ -406,7 +372,6 @@ module.exports = (router) => {
                             if (err) {
                                 console.log(err);
                             } else {
-                                console.log('Event created!');
                                 let createdEvent = { createdEvent: newEvent };
                                 res.render('api-admin', createdEvent);
                             }
@@ -428,7 +393,6 @@ module.exports = (router) => {
     });
 
     router.put('/api-admin/events/update/:id', (req, res) => {
-        console.log('update a specific event');
         let query = {};
         if (req.body.day !== undefined) {
             query['day'] = req.body.day;
@@ -450,7 +414,6 @@ module.exports = (router) => {
             if (err) {
                 console.log(err);
             } else {
-                console.log(doc);
                 Event.findOne({ _id: doc.id }, (err, doc) => {
                     let updatedEvent = { updatedEvent: doc };
                     res.render('api-admin', updatedEvent);
@@ -460,12 +423,10 @@ module.exports = (router) => {
     });
 
     router.delete('/api-admin/events/delete/:id', (req, res) => {
-        console.log('delete a specific event');
         Event.findOneAndRemove({ _id: req.params.id }, (err, doc) => {
             if (err) {
                 console.log(err);
             } else {
-                console.log(doc);
                 let deletedEvent = { deletedEvent: doc }
                 res.render('api-admin', deletedEvent);
             }
