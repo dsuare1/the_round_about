@@ -781,24 +781,28 @@ textarea:focus {
 	color: #fff;
 	font-size: 3em;
 	margin-bottom: 10px;
+	text-shadow: 5px 5px 10px #000;
 }
 
 #single-album-artist {
 	color: #fff;
 	font-size: 1.5em;
 	margin-bottom: 10px;
+	text-shadow: 5px 5px 10px #000;
 }
 
 #single-album-year {
 	color: #fff;
 	font-size: 1.25em;
     margin-bottom: 10px;
+    text-shadow: 5px 5px 10px #000;
 }
 
 #single-album-genre {
 	color: #fff;
 	font-size: 1.15em;
     margin-bottom: 10px;
+    text-shadow: 5px 5px 10px #000;
 }
 
 #single-album-format {
@@ -807,6 +811,7 @@ textarea:focus {
     margin-bottom: 10px;
     padding-bottom: 50px;
     border-bottom: 5px solid #3498db;
+    text-shadow: 5px 5px 10px #000;
 }
 
 #single-album-quantity {
