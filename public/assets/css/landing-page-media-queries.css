@@ -54,9 +54,9 @@
 	}
 
 	#staff-picks {
-		height: 400px;
-	    min-height: 400px;
-	    max-height: 400px;
+		/*height: 400px;*/
+	    /*min-height: 400px;*/
+	    /*max-height: 400px;*/
 	}
 
 	#staff-picks-title h3 {
@@ -118,14 +118,14 @@
 	}
 
 	#staff-picks {
-	    height: 300px;
-	    min-height: 300px;
-	    max-height: 300px;
+	    /*height: 300px;*/
+	    /*min-height: 300px;*/
+	    /*max-height: 300px;*/
 	}
 
 	.staff-picks-item {
-		height: 150px;
-    	min-height: 150px;
+		/*height: 150px;
+    	min-height: 150px;*/
 	}
 
 	#nav-section {
@@ -184,14 +184,14 @@
 	}
 
 	#staff-picks {
-	    height: 300px;
-	    min-height: 300px;
-	    max-height: 300px;
+	    /*height: 300px;*/
+	    /*min-height: 300px;*/
+	    /*max-height: 300px;*/
 	}
 
 	.staff-picks-item {
-		height: 155px;
-    	min-height: 155px;
+		/*height: 155px;
+    	min-height: 155px;*/
 	}
 
 	#nav-section {
@@ -279,9 +279,9 @@
 	}
 
 	#staff-picks {
-	    height: 425px;
-	    min-height: 425px;
-	    max-height: 425px;
+	    /*height: 425px;*/
+	    /*min-height: 425px;*/
+	    /*max-height: 425px;*/
 	    display: flex;
 	    flex-direction: column;
 	    align-items: center;
@@ -299,13 +299,13 @@
 	}
 
 	#staff-picks-container {
-		height: 350px;
+		/*height: 350px;*/
 	}
 
 	.staff-picks-item {
-		height: 150px;
+		/*height: 150px;
 	    min-height: 150px;
-	    max-height: 150px;
+	    max-height: 150px;*/
 	    width: 33%;
 	}
 
@@ -469,6 +469,10 @@
 
 	#chevron-down {
 		margin-left: -20px;
+	}
+
+	#staff-picks-title {
+		margin-bottom: 0;
 	}
 
 	.staff-picks-item {
