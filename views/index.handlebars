@@ -30,10 +30,14 @@
 	<div id="staff-picks-container">
 		{{#each staffPicks}}
 		<div class="staff-picks-item">
-			<img src="{{this.albumCover}}" width="125px" height="125px" class="staff-pick-album-cover">
-			<p class="staff-pick-album-title">{{this.title}}</p>
-			<p class="staff-pick-artist">{{this.artist}}</p>
-			<p class="staff-pick-year">{{this.year}}</p>
+			<img src="{{this.albumCover}}" width="125px" height="125px" class="staff-pick-album-cover" alt="Album Cover">
+			<form action="/browse/{{this.id}}" method="GET" id="specific-album-form" class="staff-pick-form">
+				
+				<p class="staff-pick-album-title">{{this.title}}</p>
+				<p class="staff-pick-artist">{{this.artist}}</p>
+				<p class="staff-pick-year">{{this.year}}</p>
+				<button type="submit" class="staff-pick-view-album-details-button">View album details</button>
+			</form>
 		</div>
 		{{/each}}
 

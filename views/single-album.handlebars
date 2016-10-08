@@ -1,19 +1,23 @@
-<div id="single-album-cover-container">
-	<img src="{{this.album.albumCover}}" width="500px" height="500px" alt="Album Cover" id="single-album-cover">
-</div>
+<div id="single-album-wrapper">
+	<div id="single-album-cover-container">
+		<img src="{{this.album.albumCover}}" width="500px" height="500px" alt="Album Cover" id="single-album-cover">
+	</div>
 
-<div id="single-album-details-container">
-	<p id="single-album-title">{{this.album.title}}</p>
-	<p id="single-album-artist">{{this.album.artist}}</p>
-	<p id="single-album-year">{{this.album.year}}</p>
-	<p id="single-album-genre">{{this.album.genre}}</p>
-	<p id="single-album-price">${{this.album.price}}</p>
-	<p id="single-album-format">{{this.album.format}}"</p>
-	<p id="single-album-quantity">Quantity: {{this.album.quantity}}</p>
-</div>
+	<div id="single-album-details-container">
+		<p id="single-album-title">{{this.album.title}}</p>
+		<p id="single-album-artist">{{this.album.artist}}</p>
+		<p id="single-album-year">{{this.album.year}}</p>
+		<p id="single-album-genre">{{this.album.genre}}</p>
+		<p id="single-album-format">{{this.album.format}}"</p>
+		<p id="single-album-quantity">Quantity: {{this.album.quantity}}</p>
+		<p id="single-album-price">${{this.album.price}}</p>
+	</div>
 
-<div id="back-button-container">
-	<button id="go-back" onclick="goBack()">Back</button>
+	<div id="single-album-button-container">
+		<button id="purchase-album" class="single-album-button" disabled="true">Add to cart</button>
+		<p id="coming-soon">Coming soon!</p>
+		<button id="go-back" class="single-album-button" onclick="goBack()">Back</button>
+	</div>
 </div>
 
 <script>

@@ -1,0 +1,833 @@
+/********************************************************/
+/***** Media Queries  *****/
+/********************************************************/
+
+/* single album page
+/**********************************************/
+
+/* approx. iPad landscape width */
+@media only screen and (min-width: 1024px) and (max-width: 1024px) {
+	#single-album-wrapper {
+		display: block;
+		padding: 5%;
+		/*height: 815px;*/
+    	/*min-height: 815px;*/
+	}
+
+	#single-album-cover-container {
+		text-align: center;
+		margin-bottom: 15px;
+		display: block;
+	}
+
+	#single-album-cover {
+		width: 325px;
+		height: 325px;
+	}
+
+	#single-album-details-container {
+		margin: 0;
+		display: block;
+		float: none;
+	}
+
+	#single-album-title {
+		font-size: 1.75em;
+	    text-align: center;
+	    line-height: normal;
+	}
+
+	#single-album-artist {
+		font-size: 1.25em;
+	    text-align: center;
+	    /*line-height: normal;*/
+	}
+
+	#single-album-year {
+		font-size: 1.05em;
+	    text-align: center;
+	    /*line-height: normal;*/
+	}
+
+	#single-album-genre {
+		font-size: .95em;
+	    text-align: center;
+	    /*line-height: normal;*/
+	}
+
+	#single-album-format {
+		font-size: .95em;
+	    text-align: center;
+	    line-height: normal;
+	    padding-bottom: 20px;
+	}
+
+	#single-album-quantity {
+		text-align: center;
+	}
+
+	#single-album-price {
+		text-align: center;
+	}
+
+	#single-album-button-container {
+		display: block;
+	    float: none;
+	    margin-right: 0;
+	    text-align: center;
+	}
+
+	#purchase-button-container,
+	#back-button-container {
+		display: block;
+	    position: initial;
+	    bottom: 0;
+	    left: 0;
+	    text-align: center;
+	}
+
+	#purchase-button-container {
+		margin-top: 30px;
+	}
+
+	#purchase-album {
+		margin-top: 30px;
+	}
+
+	#coming-soon {
+		margin-left: 0;
+		display: block;
+	}
+
+	#go-back {
+	    margin-top: 15px;
+    	display: table-cell;
+	}
+}
+
+
+
+
+
+
+/* approx. iPad portrait width */
+@media only screen and (min-width: 768px) and (max-width: 768px) {
+	#single-album-wrapper {
+		display: block;
+		padding: 5%;
+		/*height: 1125px;*/
+    	/*min-height: 1125px;*/
+	}
+
+	#single-album-cover-container {
+		display: block;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+	#single-album-cover {
+		width: 500px;
+		height: 500px;
+	}
+
+	#single-album-details-container {
+		margin: 0;
+		display: block;
+	    float: none;
+	}
+
+	#single-album-title {
+		font-size: 2.75em;
+	    text-align: center;
+	    line-height: normal;
+	}
+
+	#single-album-artist {
+		font-size: 2em;
+	    text-align: center;
+	    /*line-height: normal;*/
+	}
+
+	#single-album-year {
+		font-size: 1.75em;
+	    text-align: center;
+	    /*line-height: normal;*/
+	}
+
+	#single-album-genre {
+		font-size: 1.55em;
+	    text-align: center;
+	    /*line-height: normal;*/
+	}
+
+	#single-album-format {
+		font-size: 1.55em;
+	    text-align: center;
+	    line-height: normal;
+	    padding-bottom: 20px;
+	}
+
+	#single-album-quantity {
+		text-align: center;
+	}
+
+	#single-album-price {
+		text-align: center;
+	}
+
+	#single-album-button-container {
+		display: block;
+    	text-align: center;
+		float: none;
+	    margin-right: 0;
+	    margin-top: 35px;
+	}
+
+	#purchase-button-container,
+	#back-button-container {
+		display: block;
+	    position: initial;
+	    bottom: 0;
+	    left: 0;
+	    text-align: center;
+	}
+
+	#purchase-button-container {
+		margin-top: 35px;
+	}
+
+	#coming-soon {
+		display: block;
+		margin-left: 0;
+	}
+
+	#go-back {
+		display: table-cell;
+	}
+}
+
+
+
+
+
+
+
+
+
+/* approx. iPhone 6 Plus landscape width */
+@media only screen and (min-width: 736px) and (max-width: 736px) {
+	#single-album-wrapper {
+		display: block;
+		padding: 5%;
+		height: 535px;
+    	min-height: 535px;
+	}
+
+	#single-album-cover-container {
+		display: inline-block;
+    	width: 45%;
+	}
+
+	#single-album-cover {
+		width: 250px;
+	    height: 250px;
+	    margin-left: 25px;
+	}
+
+	#single-album-details-container {
+		margin: 0;
+	    display: inline-block;
+	    width: 45%;
+	    float: right;
+	}
+
+	#single-album-title {
+		font-size: 1.25em;
+	    /*text-align: center;*/
+	    line-height: normal;
+	}
+
+	#single-album-artist {
+		font-size: 1.05em;
+	    /*text-align: center;*/
+	    /*line-height: normal;*/
+	}
+
+	#single-album-year {
+		font-size: .95em;
+	    /*text-align: center;*/
+	    /*line-height: normal;*/
+	}
+
+	#single-album-genre {
+		font-size: .75em;
+	    /*text-align: center;*/
+	    /*line-height: normal;*/
+	}
+
+	#single-album-format {
+		font-size: .75em;
+	    /*text-align: center;*/
+	    line-height: normal;
+	    padding-bottom: 20px;
+	}
+
+	#single-album-quantity {
+		/*text-align: center;*/
+		font-size: 1.25em;
+	}
+
+	#single-album-price {
+		/*text-align: center;*/
+		font-size: 1.25em;
+	}
+
+	#single-album-button-container {
+		margin-right: 29%;
+    	margin-top: 50px;
+	}
+
+	#purchase-button-container,
+	#back-button-container {
+		display: block;
+	    position: initial;
+	    bottom: 0;
+	    left: 0;
+	    text-align: center;
+	}
+
+	#purchase-button-container {
+		margin-top: 65px;
+	}
+
+	#coming-soon {
+		display: block;
+		margin-left: 0;
+		text-align: center;
+	}
+}
+
+
+
+
+
+
+
+
+
+/* approx. iPhone 6 landscape witdth */
+@media only screen and (min-width: 667px) and (max-width: 667px) {
+	#single-album-wrapper {
+		display: block;
+		padding: 5%;
+		height: 500px;
+    	min-height: 500px;
+	}
+
+	#single-album-cover-container {
+		display: inline-block;
+    	width: 45%;
+	}
+
+	#single-album-cover {
+		width: 100%;
+    	height: 230px;
+	}
+
+	#single-album-details-container {
+		margin: 0;
+	    display: inline-block;
+	    width: 45%;
+	    float: right;
+	}
+
+	#single-album-title {
+		font-size: 1.25em;
+	    /*text-align: center;*/
+	    line-height: normal;
+	}
+
+	#single-album-artist {
+		font-size: 1.05em;
+	    /*text-align: center;*/
+	    /*line-height: normal;*/
+	}
+
+	#single-album-year {
+		font-size: .95em;
+	    /*text-align: center;*/
+	    /*line-height: normal;*/
+	}
+
+	#single-album-genre {
+		font-size: .75em;
+	    /*text-align: center;*/
+	    /*line-height: normal;*/
+	}
+
+	#single-album-format {
+		font-size: .75em;
+	    /*text-align: center;*/
+	    line-height: normal;
+	    padding-bottom: 20px;
+	}
+
+	#single-album-quantity {
+		/*text-align: center;*/
+		font-size: 1.25em;
+	}
+
+	#single-album-price {
+		/*text-align: center;*/
+		font-size: 1.25em;
+	}
+
+	#single-album-button-container {
+		margin-right: 29%;
+    	margin-top: 50px;
+	}
+
+	#purchase-button-container,
+	#back-button-container {
+		display: block;
+	    position: initial;
+	    bottom: 0;
+	    left: 0;
+	    text-align: center;
+	}
+
+	#purchase-button-container {
+		margin-top: 65px;
+	}
+
+	#coming-soon {
+		display: block;
+		margin-left: 0;
+		text-align: center;
+	}
+}
+
+
+
+
+
+
+
+
+
+/* approx. iPhone 5 landscape width */
+@media only screen and (min-width: 568px) and (max-width: 568px) {
+	#single-album-wrapper {
+		display: block;
+		padding: 5%;
+		height: 550px;
+    	min-height: 550px;
+	}
+
+	#single-album-cover-container {
+		display: inline-block;
+    	width: 45%;
+	}
+
+	#single-album-cover {
+		width: 100%;
+    	height: 230px;
+	}
+
+	#single-album-details-container {
+		margin: 0;
+	    display: inline-block;
+	    width: 45%;
+	    float: right;
+	}
+
+	#single-album-title {
+		font-size: 1.25em;
+	    /*text-align: center;*/
+	    line-height: normal;
+	}
+
+	#single-album-artist {
+		font-size: 1.05em;
+	    /*text-align: center;*/
+	    /*line-height: normal;*/
+	}
+
+	#single-album-year {
+		font-size: .95em;
+	    /*text-align: center;*/
+	    /*line-height: normal;*/
+	}
+
+	#single-album-genre {
+		font-size: .75em;
+	    /*text-align: center;*/
+	    /*line-height: normal;*/
+	}
+
+	#single-album-format {
+		font-size: .75em;
+	    /*text-align: center;*/
+	    line-height: normal;
+	    padding-bottom: 20px;
+	}
+
+	#single-album-quantity {
+		/*text-align: center;*/
+		font-size: 1.25em;
+	}
+
+	#single-album-price {
+		/*text-align: center;*/
+		font-size: 1.25em;
+	}
+
+	#single-album-button-container {
+		margin-top: 50px;
+		text-align: center;
+	}
+
+	#purchase-button-container,
+	#back-button-container {
+		display: block;
+	    position: initial;
+	    bottom: 0;
+	    left: 0;
+	    text-align: center;
+	}
+
+	#purchase-button-container {
+		margin-top: 65px;
+	}
+
+	#coming-soon {
+		display: block;
+		margin-left: 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+/* approx. iPhone 6 Plus portrait width */
+@media only screen and (min-width: 414px) and (max-width:414px ) {
+	#single-album-wrapper {
+		display: block;
+		padding: 5%;
+		/*height: 815px;*/
+    	/*min-height: 815px;*/
+	}
+
+	#single-album-cover-container {
+		text-align: center;
+		margin-bottom: 15px;
+		display: block;
+	}
+
+	#single-album-cover {
+		width: 325px;
+		height: 325px;
+	}
+
+	#single-album-details-container {
+		margin: 0;
+		display: block;
+		float: none;
+	}
+
+	#single-album-title {
+		font-size: 1.75em;
+	    text-align: center;
+	    line-height: normal;
+	}
+
+	#single-album-artist {
+		font-size: 1.25em;
+	    text-align: center;
+	    /*line-height: normal;*/
+	}
+
+	#single-album-year {
+		font-size: 1.05em;
+	    text-align: center;
+	    /*line-height: normal;*/
+	}
+
+	#single-album-genre {
+		font-size: .95em;
+	    text-align: center;
+	    /*line-height: normal;*/
+	}
+
+	#single-album-format {
+		font-size: .95em;
+	    text-align: center;
+	    line-height: normal;
+	    padding-bottom: 20px;
+	}
+
+	#single-album-quantity {
+		text-align: center;
+	}
+
+	#single-album-price {
+		text-align: center;
+	}
+
+	#single-album-button-container {
+		display: block;
+	    float: none;
+	    margin-right: 0;
+	    text-align: center;
+	}
+
+	#purchase-button-container,
+	#back-button-container {
+		display: block;
+	    position: initial;
+	    bottom: 0;
+	    left: 0;
+	    text-align: center;
+	}
+
+	#purchase-button-container {
+		margin-top: 30px;
+	}
+
+	#purchase-album {
+		margin-top: 30px;
+	}
+
+	#coming-soon {
+		margin-left: 0;
+		display: block;
+	}
+
+	#go-back {
+	    margin-top: 15px;
+    	display: table-cell;
+	}
+}
+
+
+
+
+
+
+
+
+
+/* approx. iPhone 6 portrait width */
+@media only screen and (min-width: 375px) and (max-width: 375px) {
+	#single-album-wrapper {
+		display: block;
+		padding: 5%;
+		/*height: 800px;*/
+    	/*min-height: 800px;*/
+	}
+
+	#single-album-cover-container {
+		text-align: center;
+		margin-bottom: 15px;
+		display: block;
+	}
+
+	#single-album-cover {
+		width: 275px;
+		height: 275px;
+	}
+
+	#single-album-details-container {
+		margin: 0;
+		display: block;
+		float: none;
+	}
+
+	#single-album-title {
+		font-size: 1.75em;
+	    text-align: center;
+	    line-height: normal;
+	}
+
+	#single-album-artist {
+		font-size: 1.25em;
+	    text-align: center;
+	    /*line-height: normal;*/
+	}
+
+	#single-album-year {
+		font-size: 1.05em;
+	    text-align: center;
+	    /*line-height: normal;*/
+	}
+
+	#single-album-genre {
+		font-size: .95em;
+	    text-align: center;
+	    /*line-height: normal;*/
+	}
+
+	#single-album-format {
+		font-size: .95em;
+	    text-align: center;
+	    line-height: normal;
+	    padding-bottom: 20px;
+	}
+
+	#single-album-quantity {
+		text-align: center;
+	}
+
+	#single-album-price {
+		text-align: center;
+	}
+
+	#single-album-button-container {
+		display: block;
+	    float: none;
+	    margin-right: 0;
+	    text-align: center;
+	}
+
+	#purchase-button-container,
+	#back-button-container {
+		display: block;
+	    position: initial;
+	    bottom: 0;
+	    left: 0;
+	    text-align: center;
+	}
+
+	#purchase-button-container {
+		margin-top: 30px;
+	}
+
+	#purchase-album {
+		margin-top: 30px;
+	}
+
+	#coming-soon {
+		margin-left: 0;
+		display: block;
+	}
+
+	#go-back {
+	    margin-top: 15px;
+    	display: table-cell;
+	}
+}
+
+
+
+
+
+
+
+
+
+/* approx. iPhone 5 portrait width */
+@media only screen and (min-width: 320px) and (max-width: 320px) {
+	#single-album-wrapper {
+		display: block;
+		padding: 5%;
+		/*height: 800px;*/
+    	/*min-height: 800px;*/
+	}
+
+	#single-album-cover-container {
+		text-align: center;
+		margin-bottom: 15px;
+		display: block;
+	}
+
+	#single-album-cover {
+		width: 275px;
+		height: 275px;
+	}
+
+	#single-album-details-container {
+		margin: 0;
+		display: block;
+		float: none;
+	}
+
+	#single-album-title {
+		font-size: 1.75em;
+	    text-align: center;
+	    line-height: normal;
+	}
+
+	#single-album-artist {
+		font-size: 1.25em;
+	    text-align: center;
+	    /*line-height: normal;*/
+	}
+
+	#single-album-year {
+		font-size: 1.05em;
+	    text-align: center;
+	    /*line-height: normal;*/
+	}
+
+	#single-album-genre {
+		font-size: .95em;
+	    text-align: center;
+	    /*line-height: normal;*/
+	}
+
+	#single-album-format {
+		font-size: .95em;
+	    text-align: center;
+	    line-height: normal;
+	    padding-bottom: 20px;
+	}
+
+	#single-album-quantity {
+		text-align: center;
+	}
+
+	#single-album-price {
+		text-align: center;
+	}
+
+	#single-album-button-container {
+		display: block;
+	    float: none;
+	    margin-right: 0;
+	    text-align: center;
+	}
+
+	#purchase-button-container,
+	#back-button-container {
+		display: block;
+	    position: initial;
+	    bottom: 0;
+	    left: 0;
+	    text-align: center;
+	}
+
+	#purchase-button-container {
+		margin-top: 30px;
+	}
+
+	#purchase-album {
+		margin-top: 30px;
+	}
+
+	#coming-soon {
+		margin-left: 0;
+	}
+
+	#go-back {
+	    margin-top: 15px;
+    	display: table-cell;
+	}
+}
+
+
+

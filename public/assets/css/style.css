@@ -1,6 +1,7 @@
 /*
 light grey color: #d0d5d6;
 dark blue color: #0e2338;
+bright blue color: #3498db;
 off-white color: #fff;
 yellow color: #f1c40f;
 */
@@ -142,6 +143,7 @@ body {
 	justify-content: space-around;
 	align-items: center;
 	flex-wrap: wrap;
+	padding-top: 15px;
 }
 
 .staff-picks-item {
@@ -150,7 +152,7 @@ body {
     min-height: 275px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /*justify-content: center;*/
     align-items: center;
 }
 
@@ -176,6 +178,32 @@ body {
 
 .staff-pick-year {
 	font-size: .75em;
+}
+
+.staff-pick-form {
+	display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.staff-pick-view-album-details-button {
+	width: 65%;
+    margin-left: 17.5%;
+    margin-top: 10px;
+    border-style: none;
+    background: none;
+    border: 1px solid #0e2338;
+    font-size: .65em;
+    padding: 5px;
+    color: #0e2338;
+}
+
+.staff-pick-view-album-details-button:hover {
+	box-shadow: 0 0 10px #0e2338;
+	background-color: #0e2338;
+	border: 1px solid #f1c40f;
+	color: #f1c40f;
+	cursor: pointer;
 }
 
  /* Nav Section */
@@ -662,6 +690,7 @@ textarea:focus {
 	cursor: pointer;
 	border: 1px solid #f1c40f;
 	color: #f1c40f;
+	box-shadow: 0 0 10px #f1c40f;
 }
 
 
@@ -709,4 +738,133 @@ textarea:focus {
 	padding: 2%;
 	margin: 5% 0;
 	line-height: 2em;
+}
+
+
+/********************************************************/
+/***** Single Album Page  *****/
+/********************************************************/
+
+#single-album-wrapper {
+	/*display: flex;
+    flex-direction: row;
+    justify-content: flex-start;*/
+    padding-left: 15%;
+    padding-top: 5%;
+    background-color: #0e2338;
+    /*height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;*/
+}
+
+#single-album-details-container {
+	display: inline-block;
+    float: right;
+    margin-right: 350px;
+}
+
+#single-album-cover-container {
+	display: inline-block;
+}
+
+#single-album-cover {
+	width: 375px;
+    height: 375px;
+    box-shadow: 0 0 25px #000;
+}
+
+#single-album-title {
+	color: #fff;
+	font-size: 3em;
+	margin-bottom: 10px;
+}
+
+#single-album-artist {
+	color: #fff;
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+
+#single-album-year {
+	color: #fff;
+	font-size: 1.25em;
+    margin-bottom: 10px;
+}
+
+#single-album-genre {
+	color: #fff;
+	font-size: 1.15em;
+    margin-bottom: 10px;
+}
+
+#single-album-format {
+	color: #fff;
+	font-size: 1.15em;
+    margin-bottom: 10px;
+    padding-bottom: 50px;
+    border-bottom: 5px solid #3498db;
+}
+
+#single-album-quantity {
+	color: #fff;
+	font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#single-album-price {
+	font-size: 2.5em;
+	color: #f1c40f;
+}
+
+.single-album-button {
+	width: 250px;
+	display: block;
+}
+
+#single-album-button-container {
+	display: inline-block;
+	float: right;
+    margin-right: 26%;
+}
+
+#purchase-album {
+	display: inline;
+}
+
+#purchase-album,
+#go-back {
+	background-color: #3498db;
+    border: 1px solid #fff;
+    padding: 10px;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+#go-back:hover {
+	background-color: #fff;
+    border: 1px solid #0e2338;
+    padding: 10px;
+    color: #0e2338;
+    box-shadow: 0 0 15px #000;
+    cursor: pointer;
+}
+
+#purchase-album {
+	opacity: 0.25;
+}
+
+#purchase-album:hover {
+	cursor: not-allowed;
+}
+
+#coming-soon {
+	color: #fff;
+	display: inline;
+    margin-left: 15px;
+    font-size: 1em;
+}
+
+#go-back {
+	margin-top: 15px;
 }
