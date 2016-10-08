@@ -24,6 +24,7 @@ body {
 	font-family: 'Heebo', sans-serif;
 	font-weight: 100;
 	min-width: 100% !important;
+	background-color: #0e2338;
 }
 
 /* Header */
@@ -749,8 +750,8 @@ textarea:focus {
 	/*display: flex;
     flex-direction: row;
     justify-content: flex-start;*/
-    padding-left: 15%;
-    padding-top: 5%;
+    /*padding-left: 15%;*/
+    /*padding-top: 5%;*/
     background-color: #0e2338;
     /*height: 100vh;
     min-height: 100vh;
@@ -759,12 +760,15 @@ textarea:focus {
 
 #single-album-details-container {
 	display: inline-block;
-    float: right;
-    margin-right: 350px;
+	margin-left: 50px;
+    /*width: 200px;*/
+    width: 50%;
 }
 
 #single-album-cover-container {
 	display: inline-block;
+    margin-top: 50px;
+    margin-left: 100px;
 }
 
 #single-album-cover {
@@ -822,9 +826,9 @@ textarea:focus {
 }
 
 #single-album-button-container {
-	display: inline-block;
-	float: right;
-    margin-right: 26%;
+	display: block;
+    margin-left: 525px;
+    margin-top: 35px;
 }
 
 #purchase-album {
