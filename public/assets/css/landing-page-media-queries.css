@@ -123,6 +123,11 @@
 	    max-height: 300px;
 	}
 
+	.staff-picks-item {
+		height: 150px;
+    	min-height: 150px;
+	}
+
 	#nav-section {
 		background: #0e2338;
 		height: 375px;

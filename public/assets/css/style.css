@@ -162,6 +162,7 @@ body {
 .staff-pick-album-title, .staff-pick-artist, .staff-pick-year {
 	color: #0e2338;
 	font-weight: 300;
+	text-align: center;
 }
 
 .staff-pick-album-title {
