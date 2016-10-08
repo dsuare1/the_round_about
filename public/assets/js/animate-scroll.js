@@ -26,3 +26,21 @@ function autoScrollTo(el) {
     }
 }
 // /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+
+
+// /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+// activate / deactivate Google Map
+// /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-
+
+const map = document.getElementById('map');
+const mapSection = document.getElementById('map-section');
+
+mapSection.addEventListener('click', () => {
+    console.log('foo');
+    map.style.pointerEvents = 'all';
+});
+
+mapSection.addEventListener('blur', () => {
+    console.log('bar');
+    map.style.pointerEvents = 'none';
+});

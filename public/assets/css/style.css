@@ -265,7 +265,7 @@ body {
 
 #map-header-container {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
@@ -275,9 +275,16 @@ body {
 	font-size: 4em;
 	color: #0e2338;
 	white-space: nowrap;
+	margin-top: 65px;
+    margin-bottom: 50px;
 }
 
-#map-container iframe {
+#activate-map-message {
+	font-size: 1em;
+	margin-bottom: 10px;
+}
+
+#map-container {
 	pointer-events: none;
 }
 
