@@ -81,9 +81,9 @@
 	}
 
 	#map-section {
-		height: 500px;
-		min-height: 500px;
-		max-height: 500px;
+		/*height: 625px;*/
+		/*min-height: 625px;*/
+		/*max-height: 625px;*/
 	}
 
 	#map-header-container h2 {
@@ -151,9 +151,9 @@
 	}
 
 	#map-section {
-	    height: 555px;
-	    min-height: 555px;
-	    max-height: 555px;
+	    /*height: 625px;*/
+	    /*min-height: 625px;*/
+	    /*max-height: 625px;*/
 	}
 
 	#footer-section {
@@ -217,9 +217,9 @@
 	}
 
 	#map-section {
-	    height: 555px;
-	    min-height: 555px;
-	    max-height: 555px;
+	    /*height: 555px;*/
+	    /*min-height: 555px;*/
+	    /*max-height: 555px;*/
 	}
 
 	#footer-section {
@@ -349,9 +349,9 @@
 	}
 
 	#map-section {
-		height: 535px;
-	    min-height: 535px;
-	    max-height: 535px;
+		/*height: 535px;*/
+	    /*min-height: 535px;*/
+	    /*max-height: 535px;*/
 	}
 
 	#map-header-container h2 {
@@ -400,9 +400,9 @@
 	}
 
 	#map-section {
-	    height: 520px;
-	    min-height: 520px;
-	    max-height: 520px;
+	    /*height: 520px;*/
+	    /*min-height: 520px;*/
+	    /*max-height: 520px;*/
 	}
 }
 
@@ -431,9 +431,9 @@
 	}
 
 	#map-section {
-	    height: 515px;
-	    min-height: 515px;
-	    max-height: 515px;
+	    /*height: 515px;*/
+	    /*min-height: 515px;*/
+	    /*max-height: 515px;*/
 	}
 }
 
@@ -496,9 +496,9 @@
 	}
 
 	#map-section {
-	    height: 510px;
-	    min-height: 510px;
-	    max-height: 510px;
+	    /*height: 510px;*/
+	    /*min-height: 510px;*/
+	    /*max-height: 510px;*/
 	}
 
 	.personal-form-control {
