@@ -3,7 +3,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 
-const api_key = 'key-813d06ee3d1d178274bee4ceab8dab94';
+const api_key = 'key-ef6fb522e1642fddfc1fc937f976e301';
 const domain = 'mg.theroundaboutstore.com';
 const mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
 
@@ -38,26 +38,12 @@ router.get('/contact', (req, res) => {
 
 router.post('/contact', (req, res) => {
 
-	// let mailOptions = {
-	// 	from: req.body.email,
-	// 	to: 'suarez.derrick@gmail.com',
-	// 	subject: req.body.subject,
-	// 	text: req.body.messageBody
-	// };
-
 	var data = {
 	  from: req.body.email,
-	  to: 'suarez.derrick@gmail.com',
+	  to: 'roundaboutstore@gmail.com',
 	  subject: req.body.subject,
 	  text: req.body.messageBody
 	};
-
-	// transporter.sendMail(mailOptions, (err, info) => {
-	// 	if (err) {
-	// 		console.log(err);
-	// 	};
-	// 	console.log(info);
-	// });
 
 	mailgun.messages().send(data, function (error, body) {
 	  console.log(body);
