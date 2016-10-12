@@ -196,7 +196,7 @@ module.exports = (router) => {
                 isStaffPick: req.body.isStaffPick
             });
 
-            fs.unlink(tmp_path);
+            // fs.unlink(tmp_path);
 
             // if no 'reject' was returned above from validation check, a 'resolve' is returned here
             return resolve(
