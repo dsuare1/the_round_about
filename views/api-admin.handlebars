@@ -71,7 +71,7 @@
 			<input type="number" name="format" min="7" class="api-filter" id="create-format-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
 			
 			<label for="albumCover" class="api-filter-label">Album Cover (500 x 500)<br></label>
-			<input type="file" name="albumCover" class="api-filter" id="create-album-cover-input"/><br>
+			<input type="file" name="albumCover" class="api-filter" id="create-album-cover-input" /><br>
 			
 			<label for="quantity" class="api-filter-label">Quantity (number)</label><br>
 			<input type="number" min="0" name="quantity" class="api-filter" id="create-quantity-input" onchange="removeRed()" onkeypress="this.onchange()" onpaste="this.onchange()" oninput="this.onchange()" /><br>
@@ -366,3 +366,64 @@
 {{!-- end search results section --}}
 
 <script src="/assets/js/api-form-validation.js"></script>
+
+{{!-- handling change for file input --}}
+<script>
+
+(() => {
+	const fileInput = document.getElementById('create-album-cover-input');
+  document.getElementById('create-album-cover-input').onchange = () => {
+    const files = document.getElementById('create-album-cover-input').files;
+    console.log(files);
+    const file = files[0];
+    console.log(file);
+    if(file == null){
+      return alert('No file selected.');
+    }
+    getSignedRequest(file);
+  };
+})();
+
+// function to get the signed request
+function getSignedRequest(file){
+  const xhr = new XMLHttpRequest();
+  xhr.open('GET', `/sign-s3?file-name=${file.name}&file-type=${file.type}`);
+  xhr.onreadystatechange = () => {
+  	console.log('inside onreadystatechange');
+    if(xhr.readyState === 4){
+    	console.log('readystatechange = 4')
+    	console.log(xhr.status);
+      if(xhr.status === 200){
+      	console.log('readystatechange = 200')
+        const response = JSON.parse(xhr.responseText);
+        console.log(response);
+        uploadFile(file, response.signedRequest, response.url);
+      }
+      else{
+        alert('Could not get signed URL.');
+      }
+    }
+  };
+  xhr.send();
+}
+
+// function to upload the file
+function uploadFile(file, signedRequest, url){
+  const xhr = new XMLHttpRequest();
+  xhr.open('PUT', signedRequest);
+  xhr.onreadystatechange = () => {
+    if(xhr.readyState === 4){
+      if(xhr.status === 200){
+        // document.getElementById('preview').src = url;
+        // document.getElementById('create-album-cover-input').value = url;
+        console.log('file uploaded');
+      }
+      else{
+        alert('Could not upload file.');
+      }
+    }
+  };
+  xhr.send(file);
+}
+
+</script>

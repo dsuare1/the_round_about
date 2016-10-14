@@ -3,7 +3,7 @@
 const cookieParser = require('cookie-parser');
 const multer = require('multer');
 const upload = multer({ dest: 'public/assets/img/covers/' });
-const fs = require('fs');
+// const fs = require('fs');
 
 const bcrypt = require('bcrypt');
 const saltRounds = 10;
@@ -138,6 +138,8 @@ module.exports = (router) => {
     // CREATE - add new album to the database
     router.post('/api-admin/albums/create', upload.single('albumCover'), (req, res) => {
 
+        console.log(req.body);
+
         // validation before processing request to database
         return new Promise((resolve, reject) => {
             if (typeof req.body.artist !== 'string' || req.body.artist === '' || req.body.artist === undefined) {
@@ -176,12 +178,12 @@ module.exports = (router) => {
                 return reject(new Error('isStaffPick must be provided and must be either "true" or "false"'));
             };
 
-            let tmp_path = req.file.path;
-            let target_path = 'public/assets/img/covers/' + req.file.originalname;
+            // let tmp_path = req.file.path;
+            // let target_path = 'public/assets/img/covers/' + req.file.originalname;
 
-            let src = fs.createReadStream(tmp_path);
-            let dest = fs.createWriteStream(target_path);
-            src.pipe(dest);
+            // let src = fs.createReadStream(tmp_path);
+            // let dest = fs.createWriteStream(target_path);
+            // src.pipe(dest);
 
             // once the request passes all the tests above, a new Album is created
             let newAlbum = Album({
@@ -191,12 +193,12 @@ module.exports = (router) => {
                 genre: req.body.genre,
                 price: req.body.price,
                 format: req.body.format,
-                albumCover: '/assets/img/covers/' + req.file.originalname,
+                albumCover: `https://tra-album-covers.s3.amazonaws.com/${req.file.originalname}`,
                 quantity: req.body.quantity,
                 isStaffPick: req.body.isStaffPick
             });
 
-            fs.unlink(tmp_path);
+            // fs.unlink(tmp_path);
 
             // if no 'reject' was returned above from validation check, a 'resolve' is returned here
             return resolve(

@@ -40,3 +40,6 @@ jspm_packages
 dbSeederAlbums.json
 dbSeederAlbums2.json
 dbSeederEvents.json
+
+#env file
+.env

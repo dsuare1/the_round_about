@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/dsuare1/the_round_about#readme",
   "dependencies": {
+    "aws-sdk": "^2.6.9",
     "bcrypt": "^0.8.7",
     "bluebird": "^3.4.6",
     "body-parser": "^1.15.2",
